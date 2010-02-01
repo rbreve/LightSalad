@@ -1,0 +1,11 @@
+<h2>Upload Picture</h2>
+
+<% form_tag ({:action=> "crop_picture"}, :multipart => true )do %>
+
+		<label for="name" >Photo:</label>
+		<%= file_field_tag "image_filename"  %><br/>
+		<%= submit_tag "Upload Image" %>
+
+
+ 
+<% end  %>

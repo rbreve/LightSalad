@@ -1,0 +1,21 @@
+<h2>Found some similar entries, check the post to make sure its not the same.
+	</h2>
+
+<div id="list-suggestions">
+<%= render :partial => "feature", :collection => @similar  %>
+</div>
+
+
+<%  form_tag   '/salad/newitem/'+@product_id  do   %>
+    
+    <label for="suggestion" >Your suggestion may already be posted, are you sure it is not a duplicate?</label>
+    <%=  text_field_tag  'title',   "#{@title}" %>
+    </p>
+    
+	<%= hidden_field_tag 'sure', 1 %>
+     
+    <br/>
+ 
+    <%= submit_tag "Yes I am Sure Post It"  %>
+    
+<% end %> 

@@ -1,0 +1,13 @@
+ <div class="list-item" >
+ 	<div class="userthumb"><P><%=list.features_count%></P> Items</div>
+
+		<div class="item-infocontainer">
+			<div class="itemtitle"><%=link_to h(list.name), list_path(list)%> </div>
+			<p class="description"> 
+				 <%= h(list.description)%>
+				</p>
+			<p class="tags">Tags:  <%= h(list.tags) %></p>
+			<p class="info"> <%=list.points%> Points -  Posted  <%=time_ago_in_words(list.datetime)%>  days ago by <%=list.user.login%></p>
+		</div>
+	</div>
+ 	

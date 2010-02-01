@@ -1,0 +1,42 @@
+
+<a name="<%=feature.id%>"></a> 
+<div class="list-item">
+		<div class="votes">
+			<p class="count" id="<%=feature.id%>"><%=feature.points%></p>
+			 <%if session["person"] %>  
+
+					<%=link_to_remote image_tag( IMAGE_DIR + "voteup.png", :border => 0, :class=>"vote-image"), 
+									:url=>{ 
+											:controller=>"salad", 
+											:action=>"vote", 
+											:id=>feature.id,
+											:vote=>"up"
+											},
+									:update=> feature.id.to_s
+					 %>
+
+					<%=link_to_remote image_tag( IMAGE_DIR + "votedown.png", :border => 0), 
+									:url=>{ 
+											:controller=>"salad", 
+											:action=>"vote", 
+											:id=>feature.id,
+											:vote=>"down"
+											},
+									:update=> feature.id.to_s  
+					 %>
+
+			<%else%>
+			    <%= link_to image_tag(IMAGE_DIR + "voteup.png", :border=>0), "/user/signin",:border=>0 %> 
+			    <%= link_to image_tag(IMAGE_DIR + "votedown.png", :border=>0), "/user/signin",:border=>0 %>
+			<%end%>
+		</div>
+		
+		<div class="item-infocontainer">
+			<div class="itemtitle-list"><%=h(feature.title)%></div>
+			<p class="description"><%=auto_link(feature.description)%></p>
+			<p class="info"><%=link_to   pluralize(feature.comments_count, "Comment"), feature_comments_path(feature.id)%> - Votes: <%=feature.feature_votes_count%> -  <%=link_to "Who voted",:controller=>"features" , :action=>"whovoted", :id => feature%> - Posted by: <%= link_to feature.user.login, :controller=>'users', :action=> feature.user.login %> <%=time_ago_in_words(feature.datetime)%> ago </p>
+		</div>
+  </div>
+
+
+ 

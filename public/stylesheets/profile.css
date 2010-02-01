@@ -1,0 +1,301 @@
+
+
+
+#profile-header {
+width: 844px;
+height: 120px;
+border-bottom: solid 1px #DFEEBB;
+background-image: url(/img/profile_header_bg.gif);
+margin: 0 0 20px 0;
+ 
+}
+
+h2 {
+color: #477725;
+font-size: 16px;
+margin: 0 0 12px 0;
+}
+
+#profile-header #column1 {
+width: 420px;
+float: left;
+display: inline;
+}
+
+#profile-header #column2 {
+width: 400px;
+float: right;
+display: inline;
+position: relative;
+}
+
+
+#profile-foto{
+float: left;
+width: 100px;
+margin: 16px 6px 0 22px;
+}
+
+#profile-foto img{
+border: solid 1px #CCC;
+padding: 4px;
+background-color: #FFF;
+}
+
+#profile-name{
+font-family: Georgia, "Times New Roman", Times, serif;
+color: #FEA40E;
+font-size: 26px;
+margin: 14px 0 0 0;
+}
+
+#profile-smallinfo {
+color: #333;
+font-size: 14px;
+}
+
+#profile-smalllikes {
+font-size: 11px;
+margin: 8px 0 0 0;
+}
+
+
+#profile-contact {
+width: 330px;
+float: right;
+height: 40px;
+margin: 22px 0 0 0;
+
+}
+
+#profile-contact ul{
+list-style: none;
+margin: 0;
+padding: 0;
+}
+
+#profile-contact ul li{
+float: left;
+margin-left: 6px;
+text-align: center;
+}
+
+#profile-contact ul li a{
+width: 155px;
+height: 26px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 16px;
+color: #FFFFFF;
+font-weight: bold;
+text-decoration: none;
+padding: 5px 0 0 0;
+display: block;
+background-image: url(/img/profile-contact-but.gif);
+}
+
+
+#profile-contact ul li a:hover{
+background-position: 0 -33px;
+}
+
+#profile-menu {
+
+display: table;
+width: 400px;
+height: 35px;
+position: absolute;
+top: 84px;
+left: 0px;
+}
+
+#profile-menu ul{
+margin: 0;
+padding: 0;
+list-style: none;
+
+}
+
+#profile-menu ul li{
+float: left;
+margin-right: 3px;
+}
+
+#profile-menu ul li a{
+background-image: url(/img/profile-topmenu.gif);
+width: 76px;
+height: 26px;
+display: block;
+font-size: 14px;
+color: #FFFFFF;
+font-weight: bold;
+text-decoration: none;
+text-align: center;
+padding: 10px 0 0 0;
+}
+
+#profile-menu ul #selected a{
+background-position: 0 -76px;
+color: #333;
+ margin-top: 2px;
+}
+
+
+#profile-menu ul li a:hover{
+background-position: 0 -38px;
+}
+
+
+/*Lists*/
+
+
+.item-infocontainer2 {
+width: 540px;
+float: right;
+}
+
+
+.item-infocontainer2 .itemtitle-list a { /*Titulo de cada item de la lista*/
+font-family: Georgia, "Times New Roman", Times, serif;
+text-decoration: none;
+font-size: 18px;
+display: block;
+}
+
+.item-infocontainer2 .itemtitle-list a:hover {
+text-decoration: underline;
+}
+
+
+
+.item-infocontainer2 .description {
+font-size: 11px;
+}
+
+
+
+
+
+.friend {
+height: 52px;
+display: table;
+width: 100%;
+margin: 4px 0 8px 0;
+}
+
+.friend .friendfoto {
+width: 50px;
+height: 50px;
+float: left;
+display: inline;
+background-color: #000000;
+margin-right: 12px;
+}
+
+
+.friend .friendname a{
+color: #93BF39;
+font-size: 14px;
+font-weight: bold;
+text-decoration: none;
+
+}
+
+.friend .friendname a:hover{
+color: #81A732;
+text-decoration: underline;
+}
+
+.friend .friendlikes {
+font-size: 10px;
+color: #999;
+}
+
+.segment .link-vertodos {
+margin-bottom: 6px;
+}
+
+
+.segment .link-vertodos a {
+color: #CE7742;
+text-decoration: none;
+font-weight: bold;
+font-size: 11px;
+}
+
+.segment .link-vertodos a:hover {
+color: #D2A63E;
+}
+
+
+#rightcolumn .segment-friends { /*Bloques que delimitan cada elemento elemento de la barra derecha*/
+font-size: 12px;
+margin-bottom: 30px;
+color: #666666;
+margin-top:-10px;
+
+}
+
+#profilefoot {
+width: 100%;
+margin-bottom: 20px;
+margin-top: 10px;
+padding-top: 20px;
+display: table;
+border-top: solid 1px #E4E4E4;
+}
+
+
+#profilefoot #profiletags {
+width: 285px;
+float: left;
+border-right: solid 1px #F0F0F0;
+margin-right: 10px;
+}
+
+
+#profilefoot #friendsactivity {
+width: 290px;
+display: table;
+float: right;
+}
+
+#friendsactivity .act-item {
+height: 40px;
+margin-bottom: 18px;
+}
+
+#friendsactivity .act-item .act-foto{
+float: left;
+width: 45px;
+}
+
+#friendsactivity .act-item .act-title a{
+font-size: 14px;
+color: #93BF39;
+text-decoration: none;
+font-weight: bold;
+}
+
+#friendsactivity .act-item .act-date{
+color: #999;
+font-size: 10px;
+}
+
+#profile-settings {
+	padding-bottom:20px;
+}
+
+#profile-settings ul{
+	list-style:none;
+}
+
+#profile-settings li{
+	float:left;
+	margin-right:10px;
+}
+
+
+
+
+
+

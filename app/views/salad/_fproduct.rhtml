@@ -1,0 +1,5 @@
+
+<div id="right-column-list">
+	  <%=link_to @html.encode(fproduct.name), :action=>'view', :id=>fproduct%>   
+  <div id="right-column-items"><%=fproduct.features.size%> Items | Posted By <%=link_to fproduct.user.username, :controller => :users, :action => fproduct.user.username.to_s%></div> 
+</div>

@@ -1,0 +1,8 @@
+ <div class="list-item">
+
+	<div class="item-infocontainer">
+		<div class="itemtitle-list"><%=h(searchfeature.title)%></div>
+		<p class="description"><%=auto_link(h(searchfeature.description))%></p>
+		<p class="info">Votes: <%=searchfeature.feature_votes_count%> -  <%=link_to "Who voted",:controller=>"features" , :action=>"whovoted", :id => searchfeature%> - Posted by: <%= link_to searchfeature.user.login, :controller=>'users', :action=> searchfeature.user.login %> <%=time_ago_in_words(searchfeature.datetime)%> ago </p>
+	</div>
+</div>

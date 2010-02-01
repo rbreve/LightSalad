@@ -1,0 +1,9 @@
+<ul title="Light Salad" selected="true">
+
+    <%for list in @lists do%>
+	<li><a class="item-points"><%=list.features_count%></a> 
+		<%= link_to h( list.name), list_path(list) %></li>
+    <%end%> 
+</ul>
+
+ 

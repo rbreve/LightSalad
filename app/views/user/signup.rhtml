@@ -1,0 +1,61 @@
+<script>
+
+ function enable(checkbox) {
+      $('submi').disabled = !checkbox.checked
+    }
+</script>
+
+
+<div class="signup-form" >
+<%= error_messages_for 'user' %>
+<%= flash[:notice]%>
+<h2>Create an account</h2>
+<p>
+If you want to join Light Salad and post, rate, add features please sign up.
+</p>
+<fieldset>
+<% form_for :user, :url => { :action => :create_user } do |form| %>
+
+
+<p>
+<label for="user_name" >Username/Display Name (will be used to identify you in your posts)</label>
+<%= form.text_field :username, :size => 40 %>
+</p>
+
+<p>
+<label for="user_name" >Full Name:</label>
+<%= form.text_field :name, :size => 40 %>
+</p>
+
+
+  
+<p>
+<label for="user_email" >Email: </label>
+<%= form.text_field :email, :size => 40 %>
+</p>
+
+<p>
+<label for="user_password" >Choose Password:</label>
+<%= form.password_field :password, :size => 20 %>
+</p>
+
+ 
+
+<div style="text-align:center;">
+<p>
+Please review our <%=link_to "Terms of Service", "../terms.htm", :popup => ['new_window_name', 'height=500,width=600,scrollbars=yes']%>. <br/>If you have questions please <a href=mailto:support@lightsalad.com>email support</a>.
+</p>
+
+<p>
+<label for="iagree"> <%= check_box("post", "validated", :onclick=>"enable(this);") %> I agree to the Terms of Use and Privacy</label>
+    <img src = "/salad/captcha">
+<%=text_field_tag 'captcha'%>
+ 
+<p>
+<%= submit_tag "Sign Up" , :class => "submit", :id=>"submi",:disable_with=>"Sending...", :disabled=>"disabled" %>
+</p>
+</div>
+<%end%>
+
+</fieldset>
+</div>

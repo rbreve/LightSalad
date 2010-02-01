@@ -1,0 +1,5 @@
+<%=  start_form_tag( {:action => 'openid_login'}) %>
+
+OpenID Url: <%= text_field_tag 'openid_url' %> 
+<%= submit_tag 'Login' %>
+<%= end_form_tag %>

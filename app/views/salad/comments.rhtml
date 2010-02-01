@@ -1,0 +1,24 @@
+<div id="list-name">
+<span id="author">Return to</span> 
+<%= link_to "" + @product.name, :action => 'view', :id=>@product %>
+</div>
+<br>
+<div id="list-suggestions">
+	<%= render :partial => "feature"  %>
+</div>
+
+<%if !@comments.empty?%>
+<%= render :partial => "comment", :collection => @comments  %>
+<%end%>
+	<div id="newcomment">
+		<%if session["person"]%>  
+		
+			<% form_remote_tag :url=>{:action => 'post_comment', :id => @feature}, :update => "newcomment" do%>
+			<%= text_area_tag 'comment', '', :name => 'comment[text]', :cols => "55", :rows => "5" %><Br>
+			<%= submit_tag "Send Comment" , :onClick=>"this.disabled='true'"%>
+			<% end %> 
+
+		<%else%>
+			<%= link_to "To comment you need to sign in or register", {:controller=>'user',:action => 'signin'}%>
+		<%end%>
+	</div>

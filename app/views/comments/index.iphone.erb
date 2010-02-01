@@ -1,0 +1,10 @@
+<ul title="<%= @product.name %> Comments" selected="true">
+<h2> <%= @product.name %></h2>
+<h3> <%= @feature.title%></h3>
+	<li class="group">Comments</li>
+	
+	    <%for comment in @comments do%>
+		<li> <%=comment.text%>  </li>
+    <%end%> 
+</ul>
+

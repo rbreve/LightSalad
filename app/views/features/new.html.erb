@@ -1,0 +1,9 @@
+<h2><%= @list.name %></h2>
+
+<% form_for ([@list,@feature]) do |f| %> 
+<p>Text: <%= f.text_field :title %></p> 
+<p>Description: <%= f.text_area  :description %></p> 
+<%= submit_tag "Add Item" %> 
+<% end %> 
+
+<%= list_url(@list) %>

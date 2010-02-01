@@ -1,0 +1,437 @@
+# Logfile created on Thu Mar 22 04:20:49 Hora est. de América Central 2007 by logger.rb/1.5.2.7
+D, [2007-03-22T04:20:49.765000 #3776] DEBUG -- : TRACING ON Thu Mar 22 04:20:49 Hora est. de América Central 2007
+Thu Mar 22 04:21:00 Hora est. de América Central 2007 REQUEST /
+0.0.0.0:3000 -- THREADS: 1 -----
+	KEYS:
+		-- #<Thread:0x3ef2330>: [:started_on, :__inspect_key__]
+Thu Mar 22 04:21:53 Hora est. de América Central 2007 REQUEST /
+0.0.0.0:3000 -- THREADS: 1 -----
+	KEYS:
+		-- #<Thread:0x40880c8>: [:started_on, :__inspect_key__]
+Thu Mar 22 04:21:55 Hora est. de América Central 2007 REQUEST /salad/list
+0.0.0.0:3000 -- THREADS: 1 -----
+	KEYS:
+		-- #<Thread:0x3e79340>: [:started_on, :__inspect_key__]
+Thu Mar 22 04:21:57 Hora est. de América Central 2007 REQUEST /stylesheets/scaffold.css
+0.0.0.0:3000 -- THREADS: 1 -----
+	KEYS:
+		-- #<Thread:0x407a07c>: [:started_on, :__inspect_key__]
+Thu Mar 22 04:21:58 Hora est. de América Central 2007 REQUEST /stylesheets/salad.css
+0.0.0.0:3000 -- THREADS: 1 -----
+	KEYS:
+		-- #<Thread:0x3f4fa08>: [:started_on, :__inspect_key__]
+Thu Mar 22 04:22:00 Hora est. de América Central 2007 REQUEST /javascripts/prototype.js
+0.0.0.0:3000 -- THREADS: 1 -----
+	KEYS:
+		-- #<Thread:0x3efa1fc>: [:started_on, :__inspect_key__]
+Thu Mar 22 04:22:01 Hora est. de América Central 2007 REQUEST /javascripts/effects.js
+0.0.0.0:3000 -- THREADS: 1 -----
+	KEYS:
+		-- #<Thread:0x3edbbbc>: [:started_on, :__inspect_key__]
+Thu Mar 22 04:22:03 Hora est. de América Central 2007 REQUEST /javascripts/dragdrop.js
+0.0.0.0:3000 -- THREADS: 1 -----
+	KEYS:
+		-- #<Thread:0x4009bd8>: [:started_on, :__inspect_key__]
+Thu Mar 22 04:22:04 Hora est. de América Central 2007 REQUEST /javascripts/controls.js
+0.0.0.0:3000 -- THREADS: 1 -----
+	KEYS:
+		-- #<Thread:0x3fd4b18>: [:started_on, :__inspect_key__]
+Thu Mar 22 04:22:06 Hora est. de América Central 2007 REQUEST /javascripts/application.js
+0.0.0.0:3000 -- THREADS: 1 -----
+	KEYS:
+		-- #<Thread:0x3f9fa6c>: [:started_on, :__inspect_key__]
+Thu Mar 22 04:22:07 Hora est. de América Central 2007 REQUEST /images/favicon.png
+0.0.0.0:3000 -- THREADS: 1 -----
+	KEYS:
+		-- #<Thread:0x3f5d0f4>: [:started_on, :__inspect_key__]
+Thu Mar 22 04:22:10 Hora est. de América Central 2007 REQUEST /salad/list
+0.0.0.0:3000 -- THREADS: 1 -----
+	KEYS:
+		-- #<Thread:0x3efc614>: [:started_on, :__inspect_key__]
+Thu Mar 22 04:22:12 Hora est. de América Central 2007 REQUEST /stylesheets/scaffold.css
+0.0.0.0:3000 -- THREADS: 1 -----
+	KEYS:
+		-- #<Thread:0x40ef930>: [:started_on, :__inspect_key__]
+Thu Mar 22 04:22:15 Hora est. de América Central 2007 REQUEST /images/favicon.png
+0.0.0.0:3000 -- THREADS: 2 -----
+	KEYS:
+		-- #<Thread:0x4187730>: [:started_on]
+		-- #<Thread:0x4030e54>: [:started_on, :__inspect_key__]
+Thu Mar 22 04:22:16 Hora est. de América Central 2007 REQUEST /salad/view/5
+0.0.0.0:3000 -- THREADS: 1 -----
+	KEYS:
+		-- #<Thread:0x4187730>: [:started_on, :__inspect_key__]
+Thu Mar 22 04:22:19 Hora est. de América Central 2007 REQUEST /stylesheets/scaffold.css
+0.0.0.0:3000 -- THREADS: 1 -----
+	KEYS:
+		-- #<Thread:0x3edff8c>: [:started_on, :__inspect_key__]
+Thu Mar 22 04:22:20 Hora est. de América Central 2007 REQUEST /images/favicon.png
+0.0.0.0:3000 -- THREADS: 1 -----
+	KEYS:
+		-- #<Thread:0x3f75b04>: [:started_on, :__inspect_key__]
+Thu Mar 22 04:22:25 Hora est. de América Central 2007 REQUEST /salad/vote/17
+0.0.0.0:3000 -- THREADS: 1 -----
+	KEYS:
+		-- #<Thread:0x3ee1c88>: [:started_on, :__inspect_key__]
+Thu Mar 22 04:22:27 Hora est. de América Central 2007 REQUEST /user/signin
+0.0.0.0:3000 -- THREADS: 1 -----
+	KEYS:
+		-- #<Thread:0x2e94344>: [:started_on, :__inspect_key__]
+Thu Mar 22 04:22:32 Hora est. de América Central 2007 REQUEST /stylesheets/scaffold.css
+Thu Mar 22 04:22:32 Hora est. de América Central 2007 REQUEST /images/favicon.png
+0.0.0.0:3000 -- THREADS: 3 -----
+	KEYS:
+		-- #<Thread:0x4080c24>: [:started_on]
+		-- #<Thread:0x3ea8d34>: [:started_on, :__inspect_key__]
+		-- #<Thread:0x3eaf33c>: [:started_on, :__inspect_key__]
+0.0.0.0:3000 -- THREADS: 3 -----
+	KEYS:
+		-- #<Thread:0x3eaf33c>: [:started_on, :__inspect_key__]
+		-- #<Thread:0x4080c24>: [:started_on]
+		-- #<Thread:0x3ea8d34>: [:started_on, :__inspect_key__]
+Thu Mar 22 04:22:35 Hora est. de América Central 2007 REQUEST /images/favicon.png
+0.0.0.0:3000 -- THREADS: 1 -----
+	KEYS:
+		-- #<Thread:0x4080c24>: [:started_on, :__inspect_key__]
+Thu Mar 22 04:22:37 Hora est. de América Central 2007 REQUEST /user/openid_signin
+0.0.0.0:3000 -- THREADS: 1 -----
+	KEYS:
+		-- #<Thread:0x3e8de1c>: [:started_on, :__inspect_key__]
+Thu Mar 22 04:22:39 Hora est. de América Central 2007 REQUEST /stylesheets/scaffold.css
+0.0.0.0:3000 -- THREADS: 1 -----
+	KEYS:
+		-- #<Thread:0x416bbac>: [:started_on, :__inspect_key__]
+Thu Mar 22 04:22:43 Hora est. de América Central 2007 REQUEST /images/favicon.png
+Thu Mar 22 04:22:43 Hora est. de América Central 2007 REQUEST /images/login-bg.gif
+0.0.0.0:3000 -- THREADS: 2 -----
+	KEYS:
+		-- #<Thread:0x40ef2f0>: [:started_on, :__inspect_key__]
+		-- #<Thread:0x40ef9bc>: [:started_on, :__inspect_key__]
+0.0.0.0:3000 -- THREADS: 2 -----
+	KEYS:
+		-- #<Thread:0x40ef9bc>: [:started_on, :__inspect_key__]
+		-- #<Thread:0x40ef2f0>: [:started_on, :__inspect_key__]
+Thu Mar 22 04:22:44 Hora est. de América Central 2007 REQUEST /user/openid_login
+0.0.0.0:3000 -- THREADS: 1 -----
+	KEYS:
+		-- #<Thread:0x3df890c>: [:started_on, :__inspect_key__]
+Thu Mar 22 04:24:37 Hora est. de América Central 2007 REQUEST /images/favicon.png
+0.0.0.0:3000 -- THREADS: 5 -----
+	KEYS:
+		-- #<Thread:0x3df890c>: [:started_on, :__inspect_key__]
+		-- #<Thread:0x3f00318>: []
+		-- #<Thread:0x4092898>: []
+		-- #<Thread:0x3f25870>: [:started_on]
+		-- #<Thread:0x3e37774>: [:started_on, :__inspect_key__]
+Thu Mar 22 04:24:42 Hora est. de América Central 2007 REQUEST /user/openid_signin
+0.0.0.0:3000 -- THREADS: 1 -----
+	KEYS:
+		-- #<Thread:0x3f25870>: [:started_on, :__inspect_key__]
+D, [2007-03-22T04:24:51.953000 #3516] DEBUG -- : TRACING ON Thu Mar 22 04:24:51 Hora est. de América Central 2007
+Thu Mar 22 04:24:58 Hora est. de América Central 2007 REQUEST /user/openid_signin
+0.0.0.0:3000 -- THREADS: 1 -----
+	KEYS:
+		-- #<Thread:0x3ef2268>: [:started_on, :__inspect_key__]
+Thu Mar 22 04:25:00 Hora est. de América Central 2007 REQUEST /stylesheets/scaffold.css
+0.0.0.0:3000 -- THREADS: 1 -----
+	KEYS:
+		-- #<Thread:0x3ee71b0>: [:started_on, :__inspect_key__]
+Thu Mar 22 04:25:02 Hora est. de América Central 2007 REQUEST /stylesheets/salad.css
+0.0.0.0:3000 -- THREADS: 1 -----
+	KEYS:
+		-- #<Thread:0x3505728>: [:started_on, :__inspect_key__]
+Thu Mar 22 04:25:03 Hora est. de América Central 2007 REQUEST /javascripts/prototype.js
+0.0.0.0:3000 -- THREADS: 1 -----
+	KEYS:
+		-- #<Thread:0x3e98ccc>: [:started_on, :__inspect_key__]
+Thu Mar 22 04:25:04 Hora est. de América Central 2007 REQUEST /salad/list
+0.0.0.0:3000 -- THREADS: 1 -----
+	KEYS:
+		-- #<Thread:0x3e8a870>: [:started_on, :__inspect_key__]
+Thu Mar 22 04:25:06 Hora est. de América Central 2007 REQUEST /stylesheets/scaffold.css
+0.0.0.0:3000 -- THREADS: 1 -----
+	KEYS:
+		-- #<Thread:0x3f45198>: [:started_on, :__inspect_key__]
+Thu Mar 22 04:25:08 Hora est. de América Central 2007 REQUEST /images/favicon.png
+0.0.0.0:3000 -- THREADS: 1 -----
+	KEYS:
+		-- #<Thread:0x3eba8e0>: [:started_on, :__inspect_key__]
+Thu Mar 22 04:25:13 Hora est. de América Central 2007 REQUEST /user/openid_signin
+0.0.0.0:3000 -- THREADS: 1 -----
+	KEYS:
+		-- #<Thread:0x4167778>: [:started_on, :__inspect_key__]
+Thu Mar 22 04:25:15 Hora est. de América Central 2007 REQUEST /stylesheets/scaffold.css
+0.0.0.0:3000 -- THREADS: 1 -----
+	KEYS:
+		-- #<Thread:0x3fbda80>: [:started_on, :__inspect_key__]
+Thu Mar 22 04:25:17 Hora est. de América Central 2007 REQUEST /images/favicon.png
+0.0.0.0:3000 -- THREADS: 1 -----
+	KEYS:
+		-- #<Thread:0x3ee3f10>: [:started_on, :__inspect_key__]
+Thu Mar 22 04:26:52 Hora est. de América Central 2007 REQUEST /user/openid_login
+0.0.0.0:3000 -- THREADS: 1 -----
+	KEYS:
+		-- #<Thread:0x4171b38>: [:started_on, :__inspect_key__]
+Thu Mar 22 04:27:13 Hora est. de América Central 2007 REQUEST /user/openid_login
+0.0.0.0:3000 -- THREADS: 1 -----
+	KEYS:
+		-- #<Thread:0x3f9e478>: [:started_on, :__inspect_key__]
+Thu Mar 22 04:27:16 Hora est. de América Central 2007 REQUEST /stylesheets/scaffold.css
+0.0.0.0:3000 -- THREADS: 1 -----
+	KEYS:
+		-- #<Thread:0x3df5ea0>: [:started_on, :__inspect_key__]
+Thu Mar 22 04:27:17 Hora est. de América Central 2007 REQUEST /stylesheets/salad.css
+0.0.0.0:3000 -- THREADS: 1 -----
+	KEYS:
+		-- #<Thread:0x40f92c8>: [:started_on, :__inspect_key__]
+Thu Mar 22 04:27:19 Hora est. de América Central 2007 REQUEST /javascripts/prototype.js
+0.0.0.0:3000 -- THREADS: 1 -----
+	KEYS:
+		-- #<Thread:0x3ede614>: [:started_on, :__inspect_key__]
+Thu Mar 22 04:27:20 Hora est. de América Central 2007 REQUEST /javascripts/effects.js
+0.0.0.0:3000 -- THREADS: 1 -----
+	KEYS:
+		-- #<Thread:0x3f3f9dc>: [:started_on, :__inspect_key__]
+Thu Mar 22 04:27:22 Hora est. de América Central 2007 REQUEST /javascripts/dragdrop.js
+0.0.0.0:3000 -- THREADS: 1 -----
+	KEYS:
+		-- #<Thread:0x3f1603c>: [:started_on, :__inspect_key__]
+Thu Mar 22 04:27:23 Hora est. de América Central 2007 REQUEST /javascripts/controls.js
+0.0.0.0:3000 -- THREADS: 1 -----
+	KEYS:
+		-- #<Thread:0x413514c>: [:started_on, :__inspect_key__]
+Thu Mar 22 04:27:24 Hora est. de América Central 2007 REQUEST /javascripts/application.js
+0.0.0.0:3000 -- THREADS: 1 -----
+	KEYS:
+		-- #<Thread:0x3edd868>: [:started_on, :__inspect_key__]
+Thu Mar 22 04:27:26 Hora est. de América Central 2007 REQUEST /images/favicon.png
+0.0.0.0:3000 -- THREADS: 1 -----
+	KEYS:
+		-- #<Thread:0x3ec30f8>: [:started_on, :__inspect_key__]
+Thu Mar 22 04:28:07 Hora est. de América Central 2007 REQUEST /user/openid_login
+0.0.0.0:3000 -- THREADS: 1 -----
+	KEYS:
+		-- #<Thread:0x34237b0>: [:started_on, :__inspect_key__]
+Thu Mar 22 04:28:21 Hora est. de América Central 2007 REQUEST /images/favicon.png
+0.0.0.0:3000 -- THREADS: 4 -----
+	KEYS:
+		-- #<Thread:0x34237b0>: [:started_on, :__inspect_key__]
+		-- #<Thread:0x3fd4424>: []
+		-- #<Thread:0x40ad120>: []
+		-- #<Thread:0x3e903ec>: [:started_on, :__inspect_key__]
+Thu Mar 22 04:28:58 Hora est. de América Central 2007 REQUEST /user/openid_login
+0.0.0.0:3000 -- THREADS: 5 -----
+	KEYS:
+		-- #<Thread:0x3e903ec>: [:started_on, :__inspect_key__]
+		-- #<Thread:0x34237b0>: [:started_on, :__inspect_key__]
+		-- #<Thread:0x3eafcec>: []
+		-- #<Thread:0x40ad120>: []
+		-- #<Thread:0x3efa580>: [:started_on, :__inspect_key__]
+D, [2007-03-22T04:29:11.875000 #4312] DEBUG -- : TRACING ON Thu Mar 22 04:29:11 Hora est. de América Central 2007
+Thu Mar 22 04:29:18 Hora est. de América Central 2007 REQUEST /images/favicon.png
+0.0.0.0:3000 -- THREADS: 1 -----
+	KEYS:
+		-- #<Thread:0x3ef2268>: [:started_on, :__inspect_key__]
+Thu Mar 22 04:29:20 Hora est. de América Central 2007 REQUEST /user/openid_login
+0.0.0.0:3000 -- THREADS: 1 -----
+	KEYS:
+		-- #<Thread:0x3eb6470>: [:started_on, :__inspect_key__]
+Thu Mar 22 04:29:22 Hora est. de América Central 2007 REQUEST /user/http%3A%2F%2Fwww.myopenid.com%2Fserver%3Fopenid.mode%3Dcheckid_setup%26openid.return_to%3Dhttp%253A%252F%252F127.0.0.1%253A3000%252Fsalad%252Fcomplete%253Fnonce%253Ditbpl5zL%26openid.trust_root%3Dhttp%253A%252F%252F127.0.0.1%253A3000%252Fsalad%252Flist%26openid.identity%3Dhttp%253A%252F%252Frbreve.myopenid.com%252F%26openid.assoc_handle%3D%257BHMAC-SHA1%257D%257B4602576b%257D%257BoeidBw%253D%253D%257D
+0.0.0.0:3000 -- THREADS: 1 -----
+	KEYS:
+		-- #<Thread:0x3f4de9c>: [:started_on, :__inspect_key__]
+Thu Mar 22 04:29:53 Hora est. de América Central 2007 REQUEST /images/favicon.png
+0.0.0.0:3000 -- THREADS: 1 -----
+	KEYS:
+		-- #<Thread:0x3e5e3ec>: [:started_on, :__inspect_key__]
+Thu Mar 22 04:29:54 Hora est. de América Central 2007 REQUEST /user/openid_login
+0.0.0.0:3000 -- THREADS: 1 -----
+	KEYS:
+		-- #<Thread:0x4189e18>: [:started_on, :__inspect_key__]
+Thu Mar 22 04:30:55 Hora est. de América Central 2007 REQUEST /images/favicon.png
+0.0.0.0:3000 -- THREADS: 2 -----
+	KEYS:
+		-- #<Thread:0x3e8a2e4>: [:started_on]
+		-- #<Thread:0x4045994>: [:started_on, :__inspect_key__]
+Thu Mar 22 04:30:56 Hora est. de América Central 2007 REQUEST /user/openid_login
+0.0.0.0:3000 -- THREADS: 1 -----
+	KEYS:
+		-- #<Thread:0x3e8a2e4>: [:started_on, :__inspect_key__]
+Thu Mar 22 04:33:41 Hora est. de América Central 2007 REQUEST /images/favicon.png
+0.0.0.0:3000 -- THREADS: 2 -----
+	KEYS:
+		-- #<Thread:0x4078c40>: [:started_on]
+		-- #<Thread:0x408448c>: [:started_on, :__inspect_key__]
+Thu Mar 22 04:33:43 Hora est. de América Central 2007 REQUEST /user/openid_login
+0.0.0.0:3000 -- THREADS: 1 -----
+	KEYS:
+		-- #<Thread:0x4078c40>: [:started_on, :__inspect_key__]
+Thu Mar 22 04:34:03 Hora est. de América Central 2007 REQUEST /salad/complete
+0.0.0.0:3000 -- THREADS: 1 -----
+	KEYS:
+		-- #<Thread:0x3e83ebc>: [:started_on, :__inspect_key__]
+Thu Mar 22 04:34:10 Hora est. de América Central 2007 REQUEST /images/favicon.png
+0.0.0.0:3000 -- THREADS: 1 -----
+	KEYS:
+		-- #<Thread:0x40f5060>: [:started_on, :__inspect_key__]
+Thu Mar 22 04:34:24 Hora est. de América Central 2007 REQUEST /user/openid_login
+0.0.0.0:3000 -- THREADS: 1 -----
+	KEYS:
+		-- #<Thread:0x401aa8c>: [:started_on, :__inspect_key__]
+Thu Mar 22 04:34:29 Hora est. de América Central 2007 REQUEST /user/complete
+0.0.0.0:3000 -- THREADS: 1 -----
+	KEYS:
+		-- #<Thread:0x3dfdc90>: [:started_on, :__inspect_key__]
+Thu Mar 22 04:34:57 Hora est. de América Central 2007 REQUEST /user/complete
+0.0.0.0:3000 -- THREADS: 1 -----
+	KEYS:
+		-- #<Thread:0x3fbf4ac>: [:started_on, :__inspect_key__]
+Thu Mar 22 04:34:59 Hora est. de América Central 2007 REQUEST /user/openid_login
+0.0.0.0:3000 -- THREADS: 1 -----
+	KEYS:
+		-- #<Thread:0x407c7f0>: [:started_on, :__inspect_key__]
+Thu Mar 22 04:35:18 Hora est. de América Central 2007 REQUEST /user/complete
+0.0.0.0:3000 -- THREADS: 1 -----
+	KEYS:
+		-- #<Thread:0x3ef0404>: [:started_on, :__inspect_key__]
+Thu Mar 22 04:35:20 Hora est. de América Central 2007 REQUEST /user/openid_signin
+0.0.0.0:3000 -- THREADS: 1 -----
+	KEYS:
+		-- #<Thread:0x3e2a36c>: [:started_on, :__inspect_key__]
+Thu Mar 22 04:35:22 Hora est. de América Central 2007 REQUEST /stylesheets/scaffold.css
+0.0.0.0:3000 -- THREADS: 1 -----
+	KEYS:
+		-- #<Thread:0x3e8a000>: [:started_on, :__inspect_key__]
+Thu Mar 22 04:35:23 Hora est. de América Central 2007 REQUEST /stylesheets/salad.css
+0.0.0.0:3000 -- THREADS: 1 -----
+	KEYS:
+		-- #<Thread:0x3ee28e0>: [:started_on, :__inspect_key__]
+Thu Mar 22 04:35:27 Hora est. de América Central 2007 REQUEST /images/favicon.png
+Thu Mar 22 04:35:27 Hora est. de América Central 2007 REQUEST /images/login-bg.gif
+0.0.0.0:3000 -- THREADS: 2 -----
+	KEYS:
+		-- #<Thread:0x3eb3248>: [:started_on, :__inspect_key__]
+		-- #<Thread:0x3eb6fd8>: [:started_on, :__inspect_key__]
+0.0.0.0:3000 -- THREADS: 2 -----
+	KEYS:
+		-- #<Thread:0x3eb6fd8>: [:started_on, :__inspect_key__]
+		-- #<Thread:0x3eb3248>: [:started_on, :__inspect_key__]
+Thu Mar 22 04:35:29 Hora est. de América Central 2007 REQUEST /user/openid_login
+0.0.0.0:3000 -- THREADS: 1 -----
+	KEYS:
+		-- #<Thread:0x40b92f4>: [:started_on, :__inspect_key__]
+Thu Mar 22 04:35:50 Hora est. de América Central 2007 REQUEST /images/favicon.png
+0.0.0.0:3000 -- THREADS: 2 -----
+	KEYS:
+		-- #<Thread:0x3eed358>: [:started_on]
+		-- #<Thread:0x3e21bcc>: [:started_on, :__inspect_key__]
+Thu Mar 22 04:35:51 Hora est. de América Central 2007 REQUEST /user/openid_login
+0.0.0.0:3000 -- THREADS: 1 -----
+	KEYS:
+		-- #<Thread:0x3eed358>: [:started_on, :__inspect_key__]
+Thu Mar 22 04:37:56 Hora est. de América Central 2007 REQUEST /images/favicon.png
+0.0.0.0:3000 -- THREADS: 2 -----
+	KEYS:
+		-- #<Thread:0x3ecc6e4>: [:started_on]
+		-- #<Thread:0x3e25ca4>: [:started_on, :__inspect_key__]
+Thu Mar 22 04:37:58 Hora est. de América Central 2007 REQUEST /user/openid_login
+0.0.0.0:3000 -- THREADS: 1 -----
+	KEYS:
+		-- #<Thread:0x3ecc6e4>: [:started_on, :__inspect_key__]
+Thu Mar 22 04:39:19 Hora est. de América Central 2007 REQUEST /images/favicon.png
+0.0.0.0:3000 -- THREADS: 2 -----
+	KEYS:
+		-- #<Thread:0x3f65290>: [:started_on]
+		-- #<Thread:0x3f67ba8>: [:started_on, :__inspect_key__]
+Thu Mar 22 04:39:21 Hora est. de América Central 2007 REQUEST /user/openid_login
+0.0.0.0:3000 -- THREADS: 1 -----
+	KEYS:
+		-- #<Thread:0x3f65290>: [:started_on, :__inspect_key__]
+Thu Mar 22 04:39:52 Hora est. de América Central 2007 REQUEST /user/complete
+0.0.0.0:3000 -- THREADS: 1 -----
+	KEYS:
+		-- #<Thread:0x3e90eb4>: [:started_on, :__inspect_key__]
+Thu Mar 22 04:40:39 Hora est. de América Central 2007 REQUEST /salad/list
+0.0.0.0:3000 -- THREADS: 1 -----
+	KEYS:
+		-- #<Thread:0x406620c>: [:started_on, :__inspect_key__]
+Thu Mar 22 04:40:41 Hora est. de América Central 2007 REQUEST /stylesheets/scaffold.css
+0.0.0.0:3000 -- THREADS: 1 -----
+	KEYS:
+		-- #<Thread:0x3dfce44>: [:started_on, :__inspect_key__]
+Thu Mar 22 04:40:42 Hora est. de América Central 2007 REQUEST /stylesheets/salad.css
+0.0.0.0:3000 -- THREADS: 1 -----
+	KEYS:
+		-- #<Thread:0x2f34da8>: [:started_on, :__inspect_key__]
+Thu Mar 22 04:40:44 Hora est. de América Central 2007 REQUEST /images/favicon.png
+0.0.0.0:3000 -- THREADS: 1 -----
+	KEYS:
+		-- #<Thread:0x40ee83c>: [:started_on, :__inspect_key__]
+Thu Mar 22 04:40:45 Hora est. de América Central 2007 REQUEST /salad/view/5
+0.0.0.0:3000 -- THREADS: 1 -----
+	KEYS:
+		-- #<Thread:0x4015640>: [:started_on, :__inspect_key__]
+Thu Mar 22 04:40:48 Hora est. de América Central 2007 REQUEST /stylesheets/scaffold.css
+0.0.0.0:3000 -- THREADS: 1 -----
+	KEYS:
+		-- #<Thread:0x348e3bc>: [:started_on, :__inspect_key__]
+Thu Mar 22 04:40:49 Hora est. de América Central 2007 REQUEST /images/favicon.png
+0.0.0.0:3000 -- THREADS: 1 -----
+	KEYS:
+		-- #<Thread:0x40222c8>: [:started_on, :__inspect_key__]
+Thu Mar 22 04:41:11 Hora est. de América Central 2007 REQUEST /images/favicon.png
+0.0.0.0:3000 -- THREADS: 1 -----
+	KEYS:
+		-- #<Thread:0x3e89100>: [:started_on, :__inspect_key__]
+Thu Mar 22 04:41:35 Hora est. de América Central 2007 REQUEST /images/favicon.png
+0.0.0.0:3000 -- THREADS: 1 -----
+	KEYS:
+		-- #<Thread:0x41711b0>: [:started_on, :__inspect_key__]
+Thu Mar 22 04:41:37 Hora est. de América Central 2007 REQUEST /salad/view/5
+0.0.0.0:3000 -- THREADS: 1 -----
+	KEYS:
+		-- #<Thread:0x4065bcc>: [:started_on, :__inspect_key__]
+Thu Mar 22 04:41:38 Hora est. de América Central 2007 REQUEST /stylesheets/scaffold.css
+0.0.0.0:3000 -- THREADS: 1 -----
+	KEYS:
+		-- #<Thread:0x4003580>: [:started_on, :__inspect_key__]
+Thu Mar 22 04:41:40 Hora est. de América Central 2007 REQUEST /stylesheets/salad.css
+0.0.0.0:3000 -- THREADS: 1 -----
+	KEYS:
+		-- #<Thread:0x3eb7de8>: [:started_on, :__inspect_key__]
+Thu Mar 22 04:41:42 Hora est. de América Central 2007 REQUEST /javascripts/prototype.js
+0.0.0.0:3000 -- THREADS: 1 -----
+	KEYS:
+		-- #<Thread:0x408fbe8>: [:started_on, :__inspect_key__]
+Thu Mar 22 04:41:43 Hora est. de América Central 2007 REQUEST /javascripts/effects.js
+0.0.0.0:3000 -- THREADS: 1 -----
+	KEYS:
+		-- #<Thread:0x406fe4c>: [:started_on, :__inspect_key__]
+Thu Mar 22 04:41:44 Hora est. de América Central 2007 REQUEST /javascripts/dragdrop.js
+0.0.0.0:3000 -- THREADS: 1 -----
+	KEYS:
+		-- #<Thread:0x416c05c>: [:started_on, :__inspect_key__]
+Thu Mar 22 04:41:46 Hora est. de América Central 2007 REQUEST /javascripts/controls.js
+0.0.0.0:3000 -- THREADS: 1 -----
+	KEYS:
+		-- #<Thread:0x411214c>: [:started_on, :__inspect_key__]
+Thu Mar 22 04:41:47 Hora est. de América Central 2007 REQUEST /javascripts/application.js
+0.0.0.0:3000 -- THREADS: 1 -----
+	KEYS:
+		-- #<Thread:0x40a5c54>: [:started_on, :__inspect_key__]
+Thu Mar 22 04:41:49 Hora est. de América Central 2007 REQUEST /images/favicon.png
+0.0.0.0:3000 -- THREADS: 1 -----
+	KEYS:
+		-- #<Thread:0x4083eec>: [:started_on, :__inspect_key__]
+Thu Mar 22 04:48:23 Hora est. de América Central 2007 REQUEST /images/favicon.png
+0.0.0.0:3000 -- THREADS: 1 -----
+	KEYS:
+		-- #<Thread:0x3ea60e8>: [:started_on, :__inspect_key__]
+Thu Mar 22 04:50:10 Hora est. de América Central 2007 REQUEST /images/favicon.png
+0.0.0.0:3000 -- THREADS: 1 -----
+	KEYS:
+		-- #<Thread:0x3dfc804>: [:started_on, :__inspect_key__]
+Thu Mar 22 04:50:15 Hora est. de América Central 2007 REQUEST /images/favicon.png
+0.0.0.0:3000 -- THREADS: 1 -----
+	KEYS:
+		-- #<Thread:0x405bcf8>: [:started_on, :__inspect_key__]

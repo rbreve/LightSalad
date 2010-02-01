@@ -1,0 +1,19 @@
+<h1>New category</h1>
+
+<%= error_messages_for :category %>
+
+<% form_for(@category) do |f| %>
+  <p>
+	
+	<b>Parent Category</b>
+	  <%= f.select("category_id", Category.find(:all, :conditions => "category_id=0").collect {|p| [ p.title, p.id ] }, { :include_blank => true }) %><br /> 
+    <b>Title</b> 
+    <%= f.text_field :title %>
+  </p>
+
+  <p>
+    <%= f.submit "Create" %>
+  </p>
+<% end %>
+
+<%= link_to 'Back', categories_path %>

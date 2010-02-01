@@ -1,0 +1,17 @@
+<div id="newest">
+ 
+<%for product in @lists%>
+
+<div id="post-title-list"><h2> <%=link_to product.name, list_path(product)%></h2></div>
+
+<div id="post-description-list"> <%=product.description%></div>
+
+<div class="post-info">
+<div id="post-date-list">Posted: <%=time_ago_in_words(product.datetime)%> ago by <%=link_to product.user.username, :controller => :users, :action => product.user.username.to_s%></div> 
+<span id="post-items"><%=product.features.size%> Items</span> | 
+
+<span id="post-rss"><%=link_to "RSS subscribe", :action=>'rss', :id=>product.id%></span> | Report Abuse
+</div>
+<%end%>
+
+</div>

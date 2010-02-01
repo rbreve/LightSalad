@@ -1,0 +1,66 @@
+<%= javascript_include_tag "scriptaculous.js?load=builder,dragdrop" %>
+
+<%= javascript_include_tag 'cropper.js' %> 
+<%= stylesheet_link_tag 'cropper.css' %>
+
+<script type="text/javascript" charset="utf-8">
+		
+		// setup the callback function
+		function onEndCrop( coords, dimensions ) {
+			$( 'x1' ).value = coords.x1;
+			$( 'y1' ).value = coords.y1;
+			$( 'x2' ).value = coords.x2;
+			$( 'y2' ).value = coords.y2;
+			$( 'width' ).value = dimensions.width;
+			$( 'height' ).value = dimensions.height;
+		}
+		
+		// basic example
+		Event.observe( 
+			window, 
+			'load', 
+			function() { 
+				new Cropper.Img( 
+					'testImage',
+					{
+						onEndCrop: onEndCrop,
+						displayOnInit: true,
+						onloadCoords: { x1: 10, y1: 10, x2: 210, y2: 110 },
+						ratioDim: { x: 100, y: 100 }
+					}
+				) 
+			}
+		); 		
+		
+		
+		if( typeof(dump) != 'function' ) {
+			Debug.init(true, '/');
+			
+			function dump( msg ) {
+				Debug.raise( msg );
+			};
+		} else dump( '---------------------------------------\n' );
+		
+		
+	</script>
+	
+	<style>
+		#testWrap {
+					margin: 20px 0 0 50px;  
+				}
+	</style>
+	
+ <div id="testWrap">
+			<img src="<%=UPLOAD_PATH + @filename%>" alt="test image" id="testImage"   />
+ </div>
+
+
+
+	<%= start_form_tag( {:controller => "user", :action => 'cropimage'}) %>
+		<%= hidden_field_tag 'x1'%>
+		<%= hidden_field_tag 'y1'%>
+		<%= hidden_field_tag 'x2'%>
+		<%= hidden_field_tag 'y2'%>
+		<%= hidden_field_tag 'filename', @filename %>
+		<%= submit_tag "Crop Image" %>
+	<%= end_form_tag %>

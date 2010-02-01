@@ -1,0 +1,14 @@
+<div class="comment">
+<div id="comment-author">
+ 
+
+</div>
+<div id="comment-date">
+By <%= link_to commentp.user.username , :controller => 'users', :action => commentp.user.username%>   <%=time_ago_in_words(commentp.datetime)%> ago <br>
+</div>
+<div id="comment-text">
+<%=commentp.text%> <br>
+</div>
+
+
+</div>

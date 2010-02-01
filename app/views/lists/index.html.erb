@@ -1,0 +1,74 @@
+<div id="itemslist">
+	
+	<div id="listtabs">
+		<ul>
+			<li class="<%= @sort=="hot" ? "selected" : "" %>"><%=link_to 'Popular', lista_path(@current_category, "hot")%></li>
+			<li class="<%= @sort=="new" ? "selected" : "" %>"><%=link_to 'Recent', lista_path(@current_category, "new")%></li>
+			<li><a href="#"><span>Hot</span></a></li>
+		</ul>
+	</div>
+		<div style="margin-botom:-20px;font-size:20px">
+	   		<%if @sort=="hot" %>
+				<% if  @time != nil %> 
+				 This <%= @time %> most popular
+			 	<%else%>
+					Popular
+				<%end%>
+			<%elsif @sort == "new"%>
+				Recent <%= @time %>
+			<%end%> lists
+		</div>
+	<div id="timebrowse">
+		<ul>
+			<%if @sort=="hot"%>
+
+			<li> <%= link_to 'Week', lista_url(@current_category, "hot", "week") %> </li>
+			<li>  <%= link_to 'Month', lista_url(@current_category, "hot", "month") %> </li>
+			<li><%= link_to "Year", lista_url(@current_category, "hot", "year") %> </li>
+			<%end%>
+
+			<%if @sort=="new"%>
+			<li> <%= link_to 'Updated', lista_url(@current_category, "new", "updated") %></li>
+			<li> <%= link_to 'Created', lista_url(@current_category, "new", "created") %></li>
+			<%end%>
+		</ul>
+	</div>
+	
+<div style="margin-top:40px;">
+<%= render :partial => @lists, :locals => {:user=>@user} %> 
+ </div>
+
+
+</div>
+ 
+<%= will_paginate @lists %>
+
+
+<% content_for(:right) do%>
+
+<div class="segment"> 
+	<div id="join-button"><a href="/lists/new"> </a></div> 
+	<h2>What is Light Salad?</h2>
+	<p>
+		Light Salad lets you create all kind of lists. Social lists are like dynamic polls where people can vote, downvote and add items to them. You can also create private lists like top 10s of stuff you like. Learn More.
+	</p>
+
+</div>
+
+
+<div class="segment">
+	<h2>Popular Tags</h2>
+	<div id="tagcloud">
+		<ul>
+			<%for tag in @cloud do%>
+			<li class="tag<%= 6-tag.n%6 %>"><a href="/tags/<%= tag.name %>"><span><%= tag.name %></span></a></li>
+			<%end%>
+
+		</ul>
+	</div>
+</div>
+<%end%>
+
+
+ 
+

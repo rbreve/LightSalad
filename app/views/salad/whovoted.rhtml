@@ -1,0 +1,24 @@
+
+
+<h1 id="post-title"><%= link_to @product.name, :action=>"view", :id=>@product %></h1>
+
+
+<h2><%=@feature.title%></h2>
+ 
+<div id="wholiked">
+
+	Like it <br/>
+
+	<%for user in @liked%>
+		<%=voteicon(1)%><%=link_to user.login, :controller => 'users', :action => user.login.to_s%> <br/> 
+	<%end%>
+
+</div>
+
+<div id="whodisliked">
+	Dislike it <br/>
+
+	<%for user in @disliked%>
+		<%=voteicon(-1)%><%=link_to user.login, :controller => 'users', :action => user.login.to_s%> <br/> 
+	<%end%>
+</div>

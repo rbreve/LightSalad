@@ -1,0 +1,20 @@
+<div class="comment">
+	<div class="userpic">
+		<%if comment.user.image%>
+		<img src="<%=UPLOAD_PATH + comment.user.image%>" alt="display"> <bR>
+			<%end%>
+		</div>
+
+		<div class="commentcontent">
+		<%=comment.text%>  
+
+
+		<p class="info">
+			By <%= link_to comment.user.login , :controller => 'users', :action => comment.user.login%>   <%=time_ago_in_words(comment.datetime)%> ago  
+		</p>
+	</div>
+
+
+
+
+</div>

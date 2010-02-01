@@ -1,0 +1,10 @@
+
+ 
+
+	<ul title="<%=h(@list.name)%>" selected="true" >
+	<%for feature in @features do%>
+		<li><a class="item-points"><%="+" if feature.points > 0%> <%=feature.points%></a> 
+		<%= link_to h(feature.title), feature_comments_path(feature.id), :class=>"smalltext" %>
+		</li>
+    <%end%>
+	</ul>

@@ -1,0 +1,54 @@
+<% form_for :user, :url => { :action => :login } do |form| %>
+<%= error_messages_for 'user' %>
+<div class='signup-form'>
+<%if @error == "1"%>
+
+ 
+Your account is almost ready! Now just wait a few minutes for a confirmation email where you will get instructions on how to activate your account.
+ 
+<%end%>
+
+<%if @error=="2"%>
+
+ 
+ Sorry the information you provided doesn't match our records<br><br>Please make sure that:
+ <ul><li>You have created an account with us</li><li>You have already activated the account</li><li>Your email and password are correct</li></ul> 
+
+<%end%>
+
+<%if @error=="3"%>
+    Your account has been activated!  Now you can sign in.
+<%end%>
+</div>
+<table id="login" align="center">
+<tr><td colspan=2><center><h2>Sign In</h2></center></td></tr>
+<tr>
+    <td>
+        Email: 
+    </td>
+    <td>
+        <%= form.text_field :email, :size => 20 %>
+    </td>
+</tr>
+
+<tr>
+    <td>
+        Password: 
+    </td>
+    <td>
+        <%= form.password_field :password, :size => 20 %>
+    </td>
+</tr>
+<tr>
+    <td colspan=2 id=submit>
+        <%= submit_tag "Sign In" , :class => "submit" %>
+        <p>
+        <%= link_to "Forgot your password?", :action=>"forget"%>
+        <br>
+        Don't have an account? <%= link_to "Sign Up now!", :action=>"signup"%>
+        </p>
+    </td>
+</tr>
+</table>
+
+<%end%> 

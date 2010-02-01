@@ -1,0 +1,8 @@
+ <h3>Sorry this list is password protected</h3>
+<p>Type Password</p>
+
+<%  form_tag( {:action => 'show', :id => @list}, :method => :get) do %>
+   <%=  text_field_tag  'password' %>
+
+  <span id="search-icon"> <%=  submit_tag ('Ok'), {:name=>""}%><br> </span>
+   <% end  %>

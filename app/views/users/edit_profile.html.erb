@@ -1,0 +1,30 @@
+<h2>Edit Profile</h2>
+
+<% form_tag :action=> "update_profile" do %>
+   
+    
+ 
+
+	<label for="name"> Name</label>
+	<p>
+    <%= text_field "user","name" %>
+  </p>
+	
+	<label for="gender">Gender</label>
+	<%=select("user", "gender", @gender)%>
+	
+ 	<label for="about">About</label>
+	<p>
+    <%= text_area "user","about" %>
+  </p>
+
+	<b>Links</b><br />
+	<p>
+    <%= text_area "user","links", :cols=>30, :rows=>10%>
+  </p>
+ 
+	
+  <p>
+    <%= submit_tag "Update" %>
+  </p>
+<% end %>

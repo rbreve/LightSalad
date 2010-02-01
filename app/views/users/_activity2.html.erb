@@ -1,0 +1,21 @@
+    <div class   = "list-item-activity">
+	
+			<div style="width:70px;float:left;height:70px;background-color:#EFE;position:relative;top:-40px;text-align:center;">
+			<a href="/users/<%=user.username%>"> 
+			<%=friend_image(user.image.to_s)%>
+			<%=user.username%>	
+			</a>
+			</div>
+			
+		<div class   = "icon">
+		  <img src="<%= IMAGE_DIR + icon.to_s%>">				
+		</div>
+		<div class   = "item-infocontainer2">
+			<div class  = "itemtitle-list-activity"><%= title %></div>
+			<p class = "description"><%= description %></p>
+			<p class  = "info"><%=info%></p>
+		</div>
+		
+	
+  </div>
+

@@ -1,0 +1,2602 @@
+# Logfile created on Thu Mar 22 04:20:49 Hora est. de América Central 2007 by logger.rb/1.5.2.7
+D, [2007-03-22T04:20:49.765000 #3776] DEBUG -- : TRACING ON Thu Mar 22 04:20:49 Hora est. de América Central 2007
+Thu Mar 22 04:21:00 Hora est. de América Central 2007 REQUEST /
+--- 
+SERVER_NAME: 127.0.0.1
+PATH_INFO: /
+HTTP_ACCEPT_ENCODING: gzip,deflate
+HTTP_USER_AGENT: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.3) Gecko/20070309 Firefox/2.0.0.3
+SCRIPT_NAME: /
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_ACCEPT_LANGUAGE: en-us,en;q=0.5
+HTTP_HOST: 127.0.0.1:3000
+REMOTE_ADDR: 127.0.0.1
+SERVER_SOFTWARE: Mongrel 0.3.13.3
+HTTP_KEEP_ALIVE: "300"
+HTTP_COOKIE: __utma=96992031.680125514.1171667631.1174279371.1174285844.62; __utmz=96992031.1171667631.1.1.utmccn=(direct)|utmcsr=(direct)|utmcmd=(none); _session_id=3e171f02e3cf31b41e55f15b6f9da50f
+HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+HTTP_VERSION: HTTP/1.1
+REQUEST_URI: /
+SERVER_PORT: "3000"
+GATEWAY_INTERFACE: CGI/1.2
+HTTP_ACCEPT: text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5
+HTTP_CONNECTION: keep-alive
+REQUEST_METHOD: GET
+
+Thu Mar 22 04:21:53 Hora est. de América Central 2007 REQUEST /
+--- 
+SERVER_NAME: 127.0.0.1
+PATH_INFO: /
+HTTP_ACCEPT_ENCODING: gzip,deflate
+HTTP_USER_AGENT: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.3) Gecko/20070309 Firefox/2.0.0.3
+SCRIPT_NAME: /
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CACHE_CONTROL: max-age=0
+HTTP_ACCEPT_LANGUAGE: en-us,en;q=0.5
+HTTP_HOST: 127.0.0.1:3000
+REMOTE_ADDR: 127.0.0.1
+SERVER_SOFTWARE: Mongrel 0.3.13.3
+HTTP_KEEP_ALIVE: "300"
+HTTP_COOKIE: __utma=96992031.680125514.1171667631.1174279371.1174285844.62; __utmz=96992031.1171667631.1.1.utmccn=(direct)|utmcsr=(direct)|utmcmd=(none); _session_id=3e171f02e3cf31b41e55f15b6f9da50f
+HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+HTTP_VERSION: HTTP/1.1
+REQUEST_URI: /
+SERVER_PORT: "3000"
+GATEWAY_INTERFACE: CGI/1.2
+HTTP_ACCEPT: text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5
+HTTP_CONNECTION: keep-alive
+REQUEST_METHOD: GET
+
+Thu Mar 22 04:21:55 Hora est. de América Central 2007 REQUEST /salad/list
+--- 
+SERVER_NAME: 127.0.0.1
+PATH_INFO: /salad/list
+HTTP_ACCEPT_ENCODING: gzip,deflate
+HTTP_USER_AGENT: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.3) Gecko/20070309 Firefox/2.0.0.3
+SCRIPT_NAME: /
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CACHE_CONTROL: max-age=0
+HTTP_ACCEPT_LANGUAGE: en-us,en;q=0.5
+HTTP_HOST: 127.0.0.1:3000
+REMOTE_ADDR: 127.0.0.1
+SERVER_SOFTWARE: Mongrel 0.3.13.3
+HTTP_KEEP_ALIVE: "300"
+HTTP_COOKIE: __utma=96992031.680125514.1171667631.1174279371.1174285844.62; __utmz=96992031.1171667631.1.1.utmccn=(direct)|utmcsr=(direct)|utmcmd=(none); _session_id=3e171f02e3cf31b41e55f15b6f9da50f
+HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+HTTP_VERSION: HTTP/1.1
+REQUEST_URI: /salad/list
+SERVER_PORT: "3000"
+GATEWAY_INTERFACE: CGI/1.2
+HTTP_ACCEPT: text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5
+HTTP_CONNECTION: keep-alive
+REQUEST_METHOD: GET
+
+Thu Mar 22 04:21:57 Hora est. de América Central 2007 REQUEST /stylesheets/scaffold.css
+--- 
+SERVER_NAME: 127.0.0.1
+PATH_INFO: /stylesheets/scaffold.css
+HTTP_ACCEPT_ENCODING: gzip,deflate
+HTTP_USER_AGENT: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.3) Gecko/20070309 Firefox/2.0.0.3
+SCRIPT_NAME: /
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CACHE_CONTROL: max-age=0
+HTTP_ACCEPT_LANGUAGE: en-us,en;q=0.5
+HTTP_HOST: 127.0.0.1:3000
+REMOTE_ADDR: 127.0.0.1
+SERVER_SOFTWARE: Mongrel 0.3.13.3
+HTTP_KEEP_ALIVE: "300"
+HTTP_REFERER: http://127.0.0.1:3000/salad/list
+HTTP_COOKIE: __utma=96992031.680125514.1171667631.1174279371.1174285844.62; __utmz=96992031.1171667631.1.1.utmccn=(direct)|utmcsr=(direct)|utmcmd=(none); _session_id=3e171f02e3cf31b41e55f15b6f9da50f
+HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+HTTP_VERSION: HTTP/1.1
+REQUEST_URI: /stylesheets/scaffold.css
+SERVER_PORT: "3000"
+GATEWAY_INTERFACE: CGI/1.2
+QUERY_STRING: /stylesheets/scaffold.css?
+HTTP_ACCEPT: text/css,*/*;q=0.1
+HTTP_CONNECTION: keep-alive
+REQUEST_METHOD: GET
+
+Thu Mar 22 04:21:58 Hora est. de América Central 2007 REQUEST /stylesheets/salad.css
+--- 
+SERVER_NAME: 127.0.0.1
+PATH_INFO: /stylesheets/salad.css
+HTTP_ACCEPT_ENCODING: gzip,deflate
+HTTP_USER_AGENT: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.3) Gecko/20070309 Firefox/2.0.0.3
+SCRIPT_NAME: /
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CACHE_CONTROL: max-age=0
+HTTP_IF_NONE_MATCH: "\"4602524b-496-0\""
+HTTP_ACCEPT_LANGUAGE: en-us,en;q=0.5
+HTTP_HOST: 127.0.0.1:3000
+REMOTE_ADDR: 127.0.0.1
+SERVER_SOFTWARE: Mongrel 0.3.13.3
+HTTP_KEEP_ALIVE: "300"
+HTTP_REFERER: http://127.0.0.1:3000/salad/list
+HTTP_COOKIE: __utma=96992031.680125514.1171667631.1174279371.1174285844.62; __utmz=96992031.1171667631.1.1.utmccn=(direct)|utmcsr=(direct)|utmcmd=(none); _session_id=3e171f02e3cf31b41e55f15b6f9da50f
+HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+HTTP_VERSION: HTTP/1.1
+REQUEST_URI: /stylesheets/salad.css
+SERVER_PORT: "3000"
+GATEWAY_INTERFACE: CGI/1.2
+HTTP_IF_MODIFIED_SINCE: Thu, 22 Mar 2007 09:54:19 GMT
+QUERY_STRING: "1174557259"
+HTTP_ACCEPT: text/css,*/*;q=0.1
+HTTP_CONNECTION: keep-alive
+REQUEST_METHOD: GET
+
+Thu Mar 22 04:22:00 Hora est. de América Central 2007 REQUEST /javascripts/prototype.js
+--- 
+SERVER_NAME: 127.0.0.1
+PATH_INFO: /javascripts/prototype.js
+HTTP_ACCEPT_ENCODING: gzip,deflate
+HTTP_USER_AGENT: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.3) Gecko/20070309 Firefox/2.0.0.3
+SCRIPT_NAME: /
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CACHE_CONTROL: max-age=0
+HTTP_IF_NONE_MATCH: "\"45a90a28-d76d-0\""
+HTTP_ACCEPT_LANGUAGE: en-us,en;q=0.5
+HTTP_HOST: 127.0.0.1:3000
+REMOTE_ADDR: 127.0.0.1
+SERVER_SOFTWARE: Mongrel 0.3.13.3
+HTTP_KEEP_ALIVE: "300"
+HTTP_REFERER: http://127.0.0.1:3000/salad/list
+HTTP_COOKIE: __utma=96992031.680125514.1171667631.1174279371.1174285844.62; __utmz=96992031.1171667631.1.1.utmccn=(direct)|utmcsr=(direct)|utmcmd=(none); _session_id=3e171f02e3cf31b41e55f15b6f9da50f
+HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+HTTP_VERSION: HTTP/1.1
+REQUEST_URI: /javascripts/prototype.js
+SERVER_PORT: "3000"
+GATEWAY_INTERFACE: CGI/1.2
+HTTP_IF_MODIFIED_SINCE: Sat, 13 Jan 2007 16:34:48 GMT
+QUERY_STRING: "1168706088"
+HTTP_ACCEPT: "*/*"
+HTTP_CONNECTION: keep-alive
+REQUEST_METHOD: GET
+
+Thu Mar 22 04:22:01 Hora est. de América Central 2007 REQUEST /javascripts/effects.js
+--- 
+SERVER_NAME: 127.0.0.1
+PATH_INFO: /javascripts/effects.js
+HTTP_ACCEPT_ENCODING: gzip,deflate
+HTTP_USER_AGENT: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.3) Gecko/20070309 Firefox/2.0.0.3
+SCRIPT_NAME: /
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CACHE_CONTROL: max-age=0
+HTTP_IF_NONE_MATCH: "\"45a90a28-8067-0\""
+HTTP_ACCEPT_LANGUAGE: en-us,en;q=0.5
+HTTP_HOST: 127.0.0.1:3000
+REMOTE_ADDR: 127.0.0.1
+SERVER_SOFTWARE: Mongrel 0.3.13.3
+HTTP_KEEP_ALIVE: "300"
+HTTP_REFERER: http://127.0.0.1:3000/salad/list
+HTTP_COOKIE: __utma=96992031.680125514.1171667631.1174279371.1174285844.62; __utmz=96992031.1171667631.1.1.utmccn=(direct)|utmcsr=(direct)|utmcmd=(none); _session_id=3e171f02e3cf31b41e55f15b6f9da50f
+HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+HTTP_VERSION: HTTP/1.1
+REQUEST_URI: /javascripts/effects.js
+SERVER_PORT: "3000"
+GATEWAY_INTERFACE: CGI/1.2
+HTTP_IF_MODIFIED_SINCE: Sat, 13 Jan 2007 16:34:48 GMT
+QUERY_STRING: "1168706088"
+HTTP_ACCEPT: "*/*"
+HTTP_CONNECTION: keep-alive
+REQUEST_METHOD: GET
+
+Thu Mar 22 04:22:03 Hora est. de América Central 2007 REQUEST /javascripts/dragdrop.js
+--- 
+SERVER_NAME: 127.0.0.1
+PATH_INFO: /javascripts/dragdrop.js
+HTTP_ACCEPT_ENCODING: gzip,deflate
+HTTP_USER_AGENT: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.3) Gecko/20070309 Firefox/2.0.0.3
+SCRIPT_NAME: /
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CACHE_CONTROL: max-age=0
+HTTP_IF_NONE_MATCH: "\"45a90a28-730d-0\""
+HTTP_ACCEPT_LANGUAGE: en-us,en;q=0.5
+HTTP_HOST: 127.0.0.1:3000
+REMOTE_ADDR: 127.0.0.1
+SERVER_SOFTWARE: Mongrel 0.3.13.3
+HTTP_KEEP_ALIVE: "300"
+HTTP_REFERER: http://127.0.0.1:3000/salad/list
+HTTP_COOKIE: __utma=96992031.680125514.1171667631.1174279371.1174285844.62; __utmz=96992031.1171667631.1.1.utmccn=(direct)|utmcsr=(direct)|utmcmd=(none); _session_id=3e171f02e3cf31b41e55f15b6f9da50f
+HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+HTTP_VERSION: HTTP/1.1
+REQUEST_URI: /javascripts/dragdrop.js
+SERVER_PORT: "3000"
+GATEWAY_INTERFACE: CGI/1.2
+HTTP_IF_MODIFIED_SINCE: Sat, 13 Jan 2007 16:34:48 GMT
+QUERY_STRING: "1168706088"
+HTTP_ACCEPT: "*/*"
+HTTP_CONNECTION: keep-alive
+REQUEST_METHOD: GET
+
+Thu Mar 22 04:22:04 Hora est. de América Central 2007 REQUEST /javascripts/controls.js
+--- 
+SERVER_NAME: 127.0.0.1
+PATH_INFO: /javascripts/controls.js
+HTTP_ACCEPT_ENCODING: gzip,deflate
+HTTP_USER_AGENT: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.3) Gecko/20070309 Firefox/2.0.0.3
+SCRIPT_NAME: /
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CACHE_CONTROL: max-age=0
+HTTP_IF_NONE_MATCH: "\"45a90a28-6d84-0\""
+HTTP_ACCEPT_LANGUAGE: en-us,en;q=0.5
+HTTP_HOST: 127.0.0.1:3000
+REMOTE_ADDR: 127.0.0.1
+SERVER_SOFTWARE: Mongrel 0.3.13.3
+HTTP_KEEP_ALIVE: "300"
+HTTP_REFERER: http://127.0.0.1:3000/salad/list
+HTTP_COOKIE: __utma=96992031.680125514.1171667631.1174279371.1174285844.62; __utmz=96992031.1171667631.1.1.utmccn=(direct)|utmcsr=(direct)|utmcmd=(none); _session_id=3e171f02e3cf31b41e55f15b6f9da50f
+HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+HTTP_VERSION: HTTP/1.1
+REQUEST_URI: /javascripts/controls.js
+SERVER_PORT: "3000"
+GATEWAY_INTERFACE: CGI/1.2
+HTTP_IF_MODIFIED_SINCE: Sat, 13 Jan 2007 16:34:48 GMT
+QUERY_STRING: "1168706088"
+HTTP_ACCEPT: "*/*"
+HTTP_CONNECTION: keep-alive
+REQUEST_METHOD: GET
+
+Thu Mar 22 04:22:06 Hora est. de América Central 2007 REQUEST /javascripts/application.js
+--- 
+SERVER_NAME: 127.0.0.1
+PATH_INFO: /javascripts/application.js
+HTTP_ACCEPT_ENCODING: gzip,deflate
+HTTP_USER_AGENT: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.3) Gecko/20070309 Firefox/2.0.0.3
+SCRIPT_NAME: /
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CACHE_CONTROL: max-age=0
+HTTP_IF_NONE_MATCH: "\"45a90a28-94-0\""
+HTTP_ACCEPT_LANGUAGE: en-us,en;q=0.5
+HTTP_HOST: 127.0.0.1:3000
+REMOTE_ADDR: 127.0.0.1
+SERVER_SOFTWARE: Mongrel 0.3.13.3
+HTTP_KEEP_ALIVE: "300"
+HTTP_REFERER: http://127.0.0.1:3000/salad/list
+HTTP_COOKIE: __utma=96992031.680125514.1171667631.1174279371.1174285844.62; __utmz=96992031.1171667631.1.1.utmccn=(direct)|utmcsr=(direct)|utmcmd=(none); _session_id=3e171f02e3cf31b41e55f15b6f9da50f
+HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+HTTP_VERSION: HTTP/1.1
+REQUEST_URI: /javascripts/application.js
+SERVER_PORT: "3000"
+GATEWAY_INTERFACE: CGI/1.2
+HTTP_IF_MODIFIED_SINCE: Sat, 13 Jan 2007 16:34:48 GMT
+QUERY_STRING: "1168706088"
+HTTP_ACCEPT: "*/*"
+HTTP_CONNECTION: keep-alive
+REQUEST_METHOD: GET
+
+Thu Mar 22 04:22:07 Hora est. de América Central 2007 REQUEST /images/favicon.png
+--- 
+SERVER_NAME: 127.0.0.1
+PATH_INFO: /images/favicon.png
+HTTP_ACCEPT_ENCODING: gzip,deflate
+HTTP_USER_AGENT: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.3) Gecko/20070309 Firefox/2.0.0.3
+SCRIPT_NAME: /
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_ACCEPT_LANGUAGE: en-us,en;q=0.5
+HTTP_HOST: 127.0.0.1:3000
+REMOTE_ADDR: 127.0.0.1
+SERVER_SOFTWARE: Mongrel 0.3.13.3
+HTTP_KEEP_ALIVE: "300"
+HTTP_COOKIE: __utma=96992031.680125514.1171667631.1174279371.1174285844.62; __utmz=96992031.1171667631.1.1.utmccn=(direct)|utmcsr=(direct)|utmcmd=(none); _session_id=3e171f02e3cf31b41e55f15b6f9da50f
+HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+HTTP_VERSION: HTTP/1.1
+REQUEST_URI: /images/favicon.png
+SERVER_PORT: "3000"
+GATEWAY_INTERFACE: CGI/1.2
+HTTP_ACCEPT: image/png,*/*;q=0.5
+HTTP_CONNECTION: keep-alive
+REQUEST_METHOD: GET
+
+Thu Mar 22 04:22:10 Hora est. de América Central 2007 REQUEST /salad/list
+--- 
+SERVER_NAME: 127.0.0.1
+PATH_INFO: /salad/list
+HTTP_ACCEPT_ENCODING: gzip,deflate
+HTTP_USER_AGENT: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.3) Gecko/20070309 Firefox/2.0.0.3
+SCRIPT_NAME: /
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_ACCEPT_LANGUAGE: en-us,en;q=0.5
+HTTP_HOST: 127.0.0.1:3000
+REMOTE_ADDR: 127.0.0.1
+SERVER_SOFTWARE: Mongrel 0.3.13.3
+HTTP_KEEP_ALIVE: "300"
+HTTP_REFERER: http://127.0.0.1:3000/salad/list
+HTTP_COOKIE: __utma=96992031.680125514.1171667631.1174279371.1174285844.62; __utmz=96992031.1171667631.1.1.utmccn=(direct)|utmcsr=(direct)|utmcmd=(none); _session_id=3e171f02e3cf31b41e55f15b6f9da50f
+HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+HTTP_VERSION: HTTP/1.1
+REQUEST_URI: /salad/list
+SERVER_PORT: "3000"
+GATEWAY_INTERFACE: CGI/1.2
+HTTP_ACCEPT: text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5
+HTTP_CONNECTION: keep-alive
+REQUEST_METHOD: GET
+
+Thu Mar 22 04:22:12 Hora est. de América Central 2007 REQUEST /stylesheets/scaffold.css
+--- 
+SERVER_NAME: 127.0.0.1
+PATH_INFO: /stylesheets/scaffold.css
+HTTP_ACCEPT_ENCODING: gzip,deflate
+HTTP_USER_AGENT: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.3) Gecko/20070309 Firefox/2.0.0.3
+SCRIPT_NAME: /
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_ACCEPT_LANGUAGE: en-us,en;q=0.5
+HTTP_HOST: 127.0.0.1:3000
+REMOTE_ADDR: 127.0.0.1
+SERVER_SOFTWARE: Mongrel 0.3.13.3
+HTTP_KEEP_ALIVE: "300"
+HTTP_REFERER: http://127.0.0.1:3000/salad/list
+HTTP_COOKIE: __utma=96992031.680125514.1171667631.1174279371.1174285844.62; __utmz=96992031.1171667631.1.1.utmccn=(direct)|utmcsr=(direct)|utmcmd=(none); _session_id=3e171f02e3cf31b41e55f15b6f9da50f
+HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+HTTP_VERSION: HTTP/1.1
+REQUEST_URI: /stylesheets/scaffold.css
+SERVER_PORT: "3000"
+GATEWAY_INTERFACE: CGI/1.2
+QUERY_STRING: /stylesheets/scaffold.css?
+HTTP_ACCEPT: text/css,*/*;q=0.1
+HTTP_CONNECTION: keep-alive
+REQUEST_METHOD: GET
+
+Thu Mar 22 04:22:16 Hora est. de América Central 2007 REQUEST /images/favicon.png
+--- 
+SERVER_NAME: 127.0.0.1
+PATH_INFO: /images/favicon.png
+HTTP_ACCEPT_ENCODING: gzip,deflate
+HTTP_USER_AGENT: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.3) Gecko/20070309 Firefox/2.0.0.3
+SCRIPT_NAME: /
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_ACCEPT_LANGUAGE: en-us,en;q=0.5
+HTTP_HOST: 127.0.0.1:3000
+REMOTE_ADDR: 127.0.0.1
+SERVER_SOFTWARE: Mongrel 0.3.13.3
+HTTP_KEEP_ALIVE: "300"
+HTTP_COOKIE: __utma=96992031.680125514.1171667631.1174279371.1174285844.62; __utmz=96992031.1171667631.1.1.utmccn=(direct)|utmcsr=(direct)|utmcmd=(none); _session_id=3e171f02e3cf31b41e55f15b6f9da50f
+HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+HTTP_VERSION: HTTP/1.1
+REQUEST_URI: /images/favicon.png
+SERVER_PORT: "3000"
+GATEWAY_INTERFACE: CGI/1.2
+HTTP_ACCEPT: image/png,*/*;q=0.5
+HTTP_CONNECTION: keep-alive
+REQUEST_METHOD: GET
+
+Thu Mar 22 04:22:16 Hora est. de América Central 2007 REQUEST /salad/view/5
+--- 
+SERVER_NAME: 127.0.0.1
+PATH_INFO: /salad/view/5
+HTTP_ACCEPT_ENCODING: gzip,deflate
+HTTP_USER_AGENT: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.3) Gecko/20070309 Firefox/2.0.0.3
+SCRIPT_NAME: /
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_ACCEPT_LANGUAGE: en-us,en;q=0.5
+HTTP_HOST: 127.0.0.1:3000
+REMOTE_ADDR: 127.0.0.1
+SERVER_SOFTWARE: Mongrel 0.3.13.3
+HTTP_KEEP_ALIVE: "300"
+HTTP_REFERER: http://127.0.0.1:3000/salad/list
+HTTP_COOKIE: __utma=96992031.680125514.1171667631.1174279371.1174285844.62; __utmz=96992031.1171667631.1.1.utmccn=(direct)|utmcsr=(direct)|utmcmd=(none); _session_id=3e171f02e3cf31b41e55f15b6f9da50f
+HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+HTTP_VERSION: HTTP/1.1
+REQUEST_URI: /salad/view/5
+SERVER_PORT: "3000"
+GATEWAY_INTERFACE: CGI/1.2
+HTTP_ACCEPT: text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5
+HTTP_CONNECTION: keep-alive
+REQUEST_METHOD: GET
+
+Thu Mar 22 04:22:19 Hora est. de América Central 2007 REQUEST /stylesheets/scaffold.css
+--- 
+SERVER_NAME: 127.0.0.1
+PATH_INFO: /stylesheets/scaffold.css
+HTTP_ACCEPT_ENCODING: gzip,deflate
+HTTP_USER_AGENT: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.3) Gecko/20070309 Firefox/2.0.0.3
+SCRIPT_NAME: /
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_ACCEPT_LANGUAGE: en-us,en;q=0.5
+HTTP_HOST: 127.0.0.1:3000
+REMOTE_ADDR: 127.0.0.1
+SERVER_SOFTWARE: Mongrel 0.3.13.3
+HTTP_KEEP_ALIVE: "300"
+HTTP_REFERER: http://127.0.0.1:3000/salad/view/5
+HTTP_COOKIE: __utma=96992031.680125514.1171667631.1174279371.1174285844.62; __utmz=96992031.1171667631.1.1.utmccn=(direct)|utmcsr=(direct)|utmcmd=(none); _session_id=3e171f02e3cf31b41e55f15b6f9da50f
+HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+HTTP_VERSION: HTTP/1.1
+REQUEST_URI: /stylesheets/scaffold.css
+SERVER_PORT: "3000"
+GATEWAY_INTERFACE: CGI/1.2
+QUERY_STRING: /stylesheets/scaffold.css?
+HTTP_ACCEPT: text/css,*/*;q=0.1
+HTTP_CONNECTION: keep-alive
+REQUEST_METHOD: GET
+
+Thu Mar 22 04:22:21 Hora est. de América Central 2007 REQUEST /images/favicon.png
+--- 
+SERVER_NAME: 127.0.0.1
+PATH_INFO: /images/favicon.png
+HTTP_ACCEPT_ENCODING: gzip,deflate
+HTTP_USER_AGENT: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.3) Gecko/20070309 Firefox/2.0.0.3
+SCRIPT_NAME: /
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_ACCEPT_LANGUAGE: en-us,en;q=0.5
+HTTP_HOST: 127.0.0.1:3000
+REMOTE_ADDR: 127.0.0.1
+SERVER_SOFTWARE: Mongrel 0.3.13.3
+HTTP_KEEP_ALIVE: "300"
+HTTP_COOKIE: __utma=96992031.680125514.1171667631.1174279371.1174285844.62; __utmz=96992031.1171667631.1.1.utmccn=(direct)|utmcsr=(direct)|utmcmd=(none); _session_id=3e171f02e3cf31b41e55f15b6f9da50f
+HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+HTTP_VERSION: HTTP/1.1
+REQUEST_URI: /images/favicon.png
+SERVER_PORT: "3000"
+GATEWAY_INTERFACE: CGI/1.2
+HTTP_ACCEPT: image/png,*/*;q=0.5
+HTTP_CONNECTION: keep-alive
+REQUEST_METHOD: GET
+
+Thu Mar 22 04:22:25 Hora est. de América Central 2007 REQUEST /salad/vote/17
+--- 
+SERVER_NAME: 127.0.0.1
+HTTP_X_PROTOTYPE_VERSION: 1.5.0_rc0
+PATH_INFO: /salad/vote/17
+CONTENT_LENGTH: "0"
+HTTP_CONTENT_TYPE: application/x-www-form-urlencoded
+HTTP_ACCEPT_ENCODING: gzip,deflate
+HTTP_USER_AGENT: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.3) Gecko/20070309 Firefox/2.0.0.3
+SCRIPT_NAME: /
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CACHE_CONTROL: no-cache
+HTTP_ACCEPT_LANGUAGE: en-us,en;q=0.5
+HTTP_HOST: 127.0.0.1:3000
+REMOTE_ADDR: 127.0.0.1
+SERVER_SOFTWARE: Mongrel 0.3.13.3
+HTTP_CONTENT_LENGTH: "0"
+HTTP_KEEP_ALIVE: "300"
+CONTENT_TYPE: application/x-www-form-urlencoded
+HTTP_REFERER: http://127.0.0.1:3000/salad/view/5
+HTTP_COOKIE: __utma=96992031.680125514.1171667631.1174279371.1174285844.62; __utmz=96992031.1171667631.1.1.utmccn=(direct)|utmcsr=(direct)|utmcmd=(none); _session_id=3e171f02e3cf31b41e55f15b6f9da50f
+HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+HTTP_VERSION: HTTP/1.1
+REQUEST_URI: /salad/vote/17
+SERVER_PORT: "3000"
+GATEWAY_INTERFACE: CGI/1.2
+HTTP_PRAGMA: no-cache
+QUERY_STRING: vote=up
+HTTP_ACCEPT: text/javascript, text/html, application/xml, text/xml, */*
+HTTP_X_REQUESTED_WITH: XMLHttpRequest
+HTTP_CONNECTION: close
+REQUEST_METHOD: POST
+
+Thu Mar 22 04:22:27 Hora est. de América Central 2007 REQUEST /user/signin
+--- 
+SERVER_NAME: 127.0.0.1
+PATH_INFO: /user/signin
+HTTP_ACCEPT_ENCODING: gzip,deflate
+HTTP_USER_AGENT: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.3) Gecko/20070309 Firefox/2.0.0.3
+SCRIPT_NAME: /
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CACHE_CONTROL: no-cache
+HTTP_ACCEPT_LANGUAGE: en-us,en;q=0.5
+HTTP_HOST: 127.0.0.1:3000
+REMOTE_ADDR: 127.0.0.1
+SERVER_SOFTWARE: Mongrel 0.3.13.3
+HTTP_KEEP_ALIVE: "300"
+HTTP_REFERER: http://127.0.0.1:3000/salad/view/5
+HTTP_COOKIE: __utma=96992031.680125514.1171667631.1174279371.1174285844.62; __utmz=96992031.1171667631.1.1.utmccn=(direct)|utmcsr=(direct)|utmcmd=(none); _session_id=3e171f02e3cf31b41e55f15b6f9da50f
+HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+HTTP_VERSION: HTTP/1.1
+REQUEST_URI: /user/signin
+SERVER_PORT: "3000"
+GATEWAY_INTERFACE: CGI/1.2
+HTTP_PRAGMA: no-cache
+HTTP_ACCEPT: text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5
+HTTP_CONNECTION: keep-alive
+REQUEST_METHOD: GET
+
+Thu Mar 22 04:22:34 Hora est. de América Central 2007 REQUEST /stylesheets/scaffold.css
+--- 
+SERVER_NAME: 127.0.0.1
+PATH_INFO: /stylesheets/scaffold.css
+HTTP_ACCEPT_ENCODING: gzip,deflate
+HTTP_USER_AGENT: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.3) Gecko/20070309 Firefox/2.0.0.3
+SCRIPT_NAME: /
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_ACCEPT_LANGUAGE: en-us,en;q=0.5
+HTTP_HOST: 127.0.0.1:3000
+REMOTE_ADDR: 127.0.0.1
+SERVER_SOFTWARE: Mongrel 0.3.13.3
+HTTP_KEEP_ALIVE: "300"
+HTTP_REFERER: http://127.0.0.1:3000/salad/view/5
+HTTP_COOKIE: __utma=96992031.680125514.1171667631.1174279371.1174285844.62; __utmz=96992031.1171667631.1.1.utmccn=(direct)|utmcsr=(direct)|utmcmd=(none); _session_id=3e171f02e3cf31b41e55f15b6f9da50f
+HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+HTTP_VERSION: HTTP/1.1
+REQUEST_URI: /stylesheets/scaffold.css
+SERVER_PORT: "3000"
+GATEWAY_INTERFACE: CGI/1.2
+QUERY_STRING: /stylesheets/scaffold.css?
+HTTP_ACCEPT: text/css,*/*;q=0.1
+HTTP_CONNECTION: keep-alive
+REQUEST_METHOD: GET
+
+Thu Mar 22 04:22:34 Hora est. de América Central 2007 REQUEST /images/favicon.png
+--- 
+SERVER_NAME: 127.0.0.1
+PATH_INFO: /images/favicon.png
+HTTP_ACCEPT_ENCODING: gzip,deflate
+HTTP_USER_AGENT: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.3) Gecko/20070309 Firefox/2.0.0.3
+SCRIPT_NAME: /
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_ACCEPT_LANGUAGE: en-us,en;q=0.5
+HTTP_HOST: 127.0.0.1:3000
+REMOTE_ADDR: 127.0.0.1
+SERVER_SOFTWARE: Mongrel 0.3.13.3
+HTTP_KEEP_ALIVE: "300"
+HTTP_COOKIE: __utma=96992031.680125514.1171667631.1174279371.1174285844.62; __utmz=96992031.1171667631.1.1.utmccn=(direct)|utmcsr=(direct)|utmcmd=(none); _session_id=3e171f02e3cf31b41e55f15b6f9da50f
+HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+HTTP_VERSION: HTTP/1.1
+REQUEST_URI: /images/favicon.png
+SERVER_PORT: "3000"
+GATEWAY_INTERFACE: CGI/1.2
+HTTP_ACCEPT: image/png,*/*;q=0.5
+HTTP_CONNECTION: keep-alive
+REQUEST_METHOD: GET
+
+Thu Mar 22 04:22:35 Hora est. de América Central 2007 REQUEST /images/favicon.png
+--- 
+SERVER_NAME: 127.0.0.1
+PATH_INFO: /images/favicon.png
+HTTP_ACCEPT_ENCODING: gzip,deflate
+HTTP_USER_AGENT: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.3) Gecko/20070309 Firefox/2.0.0.3
+SCRIPT_NAME: /
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_ACCEPT_LANGUAGE: en-us,en;q=0.5
+HTTP_HOST: 127.0.0.1:3000
+REMOTE_ADDR: 127.0.0.1
+SERVER_SOFTWARE: Mongrel 0.3.13.3
+HTTP_KEEP_ALIVE: "300"
+HTTP_COOKIE: __utma=96992031.680125514.1171667631.1174279371.1174285844.62; __utmz=96992031.1171667631.1.1.utmccn=(direct)|utmcsr=(direct)|utmcmd=(none); _session_id=3e171f02e3cf31b41e55f15b6f9da50f
+HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+HTTP_VERSION: HTTP/1.1
+REQUEST_URI: /images/favicon.png
+SERVER_PORT: "3000"
+GATEWAY_INTERFACE: CGI/1.2
+HTTP_ACCEPT: image/png,*/*;q=0.5
+HTTP_CONNECTION: keep-alive
+REQUEST_METHOD: GET
+
+Thu Mar 22 04:22:37 Hora est. de América Central 2007 REQUEST /user/openid_signin
+--- 
+SERVER_NAME: 127.0.0.1
+PATH_INFO: /user/openid_signin
+HTTP_ACCEPT_ENCODING: gzip,deflate
+HTTP_USER_AGENT: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.3) Gecko/20070309 Firefox/2.0.0.3
+SCRIPT_NAME: /
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_ACCEPT_LANGUAGE: en-us,en;q=0.5
+HTTP_HOST: 127.0.0.1:3000
+REMOTE_ADDR: 127.0.0.1
+SERVER_SOFTWARE: Mongrel 0.3.13.3
+HTTP_KEEP_ALIVE: "300"
+HTTP_COOKIE: __utma=96992031.680125514.1171667631.1174279371.1174285844.62; __utmz=96992031.1171667631.1.1.utmccn=(direct)|utmcsr=(direct)|utmcmd=(none); _session_id=3e171f02e3cf31b41e55f15b6f9da50f
+HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+HTTP_VERSION: HTTP/1.1
+REQUEST_URI: /user/openid_signin
+SERVER_PORT: "3000"
+GATEWAY_INTERFACE: CGI/1.2
+HTTP_ACCEPT: text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5
+HTTP_CONNECTION: keep-alive
+REQUEST_METHOD: GET
+
+Thu Mar 22 04:22:39 Hora est. de América Central 2007 REQUEST /stylesheets/scaffold.css
+--- 
+SERVER_NAME: 127.0.0.1
+PATH_INFO: /stylesheets/scaffold.css
+HTTP_ACCEPT_ENCODING: gzip,deflate
+HTTP_USER_AGENT: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.3) Gecko/20070309 Firefox/2.0.0.3
+SCRIPT_NAME: /
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_ACCEPT_LANGUAGE: en-us,en;q=0.5
+HTTP_HOST: 127.0.0.1:3000
+REMOTE_ADDR: 127.0.0.1
+SERVER_SOFTWARE: Mongrel 0.3.13.3
+HTTP_KEEP_ALIVE: "300"
+HTTP_REFERER: http://127.0.0.1:3000/user/openid_signin
+HTTP_COOKIE: __utma=96992031.680125514.1171667631.1174279371.1174285844.62; __utmz=96992031.1171667631.1.1.utmccn=(direct)|utmcsr=(direct)|utmcmd=(none); _session_id=3e171f02e3cf31b41e55f15b6f9da50f
+HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+HTTP_VERSION: HTTP/1.1
+REQUEST_URI: /stylesheets/scaffold.css
+SERVER_PORT: "3000"
+GATEWAY_INTERFACE: CGI/1.2
+QUERY_STRING: /stylesheets/scaffold.css?
+HTTP_ACCEPT: text/css,*/*;q=0.1
+HTTP_CONNECTION: keep-alive
+REQUEST_METHOD: GET
+
+Thu Mar 22 04:22:43 Hora est. de América Central 2007 REQUEST /images/favicon.png
+--- 
+SERVER_NAME: 127.0.0.1
+PATH_INFO: /images/favicon.png
+HTTP_ACCEPT_ENCODING: gzip,deflate
+HTTP_USER_AGENT: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.3) Gecko/20070309 Firefox/2.0.0.3
+SCRIPT_NAME: /
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_ACCEPT_LANGUAGE: en-us,en;q=0.5
+HTTP_HOST: 127.0.0.1:3000
+REMOTE_ADDR: 127.0.0.1
+SERVER_SOFTWARE: Mongrel 0.3.13.3
+HTTP_KEEP_ALIVE: "300"
+HTTP_COOKIE: __utma=96992031.680125514.1171667631.1174279371.1174285844.62; __utmz=96992031.1171667631.1.1.utmccn=(direct)|utmcsr=(direct)|utmcmd=(none); _session_id=3e171f02e3cf31b41e55f15b6f9da50f
+HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+HTTP_VERSION: HTTP/1.1
+REQUEST_URI: /images/favicon.png
+SERVER_PORT: "3000"
+GATEWAY_INTERFACE: CGI/1.2
+HTTP_ACCEPT: image/png,*/*;q=0.5
+HTTP_CONNECTION: keep-alive
+REQUEST_METHOD: GET
+
+Thu Mar 22 04:22:43 Hora est. de América Central 2007 REQUEST /images/login-bg.gif
+--- 
+SERVER_NAME: 127.0.0.1
+PATH_INFO: /images/login-bg.gif
+HTTP_ACCEPT_ENCODING: gzip,deflate
+HTTP_USER_AGENT: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.3) Gecko/20070309 Firefox/2.0.0.3
+SCRIPT_NAME: /
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_IF_NONE_MATCH: "\"46025260-ed-0\""
+HTTP_ACCEPT_LANGUAGE: en-us,en;q=0.5
+HTTP_HOST: 127.0.0.1:3000
+REMOTE_ADDR: 127.0.0.1
+SERVER_SOFTWARE: Mongrel 0.3.13.3
+HTTP_KEEP_ALIVE: "300"
+HTTP_REFERER: http://127.0.0.1:3000/stylesheets/salad.css?1174557259
+HTTP_COOKIE: __utma=96992031.680125514.1171667631.1174279371.1174285844.62; __utmz=96992031.1171667631.1.1.utmccn=(direct)|utmcsr=(direct)|utmcmd=(none); _session_id=3e171f02e3cf31b41e55f15b6f9da50f
+HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+HTTP_VERSION: HTTP/1.1
+REQUEST_URI: /images/login-bg.gif
+SERVER_PORT: "3000"
+GATEWAY_INTERFACE: CGI/1.2
+HTTP_IF_MODIFIED_SINCE: Thu, 22 Mar 2007 09:54:40 GMT
+HTTP_ACCEPT: image/png,*/*;q=0.5
+HTTP_CONNECTION: keep-alive
+REQUEST_METHOD: GET
+
+Thu Mar 22 04:22:44 Hora est. de América Central 2007 REQUEST /user/openid_login
+--- 
+SERVER_NAME: 127.0.0.1
+PATH_INFO: /user/openid_login
+CONTENT_LENGTH: "43"
+HTTP_CONTENT_TYPE: application/x-www-form-urlencoded
+HTTP_ACCEPT_ENCODING: gzip,deflate
+HTTP_USER_AGENT: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.3) Gecko/20070309 Firefox/2.0.0.3
+SCRIPT_NAME: /
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_ACCEPT_LANGUAGE: en-us,en;q=0.5
+HTTP_HOST: 127.0.0.1:3000
+REMOTE_ADDR: 127.0.0.1
+SERVER_SOFTWARE: Mongrel 0.3.13.3
+HTTP_CONTENT_LENGTH: "43"
+HTTP_KEEP_ALIVE: "300"
+CONTENT_TYPE: application/x-www-form-urlencoded
+HTTP_REFERER: http://127.0.0.1:3000/user/openid_signin
+HTTP_COOKIE: __utma=96992031.680125514.1171667631.1174279371.1174285844.62; __utmz=96992031.1171667631.1.1.utmccn=(direct)|utmcsr=(direct)|utmcmd=(none); _session_id=3e171f02e3cf31b41e55f15b6f9da50f
+HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+HTTP_VERSION: HTTP/1.1
+REQUEST_URI: /user/openid_login
+SERVER_PORT: "3000"
+GATEWAY_INTERFACE: CGI/1.2
+HTTP_ACCEPT: text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5
+HTTP_CONNECTION: keep-alive
+REQUEST_METHOD: POST
+
+Thu Mar 22 04:24:38 Hora est. de América Central 2007 REQUEST /images/favicon.png
+--- 
+SERVER_NAME: 127.0.0.1
+PATH_INFO: /images/favicon.png
+HTTP_ACCEPT_ENCODING: gzip,deflate
+HTTP_USER_AGENT: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.3) Gecko/20070309 Firefox/2.0.0.3
+SCRIPT_NAME: /
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_ACCEPT_LANGUAGE: en-us,en;q=0.5
+HTTP_HOST: 127.0.0.1:3000
+REMOTE_ADDR: 127.0.0.1
+SERVER_SOFTWARE: Mongrel 0.3.13.3
+HTTP_KEEP_ALIVE: "300"
+HTTP_COOKIE: __utma=96992031.680125514.1171667631.1174279371.1174285844.62; __utmz=96992031.1171667631.1.1.utmccn=(direct)|utmcsr=(direct)|utmcmd=(none); _session_id=3e171f02e3cf31b41e55f15b6f9da50f
+HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+HTTP_VERSION: HTTP/1.1
+REQUEST_URI: /images/favicon.png
+SERVER_PORT: "3000"
+GATEWAY_INTERFACE: CGI/1.2
+HTTP_ACCEPT: image/png,*/*;q=0.5
+HTTP_CONNECTION: keep-alive
+REQUEST_METHOD: GET
+
+Thu Mar 22 04:24:42 Hora est. de América Central 2007 REQUEST /user/openid_signin
+--- 
+SERVER_NAME: 127.0.0.1
+PATH_INFO: /user/openid_signin
+HTTP_ACCEPT_ENCODING: gzip,deflate
+HTTP_USER_AGENT: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.3) Gecko/20070309 Firefox/2.0.0.3
+SCRIPT_NAME: /
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CACHE_CONTROL: max-age=0
+HTTP_ACCEPT_LANGUAGE: en-us,en;q=0.5
+HTTP_HOST: 127.0.0.1:3000
+REMOTE_ADDR: 127.0.0.1
+SERVER_SOFTWARE: Mongrel 0.3.13.3
+HTTP_KEEP_ALIVE: "300"
+HTTP_COOKIE: __utma=96992031.680125514.1171667631.1174279371.1174285844.62; __utmz=96992031.1171667631.1.1.utmccn=(direct)|utmcsr=(direct)|utmcmd=(none); _session_id=3e171f02e3cf31b41e55f15b6f9da50f
+HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+HTTP_VERSION: HTTP/1.1
+REQUEST_URI: /user/openid_signin
+SERVER_PORT: "3000"
+GATEWAY_INTERFACE: CGI/1.2
+HTTP_ACCEPT: text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5
+HTTP_CONNECTION: keep-alive
+REQUEST_METHOD: GET
+
+D, [2007-03-22T04:24:51.953000 #3516] DEBUG -- : TRACING ON Thu Mar 22 04:24:51 Hora est. de América Central 2007
+Thu Mar 22 04:24:58 Hora est. de América Central 2007 REQUEST /user/openid_signin
+--- 
+SERVER_NAME: 127.0.0.1
+PATH_INFO: /user/openid_signin
+HTTP_ACCEPT_ENCODING: gzip,deflate
+HTTP_USER_AGENT: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.3) Gecko/20070309 Firefox/2.0.0.3
+SCRIPT_NAME: /
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CACHE_CONTROL: max-age=0
+HTTP_ACCEPT_LANGUAGE: en-us,en;q=0.5
+HTTP_HOST: 127.0.0.1:3000
+REMOTE_ADDR: 127.0.0.1
+SERVER_SOFTWARE: Mongrel 0.3.13.3
+HTTP_KEEP_ALIVE: "300"
+HTTP_COOKIE: __utma=96992031.680125514.1171667631.1174279371.1174285844.62; __utmz=96992031.1171667631.1.1.utmccn=(direct)|utmcsr=(direct)|utmcmd=(none); _session_id=3e171f02e3cf31b41e55f15b6f9da50f
+HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+HTTP_VERSION: HTTP/1.1
+REQUEST_URI: /user/openid_signin
+SERVER_PORT: "3000"
+GATEWAY_INTERFACE: CGI/1.2
+HTTP_ACCEPT: text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5
+HTTP_CONNECTION: keep-alive
+REQUEST_METHOD: GET
+
+Thu Mar 22 04:25:00 Hora est. de América Central 2007 REQUEST /stylesheets/scaffold.css
+--- 
+SERVER_NAME: 127.0.0.1
+PATH_INFO: /stylesheets/scaffold.css
+HTTP_ACCEPT_ENCODING: gzip,deflate
+HTTP_USER_AGENT: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.3) Gecko/20070309 Firefox/2.0.0.3
+SCRIPT_NAME: /
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CACHE_CONTROL: max-age=0
+HTTP_ACCEPT_LANGUAGE: en-us,en;q=0.5
+HTTP_HOST: 127.0.0.1:3000
+REMOTE_ADDR: 127.0.0.1
+SERVER_SOFTWARE: Mongrel 0.3.13.3
+HTTP_KEEP_ALIVE: "300"
+HTTP_REFERER: http://127.0.0.1:3000/user/openid_signin
+HTTP_COOKIE: __utma=96992031.680125514.1171667631.1174279371.1174285844.62; __utmz=96992031.1171667631.1.1.utmccn=(direct)|utmcsr=(direct)|utmcmd=(none); _session_id=3e171f02e3cf31b41e55f15b6f9da50f
+HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+HTTP_VERSION: HTTP/1.1
+REQUEST_URI: /stylesheets/scaffold.css
+SERVER_PORT: "3000"
+GATEWAY_INTERFACE: CGI/1.2
+QUERY_STRING: /stylesheets/scaffold.css?
+HTTP_ACCEPT: text/css,*/*;q=0.1
+HTTP_CONNECTION: keep-alive
+REQUEST_METHOD: GET
+
+Thu Mar 22 04:25:02 Hora est. de América Central 2007 REQUEST /stylesheets/salad.css
+--- 
+SERVER_NAME: 127.0.0.1
+PATH_INFO: /stylesheets/salad.css
+HTTP_ACCEPT_ENCODING: gzip,deflate
+HTTP_USER_AGENT: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.3) Gecko/20070309 Firefox/2.0.0.3
+SCRIPT_NAME: /
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CACHE_CONTROL: max-age=0
+HTTP_IF_NONE_MATCH: "\"4602524b-496-0\""
+HTTP_ACCEPT_LANGUAGE: en-us,en;q=0.5
+HTTP_HOST: 127.0.0.1:3000
+REMOTE_ADDR: 127.0.0.1
+SERVER_SOFTWARE: Mongrel 0.3.13.3
+HTTP_KEEP_ALIVE: "300"
+HTTP_REFERER: http://127.0.0.1:3000/user/openid_signin
+HTTP_COOKIE: __utma=96992031.680125514.1171667631.1174279371.1174285844.62; __utmz=96992031.1171667631.1.1.utmccn=(direct)|utmcsr=(direct)|utmcmd=(none); _session_id=3e171f02e3cf31b41e55f15b6f9da50f
+HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+HTTP_VERSION: HTTP/1.1
+REQUEST_URI: /stylesheets/salad.css
+SERVER_PORT: "3000"
+GATEWAY_INTERFACE: CGI/1.2
+HTTP_IF_MODIFIED_SINCE: Thu, 22 Mar 2007 09:54:19 GMT
+QUERY_STRING: "1174557259"
+HTTP_ACCEPT: text/css,*/*;q=0.1
+HTTP_CONNECTION: keep-alive
+REQUEST_METHOD: GET
+
+Thu Mar 22 04:25:03 Hora est. de América Central 2007 REQUEST /javascripts/prototype.js
+--- 
+SERVER_NAME: 127.0.0.1
+PATH_INFO: /javascripts/prototype.js
+HTTP_ACCEPT_ENCODING: gzip,deflate
+HTTP_USER_AGENT: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.3) Gecko/20070309 Firefox/2.0.0.3
+SCRIPT_NAME: /
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CACHE_CONTROL: max-age=0
+HTTP_IF_NONE_MATCH: "\"45a90a28-d76d-0\""
+HTTP_ACCEPT_LANGUAGE: en-us,en;q=0.5
+HTTP_HOST: 127.0.0.1:3000
+REMOTE_ADDR: 127.0.0.1
+SERVER_SOFTWARE: Mongrel 0.3.13.3
+HTTP_KEEP_ALIVE: "300"
+HTTP_REFERER: http://127.0.0.1:3000/user/openid_signin
+HTTP_COOKIE: __utma=96992031.680125514.1171667631.1174279371.1174285844.62; __utmz=96992031.1171667631.1.1.utmccn=(direct)|utmcsr=(direct)|utmcmd=(none); _session_id=3e171f02e3cf31b41e55f15b6f9da50f
+HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+HTTP_VERSION: HTTP/1.1
+REQUEST_URI: /javascripts/prototype.js
+SERVER_PORT: "3000"
+GATEWAY_INTERFACE: CGI/1.2
+HTTP_IF_MODIFIED_SINCE: Sat, 13 Jan 2007 16:34:48 GMT
+QUERY_STRING: "1168706088"
+HTTP_ACCEPT: "*/*"
+HTTP_CONNECTION: keep-alive
+REQUEST_METHOD: GET
+
+Thu Mar 22 04:25:04 Hora est. de América Central 2007 REQUEST /salad/list
+--- 
+SERVER_NAME: 127.0.0.1
+PATH_INFO: /salad/list
+HTTP_ACCEPT_ENCODING: gzip,deflate
+HTTP_USER_AGENT: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.3) Gecko/20070309 Firefox/2.0.0.3
+SCRIPT_NAME: /
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_ACCEPT_LANGUAGE: en-us,en;q=0.5
+HTTP_HOST: 127.0.0.1:3000
+REMOTE_ADDR: 127.0.0.1
+SERVER_SOFTWARE: Mongrel 0.3.13.3
+HTTP_KEEP_ALIVE: "300"
+HTTP_REFERER: http://127.0.0.1:3000/user/openid_signin
+HTTP_COOKIE: __utma=96992031.680125514.1171667631.1174279371.1174285844.62; __utmz=96992031.1171667631.1.1.utmccn=(direct)|utmcsr=(direct)|utmcmd=(none); _session_id=3e171f02e3cf31b41e55f15b6f9da50f
+HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+HTTP_VERSION: HTTP/1.1
+REQUEST_URI: /salad/list
+SERVER_PORT: "3000"
+GATEWAY_INTERFACE: CGI/1.2
+HTTP_ACCEPT: text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5
+HTTP_CONNECTION: keep-alive
+REQUEST_METHOD: GET
+
+Thu Mar 22 04:25:06 Hora est. de América Central 2007 REQUEST /stylesheets/scaffold.css
+--- 
+SERVER_NAME: 127.0.0.1
+PATH_INFO: /stylesheets/scaffold.css
+HTTP_ACCEPT_ENCODING: gzip,deflate
+HTTP_USER_AGENT: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.3) Gecko/20070309 Firefox/2.0.0.3
+SCRIPT_NAME: /
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_ACCEPT_LANGUAGE: en-us,en;q=0.5
+HTTP_HOST: 127.0.0.1:3000
+REMOTE_ADDR: 127.0.0.1
+SERVER_SOFTWARE: Mongrel 0.3.13.3
+HTTP_KEEP_ALIVE: "300"
+HTTP_REFERER: http://127.0.0.1:3000/salad/list
+HTTP_COOKIE: __utma=96992031.680125514.1171667631.1174279371.1174285844.62; __utmz=96992031.1171667631.1.1.utmccn=(direct)|utmcsr=(direct)|utmcmd=(none); _session_id=3e171f02e3cf31b41e55f15b6f9da50f
+HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+HTTP_VERSION: HTTP/1.1
+REQUEST_URI: /stylesheets/scaffold.css
+SERVER_PORT: "3000"
+GATEWAY_INTERFACE: CGI/1.2
+QUERY_STRING: /stylesheets/scaffold.css?
+HTTP_ACCEPT: text/css,*/*;q=0.1
+HTTP_CONNECTION: keep-alive
+REQUEST_METHOD: GET
+
+Thu Mar 22 04:25:08 Hora est. de América Central 2007 REQUEST /images/favicon.png
+--- 
+SERVER_NAME: 127.0.0.1
+PATH_INFO: /images/favicon.png
+HTTP_ACCEPT_ENCODING: gzip,deflate
+HTTP_USER_AGENT: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.3) Gecko/20070309 Firefox/2.0.0.3
+SCRIPT_NAME: /
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_ACCEPT_LANGUAGE: en-us,en;q=0.5
+HTTP_HOST: 127.0.0.1:3000
+REMOTE_ADDR: 127.0.0.1
+SERVER_SOFTWARE: Mongrel 0.3.13.3
+HTTP_KEEP_ALIVE: "300"
+HTTP_COOKIE: __utma=96992031.680125514.1171667631.1174279371.1174285844.62; __utmz=96992031.1171667631.1.1.utmccn=(direct)|utmcsr=(direct)|utmcmd=(none); _session_id=3e171f02e3cf31b41e55f15b6f9da50f
+HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+HTTP_VERSION: HTTP/1.1
+REQUEST_URI: /images/favicon.png
+SERVER_PORT: "3000"
+GATEWAY_INTERFACE: CGI/1.2
+HTTP_ACCEPT: image/png,*/*;q=0.5
+HTTP_CONNECTION: keep-alive
+REQUEST_METHOD: GET
+
+Thu Mar 22 04:25:13 Hora est. de América Central 2007 REQUEST /user/openid_signin
+--- 
+SERVER_NAME: 127.0.0.1
+PATH_INFO: /user/openid_signin
+HTTP_ACCEPT_ENCODING: gzip,deflate
+HTTP_USER_AGENT: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.3) Gecko/20070309 Firefox/2.0.0.3
+SCRIPT_NAME: /
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_ACCEPT_LANGUAGE: en-us,en;q=0.5
+HTTP_HOST: 127.0.0.1:3000
+REMOTE_ADDR: 127.0.0.1
+SERVER_SOFTWARE: Mongrel 0.3.13.3
+HTTP_KEEP_ALIVE: "300"
+HTTP_COOKIE: __utma=96992031.680125514.1171667631.1174279371.1174285844.62; __utmz=96992031.1171667631.1.1.utmccn=(direct)|utmcsr=(direct)|utmcmd=(none); _session_id=3e171f02e3cf31b41e55f15b6f9da50f
+HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+HTTP_VERSION: HTTP/1.1
+REQUEST_URI: /user/openid_signin
+SERVER_PORT: "3000"
+GATEWAY_INTERFACE: CGI/1.2
+HTTP_ACCEPT: text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5
+HTTP_CONNECTION: keep-alive
+REQUEST_METHOD: GET
+
+Thu Mar 22 04:25:15 Hora est. de América Central 2007 REQUEST /stylesheets/scaffold.css
+--- 
+SERVER_NAME: 127.0.0.1
+PATH_INFO: /stylesheets/scaffold.css
+HTTP_ACCEPT_ENCODING: gzip,deflate
+HTTP_USER_AGENT: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.3) Gecko/20070309 Firefox/2.0.0.3
+SCRIPT_NAME: /
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_ACCEPT_LANGUAGE: en-us,en;q=0.5
+HTTP_HOST: 127.0.0.1:3000
+REMOTE_ADDR: 127.0.0.1
+SERVER_SOFTWARE: Mongrel 0.3.13.3
+HTTP_KEEP_ALIVE: "300"
+HTTP_REFERER: http://127.0.0.1:3000/user/openid_signin
+HTTP_COOKIE: __utma=96992031.680125514.1171667631.1174279371.1174285844.62; __utmz=96992031.1171667631.1.1.utmccn=(direct)|utmcsr=(direct)|utmcmd=(none); _session_id=3e171f02e3cf31b41e55f15b6f9da50f
+HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+HTTP_VERSION: HTTP/1.1
+REQUEST_URI: /stylesheets/scaffold.css
+SERVER_PORT: "3000"
+GATEWAY_INTERFACE: CGI/1.2
+QUERY_STRING: /stylesheets/scaffold.css?
+HTTP_ACCEPT: text/css,*/*;q=0.1
+HTTP_CONNECTION: keep-alive
+REQUEST_METHOD: GET
+
+Thu Mar 22 04:25:17 Hora est. de América Central 2007 REQUEST /images/favicon.png
+--- 
+SERVER_NAME: 127.0.0.1
+PATH_INFO: /images/favicon.png
+HTTP_ACCEPT_ENCODING: gzip,deflate
+HTTP_USER_AGENT: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.3) Gecko/20070309 Firefox/2.0.0.3
+SCRIPT_NAME: /
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_ACCEPT_LANGUAGE: en-us,en;q=0.5
+HTTP_HOST: 127.0.0.1:3000
+REMOTE_ADDR: 127.0.0.1
+SERVER_SOFTWARE: Mongrel 0.3.13.3
+HTTP_KEEP_ALIVE: "300"
+HTTP_COOKIE: __utma=96992031.680125514.1171667631.1174279371.1174285844.62; __utmz=96992031.1171667631.1.1.utmccn=(direct)|utmcsr=(direct)|utmcmd=(none); _session_id=3e171f02e3cf31b41e55f15b6f9da50f
+HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+HTTP_VERSION: HTTP/1.1
+REQUEST_URI: /images/favicon.png
+SERVER_PORT: "3000"
+GATEWAY_INTERFACE: CGI/1.2
+HTTP_ACCEPT: image/png,*/*;q=0.5
+HTTP_CONNECTION: keep-alive
+REQUEST_METHOD: GET
+
+Thu Mar 22 04:26:52 Hora est. de América Central 2007 REQUEST /user/openid_login
+--- 
+SERVER_NAME: 127.0.0.1
+PATH_INFO: /user/openid_login
+CONTENT_LENGTH: "31"
+HTTP_CONTENT_TYPE: application/x-www-form-urlencoded
+HTTP_ACCEPT_ENCODING: gzip,deflate
+HTTP_USER_AGENT: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.3) Gecko/20070309 Firefox/2.0.0.3
+SCRIPT_NAME: /
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_ACCEPT_LANGUAGE: en-us,en;q=0.5
+HTTP_HOST: 127.0.0.1:3000
+REMOTE_ADDR: 127.0.0.1
+SERVER_SOFTWARE: Mongrel 0.3.13.3
+HTTP_CONTENT_LENGTH: "31"
+HTTP_KEEP_ALIVE: "300"
+CONTENT_TYPE: application/x-www-form-urlencoded
+HTTP_REFERER: http://127.0.0.1:3000/user/openid_signin
+HTTP_COOKIE: __utma=96992031.680125514.1171667631.1174279371.1174285844.62; __utmz=96992031.1171667631.1.1.utmccn=(direct)|utmcsr=(direct)|utmcmd=(none); _session_id=3e171f02e3cf31b41e55f15b6f9da50f
+HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+HTTP_VERSION: HTTP/1.1
+REQUEST_URI: /user/openid_login
+SERVER_PORT: "3000"
+GATEWAY_INTERFACE: CGI/1.2
+HTTP_ACCEPT: text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5
+HTTP_CONNECTION: keep-alive
+REQUEST_METHOD: POST
+
+Thu Mar 22 04:27:13 Hora est. de América Central 2007 REQUEST /user/openid_login
+--- 
+SERVER_NAME: 127.0.0.1
+PATH_INFO: /user/openid_login
+CONTENT_LENGTH: "31"
+HTTP_CONTENT_TYPE: application/x-www-form-urlencoded
+HTTP_ACCEPT_ENCODING: gzip,deflate
+HTTP_USER_AGENT: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.3) Gecko/20070309 Firefox/2.0.0.3
+SCRIPT_NAME: /
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CACHE_CONTROL: max-age=0
+HTTP_ACCEPT_LANGUAGE: en-us,en;q=0.5
+HTTP_HOST: 127.0.0.1:3000
+REMOTE_ADDR: 127.0.0.1
+SERVER_SOFTWARE: Mongrel 0.3.13.3
+HTTP_CONTENT_LENGTH: "31"
+HTTP_KEEP_ALIVE: "300"
+CONTENT_TYPE: application/x-www-form-urlencoded
+HTTP_REFERER: http://127.0.0.1:3000/user/openid_signin
+HTTP_COOKIE: __utma=96992031.680125514.1171667631.1174279371.1174285844.62; __utmz=96992031.1171667631.1.1.utmccn=(direct)|utmcsr=(direct)|utmcmd=(none); _session_id=3e171f02e3cf31b41e55f15b6f9da50f
+HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+HTTP_VERSION: HTTP/1.1
+REQUEST_URI: /user/openid_login
+SERVER_PORT: "3000"
+GATEWAY_INTERFACE: CGI/1.2
+HTTP_ACCEPT: text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5
+HTTP_CONNECTION: keep-alive
+REQUEST_METHOD: POST
+
+Thu Mar 22 04:27:16 Hora est. de América Central 2007 REQUEST /stylesheets/scaffold.css
+--- 
+SERVER_NAME: 127.0.0.1
+PATH_INFO: /stylesheets/scaffold.css
+HTTP_ACCEPT_ENCODING: gzip,deflate
+HTTP_USER_AGENT: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.3) Gecko/20070309 Firefox/2.0.0.3
+SCRIPT_NAME: /
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CACHE_CONTROL: max-age=0
+HTTP_ACCEPT_LANGUAGE: en-us,en;q=0.5
+HTTP_HOST: 127.0.0.1:3000
+REMOTE_ADDR: 127.0.0.1
+SERVER_SOFTWARE: Mongrel 0.3.13.3
+HTTP_KEEP_ALIVE: "300"
+HTTP_REFERER: http://127.0.0.1:3000/user/openid_login
+HTTP_COOKIE: __utma=96992031.680125514.1171667631.1174279371.1174285844.62; __utmz=96992031.1171667631.1.1.utmccn=(direct)|utmcsr=(direct)|utmcmd=(none); _session_id=3e171f02e3cf31b41e55f15b6f9da50f
+HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+HTTP_VERSION: HTTP/1.1
+REQUEST_URI: /stylesheets/scaffold.css
+SERVER_PORT: "3000"
+GATEWAY_INTERFACE: CGI/1.2
+QUERY_STRING: /stylesheets/scaffold.css?
+HTTP_ACCEPT: text/css,*/*;q=0.1
+HTTP_CONNECTION: keep-alive
+REQUEST_METHOD: GET
+
+Thu Mar 22 04:27:17 Hora est. de América Central 2007 REQUEST /stylesheets/salad.css
+--- 
+SERVER_NAME: 127.0.0.1
+PATH_INFO: /stylesheets/salad.css
+HTTP_ACCEPT_ENCODING: gzip,deflate
+HTTP_USER_AGENT: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.3) Gecko/20070309 Firefox/2.0.0.3
+SCRIPT_NAME: /
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CACHE_CONTROL: max-age=0
+HTTP_IF_NONE_MATCH: "\"4602524b-496-0\""
+HTTP_ACCEPT_LANGUAGE: en-us,en;q=0.5
+HTTP_HOST: 127.0.0.1:3000
+REMOTE_ADDR: 127.0.0.1
+SERVER_SOFTWARE: Mongrel 0.3.13.3
+HTTP_KEEP_ALIVE: "300"
+HTTP_REFERER: http://127.0.0.1:3000/user/openid_login
+HTTP_COOKIE: __utma=96992031.680125514.1171667631.1174279371.1174285844.62; __utmz=96992031.1171667631.1.1.utmccn=(direct)|utmcsr=(direct)|utmcmd=(none); _session_id=3e171f02e3cf31b41e55f15b6f9da50f
+HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+HTTP_VERSION: HTTP/1.1
+REQUEST_URI: /stylesheets/salad.css
+SERVER_PORT: "3000"
+GATEWAY_INTERFACE: CGI/1.2
+HTTP_IF_MODIFIED_SINCE: Thu, 22 Mar 2007 09:54:19 GMT
+QUERY_STRING: "1174557259"
+HTTP_ACCEPT: text/css,*/*;q=0.1
+HTTP_CONNECTION: keep-alive
+REQUEST_METHOD: GET
+
+Thu Mar 22 04:27:19 Hora est. de América Central 2007 REQUEST /javascripts/prototype.js
+--- 
+SERVER_NAME: 127.0.0.1
+PATH_INFO: /javascripts/prototype.js
+HTTP_ACCEPT_ENCODING: gzip,deflate
+HTTP_USER_AGENT: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.3) Gecko/20070309 Firefox/2.0.0.3
+SCRIPT_NAME: /
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CACHE_CONTROL: max-age=0
+HTTP_IF_NONE_MATCH: "\"45a90a28-d76d-0\""
+HTTP_ACCEPT_LANGUAGE: en-us,en;q=0.5
+HTTP_HOST: 127.0.0.1:3000
+REMOTE_ADDR: 127.0.0.1
+SERVER_SOFTWARE: Mongrel 0.3.13.3
+HTTP_KEEP_ALIVE: "300"
+HTTP_REFERER: http://127.0.0.1:3000/user/openid_login
+HTTP_COOKIE: __utma=96992031.680125514.1171667631.1174279371.1174285844.62; __utmz=96992031.1171667631.1.1.utmccn=(direct)|utmcsr=(direct)|utmcmd=(none); _session_id=3e171f02e3cf31b41e55f15b6f9da50f
+HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+HTTP_VERSION: HTTP/1.1
+REQUEST_URI: /javascripts/prototype.js
+SERVER_PORT: "3000"
+GATEWAY_INTERFACE: CGI/1.2
+HTTP_IF_MODIFIED_SINCE: Sat, 13 Jan 2007 16:34:48 GMT
+QUERY_STRING: "1168706088"
+HTTP_ACCEPT: "*/*"
+HTTP_CONNECTION: keep-alive
+REQUEST_METHOD: GET
+
+Thu Mar 22 04:27:21 Hora est. de América Central 2007 REQUEST /javascripts/effects.js
+--- 
+SERVER_NAME: 127.0.0.1
+PATH_INFO: /javascripts/effects.js
+HTTP_ACCEPT_ENCODING: gzip,deflate
+HTTP_USER_AGENT: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.3) Gecko/20070309 Firefox/2.0.0.3
+SCRIPT_NAME: /
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CACHE_CONTROL: max-age=0
+HTTP_IF_NONE_MATCH: "\"45a90a28-8067-0\""
+HTTP_ACCEPT_LANGUAGE: en-us,en;q=0.5
+HTTP_HOST: 127.0.0.1:3000
+REMOTE_ADDR: 127.0.0.1
+SERVER_SOFTWARE: Mongrel 0.3.13.3
+HTTP_KEEP_ALIVE: "300"
+HTTP_REFERER: http://127.0.0.1:3000/user/openid_login
+HTTP_COOKIE: __utma=96992031.680125514.1171667631.1174279371.1174285844.62; __utmz=96992031.1171667631.1.1.utmccn=(direct)|utmcsr=(direct)|utmcmd=(none); _session_id=3e171f02e3cf31b41e55f15b6f9da50f
+HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+HTTP_VERSION: HTTP/1.1
+REQUEST_URI: /javascripts/effects.js
+SERVER_PORT: "3000"
+GATEWAY_INTERFACE: CGI/1.2
+HTTP_IF_MODIFIED_SINCE: Sat, 13 Jan 2007 16:34:48 GMT
+QUERY_STRING: "1168706088"
+HTTP_ACCEPT: "*/*"
+HTTP_CONNECTION: keep-alive
+REQUEST_METHOD: GET
+
+Thu Mar 22 04:27:22 Hora est. de América Central 2007 REQUEST /javascripts/dragdrop.js
+--- 
+SERVER_NAME: 127.0.0.1
+PATH_INFO: /javascripts/dragdrop.js
+HTTP_ACCEPT_ENCODING: gzip,deflate
+HTTP_USER_AGENT: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.3) Gecko/20070309 Firefox/2.0.0.3
+SCRIPT_NAME: /
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CACHE_CONTROL: max-age=0
+HTTP_IF_NONE_MATCH: "\"45a90a28-730d-0\""
+HTTP_ACCEPT_LANGUAGE: en-us,en;q=0.5
+HTTP_HOST: 127.0.0.1:3000
+REMOTE_ADDR: 127.0.0.1
+SERVER_SOFTWARE: Mongrel 0.3.13.3
+HTTP_KEEP_ALIVE: "300"
+HTTP_REFERER: http://127.0.0.1:3000/user/openid_login
+HTTP_COOKIE: __utma=96992031.680125514.1171667631.1174279371.1174285844.62; __utmz=96992031.1171667631.1.1.utmccn=(direct)|utmcsr=(direct)|utmcmd=(none); _session_id=3e171f02e3cf31b41e55f15b6f9da50f
+HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+HTTP_VERSION: HTTP/1.1
+REQUEST_URI: /javascripts/dragdrop.js
+SERVER_PORT: "3000"
+GATEWAY_INTERFACE: CGI/1.2
+HTTP_IF_MODIFIED_SINCE: Sat, 13 Jan 2007 16:34:48 GMT
+QUERY_STRING: "1168706088"
+HTTP_ACCEPT: "*/*"
+HTTP_CONNECTION: keep-alive
+REQUEST_METHOD: GET
+
+Thu Mar 22 04:27:23 Hora est. de América Central 2007 REQUEST /javascripts/controls.js
+--- 
+SERVER_NAME: 127.0.0.1
+PATH_INFO: /javascripts/controls.js
+HTTP_ACCEPT_ENCODING: gzip,deflate
+HTTP_USER_AGENT: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.3) Gecko/20070309 Firefox/2.0.0.3
+SCRIPT_NAME: /
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CACHE_CONTROL: max-age=0
+HTTP_IF_NONE_MATCH: "\"45a90a28-6d84-0\""
+HTTP_ACCEPT_LANGUAGE: en-us,en;q=0.5
+HTTP_HOST: 127.0.0.1:3000
+REMOTE_ADDR: 127.0.0.1
+SERVER_SOFTWARE: Mongrel 0.3.13.3
+HTTP_KEEP_ALIVE: "300"
+HTTP_REFERER: http://127.0.0.1:3000/user/openid_login
+HTTP_COOKIE: __utma=96992031.680125514.1171667631.1174279371.1174285844.62; __utmz=96992031.1171667631.1.1.utmccn=(direct)|utmcsr=(direct)|utmcmd=(none); _session_id=3e171f02e3cf31b41e55f15b6f9da50f
+HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+HTTP_VERSION: HTTP/1.1
+REQUEST_URI: /javascripts/controls.js
+SERVER_PORT: "3000"
+GATEWAY_INTERFACE: CGI/1.2
+HTTP_IF_MODIFIED_SINCE: Sat, 13 Jan 2007 16:34:48 GMT
+QUERY_STRING: "1168706088"
+HTTP_ACCEPT: "*/*"
+HTTP_CONNECTION: keep-alive
+REQUEST_METHOD: GET
+
+Thu Mar 22 04:27:24 Hora est. de América Central 2007 REQUEST /javascripts/application.js
+--- 
+SERVER_NAME: 127.0.0.1
+PATH_INFO: /javascripts/application.js
+HTTP_ACCEPT_ENCODING: gzip,deflate
+HTTP_USER_AGENT: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.3) Gecko/20070309 Firefox/2.0.0.3
+SCRIPT_NAME: /
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CACHE_CONTROL: max-age=0
+HTTP_IF_NONE_MATCH: "\"45a90a28-94-0\""
+HTTP_ACCEPT_LANGUAGE: en-us,en;q=0.5
+HTTP_HOST: 127.0.0.1:3000
+REMOTE_ADDR: 127.0.0.1
+SERVER_SOFTWARE: Mongrel 0.3.13.3
+HTTP_KEEP_ALIVE: "300"
+HTTP_REFERER: http://127.0.0.1:3000/user/openid_login
+HTTP_COOKIE: __utma=96992031.680125514.1171667631.1174279371.1174285844.62; __utmz=96992031.1171667631.1.1.utmccn=(direct)|utmcsr=(direct)|utmcmd=(none); _session_id=3e171f02e3cf31b41e55f15b6f9da50f
+HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+HTTP_VERSION: HTTP/1.1
+REQUEST_URI: /javascripts/application.js
+SERVER_PORT: "3000"
+GATEWAY_INTERFACE: CGI/1.2
+HTTP_IF_MODIFIED_SINCE: Sat, 13 Jan 2007 16:34:48 GMT
+QUERY_STRING: "1168706088"
+HTTP_ACCEPT: "*/*"
+HTTP_CONNECTION: keep-alive
+REQUEST_METHOD: GET
+
+Thu Mar 22 04:27:26 Hora est. de América Central 2007 REQUEST /images/favicon.png
+--- 
+SERVER_NAME: 127.0.0.1
+PATH_INFO: /images/favicon.png
+HTTP_ACCEPT_ENCODING: gzip,deflate
+HTTP_USER_AGENT: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.3) Gecko/20070309 Firefox/2.0.0.3
+SCRIPT_NAME: /
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_ACCEPT_LANGUAGE: en-us,en;q=0.5
+HTTP_HOST: 127.0.0.1:3000
+REMOTE_ADDR: 127.0.0.1
+SERVER_SOFTWARE: Mongrel 0.3.13.3
+HTTP_KEEP_ALIVE: "300"
+HTTP_COOKIE: __utma=96992031.680125514.1171667631.1174279371.1174285844.62; __utmz=96992031.1171667631.1.1.utmccn=(direct)|utmcsr=(direct)|utmcmd=(none); _session_id=3e171f02e3cf31b41e55f15b6f9da50f
+HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+HTTP_VERSION: HTTP/1.1
+REQUEST_URI: /images/favicon.png
+SERVER_PORT: "3000"
+GATEWAY_INTERFACE: CGI/1.2
+HTTP_ACCEPT: image/png,*/*;q=0.5
+HTTP_CONNECTION: keep-alive
+REQUEST_METHOD: GET
+
+Thu Mar 22 04:28:07 Hora est. de América Central 2007 REQUEST /user/openid_login
+--- 
+SERVER_NAME: 127.0.0.1
+PATH_INFO: /user/openid_login
+CONTENT_LENGTH: "43"
+HTTP_CONTENT_TYPE: application/x-www-form-urlencoded
+HTTP_ACCEPT_ENCODING: gzip,deflate
+HTTP_USER_AGENT: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.3) Gecko/20070309 Firefox/2.0.0.3
+SCRIPT_NAME: /
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_ACCEPT_LANGUAGE: en-us,en;q=0.5
+HTTP_HOST: 127.0.0.1:3000
+REMOTE_ADDR: 127.0.0.1
+SERVER_SOFTWARE: Mongrel 0.3.13.3
+HTTP_CONTENT_LENGTH: "43"
+HTTP_KEEP_ALIVE: "300"
+CONTENT_TYPE: application/x-www-form-urlencoded
+HTTP_REFERER: http://127.0.0.1:3000/user/openid_login
+HTTP_COOKIE: __utma=96992031.680125514.1171667631.1174279371.1174285844.62; __utmz=96992031.1171667631.1.1.utmccn=(direct)|utmcsr=(direct)|utmcmd=(none); _session_id=3e171f02e3cf31b41e55f15b6f9da50f
+HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+HTTP_VERSION: HTTP/1.1
+REQUEST_URI: /user/openid_login
+SERVER_PORT: "3000"
+GATEWAY_INTERFACE: CGI/1.2
+HTTP_ACCEPT: text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5
+HTTP_CONNECTION: keep-alive
+REQUEST_METHOD: POST
+
+Thu Mar 22 04:28:22 Hora est. de América Central 2007 REQUEST /images/favicon.png
+--- 
+SERVER_NAME: 127.0.0.1
+PATH_INFO: /images/favicon.png
+HTTP_ACCEPT_ENCODING: gzip,deflate
+HTTP_USER_AGENT: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.3) Gecko/20070309 Firefox/2.0.0.3
+SCRIPT_NAME: /
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_ACCEPT_LANGUAGE: en-us,en;q=0.5
+HTTP_HOST: 127.0.0.1:3000
+REMOTE_ADDR: 127.0.0.1
+SERVER_SOFTWARE: Mongrel 0.3.13.3
+HTTP_KEEP_ALIVE: "300"
+HTTP_COOKIE: __utma=96992031.680125514.1171667631.1174279371.1174285844.62; __utmz=96992031.1171667631.1.1.utmccn=(direct)|utmcsr=(direct)|utmcmd=(none); _session_id=3e171f02e3cf31b41e55f15b6f9da50f
+HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+HTTP_VERSION: HTTP/1.1
+REQUEST_URI: /images/favicon.png
+SERVER_PORT: "3000"
+GATEWAY_INTERFACE: CGI/1.2
+HTTP_ACCEPT: image/png,*/*;q=0.5
+HTTP_CONNECTION: keep-alive
+REQUEST_METHOD: GET
+
+Thu Mar 22 04:28:58 Hora est. de América Central 2007 REQUEST /user/openid_login
+--- 
+SERVER_NAME: 127.0.0.1
+PATH_INFO: /user/openid_login
+CONTENT_LENGTH: "43"
+HTTP_CONTENT_TYPE: application/x-www-form-urlencoded
+HTTP_ACCEPT_ENCODING: gzip,deflate
+HTTP_USER_AGENT: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.3) Gecko/20070309 Firefox/2.0.0.3
+SCRIPT_NAME: /
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_ACCEPT_LANGUAGE: en-us,en;q=0.5
+HTTP_HOST: 127.0.0.1:3000
+REMOTE_ADDR: 127.0.0.1
+SERVER_SOFTWARE: Mongrel 0.3.13.3
+HTTP_CONTENT_LENGTH: "43"
+HTTP_KEEP_ALIVE: "300"
+CONTENT_TYPE: application/x-www-form-urlencoded
+HTTP_REFERER: http://127.0.0.1:3000/user/openid_login
+HTTP_COOKIE: __utma=96992031.680125514.1171667631.1174279371.1174285844.62; __utmz=96992031.1171667631.1.1.utmccn=(direct)|utmcsr=(direct)|utmcmd=(none); _session_id=3e171f02e3cf31b41e55f15b6f9da50f
+HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+HTTP_VERSION: HTTP/1.1
+REQUEST_URI: /user/openid_login
+SERVER_PORT: "3000"
+GATEWAY_INTERFACE: CGI/1.2
+HTTP_ACCEPT: text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5
+HTTP_CONNECTION: keep-alive
+REQUEST_METHOD: POST
+
+D, [2007-03-22T04:29:11.875000 #4312] DEBUG -- : TRACING ON Thu Mar 22 04:29:11 Hora est. de América Central 2007
+Thu Mar 22 04:29:18 Hora est. de América Central 2007 REQUEST /images/favicon.png
+--- 
+SERVER_NAME: 127.0.0.1
+PATH_INFO: /images/favicon.png
+HTTP_ACCEPT_ENCODING: gzip,deflate
+HTTP_USER_AGENT: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.3) Gecko/20070309 Firefox/2.0.0.3
+SCRIPT_NAME: /
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_ACCEPT_LANGUAGE: en-us,en;q=0.5
+HTTP_HOST: 127.0.0.1:3000
+REMOTE_ADDR: 127.0.0.1
+SERVER_SOFTWARE: Mongrel 0.3.13.3
+HTTP_KEEP_ALIVE: "300"
+HTTP_COOKIE: __utma=96992031.680125514.1171667631.1174279371.1174285844.62; __utmz=96992031.1171667631.1.1.utmccn=(direct)|utmcsr=(direct)|utmcmd=(none); _session_id=3e171f02e3cf31b41e55f15b6f9da50f
+HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+HTTP_VERSION: HTTP/1.1
+REQUEST_URI: /images/favicon.png
+SERVER_PORT: "3000"
+GATEWAY_INTERFACE: CGI/1.2
+HTTP_ACCEPT: image/png,*/*;q=0.5
+HTTP_CONNECTION: keep-alive
+REQUEST_METHOD: GET
+
+Thu Mar 22 04:29:20 Hora est. de América Central 2007 REQUEST /user/openid_login
+--- 
+SERVER_NAME: 127.0.0.1
+PATH_INFO: /user/openid_login
+CONTENT_LENGTH: "43"
+HTTP_CONTENT_TYPE: application/x-www-form-urlencoded
+HTTP_ACCEPT_ENCODING: gzip,deflate
+HTTP_USER_AGENT: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.3) Gecko/20070309 Firefox/2.0.0.3
+SCRIPT_NAME: /
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_ACCEPT_LANGUAGE: en-us,en;q=0.5
+HTTP_HOST: 127.0.0.1:3000
+REMOTE_ADDR: 127.0.0.1
+SERVER_SOFTWARE: Mongrel 0.3.13.3
+HTTP_CONTENT_LENGTH: "43"
+HTTP_KEEP_ALIVE: "300"
+CONTENT_TYPE: application/x-www-form-urlencoded
+HTTP_REFERER: http://127.0.0.1:3000/user/openid_login
+HTTP_COOKIE: __utma=96992031.680125514.1171667631.1174279371.1174285844.62; __utmz=96992031.1171667631.1.1.utmccn=(direct)|utmcsr=(direct)|utmcmd=(none); _session_id=3e171f02e3cf31b41e55f15b6f9da50f
+HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+HTTP_VERSION: HTTP/1.1
+REQUEST_URI: /user/openid_login
+SERVER_PORT: "3000"
+GATEWAY_INTERFACE: CGI/1.2
+HTTP_ACCEPT: text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5
+HTTP_CONNECTION: keep-alive
+REQUEST_METHOD: POST
+
+Thu Mar 22 04:29:22 Hora est. de América Central 2007 REQUEST /user/http%3A%2F%2Fwww.myopenid.com%2Fserver%3Fopenid.mode%3Dcheckid_setup%26openid.return_to%3Dhttp%253A%252F%252F127.0.0.1%253A3000%252Fsalad%252Fcomplete%253Fnonce%253Ditbpl5zL%26openid.trust_root%3Dhttp%253A%252F%252F127.0.0.1%253A3000%252Fsalad%252Flist%26openid.identity%3Dhttp%253A%252F%252Frbreve.myopenid.com%252F%26openid.assoc_handle%3D%257BHMAC-SHA1%257D%257B4602576b%257D%257BoeidBw%253D%253D%257D
+--- 
+SERVER_NAME: 127.0.0.1
+PATH_INFO: /user/http%3A%2F%2Fwww.myopenid.com%2Fserver%3Fopenid.mode%3Dcheckid_setup%26openid.return_to%3Dhttp%253A%252F%252F127.0.0.1%253A3000%252Fsalad%252Fcomplete%253Fnonce%253Ditbpl5zL%26openid.trust_root%3Dhttp%253A%252F%252F127.0.0.1%253A3000%252Fsalad%252Flist%26openid.identity%3Dhttp%253A%252F%252Frbreve.myopenid.com%252F%26openid.assoc_handle%3D%257BHMAC-SHA1%257D%257B4602576b%257D%257BoeidBw%253D%253D%257D
+HTTP_ACCEPT_ENCODING: gzip,deflate
+HTTP_USER_AGENT: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.3) Gecko/20070309 Firefox/2.0.0.3
+SCRIPT_NAME: /
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_ACCEPT_LANGUAGE: en-us,en;q=0.5
+HTTP_HOST: 127.0.0.1:3000
+REMOTE_ADDR: 127.0.0.1
+SERVER_SOFTWARE: Mongrel 0.3.13.3
+HTTP_KEEP_ALIVE: "300"
+HTTP_REFERER: http://127.0.0.1:3000/user/openid_login
+HTTP_COOKIE: __utma=96992031.680125514.1171667631.1174279371.1174285844.62; __utmz=96992031.1171667631.1.1.utmccn=(direct)|utmcsr=(direct)|utmcmd=(none); _session_id=3e171f02e3cf31b41e55f15b6f9da50f
+HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+HTTP_VERSION: HTTP/1.1
+REQUEST_URI: /user/http%3A%2F%2Fwww.myopenid.com%2Fserver%3Fopenid.mode%3Dcheckid_setup%26openid.return_to%3Dhttp%253A%252F%252F127.0.0.1%253A3000%252Fsalad%252Fcomplete%253Fnonce%253Ditbpl5zL%26openid.trust_root%3Dhttp%253A%252F%252F127.0.0.1%253A3000%252Fsalad%252Flist%26openid.identity%3Dhttp%253A%252F%252Frbreve.myopenid.com%252F%26openid.assoc_handle%3D%257BHMAC-SHA1%257D%257B4602576b%257D%257BoeidBw%253D%253D%257D
+SERVER_PORT: "3000"
+GATEWAY_INTERFACE: CGI/1.2
+HTTP_ACCEPT: text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5
+HTTP_CONNECTION: keep-alive
+REQUEST_METHOD: GET
+
+Thu Mar 22 04:29:53 Hora est. de América Central 2007 REQUEST /images/favicon.png
+--- 
+SERVER_NAME: 127.0.0.1
+PATH_INFO: /images/favicon.png
+HTTP_ACCEPT_ENCODING: gzip,deflate
+HTTP_USER_AGENT: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.3) Gecko/20070309 Firefox/2.0.0.3
+SCRIPT_NAME: /
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_ACCEPT_LANGUAGE: en-us,en;q=0.5
+HTTP_HOST: 127.0.0.1:3000
+REMOTE_ADDR: 127.0.0.1
+SERVER_SOFTWARE: Mongrel 0.3.13.3
+HTTP_KEEP_ALIVE: "300"
+HTTP_COOKIE: __utma=96992031.680125514.1171667631.1174279371.1174285844.62; __utmz=96992031.1171667631.1.1.utmccn=(direct)|utmcsr=(direct)|utmcmd=(none); _session_id=3e171f02e3cf31b41e55f15b6f9da50f
+HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+HTTP_VERSION: HTTP/1.1
+REQUEST_URI: /images/favicon.png
+SERVER_PORT: "3000"
+GATEWAY_INTERFACE: CGI/1.2
+HTTP_ACCEPT: image/png,*/*;q=0.5
+HTTP_CONNECTION: keep-alive
+REQUEST_METHOD: GET
+
+Thu Mar 22 04:29:55 Hora est. de América Central 2007 REQUEST /user/openid_login
+--- 
+SERVER_NAME: 127.0.0.1
+PATH_INFO: /user/openid_login
+CONTENT_LENGTH: "43"
+HTTP_CONTENT_TYPE: application/x-www-form-urlencoded
+HTTP_ACCEPT_ENCODING: gzip,deflate
+HTTP_USER_AGENT: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.3) Gecko/20070309 Firefox/2.0.0.3
+SCRIPT_NAME: /
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_ACCEPT_LANGUAGE: en-us,en;q=0.5
+HTTP_HOST: 127.0.0.1:3000
+REMOTE_ADDR: 127.0.0.1
+SERVER_SOFTWARE: Mongrel 0.3.13.3
+HTTP_CONTENT_LENGTH: "43"
+HTTP_KEEP_ALIVE: "300"
+CONTENT_TYPE: application/x-www-form-urlencoded
+HTTP_REFERER: http://127.0.0.1:3000/user/openid_login
+HTTP_COOKIE: __utma=96992031.680125514.1171667631.1174279371.1174285844.62; __utmz=96992031.1171667631.1.1.utmccn=(direct)|utmcsr=(direct)|utmcmd=(none); _session_id=3e171f02e3cf31b41e55f15b6f9da50f
+HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+HTTP_VERSION: HTTP/1.1
+REQUEST_URI: /user/openid_login
+SERVER_PORT: "3000"
+GATEWAY_INTERFACE: CGI/1.2
+HTTP_ACCEPT: text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5
+HTTP_CONNECTION: keep-alive
+REQUEST_METHOD: POST
+
+Thu Mar 22 04:30:55 Hora est. de América Central 2007 REQUEST /images/favicon.png
+--- 
+SERVER_NAME: 127.0.0.1
+PATH_INFO: /images/favicon.png
+HTTP_ACCEPT_ENCODING: gzip,deflate
+HTTP_USER_AGENT: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.3) Gecko/20070309 Firefox/2.0.0.3
+SCRIPT_NAME: /
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_ACCEPT_LANGUAGE: en-us,en;q=0.5
+HTTP_HOST: 127.0.0.1:3000
+REMOTE_ADDR: 127.0.0.1
+SERVER_SOFTWARE: Mongrel 0.3.13.3
+HTTP_KEEP_ALIVE: "300"
+HTTP_COOKIE: __utma=96992031.680125514.1171667631.1174279371.1174285844.62; __utmz=96992031.1171667631.1.1.utmccn=(direct)|utmcsr=(direct)|utmcmd=(none); _session_id=3e171f02e3cf31b41e55f15b6f9da50f
+HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+HTTP_VERSION: HTTP/1.1
+REQUEST_URI: /images/favicon.png
+SERVER_PORT: "3000"
+GATEWAY_INTERFACE: CGI/1.2
+HTTP_ACCEPT: image/png,*/*;q=0.5
+HTTP_CONNECTION: keep-alive
+REQUEST_METHOD: GET
+
+Thu Mar 22 04:30:56 Hora est. de América Central 2007 REQUEST /user/openid_login
+--- 
+SERVER_NAME: 127.0.0.1
+PATH_INFO: /user/openid_login
+CONTENT_LENGTH: "43"
+HTTP_CONTENT_TYPE: application/x-www-form-urlencoded
+HTTP_ACCEPT_ENCODING: gzip,deflate
+HTTP_USER_AGENT: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.3) Gecko/20070309 Firefox/2.0.0.3
+SCRIPT_NAME: /
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_ACCEPT_LANGUAGE: en-us,en;q=0.5
+HTTP_HOST: 127.0.0.1:3000
+REMOTE_ADDR: 127.0.0.1
+SERVER_SOFTWARE: Mongrel 0.3.13.3
+HTTP_CONTENT_LENGTH: "43"
+HTTP_KEEP_ALIVE: "300"
+CONTENT_TYPE: application/x-www-form-urlencoded
+HTTP_REFERER: http://127.0.0.1:3000/user/openid_login
+HTTP_COOKIE: __utma=96992031.680125514.1171667631.1174279371.1174285844.62; __utmz=96992031.1171667631.1.1.utmccn=(direct)|utmcsr=(direct)|utmcmd=(none); _session_id=3e171f02e3cf31b41e55f15b6f9da50f
+HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+HTTP_VERSION: HTTP/1.1
+REQUEST_URI: /user/openid_login
+SERVER_PORT: "3000"
+GATEWAY_INTERFACE: CGI/1.2
+HTTP_ACCEPT: text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5
+HTTP_CONNECTION: keep-alive
+REQUEST_METHOD: POST
+
+Thu Mar 22 04:33:42 Hora est. de América Central 2007 REQUEST /images/favicon.png
+--- 
+SERVER_NAME: 127.0.0.1
+PATH_INFO: /images/favicon.png
+HTTP_ACCEPT_ENCODING: gzip,deflate
+HTTP_USER_AGENT: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.3) Gecko/20070309 Firefox/2.0.0.3
+SCRIPT_NAME: /
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_ACCEPT_LANGUAGE: en-us,en;q=0.5
+HTTP_HOST: 127.0.0.1:3000
+REMOTE_ADDR: 127.0.0.1
+SERVER_SOFTWARE: Mongrel 0.3.13.3
+HTTP_KEEP_ALIVE: "300"
+HTTP_COOKIE: __utma=96992031.680125514.1171667631.1174279371.1174285844.62; __utmz=96992031.1171667631.1.1.utmccn=(direct)|utmcsr=(direct)|utmcmd=(none); _session_id=3e171f02e3cf31b41e55f15b6f9da50f
+HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+HTTP_VERSION: HTTP/1.1
+REQUEST_URI: /images/favicon.png
+SERVER_PORT: "3000"
+GATEWAY_INTERFACE: CGI/1.2
+HTTP_ACCEPT: image/png,*/*;q=0.5
+HTTP_CONNECTION: keep-alive
+REQUEST_METHOD: GET
+
+Thu Mar 22 04:33:43 Hora est. de América Central 2007 REQUEST /user/openid_login
+--- 
+SERVER_NAME: 127.0.0.1
+PATH_INFO: /user/openid_login
+CONTENT_LENGTH: "43"
+HTTP_CONTENT_TYPE: application/x-www-form-urlencoded
+HTTP_ACCEPT_ENCODING: gzip,deflate
+HTTP_USER_AGENT: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.3) Gecko/20070309 Firefox/2.0.0.3
+SCRIPT_NAME: /
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_ACCEPT_LANGUAGE: en-us,en;q=0.5
+HTTP_HOST: 127.0.0.1:3000
+REMOTE_ADDR: 127.0.0.1
+SERVER_SOFTWARE: Mongrel 0.3.13.3
+HTTP_CONTENT_LENGTH: "43"
+HTTP_KEEP_ALIVE: "300"
+CONTENT_TYPE: application/x-www-form-urlencoded
+HTTP_REFERER: http://127.0.0.1:3000/user/openid_login
+HTTP_COOKIE: __utma=96992031.680125514.1171667631.1174279371.1174285844.62; __utmz=96992031.1171667631.1.1.utmccn=(direct)|utmcsr=(direct)|utmcmd=(none); _session_id=3e171f02e3cf31b41e55f15b6f9da50f
+HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+HTTP_VERSION: HTTP/1.1
+REQUEST_URI: /user/openid_login
+SERVER_PORT: "3000"
+GATEWAY_INTERFACE: CGI/1.2
+HTTP_ACCEPT: text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5
+HTTP_CONNECTION: keep-alive
+REQUEST_METHOD: POST
+
+Thu Mar 22 04:34:03 Hora est. de América Central 2007 REQUEST /salad/complete
+--- 
+SERVER_NAME: 127.0.0.1
+PATH_INFO: /salad/complete
+HTTP_ACCEPT_ENCODING: gzip,deflate
+HTTP_USER_AGENT: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.3) Gecko/20070309 Firefox/2.0.0.3
+SCRIPT_NAME: /
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_ACCEPT_LANGUAGE: en-us,en;q=0.5
+HTTP_HOST: 127.0.0.1:3000
+REMOTE_ADDR: 127.0.0.1
+SERVER_SOFTWARE: Mongrel 0.3.13.3
+HTTP_KEEP_ALIVE: "300"
+HTTP_REFERER: http://www.myopenid.com/server?openid.mode=checkid_setup&openid.return_to=http%3A%2F%2F127.0.0.1%3A3000%2Fsalad%2Fcomplete%3Fnonce%3D2pfJFmpy&openid.trust_root=http%3A%2F%2F127.0.0.1%3A3000%2Fsalad%2Flist&openid.identity=http%3A%2F%2Frbreve.myopenid.com%2F&openid.assoc_handle=%7BHMAC-SHA1%7D%7B4602576b%7D%7BoeidBw%3D%3D%7D
+HTTP_COOKIE: __utma=96992031.680125514.1171667631.1174279371.1174285844.62; __utmz=96992031.1171667631.1.1.utmccn=(direct)|utmcsr=(direct)|utmcmd=(none); _session_id=3e171f02e3cf31b41e55f15b6f9da50f
+HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+HTTP_VERSION: HTTP/1.1
+REQUEST_URI: /salad/complete
+SERVER_PORT: "3000"
+GATEWAY_INTERFACE: CGI/1.2
+QUERY_STRING: nonce=2pfJFmpy&openid.error=return_to+u%27http%3A%2F%2F127.0.0.1%3A3000%2Fsalad%2Fcomplete%3Fnonce%3D2pfJFmpy%27+not+under+trust_root+u%27http%3A%2F%2F127.0.0.1%3A3000%2Fsalad%2Flist%27&openid.mode=error
+HTTP_ACCEPT: text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5
+HTTP_CONNECTION: keep-alive
+REQUEST_METHOD: GET
+
+Thu Mar 22 04:34:11 Hora est. de América Central 2007 REQUEST /images/favicon.png
+--- 
+SERVER_NAME: 127.0.0.1
+PATH_INFO: /images/favicon.png
+HTTP_ACCEPT_ENCODING: gzip,deflate
+HTTP_USER_AGENT: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.3) Gecko/20070309 Firefox/2.0.0.3
+SCRIPT_NAME: /
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_ACCEPT_LANGUAGE: en-us,en;q=0.5
+HTTP_HOST: 127.0.0.1:3000
+REMOTE_ADDR: 127.0.0.1
+SERVER_SOFTWARE: Mongrel 0.3.13.3
+HTTP_KEEP_ALIVE: "300"
+HTTP_COOKIE: __utma=96992031.680125514.1171667631.1174279371.1174285844.62; __utmz=96992031.1171667631.1.1.utmccn=(direct)|utmcsr=(direct)|utmcmd=(none); _session_id=3e171f02e3cf31b41e55f15b6f9da50f
+HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+HTTP_VERSION: HTTP/1.1
+REQUEST_URI: /images/favicon.png
+SERVER_PORT: "3000"
+GATEWAY_INTERFACE: CGI/1.2
+HTTP_ACCEPT: image/png,*/*;q=0.5
+HTTP_CONNECTION: keep-alive
+REQUEST_METHOD: GET
+
+Thu Mar 22 04:34:25 Hora est. de América Central 2007 REQUEST /user/openid_login
+--- 
+SERVER_NAME: 127.0.0.1
+PATH_INFO: /user/openid_login
+CONTENT_LENGTH: "43"
+HTTP_CONTENT_TYPE: application/x-www-form-urlencoded
+HTTP_ACCEPT_ENCODING: gzip,deflate
+HTTP_USER_AGENT: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.3) Gecko/20070309 Firefox/2.0.0.3
+SCRIPT_NAME: /
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_ACCEPT_LANGUAGE: en-us,en;q=0.5
+HTTP_HOST: 127.0.0.1:3000
+REMOTE_ADDR: 127.0.0.1
+SERVER_SOFTWARE: Mongrel 0.3.13.3
+HTTP_CONTENT_LENGTH: "43"
+HTTP_KEEP_ALIVE: "300"
+CONTENT_TYPE: application/x-www-form-urlencoded
+HTTP_REFERER: http://127.0.0.1:3000/user/openid_login
+HTTP_COOKIE: __utma=96992031.680125514.1171667631.1174279371.1174285844.62; __utmz=96992031.1171667631.1.1.utmccn=(direct)|utmcsr=(direct)|utmcmd=(none); _session_id=3e171f02e3cf31b41e55f15b6f9da50f
+HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+HTTP_VERSION: HTTP/1.1
+REQUEST_URI: /user/openid_login
+SERVER_PORT: "3000"
+GATEWAY_INTERFACE: CGI/1.2
+HTTP_ACCEPT: text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5
+HTTP_CONNECTION: keep-alive
+REQUEST_METHOD: POST
+
+Thu Mar 22 04:34:29 Hora est. de América Central 2007 REQUEST /user/complete
+--- 
+SERVER_NAME: 127.0.0.1
+PATH_INFO: /user/complete
+HTTP_ACCEPT_ENCODING: gzip,deflate
+HTTP_USER_AGENT: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.3) Gecko/20070309 Firefox/2.0.0.3
+SCRIPT_NAME: /
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_ACCEPT_LANGUAGE: en-us,en;q=0.5
+HTTP_HOST: 127.0.0.1:3000
+REMOTE_ADDR: 127.0.0.1
+SERVER_SOFTWARE: Mongrel 0.3.13.3
+HTTP_KEEP_ALIVE: "300"
+HTTP_REFERER: http://www.myopenid.com/server?openid.mode=checkid_setup&openid.return_to=http%3A%2F%2F127.0.0.1%3A3000%2Fuser%2Fcomplete%3Fnonce%3DzehpboMU&openid.trust_root=http%3A%2F%2F127.0.0.1%3A3000%2Fsalad%2Flist&openid.identity=http%3A%2F%2Frbreve.myopenid.com%2F&openid.assoc_handle=%7BHMAC-SHA1%7D%7B4602576b%7D%7BoeidBw%3D%3D%7D
+HTTP_COOKIE: __utma=96992031.680125514.1171667631.1174279371.1174285844.62; __utmz=96992031.1171667631.1.1.utmccn=(direct)|utmcsr=(direct)|utmcmd=(none); _session_id=3e171f02e3cf31b41e55f15b6f9da50f
+HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+HTTP_VERSION: HTTP/1.1
+REQUEST_URI: /user/complete
+SERVER_PORT: "3000"
+GATEWAY_INTERFACE: CGI/1.2
+QUERY_STRING: nonce=zehpboMU&openid.error=return_to+u%27http%3A%2F%2F127.0.0.1%3A3000%2Fuser%2Fcomplete%3Fnonce%3DzehpboMU%27+not+under+trust_root+u%27http%3A%2F%2F127.0.0.1%3A3000%2Fsalad%2Flist%27&openid.mode=error
+HTTP_ACCEPT: text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5
+HTTP_CONNECTION: keep-alive
+REQUEST_METHOD: GET
+
+Thu Mar 22 04:34:58 Hora est. de América Central 2007 REQUEST /user/complete
+--- 
+SERVER_NAME: 127.0.0.1
+PATH_INFO: /user/complete
+HTTP_ACCEPT_ENCODING: gzip,deflate
+HTTP_USER_AGENT: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.3) Gecko/20070309 Firefox/2.0.0.3
+SCRIPT_NAME: /
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CACHE_CONTROL: max-age=0
+HTTP_ACCEPT_LANGUAGE: en-us,en;q=0.5
+HTTP_HOST: 127.0.0.1:3000
+REMOTE_ADDR: 127.0.0.1
+SERVER_SOFTWARE: Mongrel 0.3.13.3
+HTTP_KEEP_ALIVE: "300"
+HTTP_REFERER: http://www.myopenid.com/server?openid.mode=checkid_setup&openid.return_to=http%3A%2F%2F127.0.0.1%3A3000%2Fuser%2Fcomplete%3Fnonce%3DzehpboMU&openid.trust_root=http%3A%2F%2F127.0.0.1%3A3000%2Fsalad%2Flist&openid.identity=http%3A%2F%2Frbreve.myopenid.com%2F&openid.assoc_handle=%7BHMAC-SHA1%7D%7B4602576b%7D%7BoeidBw%3D%3D%7D
+HTTP_COOKIE: __utma=96992031.680125514.1171667631.1174279371.1174285844.62; __utmz=96992031.1171667631.1.1.utmccn=(direct)|utmcsr=(direct)|utmcmd=(none); _session_id=3e171f02e3cf31b41e55f15b6f9da50f
+HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+HTTP_VERSION: HTTP/1.1
+REQUEST_URI: /user/complete
+SERVER_PORT: "3000"
+GATEWAY_INTERFACE: CGI/1.2
+QUERY_STRING: nonce=zehpboMU&openid.error=return_to+u%27http%3A%2F%2F127.0.0.1%3A3000%2Fuser%2Fcomplete%3Fnonce%3DzehpboMU%27+not+under+trust_root+u%27http%3A%2F%2F127.0.0.1%3A3000%2Fsalad%2Flist%27&openid.mode=error
+HTTP_ACCEPT: text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5
+HTTP_CONNECTION: keep-alive
+REQUEST_METHOD: GET
+
+Thu Mar 22 04:34:59 Hora est. de América Central 2007 REQUEST /user/openid_login
+--- 
+SERVER_NAME: 127.0.0.1
+PATH_INFO: /user/openid_login
+HTTP_ACCEPT_ENCODING: gzip,deflate
+HTTP_USER_AGENT: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.3) Gecko/20070309 Firefox/2.0.0.3
+SCRIPT_NAME: /
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CACHE_CONTROL: max-age=0
+HTTP_ACCEPT_LANGUAGE: en-us,en;q=0.5
+HTTP_HOST: 127.0.0.1:3000
+REMOTE_ADDR: 127.0.0.1
+SERVER_SOFTWARE: Mongrel 0.3.13.3
+HTTP_KEEP_ALIVE: "300"
+HTTP_REFERER: http://www.myopenid.com/server?openid.mode=checkid_setup&openid.return_to=http%3A%2F%2F127.0.0.1%3A3000%2Fuser%2Fcomplete%3Fnonce%3DzehpboMU&openid.trust_root=http%3A%2F%2F127.0.0.1%3A3000%2Fsalad%2Flist&openid.identity=http%3A%2F%2Frbreve.myopenid.com%2F&openid.assoc_handle=%7BHMAC-SHA1%7D%7B4602576b%7D%7BoeidBw%3D%3D%7D
+HTTP_COOKIE: __utma=96992031.680125514.1171667631.1174279371.1174285844.62; __utmz=96992031.1171667631.1.1.utmccn=(direct)|utmcsr=(direct)|utmcmd=(none); _session_id=3e171f02e3cf31b41e55f15b6f9da50f
+HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+HTTP_VERSION: HTTP/1.1
+REQUEST_URI: /user/openid_login
+SERVER_PORT: "3000"
+GATEWAY_INTERFACE: CGI/1.2
+HTTP_ACCEPT: text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5
+HTTP_CONNECTION: keep-alive
+REQUEST_METHOD: GET
+
+Thu Mar 22 04:35:18 Hora est. de América Central 2007 REQUEST /user/complete
+--- 
+SERVER_NAME: 127.0.0.1
+PATH_INFO: /user/complete
+HTTP_ACCEPT_ENCODING: gzip,deflate
+HTTP_USER_AGENT: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.3) Gecko/20070309 Firefox/2.0.0.3
+SCRIPT_NAME: /
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_ACCEPT_LANGUAGE: en-us,en;q=0.5
+HTTP_HOST: 127.0.0.1:3000
+REMOTE_ADDR: 127.0.0.1
+SERVER_SOFTWARE: Mongrel 0.3.13.3
+HTTP_KEEP_ALIVE: "300"
+HTTP_REFERER: http://www.myopenid.com/server?openid.mode=checkid_setup&openid.return_to=http%3A%2F%2F127.0.0.1%3A3000%2Fuser%2Fcomplete%3Fnonce%3DzehpboMU&openid.trust_root=http%3A%2F%2F127.0.0.1%3A3000%2Fsalad%2Flist&openid.identity=http%3A%2F%2Frbreve.myopenid.com%2F&openid.assoc_handle=%7BHMAC-SHA1%7D%7B4602576b%7D%7BoeidBw%3D%3D%7D
+HTTP_COOKIE: __utma=96992031.680125514.1171667631.1174279371.1174285844.62; __utmz=96992031.1171667631.1.1.utmccn=(direct)|utmcsr=(direct)|utmcmd=(none); _session_id=3e171f02e3cf31b41e55f15b6f9da50f
+HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+HTTP_VERSION: HTTP/1.1
+REQUEST_URI: /user/complete
+SERVER_PORT: "3000"
+GATEWAY_INTERFACE: CGI/1.2
+QUERY_STRING: nonce=zehpboMU&openid.error=return_to+u%27http%3A%2F%2F127.0.0.1%3A3000%2Fuser%2Fcomplete%3Fnonce%3DzehpboMU%27+not+under+trust_root+u%27http%3A%2F%2F127.0.0.1%3A3000%2Fsalad%2Flist%27&openid.mode=error
+HTTP_ACCEPT: text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5
+HTTP_CONNECTION: keep-alive
+REQUEST_METHOD: GET
+
+Thu Mar 22 04:35:20 Hora est. de América Central 2007 REQUEST /user/openid_signin
+--- 
+SERVER_NAME: 127.0.0.1
+PATH_INFO: /user/openid_signin
+HTTP_ACCEPT_ENCODING: gzip,deflate
+HTTP_USER_AGENT: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.3) Gecko/20070309 Firefox/2.0.0.3
+SCRIPT_NAME: /
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_ACCEPT_LANGUAGE: en-us,en;q=0.5
+HTTP_HOST: 127.0.0.1:3000
+REMOTE_ADDR: 127.0.0.1
+SERVER_SOFTWARE: Mongrel 0.3.13.3
+HTTP_KEEP_ALIVE: "300"
+HTTP_REFERER: http://www.myopenid.com/server?openid.mode=checkid_setup&openid.return_to=http%3A%2F%2F127.0.0.1%3A3000%2Fuser%2Fcomplete%3Fnonce%3DzehpboMU&openid.trust_root=http%3A%2F%2F127.0.0.1%3A3000%2Fsalad%2Flist&openid.identity=http%3A%2F%2Frbreve.myopenid.com%2F&openid.assoc_handle=%7BHMAC-SHA1%7D%7B4602576b%7D%7BoeidBw%3D%3D%7D
+HTTP_COOKIE: __utma=96992031.680125514.1171667631.1174279371.1174285844.62; __utmz=96992031.1171667631.1.1.utmccn=(direct)|utmcsr=(direct)|utmcmd=(none); _session_id=3e171f02e3cf31b41e55f15b6f9da50f
+HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+HTTP_VERSION: HTTP/1.1
+REQUEST_URI: /user/openid_signin
+SERVER_PORT: "3000"
+GATEWAY_INTERFACE: CGI/1.2
+HTTP_ACCEPT: text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5
+HTTP_CONNECTION: keep-alive
+REQUEST_METHOD: GET
+
+Thu Mar 22 04:35:22 Hora est. de América Central 2007 REQUEST /stylesheets/scaffold.css
+--- 
+SERVER_NAME: 127.0.0.1
+PATH_INFO: /stylesheets/scaffold.css
+HTTP_ACCEPT_ENCODING: gzip,deflate
+HTTP_USER_AGENT: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.3) Gecko/20070309 Firefox/2.0.0.3
+SCRIPT_NAME: /
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_ACCEPT_LANGUAGE: en-us,en;q=0.5
+HTTP_HOST: 127.0.0.1:3000
+REMOTE_ADDR: 127.0.0.1
+SERVER_SOFTWARE: Mongrel 0.3.13.3
+HTTP_KEEP_ALIVE: "300"
+HTTP_REFERER: http://127.0.0.1:3000/user/openid_signin
+HTTP_COOKIE: __utma=96992031.680125514.1171667631.1174279371.1174285844.62; __utmz=96992031.1171667631.1.1.utmccn=(direct)|utmcsr=(direct)|utmcmd=(none); _session_id=3e171f02e3cf31b41e55f15b6f9da50f
+HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+HTTP_VERSION: HTTP/1.1
+REQUEST_URI: /stylesheets/scaffold.css
+SERVER_PORT: "3000"
+GATEWAY_INTERFACE: CGI/1.2
+QUERY_STRING: /stylesheets/scaffold.css?
+HTTP_ACCEPT: text/css,*/*;q=0.1
+HTTP_CONNECTION: keep-alive
+REQUEST_METHOD: GET
+
+Thu Mar 22 04:35:23 Hora est. de América Central 2007 REQUEST /stylesheets/salad.css
+--- 
+SERVER_NAME: 127.0.0.1
+PATH_INFO: /stylesheets/salad.css
+HTTP_ACCEPT_ENCODING: gzip,deflate
+HTTP_USER_AGENT: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.3) Gecko/20070309 Firefox/2.0.0.3
+SCRIPT_NAME: /
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_IF_NONE_MATCH: "\"4602524b-496-0\""
+HTTP_ACCEPT_LANGUAGE: en-us,en;q=0.5
+HTTP_HOST: 127.0.0.1:3000
+REMOTE_ADDR: 127.0.0.1
+SERVER_SOFTWARE: Mongrel 0.3.13.3
+HTTP_KEEP_ALIVE: "300"
+HTTP_REFERER: http://127.0.0.1:3000/user/openid_signin
+HTTP_COOKIE: __utma=96992031.680125514.1171667631.1174279371.1174285844.62; __utmz=96992031.1171667631.1.1.utmccn=(direct)|utmcsr=(direct)|utmcmd=(none); _session_id=3e171f02e3cf31b41e55f15b6f9da50f
+HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+HTTP_VERSION: HTTP/1.1
+REQUEST_URI: /stylesheets/salad.css
+SERVER_PORT: "3000"
+GATEWAY_INTERFACE: CGI/1.2
+HTTP_IF_MODIFIED_SINCE: Thu, 22 Mar 2007 09:54:19 GMT
+QUERY_STRING: "1174557259"
+HTTP_ACCEPT: text/css,*/*;q=0.1
+HTTP_CONNECTION: keep-alive
+REQUEST_METHOD: GET
+
+Thu Mar 22 04:35:28 Hora est. de América Central 2007 REQUEST /images/favicon.png
+--- 
+SERVER_NAME: 127.0.0.1
+PATH_INFO: /images/favicon.png
+HTTP_ACCEPT_ENCODING: gzip,deflate
+HTTP_USER_AGENT: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.3) Gecko/20070309 Firefox/2.0.0.3
+SCRIPT_NAME: /
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_ACCEPT_LANGUAGE: en-us,en;q=0.5
+HTTP_HOST: 127.0.0.1:3000
+REMOTE_ADDR: 127.0.0.1
+SERVER_SOFTWARE: Mongrel 0.3.13.3
+HTTP_KEEP_ALIVE: "300"
+HTTP_COOKIE: __utma=96992031.680125514.1171667631.1174279371.1174285844.62; __utmz=96992031.1171667631.1.1.utmccn=(direct)|utmcsr=(direct)|utmcmd=(none); _session_id=3e171f02e3cf31b41e55f15b6f9da50f
+HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+HTTP_VERSION: HTTP/1.1
+REQUEST_URI: /images/favicon.png
+SERVER_PORT: "3000"
+GATEWAY_INTERFACE: CGI/1.2
+HTTP_ACCEPT: image/png,*/*;q=0.5
+HTTP_CONNECTION: keep-alive
+REQUEST_METHOD: GET
+
+Thu Mar 22 04:35:28 Hora est. de América Central 2007 REQUEST /images/login-bg.gif
+--- 
+SERVER_NAME: 127.0.0.1
+PATH_INFO: /images/login-bg.gif
+HTTP_ACCEPT_ENCODING: gzip,deflate
+HTTP_USER_AGENT: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.3) Gecko/20070309 Firefox/2.0.0.3
+SCRIPT_NAME: /
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_IF_NONE_MATCH: "\"46025260-ed-0\""
+HTTP_ACCEPT_LANGUAGE: en-us,en;q=0.5
+HTTP_HOST: 127.0.0.1:3000
+REMOTE_ADDR: 127.0.0.1
+SERVER_SOFTWARE: Mongrel 0.3.13.3
+HTTP_KEEP_ALIVE: "300"
+HTTP_REFERER: http://127.0.0.1:3000/stylesheets/salad.css?1174557259
+HTTP_COOKIE: __utma=96992031.680125514.1171667631.1174279371.1174285844.62; __utmz=96992031.1171667631.1.1.utmccn=(direct)|utmcsr=(direct)|utmcmd=(none); _session_id=3e171f02e3cf31b41e55f15b6f9da50f
+HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+HTTP_VERSION: HTTP/1.1
+REQUEST_URI: /images/login-bg.gif
+SERVER_PORT: "3000"
+GATEWAY_INTERFACE: CGI/1.2
+HTTP_IF_MODIFIED_SINCE: Thu, 22 Mar 2007 09:54:40 GMT
+HTTP_ACCEPT: image/png,*/*;q=0.5
+HTTP_CONNECTION: keep-alive
+REQUEST_METHOD: GET
+
+Thu Mar 22 04:35:30 Hora est. de América Central 2007 REQUEST /user/openid_login
+--- 
+SERVER_NAME: 127.0.0.1
+PATH_INFO: /user/openid_login
+CONTENT_LENGTH: "43"
+HTTP_CONTENT_TYPE: application/x-www-form-urlencoded
+HTTP_ACCEPT_ENCODING: gzip,deflate
+HTTP_USER_AGENT: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.3) Gecko/20070309 Firefox/2.0.0.3
+SCRIPT_NAME: /
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_ACCEPT_LANGUAGE: en-us,en;q=0.5
+HTTP_HOST: 127.0.0.1:3000
+REMOTE_ADDR: 127.0.0.1
+SERVER_SOFTWARE: Mongrel 0.3.13.3
+HTTP_CONTENT_LENGTH: "43"
+HTTP_KEEP_ALIVE: "300"
+CONTENT_TYPE: application/x-www-form-urlencoded
+HTTP_REFERER: http://127.0.0.1:3000/user/openid_signin
+HTTP_COOKIE: __utma=96992031.680125514.1171667631.1174279371.1174285844.62; __utmz=96992031.1171667631.1.1.utmccn=(direct)|utmcsr=(direct)|utmcmd=(none); _session_id=3e171f02e3cf31b41e55f15b6f9da50f
+HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+HTTP_VERSION: HTTP/1.1
+REQUEST_URI: /user/openid_login
+SERVER_PORT: "3000"
+GATEWAY_INTERFACE: CGI/1.2
+HTTP_ACCEPT: text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5
+HTTP_CONNECTION: keep-alive
+REQUEST_METHOD: POST
+
+Thu Mar 22 04:35:50 Hora est. de América Central 2007 REQUEST /images/favicon.png
+--- 
+SERVER_NAME: 127.0.0.1
+PATH_INFO: /images/favicon.png
+HTTP_ACCEPT_ENCODING: gzip,deflate
+HTTP_USER_AGENT: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.3) Gecko/20070309 Firefox/2.0.0.3
+SCRIPT_NAME: /
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_ACCEPT_LANGUAGE: en-us,en;q=0.5
+HTTP_HOST: 127.0.0.1:3000
+REMOTE_ADDR: 127.0.0.1
+SERVER_SOFTWARE: Mongrel 0.3.13.3
+HTTP_KEEP_ALIVE: "300"
+HTTP_COOKIE: __utma=96992031.680125514.1171667631.1174279371.1174285844.62; __utmz=96992031.1171667631.1.1.utmccn=(direct)|utmcsr=(direct)|utmcmd=(none); _session_id=3e171f02e3cf31b41e55f15b6f9da50f
+HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+HTTP_VERSION: HTTP/1.1
+REQUEST_URI: /images/favicon.png
+SERVER_PORT: "3000"
+GATEWAY_INTERFACE: CGI/1.2
+HTTP_ACCEPT: image/png,*/*;q=0.5
+HTTP_CONNECTION: keep-alive
+REQUEST_METHOD: GET
+
+Thu Mar 22 04:35:51 Hora est. de América Central 2007 REQUEST /user/openid_login
+--- 
+SERVER_NAME: 127.0.0.1
+PATH_INFO: /user/openid_login
+CONTENT_LENGTH: "43"
+HTTP_CONTENT_TYPE: application/x-www-form-urlencoded
+HTTP_ACCEPT_ENCODING: gzip,deflate
+HTTP_USER_AGENT: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.3) Gecko/20070309 Firefox/2.0.0.3
+SCRIPT_NAME: /
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_ACCEPT_LANGUAGE: en-us,en;q=0.5
+HTTP_HOST: 127.0.0.1:3000
+REMOTE_ADDR: 127.0.0.1
+SERVER_SOFTWARE: Mongrel 0.3.13.3
+HTTP_CONTENT_LENGTH: "43"
+HTTP_KEEP_ALIVE: "300"
+CONTENT_TYPE: application/x-www-form-urlencoded
+HTTP_REFERER: http://127.0.0.1:3000/user/openid_signin
+HTTP_COOKIE: __utma=96992031.680125514.1171667631.1174279371.1174285844.62; __utmz=96992031.1171667631.1.1.utmccn=(direct)|utmcsr=(direct)|utmcmd=(none); _session_id=3e171f02e3cf31b41e55f15b6f9da50f
+HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+HTTP_VERSION: HTTP/1.1
+REQUEST_URI: /user/openid_login
+SERVER_PORT: "3000"
+GATEWAY_INTERFACE: CGI/1.2
+HTTP_ACCEPT: text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5
+HTTP_CONNECTION: keep-alive
+REQUEST_METHOD: POST
+
+Thu Mar 22 04:37:57 Hora est. de América Central 2007 REQUEST /images/favicon.png
+--- 
+SERVER_NAME: 127.0.0.1
+PATH_INFO: /images/favicon.png
+HTTP_ACCEPT_ENCODING: gzip,deflate
+HTTP_USER_AGENT: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.3) Gecko/20070309 Firefox/2.0.0.3
+SCRIPT_NAME: /
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_ACCEPT_LANGUAGE: en-us,en;q=0.5
+HTTP_HOST: 127.0.0.1:3000
+REMOTE_ADDR: 127.0.0.1
+SERVER_SOFTWARE: Mongrel 0.3.13.3
+HTTP_KEEP_ALIVE: "300"
+HTTP_COOKIE: __utma=96992031.680125514.1171667631.1174279371.1174285844.62; __utmz=96992031.1171667631.1.1.utmccn=(direct)|utmcsr=(direct)|utmcmd=(none); _session_id=3e171f02e3cf31b41e55f15b6f9da50f
+HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+HTTP_VERSION: HTTP/1.1
+REQUEST_URI: /images/favicon.png
+SERVER_PORT: "3000"
+GATEWAY_INTERFACE: CGI/1.2
+HTTP_ACCEPT: image/png,*/*;q=0.5
+HTTP_CONNECTION: keep-alive
+REQUEST_METHOD: GET
+
+Thu Mar 22 04:37:58 Hora est. de América Central 2007 REQUEST /user/openid_login
+--- 
+SERVER_NAME: 127.0.0.1
+PATH_INFO: /user/openid_login
+CONTENT_LENGTH: "43"
+HTTP_CONTENT_TYPE: application/x-www-form-urlencoded
+HTTP_ACCEPT_ENCODING: gzip,deflate
+HTTP_USER_AGENT: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.3) Gecko/20070309 Firefox/2.0.0.3
+SCRIPT_NAME: /
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_ACCEPT_LANGUAGE: en-us,en;q=0.5
+HTTP_HOST: 127.0.0.1:3000
+REMOTE_ADDR: 127.0.0.1
+SERVER_SOFTWARE: Mongrel 0.3.13.3
+HTTP_CONTENT_LENGTH: "43"
+HTTP_KEEP_ALIVE: "300"
+CONTENT_TYPE: application/x-www-form-urlencoded
+HTTP_REFERER: http://127.0.0.1:3000/user/openid_signin
+HTTP_COOKIE: __utma=96992031.680125514.1171667631.1174279371.1174285844.62; __utmz=96992031.1171667631.1.1.utmccn=(direct)|utmcsr=(direct)|utmcmd=(none); _session_id=3e171f02e3cf31b41e55f15b6f9da50f
+HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+HTTP_VERSION: HTTP/1.1
+REQUEST_URI: /user/openid_login
+SERVER_PORT: "3000"
+GATEWAY_INTERFACE: CGI/1.2
+HTTP_ACCEPT: text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5
+HTTP_CONNECTION: keep-alive
+REQUEST_METHOD: POST
+
+Thu Mar 22 04:39:20 Hora est. de América Central 2007 REQUEST /images/favicon.png
+--- 
+SERVER_NAME: 127.0.0.1
+PATH_INFO: /images/favicon.png
+HTTP_ACCEPT_ENCODING: gzip,deflate
+HTTP_USER_AGENT: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.3) Gecko/20070309 Firefox/2.0.0.3
+SCRIPT_NAME: /
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_ACCEPT_LANGUAGE: en-us,en;q=0.5
+HTTP_HOST: 127.0.0.1:3000
+REMOTE_ADDR: 127.0.0.1
+SERVER_SOFTWARE: Mongrel 0.3.13.3
+HTTP_KEEP_ALIVE: "300"
+HTTP_COOKIE: __utma=96992031.680125514.1171667631.1174279371.1174285844.62; __utmz=96992031.1171667631.1.1.utmccn=(direct)|utmcsr=(direct)|utmcmd=(none); _session_id=3e171f02e3cf31b41e55f15b6f9da50f
+HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+HTTP_VERSION: HTTP/1.1
+REQUEST_URI: /images/favicon.png
+SERVER_PORT: "3000"
+GATEWAY_INTERFACE: CGI/1.2
+HTTP_ACCEPT: image/png,*/*;q=0.5
+HTTP_CONNECTION: keep-alive
+REQUEST_METHOD: GET
+
+Thu Mar 22 04:39:21 Hora est. de América Central 2007 REQUEST /user/openid_login
+--- 
+SERVER_NAME: 127.0.0.1
+PATH_INFO: /user/openid_login
+CONTENT_LENGTH: "43"
+HTTP_CONTENT_TYPE: application/x-www-form-urlencoded
+HTTP_ACCEPT_ENCODING: gzip,deflate
+HTTP_USER_AGENT: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.3) Gecko/20070309 Firefox/2.0.0.3
+SCRIPT_NAME: /
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_ACCEPT_LANGUAGE: en-us,en;q=0.5
+HTTP_HOST: 127.0.0.1:3000
+REMOTE_ADDR: 127.0.0.1
+SERVER_SOFTWARE: Mongrel 0.3.13.3
+HTTP_CONTENT_LENGTH: "43"
+HTTP_KEEP_ALIVE: "300"
+CONTENT_TYPE: application/x-www-form-urlencoded
+HTTP_REFERER: http://127.0.0.1:3000/user/openid_signin
+HTTP_COOKIE: __utma=96992031.680125514.1171667631.1174279371.1174285844.62; __utmz=96992031.1171667631.1.1.utmccn=(direct)|utmcsr=(direct)|utmcmd=(none); _session_id=3e171f02e3cf31b41e55f15b6f9da50f
+HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+HTTP_VERSION: HTTP/1.1
+REQUEST_URI: /user/openid_login
+SERVER_PORT: "3000"
+GATEWAY_INTERFACE: CGI/1.2
+HTTP_ACCEPT: text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5
+HTTP_CONNECTION: keep-alive
+REQUEST_METHOD: POST
+
+Thu Mar 22 04:39:52 Hora est. de América Central 2007 REQUEST /user/complete
+--- 
+SERVER_NAME: 127.0.0.1
+PATH_INFO: /user/complete
+HTTP_ACCEPT_ENCODING: gzip,deflate
+HTTP_USER_AGENT: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.3) Gecko/20070309 Firefox/2.0.0.3
+SCRIPT_NAME: /
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_ACCEPT_LANGUAGE: en-us,en;q=0.5
+HTTP_HOST: 127.0.0.1:3000
+REMOTE_ADDR: 127.0.0.1
+SERVER_SOFTWARE: Mongrel 0.3.13.3
+HTTP_KEEP_ALIVE: "300"
+HTTP_COOKIE: __utma=96992031.680125514.1171667631.1174279371.1174285844.62; __utmz=96992031.1171667631.1.1.utmccn=(direct)|utmcsr=(direct)|utmcmd=(none); _session_id=3e171f02e3cf31b41e55f15b6f9da50f
+HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+HTTP_VERSION: HTTP/1.1
+REQUEST_URI: /user/complete
+SERVER_PORT: "3000"
+GATEWAY_INTERFACE: CGI/1.2
+QUERY_STRING: nonce=K09kVRzS&openid.assoc_handle=%7BHMAC-SHA1%7D%7B4602576b%7D%7BoeidBw%3D%3D%7D&openid.identity=http%3A%2F%2Frbreve.myopenid.com%2F&openid.mode=id_res&openid.return_to=http%3A%2F%2F127.0.0.1%3A3000%2Fuser%2Fcomplete%3Fnonce%3DK09kVRzS&openid.sig=kWWdDQfFC69bOlrCb8KOkptwFug%3D&openid.signed=return_to%2Cmode%2Cidentity
+HTTP_ACCEPT: text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5
+HTTP_CONNECTION: keep-alive
+REQUEST_METHOD: GET
+
+Thu Mar 22 04:40:39 Hora est. de América Central 2007 REQUEST /salad/list
+--- 
+SERVER_NAME: 127.0.0.1
+PATH_INFO: /salad/list
+HTTP_ACCEPT_ENCODING: gzip,deflate
+HTTP_USER_AGENT: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.3) Gecko/20070309 Firefox/2.0.0.3
+SCRIPT_NAME: /
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_ACCEPT_LANGUAGE: en-us,en;q=0.5
+HTTP_HOST: 127.0.0.1:3000
+REMOTE_ADDR: 127.0.0.1
+SERVER_SOFTWARE: Mongrel 0.3.13.3
+HTTP_KEEP_ALIVE: "300"
+HTTP_COOKIE: __utma=96992031.680125514.1171667631.1174279371.1174285844.62; __utmz=96992031.1171667631.1.1.utmccn=(direct)|utmcsr=(direct)|utmcmd=(none); _session_id=3e171f02e3cf31b41e55f15b6f9da50f
+HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+HTTP_VERSION: HTTP/1.1
+REQUEST_URI: /salad/list
+SERVER_PORT: "3000"
+GATEWAY_INTERFACE: CGI/1.2
+HTTP_ACCEPT: text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5
+HTTP_CONNECTION: keep-alive
+REQUEST_METHOD: GET
+
+Thu Mar 22 04:40:41 Hora est. de América Central 2007 REQUEST /stylesheets/scaffold.css
+--- 
+SERVER_NAME: 127.0.0.1
+PATH_INFO: /stylesheets/scaffold.css
+HTTP_ACCEPT_ENCODING: gzip,deflate
+HTTP_USER_AGENT: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.3) Gecko/20070309 Firefox/2.0.0.3
+SCRIPT_NAME: /
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_ACCEPT_LANGUAGE: en-us,en;q=0.5
+HTTP_HOST: 127.0.0.1:3000
+REMOTE_ADDR: 127.0.0.1
+SERVER_SOFTWARE: Mongrel 0.3.13.3
+HTTP_KEEP_ALIVE: "300"
+HTTP_REFERER: http://127.0.0.1:3000/salad/list
+HTTP_COOKIE: __utma=96992031.680125514.1171667631.1174279371.1174285844.62; __utmz=96992031.1171667631.1.1.utmccn=(direct)|utmcsr=(direct)|utmcmd=(none); _session_id=3e171f02e3cf31b41e55f15b6f9da50f
+HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+HTTP_VERSION: HTTP/1.1
+REQUEST_URI: /stylesheets/scaffold.css
+SERVER_PORT: "3000"
+GATEWAY_INTERFACE: CGI/1.2
+QUERY_STRING: /stylesheets/scaffold.css?
+HTTP_ACCEPT: text/css,*/*;q=0.1
+HTTP_CONNECTION: keep-alive
+REQUEST_METHOD: GET
+
+Thu Mar 22 04:40:43 Hora est. de América Central 2007 REQUEST /stylesheets/salad.css
+--- 
+SERVER_NAME: 127.0.0.1
+PATH_INFO: /stylesheets/salad.css
+HTTP_ACCEPT_ENCODING: gzip,deflate
+HTTP_USER_AGENT: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.3) Gecko/20070309 Firefox/2.0.0.3
+SCRIPT_NAME: /
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_IF_NONE_MATCH: "\"4602524b-496-0\""
+HTTP_ACCEPT_LANGUAGE: en-us,en;q=0.5
+HTTP_HOST: 127.0.0.1:3000
+REMOTE_ADDR: 127.0.0.1
+SERVER_SOFTWARE: Mongrel 0.3.13.3
+HTTP_KEEP_ALIVE: "300"
+HTTP_REFERER: http://127.0.0.1:3000/salad/list
+HTTP_COOKIE: __utma=96992031.680125514.1171667631.1174279371.1174285844.62; __utmz=96992031.1171667631.1.1.utmccn=(direct)|utmcsr=(direct)|utmcmd=(none); _session_id=3e171f02e3cf31b41e55f15b6f9da50f
+HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+HTTP_VERSION: HTTP/1.1
+REQUEST_URI: /stylesheets/salad.css
+SERVER_PORT: "3000"
+GATEWAY_INTERFACE: CGI/1.2
+HTTP_IF_MODIFIED_SINCE: Thu, 22 Mar 2007 09:54:19 GMT
+QUERY_STRING: "1174557259"
+HTTP_ACCEPT: text/css,*/*;q=0.1
+HTTP_CONNECTION: keep-alive
+REQUEST_METHOD: GET
+
+Thu Mar 22 04:40:44 Hora est. de América Central 2007 REQUEST /images/favicon.png
+--- 
+SERVER_NAME: 127.0.0.1
+PATH_INFO: /images/favicon.png
+HTTP_ACCEPT_ENCODING: gzip,deflate
+HTTP_USER_AGENT: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.3) Gecko/20070309 Firefox/2.0.0.3
+SCRIPT_NAME: /
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_ACCEPT_LANGUAGE: en-us,en;q=0.5
+HTTP_HOST: 127.0.0.1:3000
+REMOTE_ADDR: 127.0.0.1
+SERVER_SOFTWARE: Mongrel 0.3.13.3
+HTTP_KEEP_ALIVE: "300"
+HTTP_COOKIE: __utma=96992031.680125514.1171667631.1174279371.1174285844.62; __utmz=96992031.1171667631.1.1.utmccn=(direct)|utmcsr=(direct)|utmcmd=(none); _session_id=3e171f02e3cf31b41e55f15b6f9da50f
+HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+HTTP_VERSION: HTTP/1.1
+REQUEST_URI: /images/favicon.png
+SERVER_PORT: "3000"
+GATEWAY_INTERFACE: CGI/1.2
+HTTP_ACCEPT: image/png,*/*;q=0.5
+HTTP_CONNECTION: keep-alive
+REQUEST_METHOD: GET
+
+Thu Mar 22 04:40:45 Hora est. de América Central 2007 REQUEST /salad/view/5
+--- 
+SERVER_NAME: 127.0.0.1
+PATH_INFO: /salad/view/5
+HTTP_ACCEPT_ENCODING: gzip,deflate
+HTTP_USER_AGENT: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.3) Gecko/20070309 Firefox/2.0.0.3
+SCRIPT_NAME: /
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_ACCEPT_LANGUAGE: en-us,en;q=0.5
+HTTP_HOST: 127.0.0.1:3000
+REMOTE_ADDR: 127.0.0.1
+SERVER_SOFTWARE: Mongrel 0.3.13.3
+HTTP_KEEP_ALIVE: "300"
+HTTP_REFERER: http://127.0.0.1:3000/salad/list
+HTTP_COOKIE: __utma=96992031.680125514.1171667631.1174279371.1174285844.62; __utmz=96992031.1171667631.1.1.utmccn=(direct)|utmcsr=(direct)|utmcmd=(none); _session_id=3e171f02e3cf31b41e55f15b6f9da50f
+HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+HTTP_VERSION: HTTP/1.1
+REQUEST_URI: /salad/view/5
+SERVER_PORT: "3000"
+GATEWAY_INTERFACE: CGI/1.2
+HTTP_ACCEPT: text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5
+HTTP_CONNECTION: keep-alive
+REQUEST_METHOD: GET
+
+Thu Mar 22 04:40:48 Hora est. de América Central 2007 REQUEST /stylesheets/scaffold.css
+--- 
+SERVER_NAME: 127.0.0.1
+PATH_INFO: /stylesheets/scaffold.css
+HTTP_ACCEPT_ENCODING: gzip,deflate
+HTTP_USER_AGENT: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.3) Gecko/20070309 Firefox/2.0.0.3
+SCRIPT_NAME: /
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_ACCEPT_LANGUAGE: en-us,en;q=0.5
+HTTP_HOST: 127.0.0.1:3000
+REMOTE_ADDR: 127.0.0.1
+SERVER_SOFTWARE: Mongrel 0.3.13.3
+HTTP_KEEP_ALIVE: "300"
+HTTP_REFERER: http://127.0.0.1:3000/salad/view/5
+HTTP_COOKIE: __utma=96992031.680125514.1171667631.1174279371.1174285844.62; __utmz=96992031.1171667631.1.1.utmccn=(direct)|utmcsr=(direct)|utmcmd=(none); _session_id=3e171f02e3cf31b41e55f15b6f9da50f
+HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+HTTP_VERSION: HTTP/1.1
+REQUEST_URI: /stylesheets/scaffold.css
+SERVER_PORT: "3000"
+GATEWAY_INTERFACE: CGI/1.2
+QUERY_STRING: /stylesheets/scaffold.css?
+HTTP_ACCEPT: text/css,*/*;q=0.1
+HTTP_CONNECTION: keep-alive
+REQUEST_METHOD: GET
+
+Thu Mar 22 04:40:50 Hora est. de América Central 2007 REQUEST /images/favicon.png
+--- 
+SERVER_NAME: 127.0.0.1
+PATH_INFO: /images/favicon.png
+HTTP_ACCEPT_ENCODING: gzip,deflate
+HTTP_USER_AGENT: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.3) Gecko/20070309 Firefox/2.0.0.3
+SCRIPT_NAME: /
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_ACCEPT_LANGUAGE: en-us,en;q=0.5
+HTTP_HOST: 127.0.0.1:3000
+REMOTE_ADDR: 127.0.0.1
+SERVER_SOFTWARE: Mongrel 0.3.13.3
+HTTP_KEEP_ALIVE: "300"
+HTTP_COOKIE: __utma=96992031.680125514.1171667631.1174279371.1174285844.62; __utmz=96992031.1171667631.1.1.utmccn=(direct)|utmcsr=(direct)|utmcmd=(none); _session_id=3e171f02e3cf31b41e55f15b6f9da50f
+HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+HTTP_VERSION: HTTP/1.1
+REQUEST_URI: /images/favicon.png
+SERVER_PORT: "3000"
+GATEWAY_INTERFACE: CGI/1.2
+HTTP_ACCEPT: image/png,*/*;q=0.5
+HTTP_CONNECTION: keep-alive
+REQUEST_METHOD: GET
+
+Thu Mar 22 04:41:11 Hora est. de América Central 2007 REQUEST /images/favicon.png
+--- 
+SERVER_NAME: 127.0.0.1
+PATH_INFO: /images/favicon.png
+HTTP_ACCEPT_ENCODING: gzip,deflate
+HTTP_USER_AGENT: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.3) Gecko/20070309 Firefox/2.0.0.3
+SCRIPT_NAME: /
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_ACCEPT_LANGUAGE: en-us,en;q=0.5
+HTTP_HOST: 127.0.0.1:3000
+REMOTE_ADDR: 127.0.0.1
+SERVER_SOFTWARE: Mongrel 0.3.13.3
+HTTP_KEEP_ALIVE: "300"
+HTTP_COOKIE: __utma=96992031.680125514.1171667631.1174279371.1174285844.62; __utmz=96992031.1171667631.1.1.utmccn=(direct)|utmcsr=(direct)|utmcmd=(none); _session_id=3e171f02e3cf31b41e55f15b6f9da50f
+HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+HTTP_VERSION: HTTP/1.1
+REQUEST_URI: /images/favicon.png
+SERVER_PORT: "3000"
+GATEWAY_INTERFACE: CGI/1.2
+HTTP_ACCEPT: image/png,*/*;q=0.5
+HTTP_CONNECTION: keep-alive
+REQUEST_METHOD: GET
+
+Thu Mar 22 04:41:36 Hora est. de América Central 2007 REQUEST /images/favicon.png
+--- 
+SERVER_NAME: 127.0.0.1
+PATH_INFO: /images/favicon.png
+HTTP_ACCEPT_ENCODING: gzip,deflate
+HTTP_USER_AGENT: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.3) Gecko/20070309 Firefox/2.0.0.3
+SCRIPT_NAME: /
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_ACCEPT_LANGUAGE: en-us,en;q=0.5
+HTTP_HOST: 127.0.0.1:3000
+REMOTE_ADDR: 127.0.0.1
+SERVER_SOFTWARE: Mongrel 0.3.13.3
+HTTP_KEEP_ALIVE: "300"
+HTTP_COOKIE: __utma=96992031.680125514.1171667631.1174279371.1174285844.62; __utmz=96992031.1171667631.1.1.utmccn=(direct)|utmcsr=(direct)|utmcmd=(none); _session_id=3e171f02e3cf31b41e55f15b6f9da50f
+HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+HTTP_VERSION: HTTP/1.1
+REQUEST_URI: /images/favicon.png
+SERVER_PORT: "3000"
+GATEWAY_INTERFACE: CGI/1.2
+HTTP_ACCEPT: image/png,*/*;q=0.5
+HTTP_CONNECTION: keep-alive
+REQUEST_METHOD: GET
+
+Thu Mar 22 04:41:37 Hora est. de América Central 2007 REQUEST /salad/view/5
+--- 
+SERVER_NAME: 127.0.0.1
+PATH_INFO: /salad/view/5
+HTTP_ACCEPT_ENCODING: gzip,deflate
+HTTP_USER_AGENT: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.3) Gecko/20070309 Firefox/2.0.0.3
+SCRIPT_NAME: /
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CACHE_CONTROL: max-age=0
+HTTP_ACCEPT_LANGUAGE: en-us,en;q=0.5
+HTTP_HOST: 127.0.0.1:3000
+REMOTE_ADDR: 127.0.0.1
+SERVER_SOFTWARE: Mongrel 0.3.13.3
+HTTP_KEEP_ALIVE: "300"
+HTTP_REFERER: http://127.0.0.1:3000/salad/list
+HTTP_COOKIE: __utma=96992031.680125514.1171667631.1174279371.1174285844.62; __utmz=96992031.1171667631.1.1.utmccn=(direct)|utmcsr=(direct)|utmcmd=(none); _session_id=3e171f02e3cf31b41e55f15b6f9da50f
+HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+HTTP_VERSION: HTTP/1.1
+REQUEST_URI: /salad/view/5
+SERVER_PORT: "3000"
+GATEWAY_INTERFACE: CGI/1.2
+HTTP_ACCEPT: text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5
+HTTP_CONNECTION: keep-alive
+REQUEST_METHOD: GET
+
+Thu Mar 22 04:41:39 Hora est. de América Central 2007 REQUEST /stylesheets/scaffold.css
+--- 
+SERVER_NAME: 127.0.0.1
+PATH_INFO: /stylesheets/scaffold.css
+HTTP_ACCEPT_ENCODING: gzip,deflate
+HTTP_USER_AGENT: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.3) Gecko/20070309 Firefox/2.0.0.3
+SCRIPT_NAME: /
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CACHE_CONTROL: max-age=0
+HTTP_ACCEPT_LANGUAGE: en-us,en;q=0.5
+HTTP_HOST: 127.0.0.1:3000
+REMOTE_ADDR: 127.0.0.1
+SERVER_SOFTWARE: Mongrel 0.3.13.3
+HTTP_KEEP_ALIVE: "300"
+HTTP_REFERER: http://127.0.0.1:3000/salad/view/5
+HTTP_COOKIE: __utma=96992031.680125514.1171667631.1174279371.1174285844.62; __utmz=96992031.1171667631.1.1.utmccn=(direct)|utmcsr=(direct)|utmcmd=(none); _session_id=3e171f02e3cf31b41e55f15b6f9da50f
+HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+HTTP_VERSION: HTTP/1.1
+REQUEST_URI: /stylesheets/scaffold.css
+SERVER_PORT: "3000"
+GATEWAY_INTERFACE: CGI/1.2
+QUERY_STRING: /stylesheets/scaffold.css?
+HTTP_ACCEPT: text/css,*/*;q=0.1
+HTTP_CONNECTION: keep-alive
+REQUEST_METHOD: GET
+
+Thu Mar 22 04:41:40 Hora est. de América Central 2007 REQUEST /stylesheets/salad.css
+--- 
+SERVER_NAME: 127.0.0.1
+PATH_INFO: /stylesheets/salad.css
+HTTP_ACCEPT_ENCODING: gzip,deflate
+HTTP_USER_AGENT: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.3) Gecko/20070309 Firefox/2.0.0.3
+SCRIPT_NAME: /
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CACHE_CONTROL: max-age=0
+HTTP_IF_NONE_MATCH: "\"4602524b-496-0\""
+HTTP_ACCEPT_LANGUAGE: en-us,en;q=0.5
+HTTP_HOST: 127.0.0.1:3000
+REMOTE_ADDR: 127.0.0.1
+SERVER_SOFTWARE: Mongrel 0.3.13.3
+HTTP_KEEP_ALIVE: "300"
+HTTP_REFERER: http://127.0.0.1:3000/salad/view/5
+HTTP_COOKIE: __utma=96992031.680125514.1171667631.1174279371.1174285844.62; __utmz=96992031.1171667631.1.1.utmccn=(direct)|utmcsr=(direct)|utmcmd=(none); _session_id=3e171f02e3cf31b41e55f15b6f9da50f
+HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+HTTP_VERSION: HTTP/1.1
+REQUEST_URI: /stylesheets/salad.css
+SERVER_PORT: "3000"
+GATEWAY_INTERFACE: CGI/1.2
+HTTP_IF_MODIFIED_SINCE: Thu, 22 Mar 2007 09:54:19 GMT
+QUERY_STRING: "1174557259"
+HTTP_ACCEPT: text/css,*/*;q=0.1
+HTTP_CONNECTION: keep-alive
+REQUEST_METHOD: GET
+
+Thu Mar 22 04:41:42 Hora est. de América Central 2007 REQUEST /javascripts/prototype.js
+--- 
+SERVER_NAME: 127.0.0.1
+PATH_INFO: /javascripts/prototype.js
+HTTP_ACCEPT_ENCODING: gzip,deflate
+HTTP_USER_AGENT: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.3) Gecko/20070309 Firefox/2.0.0.3
+SCRIPT_NAME: /
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CACHE_CONTROL: max-age=0
+HTTP_IF_NONE_MATCH: "\"45a90a28-d76d-0\""
+HTTP_ACCEPT_LANGUAGE: en-us,en;q=0.5
+HTTP_HOST: 127.0.0.1:3000
+REMOTE_ADDR: 127.0.0.1
+SERVER_SOFTWARE: Mongrel 0.3.13.3
+HTTP_KEEP_ALIVE: "300"
+HTTP_REFERER: http://127.0.0.1:3000/salad/view/5
+HTTP_COOKIE: __utma=96992031.680125514.1171667631.1174279371.1174285844.62; __utmz=96992031.1171667631.1.1.utmccn=(direct)|utmcsr=(direct)|utmcmd=(none); _session_id=3e171f02e3cf31b41e55f15b6f9da50f
+HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+HTTP_VERSION: HTTP/1.1
+REQUEST_URI: /javascripts/prototype.js
+SERVER_PORT: "3000"
+GATEWAY_INTERFACE: CGI/1.2
+HTTP_IF_MODIFIED_SINCE: Sat, 13 Jan 2007 16:34:48 GMT
+QUERY_STRING: "1168706088"
+HTTP_ACCEPT: "*/*"
+HTTP_CONNECTION: keep-alive
+REQUEST_METHOD: GET
+
+Thu Mar 22 04:41:44 Hora est. de América Central 2007 REQUEST /javascripts/effects.js
+--- 
+SERVER_NAME: 127.0.0.1
+PATH_INFO: /javascripts/effects.js
+HTTP_ACCEPT_ENCODING: gzip,deflate
+HTTP_USER_AGENT: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.3) Gecko/20070309 Firefox/2.0.0.3
+SCRIPT_NAME: /
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CACHE_CONTROL: max-age=0
+HTTP_IF_NONE_MATCH: "\"45a90a28-8067-0\""
+HTTP_ACCEPT_LANGUAGE: en-us,en;q=0.5
+HTTP_HOST: 127.0.0.1:3000
+REMOTE_ADDR: 127.0.0.1
+SERVER_SOFTWARE: Mongrel 0.3.13.3
+HTTP_KEEP_ALIVE: "300"
+HTTP_REFERER: http://127.0.0.1:3000/salad/view/5
+HTTP_COOKIE: __utma=96992031.680125514.1171667631.1174279371.1174285844.62; __utmz=96992031.1171667631.1.1.utmccn=(direct)|utmcsr=(direct)|utmcmd=(none); _session_id=3e171f02e3cf31b41e55f15b6f9da50f
+HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+HTTP_VERSION: HTTP/1.1
+REQUEST_URI: /javascripts/effects.js
+SERVER_PORT: "3000"
+GATEWAY_INTERFACE: CGI/1.2
+HTTP_IF_MODIFIED_SINCE: Sat, 13 Jan 2007 16:34:48 GMT
+QUERY_STRING: "1168706088"
+HTTP_ACCEPT: "*/*"
+HTTP_CONNECTION: keep-alive
+REQUEST_METHOD: GET
+
+Thu Mar 22 04:41:45 Hora est. de América Central 2007 REQUEST /javascripts/dragdrop.js
+--- 
+SERVER_NAME: 127.0.0.1
+PATH_INFO: /javascripts/dragdrop.js
+HTTP_ACCEPT_ENCODING: gzip,deflate
+HTTP_USER_AGENT: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.3) Gecko/20070309 Firefox/2.0.0.3
+SCRIPT_NAME: /
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CACHE_CONTROL: max-age=0
+HTTP_IF_NONE_MATCH: "\"45a90a28-730d-0\""
+HTTP_ACCEPT_LANGUAGE: en-us,en;q=0.5
+HTTP_HOST: 127.0.0.1:3000
+REMOTE_ADDR: 127.0.0.1
+SERVER_SOFTWARE: Mongrel 0.3.13.3
+HTTP_KEEP_ALIVE: "300"
+HTTP_REFERER: http://127.0.0.1:3000/salad/view/5
+HTTP_COOKIE: __utma=96992031.680125514.1171667631.1174279371.1174285844.62; __utmz=96992031.1171667631.1.1.utmccn=(direct)|utmcsr=(direct)|utmcmd=(none); _session_id=3e171f02e3cf31b41e55f15b6f9da50f
+HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+HTTP_VERSION: HTTP/1.1
+REQUEST_URI: /javascripts/dragdrop.js
+SERVER_PORT: "3000"
+GATEWAY_INTERFACE: CGI/1.2
+HTTP_IF_MODIFIED_SINCE: Sat, 13 Jan 2007 16:34:48 GMT
+QUERY_STRING: "1168706088"
+HTTP_ACCEPT: "*/*"
+HTTP_CONNECTION: keep-alive
+REQUEST_METHOD: GET
+
+Thu Mar 22 04:41:46 Hora est. de América Central 2007 REQUEST /javascripts/controls.js
+--- 
+SERVER_NAME: 127.0.0.1
+PATH_INFO: /javascripts/controls.js
+HTTP_ACCEPT_ENCODING: gzip,deflate
+HTTP_USER_AGENT: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.3) Gecko/20070309 Firefox/2.0.0.3
+SCRIPT_NAME: /
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CACHE_CONTROL: max-age=0
+HTTP_IF_NONE_MATCH: "\"45a90a28-6d84-0\""
+HTTP_ACCEPT_LANGUAGE: en-us,en;q=0.5
+HTTP_HOST: 127.0.0.1:3000
+REMOTE_ADDR: 127.0.0.1
+SERVER_SOFTWARE: Mongrel 0.3.13.3
+HTTP_KEEP_ALIVE: "300"
+HTTP_REFERER: http://127.0.0.1:3000/salad/view/5
+HTTP_COOKIE: __utma=96992031.680125514.1171667631.1174279371.1174285844.62; __utmz=96992031.1171667631.1.1.utmccn=(direct)|utmcsr=(direct)|utmcmd=(none); _session_id=3e171f02e3cf31b41e55f15b6f9da50f
+HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+HTTP_VERSION: HTTP/1.1
+REQUEST_URI: /javascripts/controls.js
+SERVER_PORT: "3000"
+GATEWAY_INTERFACE: CGI/1.2
+HTTP_IF_MODIFIED_SINCE: Sat, 13 Jan 2007 16:34:48 GMT
+QUERY_STRING: "1168706088"
+HTTP_ACCEPT: "*/*"
+HTTP_CONNECTION: keep-alive
+REQUEST_METHOD: GET
+
+Thu Mar 22 04:41:47 Hora est. de América Central 2007 REQUEST /javascripts/application.js
+--- 
+SERVER_NAME: 127.0.0.1
+PATH_INFO: /javascripts/application.js
+HTTP_ACCEPT_ENCODING: gzip,deflate
+HTTP_USER_AGENT: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.3) Gecko/20070309 Firefox/2.0.0.3
+SCRIPT_NAME: /
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_CACHE_CONTROL: max-age=0
+HTTP_IF_NONE_MATCH: "\"45a90a28-94-0\""
+HTTP_ACCEPT_LANGUAGE: en-us,en;q=0.5
+HTTP_HOST: 127.0.0.1:3000
+REMOTE_ADDR: 127.0.0.1
+SERVER_SOFTWARE: Mongrel 0.3.13.3
+HTTP_KEEP_ALIVE: "300"
+HTTP_REFERER: http://127.0.0.1:3000/salad/view/5
+HTTP_COOKIE: __utma=96992031.680125514.1171667631.1174279371.1174285844.62; __utmz=96992031.1171667631.1.1.utmccn=(direct)|utmcsr=(direct)|utmcmd=(none); _session_id=3e171f02e3cf31b41e55f15b6f9da50f
+HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+HTTP_VERSION: HTTP/1.1
+REQUEST_URI: /javascripts/application.js
+SERVER_PORT: "3000"
+GATEWAY_INTERFACE: CGI/1.2
+HTTP_IF_MODIFIED_SINCE: Sat, 13 Jan 2007 16:34:48 GMT
+QUERY_STRING: "1168706088"
+HTTP_ACCEPT: "*/*"
+HTTP_CONNECTION: keep-alive
+REQUEST_METHOD: GET
+
+Thu Mar 22 04:41:49 Hora est. de América Central 2007 REQUEST /images/favicon.png
+--- 
+SERVER_NAME: 127.0.0.1
+PATH_INFO: /images/favicon.png
+HTTP_ACCEPT_ENCODING: gzip,deflate
+HTTP_USER_AGENT: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.3) Gecko/20070309 Firefox/2.0.0.3
+SCRIPT_NAME: /
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_ACCEPT_LANGUAGE: en-us,en;q=0.5
+HTTP_HOST: 127.0.0.1:3000
+REMOTE_ADDR: 127.0.0.1
+SERVER_SOFTWARE: Mongrel 0.3.13.3
+HTTP_KEEP_ALIVE: "300"
+HTTP_COOKIE: __utma=96992031.680125514.1171667631.1174279371.1174285844.62; __utmz=96992031.1171667631.1.1.utmccn=(direct)|utmcsr=(direct)|utmcmd=(none); _session_id=3e171f02e3cf31b41e55f15b6f9da50f
+HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+HTTP_VERSION: HTTP/1.1
+REQUEST_URI: /images/favicon.png
+SERVER_PORT: "3000"
+GATEWAY_INTERFACE: CGI/1.2
+HTTP_ACCEPT: image/png,*/*;q=0.5
+HTTP_CONNECTION: keep-alive
+REQUEST_METHOD: GET
+
+Thu Mar 22 04:48:23 Hora est. de América Central 2007 REQUEST /images/favicon.png
+--- 
+SERVER_NAME: 127.0.0.1
+PATH_INFO: /images/favicon.png
+HTTP_ACCEPT_ENCODING: gzip,deflate
+HTTP_USER_AGENT: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.3) Gecko/20070309 Firefox/2.0.0.3
+SCRIPT_NAME: /
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_ACCEPT_LANGUAGE: en-us,en;q=0.5
+HTTP_HOST: 127.0.0.1:3000
+REMOTE_ADDR: 127.0.0.1
+SERVER_SOFTWARE: Mongrel 0.3.13.3
+HTTP_KEEP_ALIVE: "300"
+HTTP_COOKIE: __utma=96992031.680125514.1171667631.1174279371.1174285844.62; __utmz=96992031.1171667631.1.1.utmccn=(direct)|utmcsr=(direct)|utmcmd=(none); _session_id=3e171f02e3cf31b41e55f15b6f9da50f
+HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+HTTP_VERSION: HTTP/1.1
+REQUEST_URI: /images/favicon.png
+SERVER_PORT: "3000"
+GATEWAY_INTERFACE: CGI/1.2
+HTTP_ACCEPT: image/png,*/*;q=0.5
+HTTP_CONNECTION: keep-alive
+REQUEST_METHOD: GET
+
+Thu Mar 22 04:50:10 Hora est. de América Central 2007 REQUEST /images/favicon.png
+--- 
+SERVER_NAME: 127.0.0.1
+PATH_INFO: /images/favicon.png
+HTTP_ACCEPT_ENCODING: gzip,deflate
+HTTP_USER_AGENT: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.3) Gecko/20070309 Firefox/2.0.0.3
+SCRIPT_NAME: /
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_ACCEPT_LANGUAGE: en-us,en;q=0.5
+HTTP_HOST: 127.0.0.1:3000
+REMOTE_ADDR: 127.0.0.1
+SERVER_SOFTWARE: Mongrel 0.3.13.3
+HTTP_KEEP_ALIVE: "300"
+HTTP_COOKIE: __utma=96992031.680125514.1171667631.1174279371.1174285844.62; __utmz=96992031.1171667631.1.1.utmccn=(direct)|utmcsr=(direct)|utmcmd=(none); _session_id=3e171f02e3cf31b41e55f15b6f9da50f
+HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+HTTP_VERSION: HTTP/1.1
+REQUEST_URI: /images/favicon.png
+SERVER_PORT: "3000"
+GATEWAY_INTERFACE: CGI/1.2
+HTTP_ACCEPT: image/png,*/*;q=0.5
+HTTP_CONNECTION: keep-alive
+REQUEST_METHOD: GET
+
+Thu Mar 22 04:50:15 Hora est. de América Central 2007 REQUEST /images/favicon.png
+--- 
+SERVER_NAME: 127.0.0.1
+PATH_INFO: /images/favicon.png
+HTTP_ACCEPT_ENCODING: gzip,deflate
+HTTP_USER_AGENT: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.3) Gecko/20070309 Firefox/2.0.0.3
+SCRIPT_NAME: /
+SERVER_PROTOCOL: HTTP/1.1
+HTTP_ACCEPT_LANGUAGE: en-us,en;q=0.5
+HTTP_HOST: 127.0.0.1:3000
+REMOTE_ADDR: 127.0.0.1
+SERVER_SOFTWARE: Mongrel 0.3.13.3
+HTTP_KEEP_ALIVE: "300"
+HTTP_COOKIE: __utma=96992031.680125514.1171667631.1174279371.1174285844.62; __utmz=96992031.1171667631.1.1.utmccn=(direct)|utmcsr=(direct)|utmcmd=(none); _session_id=3e171f02e3cf31b41e55f15b6f9da50f
+HTTP_ACCEPT_CHARSET: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+HTTP_VERSION: HTTP/1.1
+REQUEST_URI: /images/favicon.png
+SERVER_PORT: "3000"
+GATEWAY_INTERFACE: CGI/1.2
+HTTP_ACCEPT: image/png,*/*;q=0.5
+HTTP_CONNECTION: keep-alive
+REQUEST_METHOD: GET
+

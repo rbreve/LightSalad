@@ -1,0 +1,9 @@
+
+<%= render :partial => @categories%>
+
+<div id="newest">
+<h3>Lists</h3>
+<%= render :partial => "product", :collection => @products %> 
+ 
+ <%= will_paginate @products %>
+</div>

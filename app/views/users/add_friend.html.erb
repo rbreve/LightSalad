@@ -1,0 +1,13 @@
+<h2>Request Friendship</h2>
+
+<% form_tag :action=> "create_friend", :id=> do %>
+   
+    
+	<b>Add a Message</b><br />
+  <%= text_area_tag "message"%>
+</p>
+	
+  <p>
+    <%= submit_tag "Send Request" %>
+  </p>
+<% end %>

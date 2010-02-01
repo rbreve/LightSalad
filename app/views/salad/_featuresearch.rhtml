@@ -1,0 +1,41 @@
+<div id="suggestion">
+<div class="votebox">
+   
+ 
+<div class="vote-count"> 
+  
+  
+     <div id="<%=featuresearch.id%>"> <%=featuresearch.points%></div> 
+      </div>  
+     
+<%if session["person"] %>  
+<a href="#" onclick="new Ajax.Updater('<%=featuresearch.id%>', '/salad/vote/<%=featuresearch.id%>?vote=up', {asynchronous:true, evalScripts:true , onComplete:function(request){new Effect.Highlight('<%=featuresearch.id%>')}}); return false;"><img src="<%=IMAGE_DIR%>voteup.png" border="0"></a> 
+<a href="#" onclick="new Ajax.Updater('<%=featuresearch.id%>', '/salad/vote/<%=featuresearch.id%>?vote=down', {asynchronous:true, evalScripts:true , onComplete:function(request){new Effect.Highlight('<%=featuresearch.id%>')}}); return false;"><img src="<%=IMAGE_DIR%>votedown.png" border="0"></a>
+
+<%else%>
+    <%= link_to_image IMAGE_DIR + "voteup.png", "/user/signin",:border=>0 %> 
+     <%= link_to_image IMAGE_DIR + "votedown.png", "/user/signin",:border=>0 %>
+<%end%>
+
+</div> 
+
+<div id="suggestion-title">
+ <%= link_to featuresearch.product.name, :action=>"view", :id=>featuresearch.product%> :
+<%=auto_link(featuresearch.title)%> <br/>
+<div id="generated-links"><%=link_words(featuresearch.title)%></div>
+
+<%if 1==2%>
+ <%=link_to_remote "up", :url=>{:controller=> 'salad', :action => 'vote', :id => featuresearch.id, :vote=>"up"},:update=>featuresearch.id %> 
+<%end%>
+
+  
+
+</div>
+<div id="author">
+ Posted by: <%=featuresearch.user.username%> <%=time_ago_in_words(featuresearch.datetime)%> ago <br>
+ Votes: <%=featuresearch.feature_votes.size%> | <%=link_to "Who voted", :action=>"whovoted", :id => featuresearch.id%>
+</div>
+ 
+
+ 
+</div>

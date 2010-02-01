@@ -1,0 +1,1061 @@
+# Logfile created on Tue Mar 20 22:27:09 Hora est. de América Central 2007 by logger.rb/1.5.2.7
+D, [2007-03-20T22:27:09.125000 #2388] DEBUG -- : TRACING ON Tue Mar 20 22:27:09 Hora est. de América Central 2007
+D, [2007-03-22T03:39:31.468000 #4116] DEBUG -- : TRACING ON Thu Mar 22 03:39:31 Hora est. de América Central 2007
+FILES OPEN AT EXIT
+--- 
+C:/rubyapps/salad/config/../log/development.log: 1
+log/mongrel_debug/files.log: 1
+
+D, [2007-03-22T03:40:45.718000 #4732] DEBUG -- : TRACING ON Thu Mar 22 03:40:45 Hora est. de América Central 2007
+FILES OPEN AT EXIT
+--- 
+C:/rubyapps/salad/config/../log/development.log: 1
+log/mongrel_debug/files.log: 1
+
+D, [2007-03-22T03:42:24.359000 #3456] DEBUG -- : TRACING ON Thu Mar 22 03:42:24 Hora est. de América Central 2007
+FILES OPEN AT EXIT
+--- 
+C:/rubyapps/salad/config/../log/development.log: 1
+log/mongrel_debug/files.log: 1
+
+D, [2007-03-22T03:43:21.312000 #3280] DEBUG -- : TRACING ON Thu Mar 22 03:43:21 Hora est. de América Central 2007
+FILES OPEN AT EXIT
+--- 
+C:/rubyapps/salad/config/../log/development.log: 1
+log/mongrel_debug/files.log: 1
+
+D, [2007-03-22T03:44:57.546000 #512] DEBUG -- : TRACING ON Thu Mar 22 03:44:57 Hora est. de América Central 2007
+FILES OPEN AT EXIT
+--- 
+C:/rubyapps/salad/config/../log/development.log: 1
+log/mongrel_debug/files.log: 1
+
+D, [2007-03-22T04:17:46.421000 #4368] DEBUG -- : TRACING ON Thu Mar 22 04:17:46 Hora est. de América Central 2007
+FILES OPEN AT EXIT
+--- 
+C:/rubyapps/salad/config/../log/development.log: 1
+log/mongrel_debug/files.log: 1
+
+D, [2007-03-22T04:18:15.562000 #288] DEBUG -- : TRACING ON Thu Mar 22 04:18:15 Hora est. de América Central 2007
+FILES OPEN AT EXIT
+--- 
+C:/rubyapps/salad/config/../log/development.log: 1
+log/mongrel_debug/files.log: 1
+
+D, [2007-03-22T04:19:31.375000 #4552] DEBUG -- : TRACING ON Thu Mar 22 04:19:31 Hora est. de América Central 2007
+FILES OPEN AT EXIT
+--- 
+C:/rubyapps/salad/config/../log/development.log: 1
+log/mongrel_debug/files.log: 1
+
+D, [2007-03-22T04:20:06.531000 #3556] DEBUG -- : TRACING ON Thu Mar 22 04:20:06 Hora est. de América Central 2007
+FILES OPEN AT EXIT
+--- 
+C:/rubyapps/salad/config/../log/development.log: 1
+log/mongrel_debug/files.log: 1
+
+D, [2007-03-22T04:20:49.765000 #3776] DEBUG -- : TRACING ON Thu Mar 22 04:20:49 Hora est. de América Central 2007
+Thu Mar 22 04:21:00 Hora est. de América Central 2007 FILES OPEN BEFORE REQUEST /
+--- 
+C:/rubyapps/salad/config/../log/development.log: 1
+log/mongrel_debug/objects.log: 1
+log/mongrel_debug/params.log: 1
+log/mongrel_debug/rails.log: 1
+log/mongrel_debug/files.log: 1
+log/mongrel_debug/threads.log: 1
+
+Thu Mar 22 04:21:53 Hora est. de América Central 2007 FILES OPEN BEFORE REQUEST /
+--- 
+C:/rubyapps/salad/config/../log/development.log: 1
+log/mongrel_debug/objects.log: 1
+log/mongrel_debug/params.log: 1
+log/mongrel_debug/rails.log: 1
+log/mongrel_debug/files.log: 1
+log/mongrel_debug/threads.log: 1
+
+Thu Mar 22 04:21:55 Hora est. de América Central 2007 FILES OPEN BEFORE REQUEST /salad/list
+--- 
+C:/rubyapps/salad/config/../log/development.log: 1
+log/mongrel_debug/objects.log: 1
+log/mongrel_debug/params.log: 1
+log/mongrel_debug/rails.log: 1
+log/mongrel_debug/files.log: 1
+log/mongrel_debug/threads.log: 1
+
+Thu Mar 22 04:21:57 Hora est. de América Central 2007 FILES OPEN BEFORE REQUEST /stylesheets/scaffold.css
+--- 
+C:/rubyapps/salad/config/../log/development.log: 1
+log/mongrel_debug/objects.log: 1
+log/mongrel_debug/params.log: 1
+log/mongrel_debug/rails.log: 1
+log/mongrel_debug/files.log: 1
+log/mongrel_debug/threads.log: 1
+
+Thu Mar 22 04:21:58 Hora est. de América Central 2007 FILES OPEN BEFORE REQUEST /stylesheets/salad.css
+--- 
+C:/rubyapps/salad/config/../log/development.log: 1
+log/mongrel_debug/objects.log: 1
+log/mongrel_debug/params.log: 1
+log/mongrel_debug/rails.log: 1
+log/mongrel_debug/files.log: 1
+log/mongrel_debug/threads.log: 1
+
+Thu Mar 22 04:22:00 Hora est. de América Central 2007 FILES OPEN BEFORE REQUEST /javascripts/prototype.js
+--- 
+C:/rubyapps/salad/config/../log/development.log: 1
+log/mongrel_debug/objects.log: 1
+log/mongrel_debug/params.log: 1
+log/mongrel_debug/rails.log: 1
+log/mongrel_debug/files.log: 1
+log/mongrel_debug/threads.log: 1
+
+Thu Mar 22 04:22:01 Hora est. de América Central 2007 FILES OPEN BEFORE REQUEST /javascripts/effects.js
+--- 
+C:/rubyapps/salad/config/../log/development.log: 1
+log/mongrel_debug/objects.log: 1
+log/mongrel_debug/params.log: 1
+log/mongrel_debug/rails.log: 1
+log/mongrel_debug/files.log: 1
+log/mongrel_debug/threads.log: 1
+
+Thu Mar 22 04:22:03 Hora est. de América Central 2007 FILES OPEN BEFORE REQUEST /javascripts/dragdrop.js
+--- 
+C:/rubyapps/salad/config/../log/development.log: 1
+log/mongrel_debug/objects.log: 1
+log/mongrel_debug/params.log: 1
+log/mongrel_debug/rails.log: 1
+log/mongrel_debug/files.log: 1
+log/mongrel_debug/threads.log: 1
+
+Thu Mar 22 04:22:04 Hora est. de América Central 2007 FILES OPEN BEFORE REQUEST /javascripts/controls.js
+--- 
+C:/rubyapps/salad/config/../log/development.log: 1
+log/mongrel_debug/objects.log: 1
+log/mongrel_debug/params.log: 1
+log/mongrel_debug/rails.log: 1
+log/mongrel_debug/files.log: 1
+log/mongrel_debug/threads.log: 1
+
+Thu Mar 22 04:22:06 Hora est. de América Central 2007 FILES OPEN BEFORE REQUEST /javascripts/application.js
+--- 
+C:/rubyapps/salad/config/../log/development.log: 1
+log/mongrel_debug/objects.log: 1
+log/mongrel_debug/params.log: 1
+log/mongrel_debug/rails.log: 1
+log/mongrel_debug/files.log: 1
+log/mongrel_debug/threads.log: 1
+
+Thu Mar 22 04:22:07 Hora est. de América Central 2007 FILES OPEN BEFORE REQUEST /images/favicon.png
+--- 
+C:/rubyapps/salad/config/../log/development.log: 1
+log/mongrel_debug/objects.log: 1
+log/mongrel_debug/params.log: 1
+log/mongrel_debug/rails.log: 1
+log/mongrel_debug/files.log: 1
+log/mongrel_debug/threads.log: 1
+
+Thu Mar 22 04:22:10 Hora est. de América Central 2007 FILES OPEN BEFORE REQUEST /salad/list
+--- 
+C:/rubyapps/salad/config/../log/development.log: 1
+log/mongrel_debug/objects.log: 1
+log/mongrel_debug/params.log: 1
+log/mongrel_debug/rails.log: 1
+log/mongrel_debug/files.log: 1
+log/mongrel_debug/threads.log: 1
+
+Thu Mar 22 04:22:12 Hora est. de América Central 2007 FILES OPEN BEFORE REQUEST /stylesheets/scaffold.css
+--- 
+C:/rubyapps/salad/config/../log/development.log: 1
+log/mongrel_debug/objects.log: 1
+log/mongrel_debug/params.log: 1
+log/mongrel_debug/rails.log: 1
+log/mongrel_debug/files.log: 1
+log/mongrel_debug/threads.log: 1
+
+Thu Mar 22 04:22:15 Hora est. de América Central 2007 FILES OPEN BEFORE REQUEST /images/favicon.png
+--- 
+C:/rubyapps/salad/config/../log/development.log: 1
+log/mongrel_debug/objects.log: 1
+log/mongrel_debug/params.log: 1
+log/mongrel_debug/rails.log: 1
+log/mongrel_debug/files.log: 1
+log/mongrel_debug/threads.log: 1
+
+Thu Mar 22 04:22:16 Hora est. de América Central 2007 FILES OPEN BEFORE REQUEST /salad/view/5
+--- 
+C:/rubyapps/salad/config/../log/development.log: 1
+log/mongrel_debug/objects.log: 1
+log/mongrel_debug/params.log: 1
+log/mongrel_debug/rails.log: 1
+log/mongrel_debug/files.log: 1
+log/mongrel_debug/threads.log: 1
+
+Thu Mar 22 04:22:19 Hora est. de América Central 2007 FILES OPEN BEFORE REQUEST /stylesheets/scaffold.css
+--- 
+C:/rubyapps/salad/config/../log/development.log: 1
+log/mongrel_debug/objects.log: 1
+log/mongrel_debug/params.log: 1
+log/mongrel_debug/rails.log: 1
+log/mongrel_debug/files.log: 1
+log/mongrel_debug/threads.log: 1
+
+Thu Mar 22 04:22:20 Hora est. de América Central 2007 FILES OPEN BEFORE REQUEST /images/favicon.png
+--- 
+C:/rubyapps/salad/config/../log/development.log: 1
+log/mongrel_debug/objects.log: 1
+log/mongrel_debug/params.log: 1
+log/mongrel_debug/rails.log: 1
+log/mongrel_debug/files.log: 1
+log/mongrel_debug/threads.log: 1
+
+Thu Mar 22 04:22:25 Hora est. de América Central 2007 FILES OPEN BEFORE REQUEST /salad/vote/17
+--- 
+C:/rubyapps/salad/config/../log/development.log: 1
+log/mongrel_debug/objects.log: 1
+log/mongrel_debug/params.log: 1
+log/mongrel_debug/rails.log: 1
+log/mongrel_debug/files.log: 1
+log/mongrel_debug/threads.log: 1
+
+Thu Mar 22 04:22:27 Hora est. de América Central 2007 FILES OPEN BEFORE REQUEST /user/signin
+--- 
+C:/rubyapps/salad/config/../log/development.log: 1
+log/mongrel_debug/objects.log: 1
+log/mongrel_debug/params.log: 1
+log/mongrel_debug/rails.log: 1
+log/mongrel_debug/files.log: 1
+log/mongrel_debug/threads.log: 1
+
+Thu Mar 22 04:22:32 Hora est. de América Central 2007 FILES OPEN BEFORE REQUEST /stylesheets/scaffold.css
+--- 
+C:/rubyapps/salad/config/../log/development.log: 1
+log/mongrel_debug/objects.log: 1
+log/mongrel_debug/params.log: 1
+log/mongrel_debug/rails.log: 1
+log/mongrel_debug/files.log: 1
+log/mongrel_debug/threads.log: 1
+
+Thu Mar 22 04:22:32 Hora est. de América Central 2007 FILES OPEN BEFORE REQUEST /images/favicon.png
+--- 
+C:/rubyapps/salad/config/../log/development.log: 1
+log/mongrel_debug/objects.log: 1
+log/mongrel_debug/params.log: 1
+log/mongrel_debug/rails.log: 1
+log/mongrel_debug/files.log: 1
+log/mongrel_debug/threads.log: 1
+
+Thu Mar 22 04:22:35 Hora est. de América Central 2007 FILES OPEN BEFORE REQUEST /images/favicon.png
+--- 
+C:/rubyapps/salad/config/../log/development.log: 1
+log/mongrel_debug/objects.log: 1
+log/mongrel_debug/params.log: 1
+log/mongrel_debug/rails.log: 1
+log/mongrel_debug/files.log: 1
+log/mongrel_debug/threads.log: 1
+
+Thu Mar 22 04:22:37 Hora est. de América Central 2007 FILES OPEN BEFORE REQUEST /user/openid_signin
+--- 
+C:/rubyapps/salad/config/../log/development.log: 1
+log/mongrel_debug/objects.log: 1
+log/mongrel_debug/params.log: 1
+log/mongrel_debug/rails.log: 1
+log/mongrel_debug/files.log: 1
+log/mongrel_debug/threads.log: 1
+
+Thu Mar 22 04:22:39 Hora est. de América Central 2007 FILES OPEN BEFORE REQUEST /stylesheets/scaffold.css
+--- 
+C:/rubyapps/salad/config/../log/development.log: 1
+log/mongrel_debug/objects.log: 1
+log/mongrel_debug/params.log: 1
+log/mongrel_debug/rails.log: 1
+log/mongrel_debug/files.log: 1
+log/mongrel_debug/threads.log: 1
+
+Thu Mar 22 04:22:43 Hora est. de América Central 2007 FILES OPEN BEFORE REQUEST /images/favicon.png
+--- 
+C:/rubyapps/salad/config/../log/development.log: 1
+log/mongrel_debug/objects.log: 1
+log/mongrel_debug/params.log: 1
+log/mongrel_debug/rails.log: 1
+log/mongrel_debug/files.log: 1
+log/mongrel_debug/threads.log: 1
+
+Thu Mar 22 04:22:43 Hora est. de América Central 2007 FILES OPEN BEFORE REQUEST /images/login-bg.gif
+--- 
+C:/rubyapps/salad/config/../log/development.log: 1
+log/mongrel_debug/objects.log: 1
+log/mongrel_debug/params.log: 1
+log/mongrel_debug/rails.log: 1
+log/mongrel_debug/files.log: 1
+log/mongrel_debug/threads.log: 1
+
+Thu Mar 22 04:22:44 Hora est. de América Central 2007 FILES OPEN BEFORE REQUEST /user/openid_login
+--- 
+C:/rubyapps/salad/config/../log/development.log: 1
+log/mongrel_debug/objects.log: 1
+log/mongrel_debug/params.log: 1
+log/mongrel_debug/rails.log: 1
+log/mongrel_debug/files.log: 1
+log/mongrel_debug/threads.log: 1
+
+Thu Mar 22 04:24:37 Hora est. de América Central 2007 FILES OPEN BEFORE REQUEST /images/favicon.png
+--- 
+C:/rubyapps/salad/config/../log/development.log: 1
+log/mongrel_debug/objects.log: 1
+log/mongrel_debug/params.log: 1
+log/mongrel_debug/rails.log: 1
+log/mongrel_debug/files.log: 1
+log/mongrel_debug/threads.log: 1
+
+Thu Mar 22 04:24:42 Hora est. de América Central 2007 FILES OPEN BEFORE REQUEST /user/openid_signin
+--- 
+C:/rubyapps/salad/config/../log/development.log: 1
+log/mongrel_debug/objects.log: 1
+log/mongrel_debug/params.log: 1
+log/mongrel_debug/rails.log: 1
+log/mongrel_debug/files.log: 1
+log/mongrel_debug/threads.log: 1
+
+FILES OPEN AT EXIT
+--- 
+C:/rubyapps/salad/config/../log/development.log: 1
+log/mongrel_debug/objects.log: 1
+log/mongrel_debug/params.log: 1
+log/mongrel_debug/rails.log: 1
+log/mongrel_debug/files.log: 1
+log/mongrel_debug/threads.log: 1
+
+D, [2007-03-22T04:24:51.953000 #3516] DEBUG -- : TRACING ON Thu Mar 22 04:24:51 Hora est. de América Central 2007
+Thu Mar 22 04:24:58 Hora est. de América Central 2007 FILES OPEN BEFORE REQUEST /user/openid_signin
+--- 
+C:/rubyapps/salad/config/../log/development.log: 1
+log/mongrel_debug/objects.log: 1
+log/mongrel_debug/rails.log: 1
+log/mongrel_debug/params.log: 1
+log/mongrel_debug/files.log: 1
+log/mongrel_debug/threads.log: 1
+
+Thu Mar 22 04:25:00 Hora est. de América Central 2007 FILES OPEN BEFORE REQUEST /stylesheets/scaffold.css
+--- 
+C:/rubyapps/salad/config/../log/development.log: 1
+log/mongrel_debug/objects.log: 1
+log/mongrel_debug/rails.log: 1
+log/mongrel_debug/params.log: 1
+log/mongrel_debug/files.log: 1
+log/mongrel_debug/threads.log: 1
+
+Thu Mar 22 04:25:02 Hora est. de América Central 2007 FILES OPEN BEFORE REQUEST /stylesheets/salad.css
+--- 
+C:/rubyapps/salad/config/../log/development.log: 1
+log/mongrel_debug/objects.log: 1
+log/mongrel_debug/rails.log: 1
+log/mongrel_debug/params.log: 1
+log/mongrel_debug/files.log: 1
+log/mongrel_debug/threads.log: 1
+
+Thu Mar 22 04:25:03 Hora est. de América Central 2007 FILES OPEN BEFORE REQUEST /javascripts/prototype.js
+--- 
+C:/rubyapps/salad/config/../log/development.log: 1
+log/mongrel_debug/objects.log: 1
+log/mongrel_debug/rails.log: 1
+log/mongrel_debug/params.log: 1
+log/mongrel_debug/files.log: 1
+log/mongrel_debug/threads.log: 1
+
+Thu Mar 22 04:25:04 Hora est. de América Central 2007 FILES OPEN BEFORE REQUEST /salad/list
+--- 
+C:/rubyapps/salad/config/../log/development.log: 1
+log/mongrel_debug/objects.log: 1
+log/mongrel_debug/rails.log: 1
+log/mongrel_debug/params.log: 1
+log/mongrel_debug/files.log: 1
+log/mongrel_debug/threads.log: 1
+
+Thu Mar 22 04:25:06 Hora est. de América Central 2007 FILES OPEN BEFORE REQUEST /stylesheets/scaffold.css
+--- 
+C:/rubyapps/salad/config/../log/development.log: 1
+log/mongrel_debug/objects.log: 1
+log/mongrel_debug/rails.log: 1
+log/mongrel_debug/params.log: 1
+log/mongrel_debug/files.log: 1
+log/mongrel_debug/threads.log: 1
+
+Thu Mar 22 04:25:08 Hora est. de América Central 2007 FILES OPEN BEFORE REQUEST /images/favicon.png
+--- 
+C:/rubyapps/salad/config/../log/development.log: 1
+log/mongrel_debug/objects.log: 1
+log/mongrel_debug/rails.log: 1
+log/mongrel_debug/params.log: 1
+log/mongrel_debug/files.log: 1
+log/mongrel_debug/threads.log: 1
+
+Thu Mar 22 04:25:13 Hora est. de América Central 2007 FILES OPEN BEFORE REQUEST /user/openid_signin
+--- 
+C:/rubyapps/salad/config/../log/development.log: 1
+log/mongrel_debug/objects.log: 1
+log/mongrel_debug/rails.log: 1
+log/mongrel_debug/params.log: 1
+log/mongrel_debug/files.log: 1
+log/mongrel_debug/threads.log: 1
+
+Thu Mar 22 04:25:15 Hora est. de América Central 2007 FILES OPEN BEFORE REQUEST /stylesheets/scaffold.css
+--- 
+C:/rubyapps/salad/config/../log/development.log: 1
+log/mongrel_debug/objects.log: 1
+log/mongrel_debug/rails.log: 1
+log/mongrel_debug/params.log: 1
+log/mongrel_debug/files.log: 1
+log/mongrel_debug/threads.log: 1
+
+Thu Mar 22 04:25:17 Hora est. de América Central 2007 FILES OPEN BEFORE REQUEST /images/favicon.png
+--- 
+C:/rubyapps/salad/config/../log/development.log: 1
+log/mongrel_debug/objects.log: 1
+log/mongrel_debug/rails.log: 1
+log/mongrel_debug/params.log: 1
+log/mongrel_debug/files.log: 1
+log/mongrel_debug/threads.log: 1
+
+Thu Mar 22 04:26:52 Hora est. de América Central 2007 FILES OPEN BEFORE REQUEST /user/openid_login
+--- 
+C:/rubyapps/salad/config/../log/development.log: 1
+log/mongrel_debug/objects.log: 1
+log/mongrel_debug/rails.log: 1
+log/mongrel_debug/params.log: 1
+log/mongrel_debug/files.log: 1
+log/mongrel_debug/threads.log: 1
+
+Thu Mar 22 04:27:13 Hora est. de América Central 2007 FILES OPEN BEFORE REQUEST /user/openid_login
+--- 
+C:/rubyapps/salad/config/../log/development.log: 1
+log/mongrel_debug/objects.log: 1
+log/mongrel_debug/rails.log: 1
+log/mongrel_debug/params.log: 1
+log/mongrel_debug/files.log: 1
+log/mongrel_debug/threads.log: 1
+
+Thu Mar 22 04:27:16 Hora est. de América Central 2007 FILES OPEN BEFORE REQUEST /stylesheets/scaffold.css
+--- 
+C:/rubyapps/salad/config/../log/development.log: 1
+log/mongrel_debug/objects.log: 1
+log/mongrel_debug/rails.log: 1
+log/mongrel_debug/params.log: 1
+log/mongrel_debug/files.log: 1
+log/mongrel_debug/threads.log: 1
+
+Thu Mar 22 04:27:17 Hora est. de América Central 2007 FILES OPEN BEFORE REQUEST /stylesheets/salad.css
+--- 
+C:/rubyapps/salad/config/../log/development.log: 1
+log/mongrel_debug/objects.log: 1
+log/mongrel_debug/rails.log: 1
+log/mongrel_debug/params.log: 1
+log/mongrel_debug/files.log: 1
+log/mongrel_debug/threads.log: 1
+
+Thu Mar 22 04:27:19 Hora est. de América Central 2007 FILES OPEN BEFORE REQUEST /javascripts/prototype.js
+--- 
+C:/rubyapps/salad/config/../log/development.log: 1
+log/mongrel_debug/objects.log: 1
+log/mongrel_debug/rails.log: 1
+log/mongrel_debug/params.log: 1
+log/mongrel_debug/files.log: 1
+log/mongrel_debug/threads.log: 1
+
+Thu Mar 22 04:27:20 Hora est. de América Central 2007 FILES OPEN BEFORE REQUEST /javascripts/effects.js
+--- 
+C:/rubyapps/salad/config/../log/development.log: 1
+log/mongrel_debug/objects.log: 1
+log/mongrel_debug/rails.log: 1
+log/mongrel_debug/params.log: 1
+log/mongrel_debug/files.log: 1
+log/mongrel_debug/threads.log: 1
+
+Thu Mar 22 04:27:22 Hora est. de América Central 2007 FILES OPEN BEFORE REQUEST /javascripts/dragdrop.js
+--- 
+C:/rubyapps/salad/config/../log/development.log: 1
+log/mongrel_debug/objects.log: 1
+log/mongrel_debug/rails.log: 1
+log/mongrel_debug/params.log: 1
+log/mongrel_debug/files.log: 1
+log/mongrel_debug/threads.log: 1
+
+Thu Mar 22 04:27:23 Hora est. de América Central 2007 FILES OPEN BEFORE REQUEST /javascripts/controls.js
+--- 
+C:/rubyapps/salad/config/../log/development.log: 1
+log/mongrel_debug/objects.log: 1
+log/mongrel_debug/rails.log: 1
+log/mongrel_debug/params.log: 1
+log/mongrel_debug/files.log: 1
+log/mongrel_debug/threads.log: 1
+
+Thu Mar 22 04:27:24 Hora est. de América Central 2007 FILES OPEN BEFORE REQUEST /javascripts/application.js
+--- 
+C:/rubyapps/salad/config/../log/development.log: 1
+log/mongrel_debug/objects.log: 1
+log/mongrel_debug/rails.log: 1
+log/mongrel_debug/params.log: 1
+log/mongrel_debug/files.log: 1
+log/mongrel_debug/threads.log: 1
+
+Thu Mar 22 04:27:26 Hora est. de América Central 2007 FILES OPEN BEFORE REQUEST /images/favicon.png
+--- 
+C:/rubyapps/salad/config/../log/development.log: 1
+log/mongrel_debug/objects.log: 1
+log/mongrel_debug/rails.log: 1
+log/mongrel_debug/params.log: 1
+log/mongrel_debug/files.log: 1
+log/mongrel_debug/threads.log: 1
+
+Thu Mar 22 04:28:06 Hora est. de América Central 2007 FILES OPEN BEFORE REQUEST /user/openid_login
+--- 
+C:/rubyapps/salad/config/../log/development.log: 1
+log/mongrel_debug/objects.log: 1
+log/mongrel_debug/rails.log: 1
+log/mongrel_debug/params.log: 1
+log/mongrel_debug/files.log: 1
+log/mongrel_debug/threads.log: 1
+
+Thu Mar 22 04:28:21 Hora est. de América Central 2007 FILES OPEN BEFORE REQUEST /images/favicon.png
+--- 
+C:/rubyapps/salad/config/../log/development.log: 1
+log/mongrel_debug/objects.log: 1
+log/mongrel_debug/rails.log: 1
+log/mongrel_debug/params.log: 1
+log/mongrel_debug/files.log: 1
+log/mongrel_debug/threads.log: 1
+
+Thu Mar 22 04:28:58 Hora est. de América Central 2007 FILES OPEN BEFORE REQUEST /user/openid_login
+--- 
+C:/rubyapps/salad/config/../log/development.log: 1
+log/mongrel_debug/objects.log: 1
+log/mongrel_debug/rails.log: 1
+log/mongrel_debug/params.log: 1
+log/mongrel_debug/files.log: 1
+log/mongrel_debug/threads.log: 1
+
+FILES OPEN AT EXIT
+--- 
+C:/rubyapps/salad/config/../log/development.log: 1
+log/mongrel_debug/objects.log: 1
+log/mongrel_debug/rails.log: 1
+log/mongrel_debug/params.log: 1
+log/mongrel_debug/files.log: 1
+log/mongrel_debug/threads.log: 1
+
+D, [2007-03-22T04:29:11.875000 #4312] DEBUG -- : TRACING ON Thu Mar 22 04:29:11 Hora est. de América Central 2007
+Thu Mar 22 04:29:18 Hora est. de América Central 2007 FILES OPEN BEFORE REQUEST /images/favicon.png
+--- 
+C:/rubyapps/salad/config/../log/development.log: 1
+log/mongrel_debug/objects.log: 1
+log/mongrel_debug/rails.log: 1
+log/mongrel_debug/params.log: 1
+log/mongrel_debug/files.log: 1
+log/mongrel_debug/threads.log: 1
+
+Thu Mar 22 04:29:20 Hora est. de América Central 2007 FILES OPEN BEFORE REQUEST /user/openid_login
+--- 
+C:/rubyapps/salad/config/../log/development.log: 1
+log/mongrel_debug/objects.log: 1
+log/mongrel_debug/rails.log: 1
+log/mongrel_debug/params.log: 1
+log/mongrel_debug/files.log: 1
+log/mongrel_debug/threads.log: 1
+
+Thu Mar 22 04:29:22 Hora est. de América Central 2007 FILES OPEN BEFORE REQUEST /user/http%3A%2F%2Fwww.myopenid.com%2Fserver%3Fopenid.mode%3Dcheckid_setup%26openid.return_to%3Dhttp%253A%252F%252F127.0.0.1%253A3000%252Fsalad%252Fcomplete%253Fnonce%253Ditbpl5zL%26openid.trust_root%3Dhttp%253A%252F%252F127.0.0.1%253A3000%252Fsalad%252Flist%26openid.identity%3Dhttp%253A%252F%252Frbreve.myopenid.com%252F%26openid.assoc_handle%3D%257BHMAC-SHA1%257D%257B4602576b%257D%257BoeidBw%253D%253D%257D
+--- 
+C:/rubyapps/salad/config/../log/development.log: 1
+log/mongrel_debug/objects.log: 1
+log/mongrel_debug/rails.log: 1
+log/mongrel_debug/params.log: 1
+log/mongrel_debug/files.log: 1
+log/mongrel_debug/threads.log: 1
+
+Thu Mar 22 04:29:53 Hora est. de América Central 2007 FILES OPEN BEFORE REQUEST /images/favicon.png
+--- 
+C:/rubyapps/salad/config/../log/development.log: 1
+log/mongrel_debug/objects.log: 1
+log/mongrel_debug/rails.log: 1
+log/mongrel_debug/params.log: 1
+log/mongrel_debug/files.log: 1
+log/mongrel_debug/threads.log: 1
+
+Thu Mar 22 04:29:54 Hora est. de América Central 2007 FILES OPEN BEFORE REQUEST /user/openid_login
+--- 
+C:/rubyapps/salad/config/../log/development.log: 1
+log/mongrel_debug/objects.log: 1
+log/mongrel_debug/rails.log: 1
+log/mongrel_debug/params.log: 1
+log/mongrel_debug/files.log: 1
+log/mongrel_debug/threads.log: 1
+
+Thu Mar 22 04:30:55 Hora est. de América Central 2007 FILES OPEN BEFORE REQUEST /images/favicon.png
+--- 
+C:/rubyapps/salad/config/../log/development.log: 1
+log/mongrel_debug/objects.log: 1
+log/mongrel_debug/rails.log: 1
+log/mongrel_debug/params.log: 1
+log/mongrel_debug/files.log: 1
+log/mongrel_debug/threads.log: 1
+
+Thu Mar 22 04:30:56 Hora est. de América Central 2007 FILES OPEN BEFORE REQUEST /user/openid_login
+--- 
+C:/rubyapps/salad/config/../log/development.log: 1
+log/mongrel_debug/objects.log: 1
+log/mongrel_debug/rails.log: 1
+log/mongrel_debug/params.log: 1
+log/mongrel_debug/files.log: 1
+log/mongrel_debug/threads.log: 1
+
+Thu Mar 22 04:33:41 Hora est. de América Central 2007 FILES OPEN BEFORE REQUEST /images/favicon.png
+--- 
+C:/rubyapps/salad/config/../log/development.log: 1
+log/mongrel_debug/objects.log: 1
+log/mongrel_debug/rails.log: 1
+log/mongrel_debug/params.log: 1
+log/mongrel_debug/files.log: 1
+log/mongrel_debug/threads.log: 1
+
+Thu Mar 22 04:33:43 Hora est. de América Central 2007 FILES OPEN BEFORE REQUEST /user/openid_login
+--- 
+C:/rubyapps/salad/config/../log/development.log: 1
+log/mongrel_debug/objects.log: 1
+log/mongrel_debug/rails.log: 1
+log/mongrel_debug/params.log: 1
+log/mongrel_debug/files.log: 1
+log/mongrel_debug/threads.log: 1
+
+Thu Mar 22 04:34:03 Hora est. de América Central 2007 FILES OPEN BEFORE REQUEST /salad/complete
+--- 
+C:/rubyapps/salad/config/../log/development.log: 1
+log/mongrel_debug/objects.log: 1
+log/mongrel_debug/rails.log: 1
+log/mongrel_debug/params.log: 1
+log/mongrel_debug/files.log: 1
+log/mongrel_debug/threads.log: 1
+
+Thu Mar 22 04:34:10 Hora est. de América Central 2007 FILES OPEN BEFORE REQUEST /images/favicon.png
+--- 
+C:/rubyapps/salad/config/../log/development.log: 1
+log/mongrel_debug/objects.log: 1
+log/mongrel_debug/rails.log: 1
+log/mongrel_debug/params.log: 1
+log/mongrel_debug/files.log: 1
+log/mongrel_debug/threads.log: 1
+
+Thu Mar 22 04:34:24 Hora est. de América Central 2007 FILES OPEN BEFORE REQUEST /user/openid_login
+--- 
+C:/rubyapps/salad/config/../log/development.log: 1
+log/mongrel_debug/objects.log: 1
+log/mongrel_debug/rails.log: 1
+log/mongrel_debug/params.log: 1
+log/mongrel_debug/files.log: 1
+log/mongrel_debug/threads.log: 1
+
+Thu Mar 22 04:34:29 Hora est. de América Central 2007 FILES OPEN BEFORE REQUEST /user/complete
+--- 
+C:/rubyapps/salad/config/../log/development.log: 1
+log/mongrel_debug/objects.log: 1
+log/mongrel_debug/rails.log: 1
+log/mongrel_debug/params.log: 1
+log/mongrel_debug/files.log: 1
+log/mongrel_debug/threads.log: 1
+
+Thu Mar 22 04:34:57 Hora est. de América Central 2007 FILES OPEN BEFORE REQUEST /user/complete
+--- 
+C:/rubyapps/salad/config/../log/development.log: 1
+log/mongrel_debug/objects.log: 1
+log/mongrel_debug/rails.log: 1
+log/mongrel_debug/params.log: 1
+log/mongrel_debug/files.log: 1
+log/mongrel_debug/threads.log: 1
+
+Thu Mar 22 04:34:59 Hora est. de América Central 2007 FILES OPEN BEFORE REQUEST /user/openid_login
+--- 
+C:/rubyapps/salad/config/../log/development.log: 1
+log/mongrel_debug/objects.log: 1
+log/mongrel_debug/rails.log: 1
+log/mongrel_debug/params.log: 1
+log/mongrel_debug/files.log: 1
+log/mongrel_debug/threads.log: 1
+
+Thu Mar 22 04:35:18 Hora est. de América Central 2007 FILES OPEN BEFORE REQUEST /user/complete
+--- 
+C:/rubyapps/salad/config/../log/development.log: 1
+log/mongrel_debug/objects.log: 1
+log/mongrel_debug/rails.log: 1
+log/mongrel_debug/params.log: 1
+log/mongrel_debug/files.log: 1
+log/mongrel_debug/threads.log: 1
+
+Thu Mar 22 04:35:20 Hora est. de América Central 2007 FILES OPEN BEFORE REQUEST /user/openid_signin
+--- 
+C:/rubyapps/salad/config/../log/development.log: 1
+log/mongrel_debug/objects.log: 1
+log/mongrel_debug/rails.log: 1
+log/mongrel_debug/params.log: 1
+log/mongrel_debug/files.log: 1
+log/mongrel_debug/threads.log: 1
+
+Thu Mar 22 04:35:22 Hora est. de América Central 2007 FILES OPEN BEFORE REQUEST /stylesheets/scaffold.css
+--- 
+C:/rubyapps/salad/config/../log/development.log: 1
+log/mongrel_debug/objects.log: 1
+log/mongrel_debug/rails.log: 1
+log/mongrel_debug/params.log: 1
+log/mongrel_debug/files.log: 1
+log/mongrel_debug/threads.log: 1
+
+Thu Mar 22 04:35:23 Hora est. de América Central 2007 FILES OPEN BEFORE REQUEST /stylesheets/salad.css
+--- 
+C:/rubyapps/salad/config/../log/development.log: 1
+log/mongrel_debug/objects.log: 1
+log/mongrel_debug/rails.log: 1
+log/mongrel_debug/params.log: 1
+log/mongrel_debug/files.log: 1
+log/mongrel_debug/threads.log: 1
+
+Thu Mar 22 04:35:27 Hora est. de América Central 2007 FILES OPEN BEFORE REQUEST /images/favicon.png
+--- 
+C:/rubyapps/salad/config/../log/development.log: 1
+log/mongrel_debug/objects.log: 1
+log/mongrel_debug/rails.log: 1
+log/mongrel_debug/params.log: 1
+log/mongrel_debug/files.log: 1
+log/mongrel_debug/threads.log: 1
+
+Thu Mar 22 04:35:27 Hora est. de América Central 2007 FILES OPEN BEFORE REQUEST /images/login-bg.gif
+--- 
+C:/rubyapps/salad/config/../log/development.log: 1
+log/mongrel_debug/objects.log: 1
+log/mongrel_debug/rails.log: 1
+log/mongrel_debug/params.log: 1
+log/mongrel_debug/files.log: 1
+log/mongrel_debug/threads.log: 1
+
+Thu Mar 22 04:35:29 Hora est. de América Central 2007 FILES OPEN BEFORE REQUEST /user/openid_login
+--- 
+C:/rubyapps/salad/config/../log/development.log: 1
+log/mongrel_debug/objects.log: 1
+log/mongrel_debug/rails.log: 1
+log/mongrel_debug/params.log: 1
+log/mongrel_debug/files.log: 1
+log/mongrel_debug/threads.log: 1
+
+Thu Mar 22 04:35:50 Hora est. de América Central 2007 FILES OPEN BEFORE REQUEST /images/favicon.png
+--- 
+C:/rubyapps/salad/config/../log/development.log: 1
+log/mongrel_debug/objects.log: 1
+log/mongrel_debug/rails.log: 1
+log/mongrel_debug/params.log: 1
+log/mongrel_debug/files.log: 1
+log/mongrel_debug/threads.log: 1
+
+Thu Mar 22 04:35:51 Hora est. de América Central 2007 FILES OPEN BEFORE REQUEST /user/openid_login
+--- 
+C:/rubyapps/salad/config/../log/development.log: 1
+log/mongrel_debug/objects.log: 1
+log/mongrel_debug/rails.log: 1
+log/mongrel_debug/params.log: 1
+log/mongrel_debug/files.log: 1
+log/mongrel_debug/threads.log: 1
+
+Thu Mar 22 04:37:56 Hora est. de América Central 2007 FILES OPEN BEFORE REQUEST /images/favicon.png
+--- 
+C:/rubyapps/salad/config/../log/development.log: 1
+log/mongrel_debug/objects.log: 1
+log/mongrel_debug/rails.log: 1
+log/mongrel_debug/params.log: 1
+log/mongrel_debug/files.log: 1
+log/mongrel_debug/threads.log: 1
+
+Thu Mar 22 04:37:58 Hora est. de América Central 2007 FILES OPEN BEFORE REQUEST /user/openid_login
+--- 
+C:/rubyapps/salad/config/../log/development.log: 1
+log/mongrel_debug/objects.log: 1
+log/mongrel_debug/rails.log: 1
+log/mongrel_debug/params.log: 1
+log/mongrel_debug/files.log: 1
+log/mongrel_debug/threads.log: 1
+
+Thu Mar 22 04:39:19 Hora est. de América Central 2007 FILES OPEN BEFORE REQUEST /images/favicon.png
+--- 
+C:/rubyapps/salad/config/../log/development.log: 1
+log/mongrel_debug/objects.log: 1
+log/mongrel_debug/rails.log: 1
+log/mongrel_debug/params.log: 1
+log/mongrel_debug/files.log: 1
+log/mongrel_debug/threads.log: 1
+
+Thu Mar 22 04:39:21 Hora est. de América Central 2007 FILES OPEN BEFORE REQUEST /user/openid_login
+--- 
+C:/rubyapps/salad/config/../log/development.log: 1
+log/mongrel_debug/objects.log: 1
+log/mongrel_debug/rails.log: 1
+log/mongrel_debug/params.log: 1
+log/mongrel_debug/files.log: 1
+log/mongrel_debug/threads.log: 1
+
+Thu Mar 22 04:39:52 Hora est. de América Central 2007 FILES OPEN BEFORE REQUEST /user/complete
+--- 
+C:/rubyapps/salad/config/../log/development.log: 1
+log/mongrel_debug/objects.log: 1
+log/mongrel_debug/rails.log: 1
+log/mongrel_debug/params.log: 1
+log/mongrel_debug/files.log: 1
+log/mongrel_debug/threads.log: 1
+
+Thu Mar 22 04:40:39 Hora est. de América Central 2007 FILES OPEN BEFORE REQUEST /salad/list
+--- 
+C:/rubyapps/salad/config/../log/development.log: 1
+log/mongrel_debug/objects.log: 1
+log/mongrel_debug/rails.log: 1
+log/mongrel_debug/params.log: 1
+log/mongrel_debug/files.log: 1
+log/mongrel_debug/threads.log: 1
+
+Thu Mar 22 04:40:41 Hora est. de América Central 2007 FILES OPEN BEFORE REQUEST /stylesheets/scaffold.css
+--- 
+C:/rubyapps/salad/config/../log/development.log: 1
+log/mongrel_debug/objects.log: 1
+log/mongrel_debug/rails.log: 1
+log/mongrel_debug/params.log: 1
+log/mongrel_debug/files.log: 1
+log/mongrel_debug/threads.log: 1
+
+Thu Mar 22 04:40:42 Hora est. de América Central 2007 FILES OPEN BEFORE REQUEST /stylesheets/salad.css
+--- 
+C:/rubyapps/salad/config/../log/development.log: 1
+log/mongrel_debug/objects.log: 1
+log/mongrel_debug/rails.log: 1
+log/mongrel_debug/params.log: 1
+log/mongrel_debug/files.log: 1
+log/mongrel_debug/threads.log: 1
+
+Thu Mar 22 04:40:44 Hora est. de América Central 2007 FILES OPEN BEFORE REQUEST /images/favicon.png
+--- 
+C:/rubyapps/salad/config/../log/development.log: 1
+log/mongrel_debug/objects.log: 1
+log/mongrel_debug/rails.log: 1
+log/mongrel_debug/params.log: 1
+log/mongrel_debug/files.log: 1
+log/mongrel_debug/threads.log: 1
+
+Thu Mar 22 04:40:45 Hora est. de América Central 2007 FILES OPEN BEFORE REQUEST /salad/view/5
+--- 
+C:/rubyapps/salad/config/../log/development.log: 1
+log/mongrel_debug/objects.log: 1
+log/mongrel_debug/rails.log: 1
+log/mongrel_debug/params.log: 1
+log/mongrel_debug/files.log: 1
+log/mongrel_debug/threads.log: 1
+
+Thu Mar 22 04:40:48 Hora est. de América Central 2007 FILES OPEN BEFORE REQUEST /stylesheets/scaffold.css
+--- 
+C:/rubyapps/salad/config/../log/development.log: 1
+log/mongrel_debug/objects.log: 1
+log/mongrel_debug/rails.log: 1
+log/mongrel_debug/params.log: 1
+log/mongrel_debug/files.log: 1
+log/mongrel_debug/threads.log: 1
+
+Thu Mar 22 04:40:49 Hora est. de América Central 2007 FILES OPEN BEFORE REQUEST /images/favicon.png
+--- 
+C:/rubyapps/salad/config/../log/development.log: 1
+log/mongrel_debug/objects.log: 1
+log/mongrel_debug/rails.log: 1
+log/mongrel_debug/params.log: 1
+log/mongrel_debug/files.log: 1
+log/mongrel_debug/threads.log: 1
+
+Thu Mar 22 04:41:11 Hora est. de América Central 2007 FILES OPEN BEFORE REQUEST /images/favicon.png
+--- 
+C:/rubyapps/salad/config/../log/development.log: 1
+log/mongrel_debug/objects.log: 1
+log/mongrel_debug/rails.log: 1
+log/mongrel_debug/params.log: 1
+log/mongrel_debug/files.log: 1
+log/mongrel_debug/threads.log: 1
+
+Thu Mar 22 04:41:35 Hora est. de América Central 2007 FILES OPEN BEFORE REQUEST /images/favicon.png
+--- 
+C:/rubyapps/salad/config/../log/development.log: 1
+log/mongrel_debug/objects.log: 1
+log/mongrel_debug/rails.log: 1
+log/mongrel_debug/params.log: 1
+log/mongrel_debug/files.log: 1
+log/mongrel_debug/threads.log: 1
+
+Thu Mar 22 04:41:37 Hora est. de América Central 2007 FILES OPEN BEFORE REQUEST /salad/view/5
+--- 
+C:/rubyapps/salad/config/../log/development.log: 1
+log/mongrel_debug/objects.log: 1
+log/mongrel_debug/rails.log: 1
+log/mongrel_debug/params.log: 1
+log/mongrel_debug/files.log: 1
+log/mongrel_debug/threads.log: 1
+
+Thu Mar 22 04:41:38 Hora est. de América Central 2007 FILES OPEN BEFORE REQUEST /stylesheets/scaffold.css
+--- 
+C:/rubyapps/salad/config/../log/development.log: 1
+log/mongrel_debug/objects.log: 1
+log/mongrel_debug/rails.log: 1
+log/mongrel_debug/params.log: 1
+log/mongrel_debug/files.log: 1
+log/mongrel_debug/threads.log: 1
+
+Thu Mar 22 04:41:40 Hora est. de América Central 2007 FILES OPEN BEFORE REQUEST /stylesheets/salad.css
+--- 
+C:/rubyapps/salad/config/../log/development.log: 1
+log/mongrel_debug/objects.log: 1
+log/mongrel_debug/rails.log: 1
+log/mongrel_debug/params.log: 1
+log/mongrel_debug/files.log: 1
+log/mongrel_debug/threads.log: 1
+
+Thu Mar 22 04:41:42 Hora est. de América Central 2007 FILES OPEN BEFORE REQUEST /javascripts/prototype.js
+--- 
+C:/rubyapps/salad/config/../log/development.log: 1
+log/mongrel_debug/objects.log: 1
+log/mongrel_debug/rails.log: 1
+log/mongrel_debug/params.log: 1
+log/mongrel_debug/files.log: 1
+log/mongrel_debug/threads.log: 1
+
+Thu Mar 22 04:41:43 Hora est. de América Central 2007 FILES OPEN BEFORE REQUEST /javascripts/effects.js
+--- 
+C:/rubyapps/salad/config/../log/development.log: 1
+log/mongrel_debug/objects.log: 1
+log/mongrel_debug/rails.log: 1
+log/mongrel_debug/params.log: 1
+log/mongrel_debug/files.log: 1
+log/mongrel_debug/threads.log: 1
+
+Thu Mar 22 04:41:44 Hora est. de América Central 2007 FILES OPEN BEFORE REQUEST /javascripts/dragdrop.js
+--- 
+C:/rubyapps/salad/config/../log/development.log: 1
+log/mongrel_debug/objects.log: 1
+log/mongrel_debug/rails.log: 1
+log/mongrel_debug/params.log: 1
+log/mongrel_debug/files.log: 1
+log/mongrel_debug/threads.log: 1
+
+Thu Mar 22 04:41:46 Hora est. de América Central 2007 FILES OPEN BEFORE REQUEST /javascripts/controls.js
+--- 
+C:/rubyapps/salad/config/../log/development.log: 1
+log/mongrel_debug/objects.log: 1
+log/mongrel_debug/rails.log: 1
+log/mongrel_debug/params.log: 1
+log/mongrel_debug/files.log: 1
+log/mongrel_debug/threads.log: 1
+
+Thu Mar 22 04:41:47 Hora est. de América Central 2007 FILES OPEN BEFORE REQUEST /javascripts/application.js
+--- 
+C:/rubyapps/salad/config/../log/development.log: 1
+log/mongrel_debug/objects.log: 1
+log/mongrel_debug/rails.log: 1
+log/mongrel_debug/params.log: 1
+log/mongrel_debug/files.log: 1
+log/mongrel_debug/threads.log: 1
+
+Thu Mar 22 04:41:49 Hora est. de América Central 2007 FILES OPEN BEFORE REQUEST /images/favicon.png
+--- 
+C:/rubyapps/salad/config/../log/development.log: 1
+log/mongrel_debug/objects.log: 1
+log/mongrel_debug/rails.log: 1
+log/mongrel_debug/params.log: 1
+log/mongrel_debug/files.log: 1
+log/mongrel_debug/threads.log: 1
+
+Thu Mar 22 04:48:23 Hora est. de América Central 2007 FILES OPEN BEFORE REQUEST /images/favicon.png
+--- 
+C:/rubyapps/salad/config/../log/development.log: 1
+log/mongrel_debug/objects.log: 1
+log/mongrel_debug/rails.log: 1
+log/mongrel_debug/params.log: 1
+log/mongrel_debug/files.log: 1
+log/mongrel_debug/threads.log: 1
+
+Thu Mar 22 04:50:10 Hora est. de América Central 2007 FILES OPEN BEFORE REQUEST /images/favicon.png
+--- 
+C:/rubyapps/salad/config/../log/development.log: 1
+log/mongrel_debug/objects.log: 1
+log/mongrel_debug/rails.log: 1
+log/mongrel_debug/params.log: 1
+log/mongrel_debug/files.log: 1
+log/mongrel_debug/threads.log: 1
+
+Thu Mar 22 04:50:15 Hora est. de América Central 2007 FILES OPEN BEFORE REQUEST /images/favicon.png
+--- 
+C:/rubyapps/salad/config/../log/development.log: 1
+log/mongrel_debug/objects.log: 1
+log/mongrel_debug/rails.log: 1
+log/mongrel_debug/params.log: 1
+log/mongrel_debug/files.log: 1
+log/mongrel_debug/threads.log: 1
+
+FILES OPEN AT EXIT
+--- 
+C:/rubyapps/salad/config/../log/development.log: 1
+log/mongrel_debug/objects.log: 1
+log/mongrel_debug/rails.log: 1
+log/mongrel_debug/params.log: 1
+log/mongrel_debug/files.log: 1
+log/mongrel_debug/threads.log: 1
+
+D, [2007-03-26T19:35:20.234000 #7264] DEBUG -- : TRACING ON Mon Mar 26 19:35:20 Hora est. de América Central 2007
+D, [2007-03-27T19:41:43.421000 #7060] DEBUG -- : TRACING ON Tue Mar 27 19:41:43 Hora est. de América Central 2007
+FILES OPEN AT EXIT
+D, [2007-04-20T17:09:53.875000 #5912] DEBUG -- : TRACING ON Fri Apr 20 17:09:53 Hora est. de América Central 2007
+D, [2007-04-22T15:27:18.984000 #3616] DEBUG -- : TRACING ON Sun Apr 22 15:27:18 Hora est. de América Central 2007
+FILES OPEN AT EXIT
+D, [2007-05-07T20:08:47.046000 #2248] DEBUG -- : TRACING ON Mon May 07 20:08:47 Hora est. de América Central 2007
+FILES OPEN AT EXIT
+--- 
+C:/rubyapps/salad/config/../log/development.log: 1
+log/mongrel_debug/files.log: 1
+
+D, [2007-05-08T01:43:16.468000 #4168] DEBUG -- : TRACING ON Tue May 08 01:43:16 Hora est. de América Central 2007
+FILES OPEN AT EXIT
+--- 
+C:/rubyapps/salad/config/../log/development.log: 1
+log/mongrel_debug/files.log: 1
+
+D, [2007-05-08T01:50:59.156000 #1172] DEBUG -- : TRACING ON Tue May 08 01:50:59 Hora est. de América Central 2007
+D, [2007-05-08T01:50:59.171000 #1172] DEBUG -- : FILES OPEN AT EXIT
+D, [2007-05-08T01:50:59.171000 #1172] DEBUG -- : --- 
+log/mongrel_debug/files.log: 1
+
+D, [2007-05-08T01:51:30.843000 #2028] DEBUG -- : TRACING ON Tue May 08 01:51:30 Hora est. de América Central 2007
+FILES OPEN AT EXIT
+--- 
+C:/rubyapps/salad/config/../log/development.log: 1
+log/mongrel_debug/files.log: 1
+
+D, [2007-05-10T02:53:55.765000 #5596] DEBUG -- : TRACING ON Thu May 10 02:53:55 Hora est. de América Central 2007
+FILES OPEN AT EXIT
+--- 
+C:/rubyapps/salad/config/../log/development.log: 1
+log/mongrel_debug/files.log: 1
+
+D, [2007-05-10T02:56:02.156000 #4312] DEBUG -- : TRACING ON Thu May 10 02:56:02 Hora est. de América Central 2007
+FILES OPEN AT EXIT
+--- 
+C:/rubyapps/salad/config/../log/development.log: 1
+log/mongrel_debug/files.log: 1
+
+D, [2007-05-10T20:33:15.343000 #5404] DEBUG -- : TRACING ON Thu May 10 20:33:15 Hora est. de América Central 2007
+D, [2007-05-14T09:07:30.140000 #3780] DEBUG -- : TRACING ON Mon May 14 09:07:30 Hora est. de América Central 2007
+D, [2007-05-23T22:47:56.468000 #4764] DEBUG -- : TRACING ON Wed May 23 22:47:56 Hora est. de América Central 2007
+FILES OPEN AT EXIT
+--- 
+C:/rubyapps/salad/config/../log/development.log: 1
+log/mongrel_debug/files.log: 1
+
+D, [2007-06-02T00:16:48.406000 #2072] DEBUG -- : TRACING ON Sat Jun 02 00:16:48 Hora est. de América Central 2007
+FILES OPEN AT EXIT
+--- 
+C:/rubyapps/salad/config/../log/development.log: 1
+log/mongrel_debug/files.log: 1
+
+D, [2007-06-02T03:27:14.500000 #6064] DEBUG -- : TRACING ON Sat Jun 02 03:27:14 Hora est. de América Central 2007
+D, [2007-06-05T16:05:42.234000 #3800] DEBUG -- : TRACING ON Tue Jun 05 16:05:42 Hora est. de América Central 2007

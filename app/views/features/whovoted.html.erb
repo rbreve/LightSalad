@@ -1,0 +1,29 @@
+
+
+ 
+<div class="itemtitle">
+  <%= link_to @list.name, list_path(@list)%>
+</div>
+
+<div id="itemslist">		 		 
+ 	<%= render :partial => "lists/feature"  %>
+</div>
+ 
+<div style="float:right;">
+	<h3>Dislike it</h3>  
+
+	<%for user in @disliked%>
+	<img src="<%=IMAGE_DIR%>votedown.png"><%=link_to user.login, :controller => 'users', :action => user.username.to_s%> <br/> 
+	<%end%>
+</div>
+
+<div style="">
+
+	<h3>Like it </h3>
+
+	<%for user in @liked%>
+	<img src=" <%=IMAGE_DIR%>voteup.png"><%=link_to user.login, :controller => 'users', :action => user.login.to_s%> <br/> 
+	<%end%>
+
+</div>
+

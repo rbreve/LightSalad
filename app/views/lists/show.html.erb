@@ -1,0 +1,50 @@
+ <% @page_title = @list.name %> 
+
+
+<div id="itemslist">
+			
+<% if @list.listtype=="PERSONAL" %>
+	<h3>This is a personal top list created by <%=@list.user.username%></h3>
+<%end%>	 
+</div>
+ 
+	<div id="list-info">
+		
+		<%=render :partial => @list%>
+	 
+	
+		<ul id="tabs">
+			 <li id=<%= @sortby=="popular" ? "selected" : ""%> >	<%=link_to "Popular", list_path(@list, :sortby=>"popular")%></li>
+		    
+		     <li id=<%= @sortby=="new" ? "selected" : ""%>>	<%=link_to "Newest", list_path(@list, :sortby=>"new")%></li>
+		     <li id="addidea">
+		     	
+				<% if @list.listtype=="SOCIAL" or (@list.listtype=="PERSONAL" and @list.user_id==session["person"].id)%>
+					<a href="#new-item">Add Item</a>
+				<%end%>
+		
+		
+		     </li>
+		   </ul>
+	</div>
+
+<div id="itemslist">		 
+	<%= render :partial => "feature", :collection => @features %>
+</div>
+
+<%if session["person"] %>
+<%if (@list.listtype=="PERSONAL" and @list.user_id==session["person"].id) or (@list.listtype=="SOCIAL")%> 
+	<a name="new-item">
+	<% form_for ([@list,@newfeature]) do |f| %> 
+	<label>Item Title </label>
+	<%= f.text_field :title %>
+	<label>Description: </label><%= f.text_area  :description, :rows=>6 %>
+	 <br>
+	<%= submit_tag "Add It" %> 
+	<% end %> 
+<%end%>
+<%end%>
+ 
+</div>
+
+ 

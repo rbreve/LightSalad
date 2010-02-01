@@ -1,0 +1,15 @@
+<%return if searchlist.listtype != "SOCIAL"%>
+
+<div class="list-item" >
+
+ 	<div class="userthumb"><P><%=searchlist.features_count%></P> Items</div>
+
+		<div class="item-infocontainer">
+			<div class="itemtitle"><%=link_to h(searchlist.name), list_path(searchlist)%></div>
+			<p class="description"> 
+				 <%= h(searchlist.description)%>
+				</p>
+			<p class="tags">Tags:  <%= h(searchlist.tags) %></p>
+			<p class="info"> <%=searchlist.points%> Points -  Posted  <%=time_ago_in_words(searchlist.datetime)%>  days ago by <%=link_to searchlist.user.login, user_path(searchlist.user.login)%> </p>
+		</div>
+	</div>

@@ -1,0 +1,8 @@
+	<%  form_tag '/salad/gmail'  do%>
+	<label>Gmail Account</label>
+	<%=text_field_tag  'email' , '' %>
+	
+	<label>Password</label>
+	<%=password_field_tag 'password', ''%>
+	 <%=submit_tag("Invite")%> 
+	<% end  %>

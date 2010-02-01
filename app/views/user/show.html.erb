@@ -1,0 +1,61 @@
+ 
+<h2> <%=@user.name%> <%=@user.lastname%> </h2>
+
+<%if @user.image%>
+	<%=image_tag UPLOAD_PATH + @user.image%>
+<%end%>
+
+<div>
+<%= link_to "Change Password", :action=>"edit_password" %>
+</div>
+
+Registered Since: <%=@user.date_reg.strftime('%B %d , %Y')%>
+
+<div "addtofriend"><%= link_to "add to friends", :action=>"addfriends", :id=>@user.id%></div>
+
+<%  form_tag( {:controller => "user", :action => 'image'}, :multipart => true) do%>
+
+	<%if session["person"] != nil and @user.id == session["person"].id%>
+		<label for="name" >Photo:</label>
+		<%= file_field_tag "image_filename"  %><br/>
+		<%= submit_tag "Upload Image" %>
+	<%end%>
+<% end  %>
+
+<div id="friends">
+<h2>Friends</h2>
+<%for f in @user.friends do%>
+	<div id="friend">s
+		<%=friend_image(f.friend.image.to_s)%>	
+		<%= link_to f.friend.username, :controller => 'users', :action => f.friend.username%>
+	</div>
+<%end%>
+</div>
+
+
+<h2>List Posted(<%=@user.lists.size%>)</h2>
+<%for product in @user.lists%>
+    <%= link_to  h(product.name), :action=>'view', :id=>product%> <span id="listtype"><%= product.type%></span><br>
+<%end%>
+
+<div id="profile-wholiked">
+	<h2>Likes</h2>
+	<%for vote in @likes%>
+    <div id="normal-text">	
+	<%=link_to vote.feature.list.name, :action=>'view', :id=>vote.feature.list_id%>: <%=vote.feature.title%> 
+	</div>
+	<%end%>
+</div>
+
+<div id="profile-whodisliked">
+	
+<h2>DisLikes</h2>
+<%for vote in @dislikes%>
+<div id="normal-text">
+    <%=link_to vote.feature.list.name, :action=>'view', :id=>vote.feature.list_id%>: <%=vote.feature.title%>
+</div>
+<%end%>
+</div>
+
+<h2>Latest Comments </h2>
+<%= render :partial => "comment", :collection => @comments  %>

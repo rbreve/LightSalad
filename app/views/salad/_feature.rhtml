@@ -1,0 +1,30 @@
+<div id="suggestion">
+	
+<div class="votebox" >
+	
+	<div class="vote-count"> 
+		<div id="<%=feature.id%>">
+				<%=feature.points%>
+		</div> 
+	</div>  
+     
+
+
+</div> 
+ 
+
+<div id="suggestion-title">
+<a name="<%=feature.id%>"></a> 
+<div>
+<h3><%=h(feature.title)%></h3>
+<p><%=auto_link(h(feature.description))%></p> 
+</div>
+
+</div>
+ 
+<div id="author">
+ Posted by: <%= link_to feature.user.username, :controller=>'users', :action=> feature.user.username %> <%=time_ago_in_words(feature.datetime)%> ago <br>
+ Votes: <%=feature.feature_votes_count%> | <%=link_to "Who voted",:controller=>"features" , :action=>"whovoted", :id => feature%> | 
+<%=link_to "#{feature.comments_count} Comments", feature_comments_path(feature) %>
+</div>
+</div>

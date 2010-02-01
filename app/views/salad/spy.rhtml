@@ -1,0 +1,33 @@
+<div style="width:1000px;">
+
+<%for log in @logs%>
+
+<div id="activity-row">
+	
+	<%=log.datetime.strftime('%m/%d/%Y %H:%M:%S')%>
+		
+	<%if log.action == "NEW_FEATURE_PUBLIC"%>
+
+		<%=link_to log.user.username, :action => "users", :id => log.user.username %> added <strong><%=log.feature.title%></strong> to 
+		<%= link_to log.product.name, :action => "view", :id => log.product_id%> <Br/>
+	<%end%>
+	
+	<%if log.action == "NEW_LIST"%>
+	 
+		<%=link_to log.user.username, :action => "users", :id => log.user.username %> created a new list <strong><%= link_to log.product.name, :action => "view", :id => log.product_id%></strong> <br>
+	<%end%>
+	
+	<%if log.action == "VOTE_UP"%>
+	 
+		<%=link_to log.user.username, :action => "users", :id => log.user.username %> likes <strong><%= link_to log.feature.title, :action=>"view", :id => log.product_id.to_s, :anchor=> log.feature.id %> </strong> from <strong><%= link_to log.product.name, :action => "view", :id => log.product_id%></strong> <Br>
+	<%end%>
+	
+	<%if log.action == "VOTE_DOWN"%>
+ 
+		<%=link_to log.user.username, :action => "users", :id => log.user.username %> dislikes <strong><%=log.feature.title%> </strong> from <strong><%= link_to log.product.name, :action => "view", :id => log.product_id%></strong> <Br>
+	<%end%>
+	
+</div>
+
+<%end%>
+</div>

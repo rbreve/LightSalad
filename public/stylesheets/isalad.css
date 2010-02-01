@@ -1,0 +1,29 @@
+ 
+body > ul > li > a {
+    padding-left: 54px;
+    padding-right: 40px;
+    min-height: 34px;
+}
+
+li a .smalltext {
+    font-size: 70%;
+	padding-left: 60px;
+}
+ 
+
+li .item-points{
+	display:block;
+	position:absolute;
+	margin-left:0px;
+	left:6px;
+	top:14px;
+	color:#fff;
+	text-align: center;
+    font-size: 80%;
+    letter-spacing: -0.07em;
+	width:30px;
+	height:30px;
+	padding: 7px 0 0 0;
+    background: url(/img/bgitems_i.png) no-repeat;
+}
+ 

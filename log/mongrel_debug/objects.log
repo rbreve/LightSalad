@@ -1,0 +1,412 @@
+# Logfile created on Thu Mar 22 04:20:49 Hora est. de América Central 2007 by logger.rb/1.5.2.7
+D, [2007-03-22T04:20:49.765000 #3776] DEBUG -- : TRACING ON Thu Mar 22 04:20:49 Hora est. de América Central 2007
+----------
+Thu Mar 22 04:20:59 Hora est. de América Central 2007 OBJECT STATS BEFORE REQUEST /
+COUNTS: 5495,50872,31089
+TOP 20: [[String, 70699], [Array, 4902], [Regexp, 1291], [Hash, 1144], [Class, 1044], [Proc, 369], [Module, 361], [Time, 343], [MatchData, 294], [Gem::Version, 273], [Gem::Version::Requirement, 262], [Range, 159], [Gem::Specification, 144], [Gem::Dependency, 112], [File, 84], [XSD::QName, 73], [Float, 56], [YAML::Syck::Node, 37], [ActionController::CodeGeneration::GenerationGenerator, 30], [ActionController::CodeGeneration::RecognitionGenerator, 25], [ActionController::Routing::DynamicComponent, 20]]
+----------
+Thu Mar 22 04:21:52 Hora est. de América Central 2007 OBJECT STATS BEFORE REQUEST /
+COUNTS: 17261,3890,64700
+TOP 20: [[String, 57924], [Array, 4766], [Regexp, 1276], [Class, 1214], [Hash, 1088], [Module, 376], [Proc, 320], [Gem::Version, 271], [Gem::Version::Requirement, 256], [Range, 163], [Time, 154], [Gem::Specification, 144], [Gem::Dependency, 111], [XSD::QName, 73], [Float, 59], [MatchData, 46], [YAML::Syck::Scalar, 40], [File, 20], [OptionParser::Switch::RequiredArgument, 15], [Bignum, 12], [Object, 12]]
+----------
+Thu Mar 22 04:21:53 Hora est. de América Central 2007 OBJECT STATS BEFORE REQUEST /salad/list
+COUNTS: 0,18318,68590
+TOP 20: [[String, 71574], [Array, 8487], [Hash, 1352], [Regexp, 1326], [Class, 1277], [Proc, 430], [Module, 384], [Gem::Version, 273], [Gem::Version::Requirement, 258], [Time, 181], [Range, 178], [Gem::Specification, 144], [Float, 130], [Gem::Dependency, 113], [MatchData, 110], [YAML::Syck::Scalar, 94], [XSD::QName, 73], [File, 60], [ActionController::CodeGeneration::GenerationGenerator, 31], [ActionController::CodeGeneration::RecognitionGenerator, 28], [ActionController::Routing::DynamicComponent, 24]]
+----------
+Thu Mar 22 04:21:55 Hora est. de América Central 2007 OBJECT STATS BEFORE REQUEST /stylesheets/scaffold.css
+COUNTS: 15438,2083,71470
+TOP 20: [[String, 61367], [Array, 5442], [Hash, 1316], [Regexp, 1290], [Class, 1288], [Module, 386], [Proc, 372], [Float, 282], [Gem::Version, 271], [Gem::Version::Requirement, 256], [Time, 207], [Range, 194], [Gem::Specification, 144], [Gem::Dependency, 111], [MatchData, 79], [XSD::QName, 73], [YAML::Syck::Scalar, 42], [Bignum, 36], [Mysql::Field, 25], [Struct::Tms, 20], [OptionParser::Switch::RequiredArgument, 15]]
+----------
+Thu Mar 22 04:21:57 Hora est. de América Central 2007 OBJECT STATS BEFORE REQUEST /stylesheets/salad.css
+COUNTS: 0,11352,73553
+TOP 20: [[String, 67777], [Array, 9259], [Hash, 1542], [Regexp, 1514], [Class, 1289], [Proc, 490], [Float, 410], [Module, 387], [Gem::Version, 272], [Gem::Version::Requirement, 257], [Time, 247], [Range, 203], [MatchData, 151], [Gem::Specification, 144], [Gem::Dependency, 112], [YAML::Syck::Scalar, 100], [XSD::QName, 73], [Mysql::Field, 49], [Bignum, 40], [ActionController::CodeGeneration::GenerationGenerator, 31], [Struct::Tms, 28]]
+----------
+Thu Mar 22 04:21:58 Hora est. de América Central 2007 OBJECT STATS BEFORE REQUEST /javascripts/prototype.js
+COUNTS: 0,1899,84905
+TOP 20: [[String, 68209], [Array, 10483], [Hash, 1560], [Regexp, 1514], [Class, 1289], [Proc, 554], [Float, 466], [Module, 387], [Gem::Version, 272], [Time, 266], [Gem::Version::Requirement, 257], [Range, 204], [YAML::Syck::Scalar, 162], [MatchData, 151], [Gem::Specification, 144], [Gem::Dependency, 112], [XSD::QName, 73], [Mysql::Field, 49], [Bignum, 42], [ActionController::CodeGeneration::GenerationGenerator, 31], [Struct::Tms, 28]]
+----------
+Thu Mar 22 04:22:00 Hora est. de América Central 2007 OBJECT STATS BEFORE REQUEST /javascripts/effects.js
+COUNTS: 0,1835,86804
+TOP 20: [[String, 68641], [Array, 11643], [Hash, 1578], [Regexp, 1514], [Class, 1289], [Proc, 618], [Float, 522], [Module, 387], [Time, 285], [Gem::Version, 272], [Gem::Version::Requirement, 257], [YAML::Syck::Scalar, 224], [Range, 205], [MatchData, 151], [Gem::Specification, 144], [Gem::Dependency, 112], [XSD::QName, 73], [Mysql::Field, 49], [Bignum, 44], [ActionController::CodeGeneration::GenerationGenerator, 31], [Struct::Tms, 28]]
+----------
+Thu Mar 22 04:22:02 Hora est. de América Central 2007 OBJECT STATS BEFORE REQUEST /javascripts/dragdrop.js
+COUNTS: 23266,107,65373
+TOP 20: [[String, 55306], [Array, 4050], [Regexp, 1285], [Class, 1282], [Hash, 1135], [Module, 382], [Proc, 375], [Gem::Version, 271], [Gem::Version::Requirement, 256], [Range, 174], [Time, 173], [Gem::Specification, 144], [Float, 117], [Gem::Dependency, 111], [XSD::QName, 73], [YAML::Syck::Scalar, 62], [Bignum, 19], [OptionParser::Switch::RequiredArgument, 15], [Object, 13], [Set, 13], [StringIO, 9]]
+----------
+Thu Mar 22 04:22:03 Hora est. de América Central 2007 OBJECT STATS BEFORE REQUEST /javascripts/controls.js
+COUNTS: 0,1597,65480
+TOP 20: [[String, 55739], [Array, 4971], [Regexp, 1285], [Class, 1282], [Hash, 1153], [Proc, 439], [Module, 382], [Gem::Version, 271], [Gem::Version::Requirement, 256], [Time, 192], [Range, 175], [Float, 173], [Gem::Specification, 144], [YAML::Syck::Scalar, 124], [Gem::Dependency, 111], [XSD::QName, 73], [Bignum, 21], [Set, 18], [OptionParser::Switch::RequiredArgument, 15], [Object, 13], [StringIO, 12]]
+----------
+Thu Mar 22 04:22:04 Hora est. de América Central 2007 OBJECT STATS BEFORE REQUEST /javascripts/application.js
+COUNTS: 0,1668,67077
+TOP 20: [[String, 56171], [Array, 5964], [Regexp, 1285], [Class, 1282], [Hash, 1171], [Proc, 503], [Module, 382], [Gem::Version, 271], [Gem::Version::Requirement, 256], [Float, 229], [Time, 211], [YAML::Syck::Scalar, 186], [Range, 176], [Gem::Specification, 144], [Gem::Dependency, 111], [XSD::QName, 73], [Bignum, 23], [Set, 23], [StringIO, 15], [OptionParser::Switch::RequiredArgument, 15], [Object, 13]]
+----------
+Thu Mar 22 04:22:06 Hora est. de América Central 2007 OBJECT STATS BEFORE REQUEST /images/favicon.png
+COUNTS: 0,1611,68745
+TOP 20: [[String, 56590], [Array, 6913], [Regexp, 1285], [Class, 1282], [Hash, 1189], [Proc, 567], [Module, 382], [Float, 285], [Gem::Version, 271], [Gem::Version::Requirement, 256], [YAML::Syck::Scalar, 248], [Time, 230], [Range, 177], [Gem::Specification, 144], [Gem::Dependency, 111], [XSD::QName, 73], [Set, 28], [Bignum, 25], [StringIO, 18], [OptionParser::Switch::RequiredArgument, 15], [Object, 13]]
+----------
+Thu Mar 22 04:22:09 Hora est. de América Central 2007 OBJECT STATS BEFORE REQUEST /salad/list
+COUNTS: 2533,3545,67823
+TOP 20: [[String, 58351], [Array, 6255], [Regexp, 1508], [Hash, 1299], [Class, 1280], [Proc, 419], [Module, 381], [Gem::Version, 272], [Gem::Version::Requirement, 257], [Time, 181], [Range, 177], [Gem::Specification, 144], [Gem::Dependency, 112], [Float, 107], [XSD::QName, 73], [MatchData, 67], [YAML::Syck::Scalar, 52], [ActionController::CodeGeneration::GenerationGenerator, 30], [ActionController::CodeGeneration::RecognitionGenerator, 25], [ActionController::Routing::DynamicComponent, 22], [Bignum, 19]]
+----------
+Thu Mar 22 04:22:11 Hora est. de América Central 2007 OBJECT STATS BEFORE REQUEST /stylesheets/scaffold.css
+COUNTS: 8190,5968,63178
+TOP 20: [[String, 57592], [Array, 5034], [Regexp, 1288], [Class, 1284], [Hash, 1272], [Module, 382], [Proc, 370], [Gem::Version, 271], [Gem::Version::Requirement, 256], [Float, 218], [Time, 199], [Range, 188], [Gem::Specification, 144], [Gem::Dependency, 111], [XSD::QName, 73], [YAML::Syck::Scalar, 42], [Bignum, 33], [MatchData, 33], [Mysql::Field, 15], [OptionParser::Switch::RequiredArgument, 15], [ActiveRecord::ConnectionAdapters::MysqlColumn, 14]]
+----------
+Thu Mar 22 04:22:12 Hora est. de América Central 2007 OBJECT STATS BEFORE REQUEST /images/favicon.png
+----------
+Thu Mar 22 04:22:13 Hora est. de América Central 2007 OBJECT STATS BEFORE REQUEST /salad/view/5
+COUNTS: 0,9342,69146
+TOP 20: [[String, 62273], [Array, 8687], [Regexp, 1512], [Hash, 1481], [Class, 1285], [Proc, 484], [Module, 383], [Float, 306], [Gem::Version, 272], [Gem::Version::Requirement, 257], [Time, 232], [Range, 194], [Gem::Specification, 144], [Gem::Dependency, 112], [YAML::Syck::Scalar, 98], [MatchData, 96], [XSD::QName, 73], [Bignum, 35], [ActionController::CodeGeneration::GenerationGenerator, 31], [ActionController::CodeGeneration::RecognitionGenerator, 27], [Mysql::Field, 27]]
+COUNTS: 5621,252,63765
+TOP 20: [[String, 54938], [Array, 2920], [Regexp, 1285], [Class, 1282], [Hash, 1129], [Module, 382], [Proc, 311], [Gem::Version, 271], [Gem::Version::Requirement, 256], [Range, 174], [Time, 159], [Gem::Specification, 144], [Gem::Dependency, 111], [XSD::QName, 73], [Float, 61], [Bignum, 17], [OptionParser::Switch::RequiredArgument, 15], [Object, 13], [Set, 12], [StringIO, 9], [Mime::Type, 8]]
+----------
+Thu Mar 22 04:22:17 Hora est. de América Central 2007 OBJECT STATS BEFORE REQUEST /stylesheets/scaffold.css
+COUNTS: 406,17422,63371
+TOP 20: [[String, 65902], [Array, 7395], [Hash, 1511], [Regexp, 1359], [Class, 1286], [Proc, 505], [Module, 382], [Float, 347], [Gem::Version, 272], [Gem::Version::Requirement, 257], [Time, 229], [Range, 194], [MatchData, 145], [Gem::Specification, 144], [Gem::Dependency, 112], [XSD::QName, 73], [Mysql::Field, 59], [YAML::Syck::Scalar, 54], [Bignum, 39], [ActionController::CodeGeneration::GenerationGenerator, 30], [File, 25]]
+----------
+Thu Mar 22 04:22:19 Hora est. de América Central 2007 OBJECT STATS BEFORE REQUEST /images/favicon.png
+COUNTS: 10314,1803,70479
+TOP 20: [[String, 58991], [Array, 6484], [Regexp, 1509], [Hash, 1313], [Class, 1286], [Proc, 423], [Module, 383], [Gem::Version, 272], [Gem::Version::Requirement, 257], [Time, 183], [Range, 177], [Gem::Specification, 144], [Gem::Dependency, 112], [Float, 111], [XSD::QName, 73], [MatchData, 67], [YAML::Syck::Scalar, 56], [ActionController::CodeGeneration::GenerationGenerator, 30], [ActionController::CodeGeneration::RecognitionGenerator, 25], [ActionController::Routing::DynamicComponent, 22], [Bignum, 19]]
+----------
+Thu Mar 22 04:22:24 Hora est. de América Central 2007 OBJECT STATS BEFORE REQUEST /salad/vote/17
+COUNTS: 5816,5198,66466
+TOP 20: [[String, 58531], [Array, 6353], [Regexp, 1508], [Hash, 1308], [Class, 1281], [Proc, 419], [Module, 381], [Gem::Version, 272], [Gem::Version::Requirement, 257], [Time, 183], [Range, 177], [Gem::Specification, 144], [Gem::Dependency, 112], [Float, 107], [XSD::QName, 73], [MatchData, 67], [YAML::Syck::Scalar, 52], [ActionController::CodeGeneration::GenerationGenerator, 30], [ActionController::CodeGeneration::RecognitionGenerator, 25], [ActionController::Routing::DynamicComponent, 22], [Bignum, 19]]
+----------
+Thu Mar 22 04:22:25 Hora est. de América Central 2007 OBJECT STATS BEFORE REQUEST /user/signin
+COUNTS: 0,8533,71664
+TOP 20: [[String, 62612], [Array, 9960], [Regexp, 1577], [Hash, 1509], [Class, 1284], [Proc, 547], [Module, 383], [Gem::Version, 273], [Gem::Version::Requirement, 258], [Time, 210], [Float, 195], [Range, 181], [Gem::Specification, 144], [MatchData, 127], [YAML::Syck::Scalar, 124], [Gem::Dependency, 113], [XSD::QName, 73], [ActionController::CodeGeneration::GenerationGenerator, 60], [ActionController::CodeGeneration::RecognitionGenerator, 50], [ActionController::Routing::DynamicComponent, 42], [ActionController::Routing::ControllerComponent, 34]]
+----------
+Thu Mar 22 04:22:27 Hora est. de América Central 2007 OBJECT STATS BEFORE REQUEST /stylesheets/scaffold.css
+----------
+Thu Mar 22 04:22:27 Hora est. de América Central 2007 OBJECT STATS BEFORE REQUEST /images/favicon.png
+----------
+Thu Mar 22 04:22:31 Hora est. de América Central 2007 OBJECT STATS BEFORE REQUEST /images/favicon.png
+COUNTS: 7212,2638,72985
+TOP 20: [[String, 61750], [Array, 6963], [Hash, 1429], [Regexp, 1359], [Class, 1285], [Proc, 426], [Module, 385], [Gem::Version, 273], [Gem::Version::Requirement, 258], [Time, 199], [Range, 187], [Float, 156], [Gem::Specification, 144], [Gem::Dependency, 113], [MatchData, 76], [XSD::QName, 73], [YAML::Syck::Scalar, 58], [Bignum, 33], [ActionController::CodeGeneration::GenerationGenerator, 30], [ActionController::CodeGeneration::RecognitionGenerator, 25], [ActionController::Routing::DynamicComponent, 22]]
+COUNTS: 7213,2640,72984
+TOP 20: [[String, 61749], [Array, 6964], [Hash, 1429], [Regexp, 1359], [Class, 1285], [Proc, 426], [Module, 385], [Gem::Version, 273], [Gem::Version::Requirement, 258], [Time, 199], [Range, 187], [Float, 156], [Gem::Specification, 144], [Gem::Dependency, 113], [MatchData, 76], [XSD::QName, 73], [YAML::Syck::Scalar, 58], [Bignum, 33], [ActionController::CodeGeneration::GenerationGenerator, 30], [ActionController::CodeGeneration::RecognitionGenerator, 25], [ActionController::Routing::DynamicComponent, 22]]
+COUNTS: 11697,1850,63927
+TOP 20: [[String, 55352], [Array, 4393], [Regexp, 1285], [Class, 1282], [Hash, 1141], [Module, 383], [Proc, 337], [Gem::Version, 271], [Gem::Version::Requirement, 256], [Time, 184], [Range, 175], [Gem::Specification, 144], [Gem::Dependency, 111], [XSD::QName, 73], [Float, 72], [YAML::Syck::Scalar, 24], [Set, 18], [Bignum, 17], [OptionParser::Switch::RequiredArgument, 15], [Object, 13], [StringIO, 12]]
+----------
+Thu Mar 22 04:22:36 Hora est. de América Central 2007 OBJECT STATS BEFORE REQUEST /user/openid_signin
+COUNTS: 1749,8202,64028
+TOP 20: [[String, 59024], [Array, 6389], [Regexp, 1508], [Hash, 1316], [Class, 1283], [Proc, 420], [Module, 384], [Gem::Version, 272], [Gem::Version::Requirement, 257], [Time, 186], [Range, 177], [Gem::Specification, 144], [Gem::Dependency, 112], [Float, 106], [XSD::QName, 73], [MatchData, 67], [YAML::Syck::Scalar, 52], [ActionController::CodeGeneration::GenerationGenerator, 30], [ActionController::CodeGeneration::RecognitionGenerator, 25], [ActionController::Routing::DynamicComponent, 22], [Bignum, 19]]
+----------
+Thu Mar 22 04:22:38 Hora est. de América Central 2007 OBJECT STATS BEFORE REQUEST /stylesheets/scaffold.css
+COUNTS: 8423,1816,63807
+TOP 20: [[String, 55491], [Array, 4113], [Regexp, 1286], [Class, 1280], [Hash, 1151], [Module, 383], [Proc, 318], [Gem::Version, 271], [Gem::Version::Requirement, 256], [Range, 174], [Time, 163], [Gem::Specification, 144], [Gem::Dependency, 111], [XSD::QName, 73], [Float, 62], [YAML::Syck::Scalar, 40], [Bignum, 17], [OptionParser::Switch::RequiredArgument, 15], [Object, 13], [StringIO, 9], [Mime::Type, 9]]
+----------
+Thu Mar 22 04:22:39 Hora est. de América Central 2007 OBJECT STATS BEFORE REQUEST /images/favicon.png
+----------
+Thu Mar 22 04:22:39 Hora est. de América Central 2007 OBJECT STATS BEFORE REQUEST /images/login-bg.gif
+COUNTS: 743,3258,64880
+TOP 20: [[String, 57084], [Array, 4687], [Regexp, 1501], [Class, 1281], [Hash, 1173], [Module, 384], [Proc, 318], [Gem::Version, 272], [Gem::Version::Requirement, 257], [Range, 178], [Time, 177], [Gem::Specification, 144], [Gem::Dependency, 112], [XSD::QName, 73], [Float, 60], [MatchData, 54], [YAML::Syck::Scalar, 44], [Bignum, 19], [File, 16], [OptionParser::Switch::RequiredArgument, 15], [Object, 13]]
+COUNTS: 743,3258,64880
+TOP 20: [[String, 57084], [Array, 4687], [Regexp, 1501], [Class, 1281], [Hash, 1173], [Module, 384], [Proc, 318], [Gem::Version, 272], [Gem::Version::Requirement, 257], [Range, 178], [Time, 177], [Gem::Specification, 144], [Gem::Dependency, 112], [XSD::QName, 73], [Float, 60], [MatchData, 54], [YAML::Syck::Scalar, 44], [Bignum, 19], [File, 16], [OptionParser::Switch::RequiredArgument, 15], [Object, 13]]
+----------
+Thu Mar 22 04:22:43 Hora est. de América Central 2007 OBJECT STATS BEFORE REQUEST /user/openid_login
+COUNTS: 4309,766,63829
+TOP 20: [[String, 55064], [Array, 3515], [Regexp, 1286], [Class, 1278], [Hash, 1147], [Module, 382], [Proc, 317], [Gem::Version, 271], [Gem::Version::Requirement, 256], [Range, 174], [Time, 166], [Gem::Specification, 144], [Gem::Dependency, 111], [XSD::QName, 73], [Float, 60], [YAML::Syck::Scalar, 40], [Bignum, 18], [OptionParser::Switch::RequiredArgument, 15], [Object, 13], [Mime::Type, 9], [StringIO, 9]]
+----------
+Thu Mar 22 04:24:33 Hora est. de América Central 2007 OBJECT STATS BEFORE REQUEST /images/favicon.png
+----------
+Thu Mar 22 04:24:37 Hora est. de América Central 2007 OBJECT STATS BEFORE REQUEST /user/openid_signin
+COUNTS: 382,21121,64213
+TOP 20: [[String, 71301], [Array, 4847], [Hash, 2141], [Regexp, 1293], [Class, 1280], [Module, 383], [Proc, 328], [Gem::Version, 271], [Bignum, 262], [Gem::Version::Requirement, 256], [OpenID::OpenIDDiscovery, 242], [OpenID::SuccessRequest, 241], [OpenID::OpenIDServiceEndpoint, 241], [YadisServiceManager, 241], [OpenID::Association, 241], [File, 235], [ArgumentError, 225], [Range, 175], [Time, 171], [Gem::Specification, 144], [Gem::Dependency, 111]]
+COUNTS: 1387,3667,83947
+TOP 20: [[String, 72332], [Array, 5841], [Hash, 2191], [Regexp, 1292], [Class, 1280], [Module, 383], [Proc, 351], [Gem::Version, 271], [Bignum, 269], [Gem::Version::Requirement, 256], [OpenID::OpenIDDiscovery, 249], [YadisServiceManager, 248], [OpenID::OpenIDServiceEndpoint, 248], [OpenID::Association, 248], [OpenID::SuccessRequest, 248], [File, 241], [ArgumentError, 232], [Time, 185], [Range, 176], [MatchData, 148], [Gem::Specification, 144]]
+D, [2007-03-22T04:24:51.953000 #3516] DEBUG -- : TRACING ON Thu Mar 22 04:24:51 Hora est. de América Central 2007
+----------
+Thu Mar 22 04:24:57 Hora est. de América Central 2007 OBJECT STATS BEFORE REQUEST /user/openid_signin
+COUNTS: 5483,50864,31101
+TOP 20: [[String, 70704], [Array, 4901], [Regexp, 1291], [Hash, 1144], [Class, 1044], [Proc, 369], [Module, 361], [Time, 343], [MatchData, 294], [Gem::Version, 273], [Gem::Version::Requirement, 262], [Range, 159], [Gem::Specification, 144], [Gem::Dependency, 112], [File, 84], [XSD::QName, 73], [Float, 56], [YAML::Syck::Node, 37], [ActionController::CodeGeneration::GenerationGenerator, 30], [ActionController::CodeGeneration::RecognitionGenerator, 25], [ActionController::Routing::DynamicComponent, 20]]
+----------
+Thu Mar 22 04:24:59 Hora est. de América Central 2007 OBJECT STATS BEFORE REQUEST /stylesheets/scaffold.css
+COUNTS: 12487,12600,69478
+TOP 20: [[String, 70041], [Array, 5627], [Regexp, 1365], [Class, 1273], [Hash, 1238], [Module, 382], [Proc, 321], [Gem::Version, 274], [Gem::Version::Requirement, 259], [Range, 188], [Time, 174], [Gem::Specification, 144], [Gem::Dependency, 114], [Float, 102], [MatchData, 82], [XSD::QName, 73], [File, 54], [YAML::Syck::Scalar, 42], [Bignum, 27], [OptionParser::Switch::RequiredArgument, 15], [Object, 13]]
+----------
+Thu Mar 22 04:25:00 Hora est. de América Central 2007 OBJECT STATS BEFORE REQUEST /stylesheets/salad.css
+COUNTS: 0,9550,82078
+TOP 20: [[String, 75113], [Array, 9170], [Regexp, 1589], [Hash, 1433], [Class, 1275], [Proc, 435], [Module, 383], [Gem::Version, 275], [Gem::Version::Requirement, 260], [Time, 200], [Range, 191], [Float, 154], [MatchData, 150], [Gem::Specification, 144], [Gem::Dependency, 115], [YAML::Syck::Scalar, 100], [XSD::QName, 73], [File, 66], [ActionController::CodeGeneration::GenerationGenerator, 31], [ActionController::CodeGeneration::RecognitionGenerator, 28], [Bignum, 27]]
+----------
+Thu Mar 22 04:25:02 Hora est. de América Central 2007 OBJECT STATS BEFORE REQUEST /javascripts/prototype.js
+COUNTS: 27067,622,64561
+TOP 20: [[String, 55100], [Array, 3994], [Regexp, 1282], [Class, 1274], [Hash, 1125], [Module, 382], [Proc, 374], [Gem::Version, 271], [Gem::Version::Requirement, 256], [Time, 173], [Range, 173], [Gem::Specification, 144], [Float, 116], [Gem::Dependency, 111], [XSD::QName, 73], [YAML::Syck::Scalar, 62], [Bignum, 16], [OptionParser::Switch::RequiredArgument, 15], [Object, 13], [Set, 13], [StringIO, 9]]
+----------
+Thu Mar 22 04:25:03 Hora est. de América Central 2007 OBJECT STATS BEFORE REQUEST /salad/list
+COUNTS: 0,1587,65183
+TOP 20: [[String, 55537], [Array, 4900], [Regexp, 1282], [Class, 1274], [Hash, 1143], [Proc, 438], [Module, 382], [Gem::Version, 271], [Gem::Version::Requirement, 256], [Time, 192], [Range, 174], [Float, 172], [Gem::Specification, 144], [YAML::Syck::Scalar, 124], [Gem::Dependency, 111], [XSD::QName, 73], [Set, 18], [Bignum, 18], [OptionParser::Switch::RequiredArgument, 15], [Object, 13], [StringIO, 12]]
+----------
+Thu Mar 22 04:25:05 Hora est. de América Central 2007 OBJECT STATS BEFORE REQUEST /stylesheets/scaffold.css
+COUNTS: 3822,13615,62948
+TOP 20: [[String, 63499], [Array, 6201], [Hash, 1328], [Regexp, 1296], [Class, 1282], [Module, 383], [Proc, 372], [Float, 282], [Gem::Version, 271], [Gem::Version::Requirement, 256], [Time, 214], [Range, 195], [MatchData, 166], [Gem::Specification, 144], [Gem::Dependency, 111], [XSD::QName, 73], [YAML::Syck::Scalar, 42], [Bignum, 36], [Mysql::Field, 25], [Struct::Tms, 20], [File, 20]]
+----------
+Thu Mar 22 04:25:06 Hora est. de América Central 2007 OBJECT STATS BEFORE REQUEST /images/favicon.png
+COUNTS: 0,9990,76563
+TOP 20: [[String, 68670], [Array, 9927], [Hash, 1548], [Regexp, 1520], [Class, 1283], [Proc, 488], [Float, 408], [Module, 384], [Gem::Version, 272], [Gem::Version::Requirement, 257], [Time, 254], [MatchData, 231], [Range, 203], [Gem::Specification, 144], [Gem::Dependency, 112], [YAML::Syck::Scalar, 98], [XSD::QName, 73], [Mysql::Field, 49], [Bignum, 40], [ActionController::CodeGeneration::GenerationGenerator, 31], [File, 30]]
+----------
+Thu Mar 22 04:25:12 Hora est. de América Central 2007 OBJECT STATS BEFORE REQUEST /user/openid_signin
+COUNTS: 21983,906,64570
+TOP 20: [[String, 55370], [Array, 4085], [Regexp, 1286], [Class, 1283], [Hash, 1151], [Module, 384], [Proc, 319], [Gem::Version, 271], [Gem::Version::Requirement, 256], [Range, 174], [Time, 160], [Gem::Specification, 144], [Gem::Dependency, 111], [XSD::QName, 73], [Float, 61], [YAML::Syck::Scalar, 40], [Bignum, 18], [OptionParser::Switch::RequiredArgument, 15], [Object, 13], [StringIO, 9], [Gem::GemPathSearcher, 8]]
+----------
+Thu Mar 22 04:25:13 Hora est. de América Central 2007 OBJECT STATS BEFORE REQUEST /stylesheets/scaffold.css
+COUNTS: 0,9526,65476
+TOP 20: [[String, 60280], [Array, 7776], [Hash, 1416], [Regexp, 1360], [Class, 1286], [Proc, 427], [Module, 386], [Gem::Version, 273], [Gem::Version::Requirement, 258], [Time, 198], [Range, 187], [Float, 152], [Gem::Specification, 144], [Gem::Dependency, 113], [YAML::Syck::Scalar, 92], [MatchData, 77], [XSD::QName, 73], [Bignum, 34], [ActionController::CodeGeneration::GenerationGenerator, 31], [ActionController::CodeGeneration::RecognitionGenerator, 27], [ActionController::Routing::DynamicComponent, 24]]
+----------
+Thu Mar 22 04:25:15 Hora est. de América Central 2007 OBJECT STATS BEFORE REQUEST /images/favicon.png
+COUNTS: 11259,8270,63743
+TOP 20: [[String, 58744], [Array, 6486], [Regexp, 1509], [Hash, 1304], [Class, 1281], [Proc, 424], [Module, 384], [Gem::Version, 272], [Gem::Version::Requirement, 257], [Time, 182], [Range, 177], [Gem::Specification, 144], [Gem::Dependency, 112], [Float, 110], [XSD::QName, 73], [MatchData, 67], [YAML::Syck::Scalar, 56], [ActionController::CodeGeneration::GenerationGenerator, 30], [ActionController::CodeGeneration::RecognitionGenerator, 25], [ActionController::Routing::DynamicComponent, 22], [Bignum, 19]]
+----------
+Thu Mar 22 04:26:51 Hora est. de América Central 2007 OBJECT STATS BEFORE REQUEST /user/openid_login
+COUNTS: 8831,1589,63182
+TOP 20: [[String, 54921], [Array, 3844], [Regexp, 1286], [Class, 1278], [Hash, 1146], [Module, 382], [Proc, 318], [Gem::Version, 271], [Gem::Version::Requirement, 256], [Range, 174], [Time, 160], [Gem::Specification, 144], [Gem::Dependency, 111], [XSD::QName, 73], [Float, 60], [YAML::Syck::Scalar, 40], [Bignum, 18], [OptionParser::Switch::RequiredArgument, 15], [Object, 13], [StringIO, 9], [Gem::GemPathSearcher, 8]]
+----------
+Thu Mar 22 04:27:12 Hora est. de América Central 2007 OBJECT STATS BEFORE REQUEST /user/openid_login
+COUNTS: 0,11248,64771
+TOP 20: [[String, 61187], [Array, 7679], [Hash, 1387], [Regexp, 1362], [Class, 1281], [Proc, 455], [Module, 384], [Gem::Version, 273], [Gem::Version::Requirement, 258], [Range, 205], [Time, 190], [MatchData, 167], [Gem::Specification, 144], [Float, 124], [Gem::Dependency, 113], [YAML::Syck::Scalar, 102], [XSD::QName, 73], [ActionController::CodeGeneration::GenerationGenerator, 31], [ActionController::CodeGeneration::RecognitionGenerator, 27], [Thread, 25], [ActionController::Routing::DynamicComponent, 24]]
+----------
+Thu Mar 22 04:27:14 Hora est. de América Central 2007 OBJECT STATS BEFORE REQUEST /stylesheets/scaffold.css
+COUNTS: 11744,11556,64275
+TOP 20: [[String, 61437], [Array, 7236], [Hash, 1423], [Regexp, 1360], [Class, 1283], [Proc, 450], [Module, 385], [Gem::Version, 273], [Gem::Version::Requirement, 258], [Range, 213], [Time, 194], [MatchData, 167], [Float, 162], [Gem::Specification, 144], [Gem::Dependency, 113], [XSD::QName, 73], [YAML::Syck::Scalar, 64], [Bignum, 33], [ActionController::CodeGeneration::GenerationGenerator, 30], [ActionController::CodeGeneration::RecognitionGenerator, 25], [Thread, 23]]
+----------
+Thu Mar 22 04:27:16 Hora est. de América Central 2007 OBJECT STATS BEFORE REQUEST /stylesheets/salad.css
+COUNTS: 11561,4133,64270
+TOP 20: [[String, 57121], [Array, 4847], [Regexp, 1501], [Class, 1281], [Hash, 1202], [Module, 384], [Proc, 332], [Gem::Version, 272], [Gem::Version::Requirement, 257], [Range, 177], [Time, 170], [Gem::Specification, 144], [Gem::Dependency, 112], [XSD::QName, 73], [Float, 60], [YAML::Syck::Scalar, 58], [MatchData, 55], [Bignum, 19], [File, 18], [OptionParser::Switch::RequiredArgument, 15], [Object, 13]]
+----------
+Thu Mar 22 04:27:18 Hora est. de América Central 2007 OBJECT STATS BEFORE REQUEST /javascripts/prototype.js
+COUNTS: 0,1743,68403
+TOP 20: [[String, 57553], [Array, 5915], [Regexp, 1501], [Class, 1281], [Hash, 1220], [Proc, 396], [Module, 384], [Gem::Version, 272], [Gem::Version::Requirement, 257], [Time, 189], [Range, 178], [Gem::Specification, 144], [YAML::Syck::Scalar, 120], [Float, 116], [Gem::Dependency, 112], [XSD::QName, 73], [MatchData, 55], [Bignum, 21], [File, 18], [OptionParser::Switch::RequiredArgument, 15], [Object, 13]]
+----------
+Thu Mar 22 04:27:19 Hora est. de América Central 2007 OBJECT STATS BEFORE REQUEST /javascripts/effects.js
+COUNTS: 6791,1701,63355
+TOP 20: [[String, 54954], [Array, 3935], [Regexp, 1285], [Class, 1277], [Hash, 1133], [Module, 381], [Proc, 375], [Gem::Version, 271], [Gem::Version::Requirement, 256], [Time, 175], [Range, 174], [Gem::Specification, 144], [Float, 116], [YAML::Syck::Scalar, 112], [Gem::Dependency, 111], [XSD::QName, 73], [Bignum, 19], [OptionParser::Switch::RequiredArgument, 15], [Object, 13], [Set, 12], [StringIO, 9]]
+----------
+Thu Mar 22 04:27:21 Hora est. de América Central 2007 OBJECT STATS BEFORE REQUEST /javascripts/dragdrop.js
+COUNTS: 0,1566,65056
+TOP 20: [[String, 55386], [Array, 4826], [Regexp, 1285], [Class, 1277], [Hash, 1151], [Proc, 439], [Module, 381], [Gem::Version, 271], [Gem::Version::Requirement, 256], [Time, 194], [Range, 175], [YAML::Syck::Scalar, 174], [Float, 172], [Gem::Specification, 144], [Gem::Dependency, 111], [XSD::QName, 73], [Bignum, 21], [Set, 17], [OptionParser::Switch::RequiredArgument, 15], [Object, 13], [StringIO, 12]]
+----------
+Thu Mar 22 04:27:22 Hora est. de América Central 2007 OBJECT STATS BEFORE REQUEST /javascripts/controls.js
+COUNTS: 3371,1637,63251
+TOP 20: [[String, 54904], [Array, 3872], [Regexp, 1285], [Class, 1277], [Hash, 1130], [Module, 381], [Proc, 375], [Gem::Version, 271], [Gem::Version::Requirement, 256], [Time, 175], [Range, 174], [Gem::Specification, 144], [Float, 116], [Gem::Dependency, 111], [XSD::QName, 73], [YAML::Syck::Scalar, 62], [Bignum, 19], [OptionParser::Switch::RequiredArgument, 15], [Object, 13], [Set, 12], [StringIO, 9]]
+----------
+Thu Mar 22 04:27:23 Hora est. de América Central 2007 OBJECT STATS BEFORE REQUEST /javascripts/application.js
+COUNTS: 1524,1565,63364
+TOP 20: [[String, 54957], [Array, 3800], [Regexp, 1285], [Class, 1277], [Hash, 1135], [Module, 381], [Proc, 375], [Gem::Version, 271], [Gem::Version::Requirement, 256], [Time, 175], [Range, 174], [Gem::Specification, 144], [Float, 116], [YAML::Syck::Scalar, 112], [Gem::Dependency, 111], [XSD::QName, 73], [Bignum, 19], [OptionParser::Switch::RequiredArgument, 15], [Set, 14], [Object, 13], [StringIO, 9]]
+----------
+Thu Mar 22 04:27:25 Hora est. de América Central 2007 OBJECT STATS BEFORE REQUEST /images/favicon.png
+COUNTS: 0,1552,64929
+TOP 20: [[String, 55376], [Array, 4690], [Regexp, 1285], [Class, 1277], [Hash, 1153], [Proc, 439], [Module, 381], [Gem::Version, 271], [Gem::Version::Requirement, 256], [Time, 194], [Range, 175], [YAML::Syck::Scalar, 174], [Float, 172], [Gem::Specification, 144], [Gem::Dependency, 111], [XSD::QName, 73], [Bignum, 21], [Set, 19], [OptionParser::Switch::RequiredArgument, 15], [Object, 13], [StringIO, 12]]
+----------
+Thu Mar 22 04:28:05 Hora est. de América Central 2007 OBJECT STATS BEFORE REQUEST /user/openid_login
+COUNTS: 0,8087,66481
+TOP 20: [[String, 59212], [Array, 8048], [Regexp, 1508], [Hash, 1341], [Class, 1278], [Proc, 547], [Module, 382], [Gem::Version, 272], [Gem::Version::Requirement, 257], [YAML::Syck::Scalar, 226], [Time, 221], [Float, 218], [Range, 179], [Gem::Specification, 144], [Gem::Dependency, 112], [XSD::QName, 73], [MatchData, 67], [ActionController::CodeGeneration::GenerationGenerator, 30], [ActionController::CodeGeneration::RecognitionGenerator, 25], [Set, 24], [Bignum, 23]]
+----------
+Thu Mar 22 04:28:20 Hora est. de América Central 2007 OBJECT STATS BEFORE REQUEST /images/favicon.png
+COUNTS: 4662,22342,69906
+TOP 20: [[String, 73458], [Array, 8246], [MatchData, 1926], [Hash, 1722], [Regexp, 1377], [Class, 1280], [Proc, 522], [Module, 383], [REXML::Text, 272], [Gem::Version, 271], [Gem::Version::Requirement, 256], [Time, 181], [Range, 175], [REXML::Elements, 144], [REXML::Attributes, 144], [Gem::Specification, 144], [REXML::Element, 128], [Float, 126], [Gem::Dependency, 111], [Bignum, 106], [REXML::Parsers::XPathParser, 90]]
+----------
+Thu Mar 22 04:28:55 Hora est. de América Central 2007 OBJECT STATS BEFORE REQUEST /user/openid_login
+COUNTS: 8333,2768,83915
+TOP 20: [[String, 70683], [Array, 6393], [Hash, 1833], [Regexp, 1329], [Class, 1280], [MatchData, 1018], [Proc, 426], [Module, 383], [Gem::Version, 271], [Gem::Version::Requirement, 256], [Time, 177], [Range, 176], [Bignum, 155], [REXML::Text, 149], [Gem::Specification, 144], [Gem::Dependency, 111], [OpenID::OpenIDDiscovery, 111], [File, 111], [OpenID::OpenIDServiceEndpoint, 110], [OpenID::Association, 110], [YadisServiceManager, 110]]
+D, [2007-03-22T04:29:11.875000 #4312] DEBUG -- : TRACING ON Thu Mar 22 04:29:11 Hora est. de América Central 2007
+----------
+Thu Mar 22 04:29:17 Hora est. de América Central 2007 OBJECT STATS BEFORE REQUEST /images/favicon.png
+COUNTS: 5483,50861,31101
+TOP 20: [[String, 70701], [Array, 4901], [Regexp, 1291], [Hash, 1144], [Class, 1044], [Proc, 369], [Module, 361], [Time, 343], [MatchData, 294], [Gem::Version, 273], [Gem::Version::Requirement, 262], [Range, 159], [Gem::Specification, 144], [Gem::Dependency, 112], [File, 84], [XSD::QName, 73], [Float, 56], [YAML::Syck::Node, 37], [ActionController::CodeGeneration::GenerationGenerator, 30], [ActionController::CodeGeneration::RecognitionGenerator, 25], [ActionController::Routing::DynamicComponent, 20]]
+----------
+Thu Mar 22 04:29:18 Hora est. de América Central 2007 OBJECT STATS BEFORE REQUEST /user/openid_login
+COUNTS: 15764,8416,66198
+TOP 20: [[String, 63475], [Array, 4812], [Regexp, 1508], [Class, 1272], [Hash, 1154], [Module, 380], [Proc, 313], [Gem::Version, 273], [Gem::Version::Requirement, 258], [Range, 179], [Time, 163], [Gem::Specification, 144], [Gem::Dependency, 113], [XSD::QName, 73], [MatchData, 65], [Float, 62], [YAML::Syck::Scalar, 40], [File, 33], [OptionParser::Switch::RequiredArgument, 15], [Bignum, 14], [Object, 13]]
+----------
+Thu Mar 22 04:29:21 Hora est. de América Central 2007 OBJECT STATS BEFORE REQUEST /user/http%3A%2F%2Fwww.myopenid.com%2Fserver%3Fopenid.mode%3Dcheckid_setup%26openid.return_to%3Dhttp%253A%252F%252F127.0.0.1%253A3000%252Fsalad%252Fcomplete%253Fnonce%253Ditbpl5zL%26openid.trust_root%3Dhttp%253A%252F%252F127.0.0.1%253A3000%252Fsalad%252Flist%26openid.identity%3Dhttp%253A%252F%252Frbreve.myopenid.com%252F%26openid.assoc_handle%3D%257BHMAC-SHA1%257D%257B4602576b%257D%257BoeidBw%253D%253D%257D
+COUNTS: 7972,7473,66642
+TOP 20: [[String, 60194], [Array, 6881], [Regexp, 1361], [Hash, 1356], [Class, 1274], [Proc, 443], [Module, 382], [Gem::Version, 273], [Gem::Version::Requirement, 258], [MatchData, 245], [Time, 179], [Range, 175], [Gem::Specification, 144], [Float, 140], [Gem::Dependency, 113], [XSD::QName, 73], [YAML::Syck::Scalar, 62], [ActionController::CodeGeneration::GenerationGenerator, 30], [ActionController::CodeGeneration::RecognitionGenerator, 25], [File, 23], [ActionController::Routing::DynamicComponent, 22]]
+----------
+Thu Mar 22 04:29:52 Hora est. de América Central 2007 OBJECT STATS BEFORE REQUEST /images/favicon.png
+COUNTS: 0,9827,74115
+TOP 20: [[String, 65346], [Array, 10652], [Hash, 1556], [Regexp, 1437], [Class, 1277], [Proc, 553], [MatchData, 424], [Module, 384], [Gem::Version, 275], [Gem::Version::Requirement, 260], [Time, 206], [Float, 192], [Range, 178], [Gem::Specification, 144], [YAML::Syck::Scalar, 116], [Gem::Dependency, 115], [XSD::QName, 73], [ActionController::CodeGeneration::GenerationGenerator, 60], [ActionController::CodeGeneration::RecognitionGenerator, 50], [ActionController::Routing::DynamicComponent, 42], [File, 36]]
+----------
+Thu Mar 22 04:29:53 Hora est. de América Central 2007 OBJECT STATS BEFORE REQUEST /user/openid_login
+COUNTS: 20131,7089,63811
+TOP 20: [[String, 58685], [Array, 5588], [Regexp, 1505], [Hash, 1289], [Class, 1278], [Module, 385], [Proc, 368], [Gem::Version, 272], [Gem::Version::Requirement, 257], [Range, 175], [Time, 168], [Gem::Specification, 144], [Gem::Dependency, 112], [XSD::QName, 73], [MatchData, 67], [Float, 60], [YAML::Syck::Scalar, 52], [ActionController::CodeGeneration::GenerationGenerator, 30], [ActionController::CodeGeneration::RecognitionGenerator, 25], [ActionController::Routing::DynamicComponent, 22], [ActionController::Routing::ControllerComponent, 18]]
+----------
+Thu Mar 22 04:30:52 Hora est. de América Central 2007 OBJECT STATS BEFORE REQUEST /images/favicon.png
+----------
+Thu Mar 22 04:30:53 Hora est. de América Central 2007 OBJECT STATS BEFORE REQUEST /user/openid_login
+COUNTS: 2923,4074,67977
+TOP 20: [[String, 59358], [Array, 5892], [Regexp, 1354], [Hash, 1314], [Class, 1274], [Proc, 382], [Module, 382], [Gem::Version, 273], [Gem::Version::Requirement, 258], [MatchData, 198], [Range, 175], [Time, 168], [Gem::Specification, 144], [Gem::Dependency, 113], [Float, 84], [XSD::QName, 73], [YAML::Syck::Scalar, 62], [ActionController::CodeGeneration::GenerationGenerator, 30], [ActionController::CodeGeneration::RecognitionGenerator, 25], [ActionController::Routing::DynamicComponent, 22], [File, 20]]
+COUNTS: 7629,73,63392
+TOP 20: [[String, 54682], [Array, 2913], [Regexp, 1282], [Class, 1274], [Hash, 1112], [Module, 382], [Proc, 310], [Gem::Version, 271], [Gem::Version::Requirement, 256], [Range, 173], [Time, 158], [Gem::Specification, 144], [Gem::Dependency, 111], [XSD::QName, 73], [Float, 60], [OptionParser::Switch::RequiredArgument, 15], [Bignum, 14], [Object, 13], [Set, 12], [StringIO, 9], [Mime::Type, 9]]
+----------
+Thu Mar 22 04:33:40 Hora est. de América Central 2007 OBJECT STATS BEFORE REQUEST /images/favicon.png
+COUNTS: 149,6038,63316
+TOP 20: [[String, 57875], [Array, 4967], [Regexp, 1353], [Class, 1274], [Hash, 1199], [Module, 382], [Proc, 327], [Gem::Version, 273], [Gem::Version::Requirement, 258], [MatchData, 193], [Range, 175], [Time, 168], [Gem::Specification, 144], [Gem::Dependency, 113], [Float, 84], [XSD::QName, 73], [YAML::Syck::Scalar, 50], [File, 20], [Bignum, 19], [REXML::Text, 17], [OptionParser::Switch::RequiredArgument, 15]]
+----------
+Thu Mar 22 04:33:41 Hora est. de América Central 2007 OBJECT STATS BEFORE REQUEST /user/openid_login
+COUNTS: 0,8262,69354
+TOP 20: [[String, 61752], [Array, 8460], [Regexp, 1576], [Hash, 1387], [Class, 1275], [Proc, 435], [Module, 383], [Gem::Version, 274], [Gem::Version::Requirement, 259], [MatchData, 254], [Time, 194], [Range, 178], [Gem::Specification, 144], [Float, 130], [Gem::Dependency, 114], [YAML::Syck::Scalar, 102], [XSD::QName, 73], [File, 30], [ActionController::CodeGeneration::GenerationGenerator, 30], [ActionController::CodeGeneration::RecognitionGenerator, 26], [ActionController::Routing::DynamicComponent, 24]]
+----------
+Thu Mar 22 04:34:02 Hora est. de América Central 2007 OBJECT STATS BEFORE REQUEST /salad/complete
+COUNTS: 14135,10760,63481
+TOP 20: [[String, 60234], [Array, 7013], [Regexp, 1361], [Hash, 1345], [Class, 1277], [Proc, 442], [Module, 384], [Gem::Version, 273], [Gem::Version::Requirement, 258], [MatchData, 208], [Time, 180], [Range, 175], [Gem::Specification, 144], [Float, 140], [Gem::Dependency, 113], [XSD::QName, 73], [YAML::Syck::Scalar, 62], [ActionController::CodeGeneration::GenerationGenerator, 30], [ActionController::CodeGeneration::RecognitionGenerator, 25], [ActionController::Routing::DynamicComponent, 22], [File, 21]]
+----------
+Thu Mar 22 04:34:09 Hora est. de América Central 2007 OBJECT STATS BEFORE REQUEST /images/favicon.png
+COUNTS: 10467,3933,63774
+TOP 20: [[String, 56897], [Array, 4673], [Regexp, 1311], [Class, 1277], [Hash, 1167], [Module, 385], [Proc, 316], [Gem::Version, 272], [Gem::Version::Requirement, 257], [Range, 175], [Time, 167], [Gem::Specification, 144], [Gem::Dependency, 112], [XSD::QName, 73], [Float, 64], [MatchData, 47], [YAML::Syck::Scalar, 44], [File, 16], [OptionParser::Switch::RequiredArgument, 15], [Bignum, 14], [Object, 13]]
+----------
+Thu Mar 22 04:34:23 Hora est. de América Central 2007 OBJECT STATS BEFORE REQUEST /user/openid_login
+COUNTS: 0,8189,67707
+TOP 20: [[String, 60804], [Array, 8063], [Regexp, 1534], [Hash, 1355], [Class, 1278], [Proc, 424], [Module, 386], [Gem::Version, 273], [Gem::Version::Requirement, 258], [Time, 193], [Range, 178], [Gem::Specification, 144], [Gem::Dependency, 113], [Float, 110], [MatchData, 108], [YAML::Syck::Scalar, 96], [XSD::QName, 73], [ActionController::CodeGeneration::GenerationGenerator, 31], [ActionController::CodeGeneration::RecognitionGenerator, 27], [File, 26], [ActionController::Routing::DynamicComponent, 24]]
+----------
+Thu Mar 22 04:34:27 Hora est. de América Central 2007 OBJECT STATS BEFORE REQUEST /user/complete
+COUNTS: 11662,9805,64234
+TOP 20: [[String, 60169], [Array, 6891], [Regexp, 1361], [Hash, 1341], [Class, 1277], [Proc, 442], [Module, 385], [Gem::Version, 273], [Gem::Version::Requirement, 258], [MatchData, 208], [Time, 180], [Range, 175], [Gem::Specification, 144], [Float, 140], [Gem::Dependency, 113], [XSD::QName, 73], [YAML::Syck::Scalar, 62], [ActionController::CodeGeneration::GenerationGenerator, 30], [ActionController::CodeGeneration::RecognitionGenerator, 25], [ActionController::Routing::DynamicComponent, 22], [File, 21]]
+----------
+Thu Mar 22 04:34:56 Hora est. de América Central 2007 OBJECT STATS BEFORE REQUEST /user/complete
+COUNTS: 10314,17148,63725
+TOP 20: [[String, 66598], [Array, 6334], [Regexp, 1360], [Hash, 1328], [Class, 1277], [MatchData, 1046], [Proc, 402], [Module, 385], [Pathname, 309], [Gem::Version, 273], [Gem::Version::Requirement, 258], [Range, 175], [Time, 169], [Gem::Specification, 144], [Gem::Dependency, 113], [Float, 89], [YAML::Syck::Scalar, 74], [XSD::QName, 73], [ActionController::CodeGeneration::GenerationGenerator, 30], [ActionController::CodeGeneration::RecognitionGenerator, 25], [File, 24]]
+----------
+Thu Mar 22 04:34:58 Hora est. de América Central 2007 OBJECT STATS BEFORE REQUEST /user/openid_login
+COUNTS: 12467,1324,68406
+TOP 20: [[String, 58117], [Array, 5154], [Regexp, 1352], [Hash, 1282], [Class, 1277], [Module, 385], [Proc, 363], [Gem::Version, 273], [Gem::Version::Requirement, 258], [Range, 175], [Time, 169], [Gem::Specification, 144], [Gem::Dependency, 113], [Float, 80], [MatchData, 74], [XSD::QName, 73], [YAML::Syck::Scalar, 46], [ActionController::CodeGeneration::RecognitionGenerator, 25], [File, 18], [OptionParser::Switch::RequiredArgument, 15], [Bignum, 14]]
+----------
+Thu Mar 22 04:35:16 Hora est. de América Central 2007 OBJECT STATS BEFORE REQUEST /user/complete
+COUNTS: 0,15259,69730
+TOP 20: [[String, 67126], [Array, 9256], [Hash, 1502], [Regexp, 1429], [Class, 1280], [MatchData, 1060], [Proc, 511], [Module, 387], [Pathname, 312], [Gem::Version, 275], [Gem::Version::Requirement, 260], [Time, 198], [Range, 178], [Float, 159], [Gem::Specification, 144], [YAML::Syck::Scalar, 132], [Gem::Dependency, 115], [XSD::QName, 73], [ActionController::CodeGeneration::RecognitionGenerator, 50], [ActionController::CodeGeneration::GenerationGenerator, 33], [ActionController::Routing::DynamicComponent, 32]]
+----------
+Thu Mar 22 04:35:18 Hora est. de América Central 2007 OBJECT STATS BEFORE REQUEST /user/openid_signin
+COUNTS: 0,9258,84989
+TOP 20: [[String, 71726], [Array, 13050], [Hash, 1712], [Regexp, 1502], [Class, 1283], [MatchData, 1155], [Proc, 623], [Module, 389], [Pathname, 321], [Gem::Version, 277], [Gem::Version::Requirement, 262], [Float, 229], [Time, 224], [YAML::Syck::Scalar, 188], [Range, 181], [Gem::Specification, 144], [Gem::Dependency, 117], [ActionController::CodeGeneration::RecognitionGenerator, 75], [XSD::QName, 73], [ActionController::CodeGeneration::GenerationGenerator, 63], [ActionController::Routing::DynamicComponent, 52]]
+----------
+Thu Mar 22 04:35:20 Hora est. de América Central 2007 OBJECT STATS BEFORE REQUEST /stylesheets/scaffold.css
+COUNTS: 20058,778,74189
+TOP 20: [[String, 61284], [Array, 6845], [Hash, 1394], [Regexp, 1361], [Class, 1283], [Proc, 422], [Module, 389], [Gem::Version, 273], [Gem::Version::Requirement, 258], [Time, 193], [Range, 184], [Float, 148], [Gem::Specification, 144], [Gem::Dependency, 113], [MatchData, 77], [XSD::QName, 73], [YAML::Syck::Scalar, 54], [ActionController::CodeGeneration::GenerationGenerator, 30], [Bignum, 27], [ActionController::CodeGeneration::RecognitionGenerator, 27], [File, 23]]
+----------
+Thu Mar 22 04:35:22 Hora est. de América Central 2007 OBJECT STATS BEFORE REQUEST /stylesheets/salad.css
+COUNTS: 6340,3291,68627
+TOP 20: [[String, 58750], [Array, 6390], [Regexp, 1511], [Hash, 1302], [Class, 1275], [Proc, 424], [Module, 384], [Gem::Version, 272], [Gem::Version::Requirement, 257], [Time, 184], [Range, 175], [Gem::Specification, 144], [Gem::Dependency, 112], [Float, 110], [XSD::QName, 73], [MatchData, 67], [YAML::Syck::Scalar, 56], [ActionController::CodeGeneration::GenerationGenerator, 30], [ActionController::CodeGeneration::RecognitionGenerator, 27], [ActionController::Routing::DynamicComponent, 22], [ActionController::Routing::ControllerComponent, 20]]
+----------
+Thu Mar 22 04:35:23 Hora est. de América Central 2007 OBJECT STATS BEFORE REQUEST /images/favicon.png
+----------
+Thu Mar 22 04:35:23 Hora est. de América Central 2007 OBJECT STATS BEFORE REQUEST /images/login-bg.gif
+COUNTS: 0,1702,71918
+TOP 20: [[String, 59220], [Array, 7366], [Regexp, 1511], [Hash, 1323], [Class, 1275], [Proc, 486], [Module, 384], [Gem::Version, 272], [Gem::Version::Requirement, 257], [Time, 208], [Range, 177], [Float, 164], [Gem::Specification, 144], [YAML::Syck::Scalar, 116], [Gem::Dependency, 112], [XSD::QName, 73], [MatchData, 67], [ActionController::CodeGeneration::GenerationGenerator, 30], [ActionController::CodeGeneration::RecognitionGenerator, 27], [ActionController::Routing::DynamicComponent, 22], [ActionController::Routing::ControllerComponent, 20]]
+COUNTS: 0,1704,71918
+TOP 20: [[String, 59220], [Array, 7368], [Regexp, 1511], [Hash, 1323], [Class, 1275], [Proc, 486], [Module, 384], [Gem::Version, 272], [Gem::Version::Requirement, 257], [Time, 208], [Range, 177], [Float, 164], [Gem::Specification, 144], [YAML::Syck::Scalar, 116], [Gem::Dependency, 112], [XSD::QName, 73], [MatchData, 67], [ActionController::CodeGeneration::GenerationGenerator, 30], [ActionController::CodeGeneration::RecognitionGenerator, 27], [ActionController::Routing::DynamicComponent, 22], [ActionController::Routing::ControllerComponent, 20]]
+----------
+Thu Mar 22 04:35:28 Hora est. de América Central 2007 OBJECT STATS BEFORE REQUEST /user/openid_login
+COUNTS: 10359,4986,63263
+TOP 20: [[String, 56668], [Array, 5097], [Regexp, 1502], [Class, 1272], [Hash, 1168], [Module, 382], [Proc, 360], [Gem::Version, 272], [Gem::Version::Requirement, 257], [Time, 180], [Range, 176], [Gem::Specification, 144], [Gem::Dependency, 112], [Float, 106], [YAML::Syck::Scalar, 86], [XSD::QName, 73], [MatchData, 54], [File, 16], [Bignum, 16], [OptionParser::Switch::RequiredArgument, 15], [Object, 13]]
+----------
+Thu Mar 22 04:35:47 Hora est. de América Central 2007 OBJECT STATS BEFORE REQUEST /images/favicon.png
+----------
+Thu Mar 22 04:35:49 Hora est. de América Central 2007 OBJECT STATS BEFORE REQUEST /user/openid_login
+COUNTS: 4721,10181,63528
+TOP 20: [[String, 59929], [Array, 6796], [Regexp, 1366], [Hash, 1338], [Class, 1274], [Proc, 442], [Module, 383], [Gem::Version, 273], [Gem::Version::Requirement, 258], [MatchData, 208], [Time, 185], [Range, 175], [Gem::Specification, 144], [Float, 140], [Gem::Dependency, 113], [XSD::QName, 73], [YAML::Syck::Scalar, 62], [ActionController::CodeGeneration::GenerationGenerator, 30], [ActionController::CodeGeneration::RecognitionGenerator, 25], [File, 23], [ActionController::Routing::DynamicComponent, 22]]
+COUNTS: 10073,14,63636
+TOP 20: [[String, 54855], [Array, 2912], [Regexp, 1287], [Class, 1274], [Hash, 1114], [Module, 383], [Proc, 310], [Gem::Version, 271], [Gem::Version::Requirement, 256], [Range, 173], [Time, 163], [Gem::Specification, 144], [Gem::Dependency, 111], [XSD::QName, 73], [Float, 60], [OptionParser::Switch::RequiredArgument, 15], [Bignum, 14], [Object, 13], [Set, 12], [Mime::Type, 9], [StringIO, 9]]
+----------
+Thu Mar 22 04:37:55 Hora est. de América Central 2007 OBJECT STATS BEFORE REQUEST /images/favicon.png
+COUNTS: 76,10601,63574
+TOP 20: [[String, 60334], [Array, 6850], [Regexp, 1366], [Hash, 1343], [Class, 1277], [Proc, 442], [Module, 385], [Gem::Version, 273], [Gem::Version::Requirement, 258], [MatchData, 206], [Time, 186], [Range, 175], [Gem::Specification, 144], [Float, 140], [Gem::Dependency, 113], [XSD::QName, 73], [YAML::Syck::Scalar, 62], [ActionController::CodeGeneration::GenerationGenerator, 30], [ActionController::CodeGeneration::RecognitionGenerator, 25], [ActionController::Routing::DynamicComponent, 22], [File, 21]]
+----------
+Thu Mar 22 04:37:56 Hora est. de América Central 2007 OBJECT STATS BEFORE REQUEST /user/openid_login
+COUNTS: 5431,3196,68744
+TOP 20: [[String, 58689], [Array, 6499], [Regexp, 1510], [Hash, 1296], [Class, 1275], [Proc, 419], [Module, 384], [Gem::Version, 272], [Gem::Version::Requirement, 257], [Time, 184], [Range, 175], [Gem::Specification, 144], [Gem::Dependency, 112], [Float, 106], [XSD::QName, 73], [MatchData, 67], [YAML::Syck::Scalar, 52], [ActionController::CodeGeneration::GenerationGenerator, 30], [ActionController::CodeGeneration::RecognitionGenerator, 25], [ActionController::Routing::DynamicComponent, 22], [ActionController::Routing::ControllerComponent, 18]]
+----------
+Thu Mar 22 04:39:17 Hora est. de América Central 2007 OBJECT STATS BEFORE REQUEST /images/favicon.png
+----------
+Thu Mar 22 04:39:18 Hora est. de América Central 2007 OBJECT STATS BEFORE REQUEST /user/openid_login
+COUNTS: 8680,17912,63260
+TOP 20: [[String, 65699], [Array, 7322], [Regexp, 1370], [Hash, 1361], [Class, 1274], [MatchData, 999], [Proc, 476], [Module, 383], [Gem::Version, 273], [Pathname, 271], [Gem::Version::Requirement, 258], [Time, 188], [Range, 175], [Float, 148], [Gem::Specification, 144], [Gem::Dependency, 113], [YAML::Syck::Scalar, 89], [XSD::QName, 73], [ActionController::CodeGeneration::GenerationGenerator, 30], [ActionController::CodeGeneration::RecognitionGenerator, 25], [ActionController::Routing::DynamicComponent, 22]]
+COUNTS: 8947,73,63580
+TOP 20: [[String, 54857], [Array, 2912], [Regexp, 1287], [Class, 1274], [Hash, 1114], [Module, 383], [Proc, 310], [Gem::Version, 271], [Gem::Version::Requirement, 256], [Range, 173], [Time, 163], [Gem::Specification, 144], [Gem::Dependency, 111], [XSD::QName, 73], [Float, 60], [OptionParser::Switch::RequiredArgument, 15], [Bignum, 14], [Object, 13], [Set, 12], [StringIO, 9], [Mime::Type, 9]]
+----------
+Thu Mar 22 04:39:51 Hora est. de América Central 2007 OBJECT STATS BEFORE REQUEST /user/complete
+COUNTS: 534,10621,63119
+TOP 20: [[String, 60022], [Array, 6693], [Regexp, 1366], [Hash, 1353], [Class, 1274], [Proc, 443], [Module, 383], [Gem::Version, 273], [Gem::Version::Requirement, 258], [MatchData, 207], [Time, 185], [Range, 175], [Gem::Specification, 144], [Float, 140], [Gem::Dependency, 113], [XSD::QName, 73], [YAML::Syck::Scalar, 62], [ActionController::CodeGeneration::GenerationGenerator, 30], [ActionController::CodeGeneration::RecognitionGenerator, 25], [ActionController::Routing::DynamicComponent, 22], [File, 21]]
+----------
+Thu Mar 22 04:40:38 Hora est. de América Central 2007 OBJECT STATS BEFORE REQUEST /salad/list
+COUNTS: 10187,9862,63553
+TOP 20: [[String, 61325], [Array, 4934], [Regexp, 1292], [Class, 1277], [Hash, 1168], [MatchData, 815], [Module, 385], [Proc, 327], [Gem::Version, 271], [Pathname, 262], [Gem::Version::Requirement, 256], [Range, 173], [Time, 172], [Gem::Specification, 144], [Gem::Dependency, 111], [XSD::QName, 73], [Float, 68], [YAML::Syck::Scalar, 49], [OptionParser::Switch::RequiredArgument, 15], [Bignum, 14], [Object, 13]]
+----------
+Thu Mar 22 04:40:40 Hora est. de América Central 2007 OBJECT STATS BEFORE REQUEST /stylesheets/scaffold.css
+COUNTS: 9630,4779,63785
+TOP 20: [[String, 57452], [Array, 4786], [Regexp, 1292], [Class, 1285], [Hash, 1240], [Module, 385], [Proc, 321], [Gem::Version, 271], [Gem::Version::Requirement, 256], [Float, 192], [Time, 192], [Range, 186], [Gem::Specification, 144], [Gem::Dependency, 111], [XSD::QName, 73], [MatchData, 34], [Bignum, 31], [OptionParser::Switch::RequiredArgument, 15], [Object, 13], [Struct::Tms, 11], [Set, 9]]
+----------
+Thu Mar 22 04:40:41 Hora est. de América Central 2007 OBJECT STATS BEFORE REQUEST /stylesheets/salad.css
+COUNTS: 1383,4943,67181
+TOP 20: [[String, 58936], [Array, 6388], [Regexp, 1514], [Hash, 1308], [Class, 1283], [Proc, 423], [Module, 384], [Gem::Version, 272], [Gem::Version::Requirement, 257], [Time, 186], [Range, 177], [Gem::Specification, 144], [Gem::Dependency, 112], [Float, 111], [XSD::QName, 73], [MatchData, 67], [YAML::Syck::Scalar, 56], [ActionController::CodeGeneration::GenerationGenerator, 30], [ActionController::CodeGeneration::RecognitionGenerator, 25], [ActionController::Routing::DynamicComponent, 22], [Bignum, 19]]
+----------
+Thu Mar 22 04:40:43 Hora est. de América Central 2007 OBJECT STATS BEFORE REQUEST /images/favicon.png
+COUNTS: 8677,1678,63447
+TOP 20: [[String, 55056], [Array, 3946], [Regexp, 1290], [Class, 1279], [Hash, 1133], [Module, 381], [Proc, 374], [Gem::Version, 271], [Gem::Version::Requirement, 256], [Time, 178], [Range, 174], [Gem::Specification, 144], [Float, 115], [Gem::Dependency, 111], [XSD::QName, 73], [YAML::Syck::Scalar, 60], [Bignum, 19], [OptionParser::Switch::RequiredArgument, 15], [Object, 13], [Set, 12], [StringIO, 9]]
+----------
+Thu Mar 22 04:40:44 Hora est. de América Central 2007 OBJECT STATS BEFORE REQUEST /salad/view/5
+COUNTS: 1437,7739,63688
+TOP 20: [[String, 58453], [Array, 6201], [Regexp, 1513], [Hash, 1302], [Class, 1280], [Proc, 419], [Module, 382], [Gem::Version, 272], [Gem::Version::Requirement, 257], [Time, 186], [Range, 177], [Gem::Specification, 144], [Gem::Dependency, 112], [Float, 107], [XSD::QName, 73], [MatchData, 67], [YAML::Syck::Scalar, 52], [ActionController::CodeGeneration::GenerationGenerator, 30], [ActionController::CodeGeneration::RecognitionGenerator, 25], [ActionController::Routing::DynamicComponent, 22], [Bignum, 19]]
+----------
+Thu Mar 22 04:40:46 Hora est. de América Central 2007 OBJECT STATS BEFORE REQUEST /stylesheets/scaffold.css
+COUNTS: 0,17558,71427
+TOP 20: [[String, 69797], [Array, 10807], [Hash, 1694], [Regexp, 1587], [Class, 1287], [Proc, 613], [Float, 393], [Module, 384], [Gem::Version, 273], [Time, 261], [Gem::Version::Requirement, 258], [MatchData, 206], [Range, 199], [Gem::Specification, 144], [Gem::Dependency, 113], [YAML::Syck::Scalar, 106], [XSD::QName, 73], [ActionController::CodeGeneration::GenerationGenerator, 60], [Mysql::Field, 59], [ActionController::CodeGeneration::RecognitionGenerator, 50], [ActionController::Routing::DynamicComponent, 42]]
+----------
+Thu Mar 22 04:40:48 Hora est. de América Central 2007 OBJECT STATS BEFORE REQUEST /images/favicon.png
+COUNTS: 18693,2168,70292
+TOP 20: [[String, 59062], [Array, 6587], [Regexp, 1514], [Hash, 1312], [Class, 1286], [Proc, 423], [Module, 384], [Gem::Version, 272], [Gem::Version::Requirement, 257], [Time, 188], [Range, 177], [Gem::Specification, 144], [Gem::Dependency, 112], [Float, 111], [XSD::QName, 73], [MatchData, 67], [YAML::Syck::Scalar, 56], [ActionController::CodeGeneration::GenerationGenerator, 30], [ActionController::CodeGeneration::RecognitionGenerator, 25], [ActionController::Routing::DynamicComponent, 22], [Bignum, 19]]
+----------
+Thu Mar 22 04:41:09 Hora est. de América Central 2007 OBJECT STATS BEFORE REQUEST /images/favicon.png
+COUNTS: 8472,7766,63988
+TOP 20: [[String, 58601], [Array, 6367], [Regexp, 1513], [Hash, 1308], [Class, 1281], [Proc, 419], [Module, 382], [Gem::Version, 272], [Gem::Version::Requirement, 257], [Time, 188], [Range, 177], [Gem::Specification, 144], [Gem::Dependency, 112], [Float, 107], [XSD::QName, 73], [MatchData, 67], [YAML::Syck::Scalar, 52], [ActionController::CodeGeneration::GenerationGenerator, 30], [ActionController::CodeGeneration::RecognitionGenerator, 25], [ActionController::Routing::DynamicComponent, 22], [Bignum, 19]]
+----------
+Thu Mar 22 04:41:35 Hora est. de América Central 2007 OBJECT STATS BEFORE REQUEST /images/favicon.png
+COUNTS: 8302,1587,63452
+TOP 20: [[String, 55226], [Array, 3788], [Regexp, 1291], [Class, 1281], [Hash, 1148], [Module, 382], [Proc, 319], [Gem::Version, 271], [Gem::Version::Requirement, 256], [Range, 174], [Time, 166], [Gem::Specification, 144], [Gem::Dependency, 111], [XSD::QName, 73], [Float, 61], [YAML::Syck::Scalar, 40], [Bignum, 18], [OptionParser::Switch::RequiredArgument, 15], [Object, 13], [StringIO, 9], [Mime::Type, 9]]
+----------
+Thu Mar 22 04:41:36 Hora est. de América Central 2007 OBJECT STATS BEFORE REQUEST /salad/view/5
+COUNTS: 0,8110,65039
+TOP 20: [[String, 59078], [Array, 7156], [Regexp, 1514], [Hash, 1336], [Class, 1282], [Proc, 427], [Module, 383], [Gem::Version, 272], [Gem::Version::Requirement, 257], [Time, 193], [Range, 178], [Gem::Specification, 144], [Gem::Dependency, 112], [Float, 107], [YAML::Syck::Scalar, 92], [XSD::QName, 73], [MatchData, 69], [ActionController::CodeGeneration::GenerationGenerator, 31], [ActionController::CodeGeneration::RecognitionGenerator, 27], [ActionController::Routing::DynamicComponent, 24], [ActionController::Routing::ControllerComponent, 20]]
+----------
+Thu Mar 22 04:41:37 Hora est. de América Central 2007 OBJECT STATS BEFORE REQUEST /stylesheets/scaffold.css
+COUNTS: 3408,6009,69741
+TOP 20: [[String, 63022], [Array, 5796], [Hash, 1384], [Regexp, 1295], [Class, 1284], [Proc, 403], [Module, 383], [Float, 299], [Gem::Version, 271], [Gem::Version::Requirement, 256], [Time, 221], [Range, 192], [Gem::Specification, 144], [Gem::Dependency, 111], [MatchData, 89], [XSD::QName, 73], [Mysql::Field, 59], [YAML::Syck::Scalar, 44], [Bignum, 37], [Struct::Tms, 24], [ActiveRecord::ConnectionAdapters::MysqlColumn, 23]]
+----------
+Thu Mar 22 04:41:39 Hora est. de América Central 2007 OBJECT STATS BEFORE REQUEST /stylesheets/salad.css
+COUNTS: 0,8774,75750
+TOP 20: [[String, 67243], [Array, 9394], [Hash, 1578], [Regexp, 1519], [Class, 1285], [Proc, 518], [Module, 384], [Float, 370], [Gem::Version, 272], [Gem::Version::Requirement, 257], [Time, 252], [Range, 198], [MatchData, 151], [Gem::Specification, 144], [Gem::Dependency, 112], [YAML::Syck::Scalar, 102], [XSD::QName, 73], [Mysql::Field, 65], [Bignum, 41], [ActionController::CodeGeneration::GenerationGenerator, 31], [ActionController::CodeGeneration::RecognitionGenerator, 27]]
+----------
+Thu Mar 22 04:41:41 Hora est. de América Central 2007 OBJECT STATS BEFORE REQUEST /javascripts/prototype.js
+COUNTS: 19434,699,65090
+TOP 20: [[String, 55582], [Array, 4058], [Regexp, 1290], [Class, 1283], [Hash, 1142], [Module, 383], [Proc, 375], [Gem::Version, 271], [Gem::Version::Requirement, 256], [Time, 180], [Range, 174], [Gem::Specification, 144], [Float, 117], [Gem::Dependency, 111], [XSD::QName, 73], [YAML::Syck::Scalar, 62], [Bignum, 19], [OptionParser::Switch::RequiredArgument, 15], [Object, 13], [Set, 13], [Mime::Type, 9]]
+----------
+Thu Mar 22 04:41:42 Hora est. de América Central 2007 OBJECT STATS BEFORE REQUEST /javascripts/effects.js
+COUNTS: 0,1599,65789
+TOP 20: [[String, 56014], [Array, 4982], [Regexp, 1290], [Class, 1283], [Hash, 1160], [Proc, 439], [Module, 383], [Gem::Version, 271], [Gem::Version::Requirement, 256], [Time, 199], [Range, 175], [Float, 173], [Gem::Specification, 144], [YAML::Syck::Scalar, 124], [Gem::Dependency, 111], [XSD::QName, 73], [Bignum, 21], [Set, 18], [OptionParser::Switch::RequiredArgument, 15], [Object, 13], [StringIO, 12]]
+----------
+Thu Mar 22 04:41:44 Hora est. de América Central 2007 OBJECT STATS BEFORE REQUEST /javascripts/dragdrop.js
+COUNTS: 3821,1236,63567
+TOP 20: [[String, 55140], [Array, 3538], [Regexp, 1290], [Class, 1280], [Hash, 1130], [Module, 381], [Proc, 375], [Gem::Version, 271], [Gem::Version::Requirement, 256], [Time, 179], [Range, 174], [Gem::Specification, 144], [Float, 117], [Gem::Dependency, 111], [XSD::QName, 73], [YAML::Syck::Scalar, 62], [Bignum, 19], [OptionParser::Switch::RequiredArgument, 15], [Object, 13], [Set, 12], [StringIO, 9]]
+----------
+Thu Mar 22 04:41:45 Hora est. de América Central 2007 OBJECT STATS BEFORE REQUEST /javascripts/controls.js
+COUNTS: 0,1580,64803
+TOP 20: [[String, 55572], [Array, 4443], [Regexp, 1290], [Class, 1280], [Hash, 1148], [Proc, 439], [Module, 381], [Gem::Version, 271], [Gem::Version::Requirement, 256], [Time, 198], [Range, 175], [Float, 173], [Gem::Specification, 144], [YAML::Syck::Scalar, 124], [Gem::Dependency, 111], [XSD::QName, 73], [Bignum, 21], [Set, 17], [OptionParser::Switch::RequiredArgument, 15], [Object, 13], [StringIO, 12]]
+----------
+Thu Mar 22 04:41:46 Hora est. de América Central 2007 OBJECT STATS BEFORE REQUEST /javascripts/application.js
+COUNTS: 0,1604,66383
+TOP 20: [[String, 56004], [Array, 5372], [Regexp, 1290], [Class, 1280], [Hash, 1166], [Proc, 503], [Module, 381], [Gem::Version, 271], [Gem::Version::Requirement, 256], [Float, 229], [Time, 217], [YAML::Syck::Scalar, 186], [Range, 176], [Gem::Specification, 144], [Gem::Dependency, 111], [XSD::QName, 73], [Bignum, 23], [Set, 22], [StringIO, 15], [OptionParser::Switch::RequiredArgument, 15], [Object, 13]]
+----------
+Thu Mar 22 04:41:47 Hora est. de América Central 2007 OBJECT STATS BEFORE REQUEST /images/favicon.png
+COUNTS: 0,1586,67987
+TOP 20: [[String, 56423], [Array, 6296], [Regexp, 1290], [Class, 1280], [Hash, 1184], [Proc, 567], [Module, 381], [Float, 285], [Gem::Version, 271], [Gem::Version::Requirement, 256], [YAML::Syck::Scalar, 248], [Time, 236], [Range, 177], [Gem::Specification, 144], [Gem::Dependency, 111], [XSD::QName, 73], [Set, 27], [Bignum, 25], [StringIO, 18], [OptionParser::Switch::RequiredArgument, 15], [Object, 13]]
+----------
+Thu Mar 22 04:48:22 Hora est. de América Central 2007 OBJECT STATS BEFORE REQUEST /images/favicon.png
+COUNTS: 5980,7992,63593
+TOP 20: [[String, 58520], [Array, 6237], [Regexp, 1513], [Hash, 1304], [Class, 1278], [Proc, 419], [Module, 382], [Gem::Version, 272], [Gem::Version::Requirement, 257], [Time, 188], [Range, 177], [Gem::Specification, 144], [Gem::Dependency, 112], [Float, 107], [YAML::Syck::Scalar, 102], [XSD::QName, 73], [MatchData, 67], [ActionController::CodeGeneration::GenerationGenerator, 30], [ActionController::CodeGeneration::RecognitionGenerator, 25], [ActionController::Routing::DynamicComponent, 22], [Bignum, 19]]
+----------
+Thu Mar 22 04:50:08 Hora est. de América Central 2007 OBJECT STATS BEFORE REQUEST /images/favicon.png
+COUNTS: 0,8096,71585
+TOP 20: [[String, 62313], [Array, 9649], [Regexp, 1736], [Hash, 1492], [Class, 1279], [Proc, 527], [Module, 383], [Gem::Version, 273], [Gem::Version::Requirement, 258], [Time, 215], [Range, 181], [YAML::Syck::Scalar, 154], [Float, 153], [Gem::Specification, 144], [MatchData, 128], [Gem::Dependency, 113], [XSD::QName, 73], [ActionController::CodeGeneration::GenerationGenerator, 60], [ActionController::CodeGeneration::RecognitionGenerator, 50], [ActionController::Routing::DynamicComponent, 42], [ActionController::Routing::ControllerComponent, 34]]
+----------
+Thu Mar 22 04:50:14 Hora est. de América Central 2007 OBJECT STATS BEFORE REQUEST /images/favicon.png
+COUNTS: 15980,7632,63701
+TOP 20: [[String, 58472], [Array, 6090], [Regexp, 1513], [Hash, 1300], [Class, 1278], [Proc, 419], [Module, 382], [Gem::Version, 272], [Gem::Version::Requirement, 257], [Time, 187], [Range, 177], [Gem::Specification, 144], [Gem::Dependency, 112], [Float, 107], [XSD::QName, 73], [MatchData, 67], [YAML::Syck::Scalar, 52], [ActionController::CodeGeneration::GenerationGenerator, 30], [ActionController::CodeGeneration::RecognitionGenerator, 25], [ActionController::Routing::DynamicComponent, 22], [Bignum, 19]]

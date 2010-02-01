@@ -1,0 +1,562 @@
+ 
+
+* { padding: 0; margin: 0; }
+
+body {
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 13px;
+ background-image: url("/img/page_bg.gif");
+ background-position: top;
+ background-repeat: repeat-x;
+ color: #999999;
+}
+#wrapper { 
+ margin: 0 auto;
+ width: 995px; /*992*/
+}
+
+body a, body a:visited {
+	color: #8AB92F;
+	text-decoration: underline;
+}
+
+body a:hover {
+text-decoration: none;
+}
+
+input{
+	font-size:16px;
+}
+
+#faux {
+/* background: url(faux-2-2-col.gif);*/
+ margin-bottom: 5px;
+ overflow: auto; /* Paul O Brien Fix for IE www.pmob.co.uk */
+ width: 100%
+}
+#header {
+ color: #333;
+ width: 885px;
+ padding: 0px;
+ height: 100px;
+ margin: 0;
+/* background: #D1DBDB;*/
+}
+
+#header #logo{
+width: 210px;
+height: 82px;
+background-image: url("/img/logo.gif");
+float: left;
+display: inline;
+}
+
+#header #logo span{
+text-indent: -3000px;
+display: block;
+width: 210px;
+height: 80px;
+}
+
+#header #headercontent{
+width: 300px;
+float: right;
+
+}
+
+#headercontent li a{
+	font-size:12px;
+}
+
+
+#header #searchform{
+width: 245px;
+height: 40px;
+float: right;
+}
+
+#header #searchform form {
+margin: 0;
+padding: 0;
+}
+
+ .searchtext{
+background-image: url(/img/searchform.gif);
+border: 0;
+width: 210px;
+height: 23px;
+}
+
+#header #searchform form .searchbutton{
+position: relative;
+top:6px; 
+right:0;
+}
+
+
+#header #session{ /* Contiene los links de Login/Account/Logout/Join en el header*/
+width: 265px;
+/*border: solid 1px #000000;*/
+font-family: Arial, Helvetica, sans-serif;
+font-size: 15px;
+margin-top: 10px;
+float: right;
+font-weight: bolder;
+}
+
+#header #session ul{
+list-style: none;
+margin: 0;
+padding: 0;
+}
+#header #session ul li{
+float: left;
+}
+
+
+#header #session a{
+color: #FFFFFF;
+text-decoration: none;
+padding: 12px;
+display: block;
+}
+
+#header #session a:hover{
+color: #F2E0A4;
+}
+
+
+#header #session #login{
+border-left: solid 1px #BAD665;
+}
+
+#navigation {
+ color: #333;
+/* padding: 10px;
+ margin: 0px 0px 5px 0px;*/
+/* border: solid 1px #333333;*/
+ height: 71px;
+ width: 885px;
+ margin: 0 0 20px 0;
+}
+
+
+
+/**/
+
+
+#mainmenu { /*Menu principal del top */
+width: 100%;
+margin: 1px 0 0 0;
+}
+
+
+
+
+#mainmenu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#mainmenu ul li {
+	float: left;
+ 	font-size: 14px;
+	font-weight: bold;
+	
+}
+
+
+
+#mainmenu ul a{
+float:left;
+background-image: url(/img/menu-label_left.gif);
+background-repeat: no-repeat;
+background-position: left top;
+margin:0;
+margin-right: 5px; /*spacing between each tab*/
+padding:0 0 0 7px;
+text-decoration:none;
+height: 32px;
+cursor: hand;
+color: #fff;
+}
+
+
+#mainmenu ul a span{
+float:left;
+display:block;
+background-image: url(/img/menu-label_completing.gif);
+background-repeat: no-repeat;
+background-position: right top;
+padding: 7px 12px 2px 2px;
+height: 23px;
+}
+
+
+#mainmenu a:hover{ /*onMouseover style*/
+background-position:0% -34px; /*Shift background image up to start of 2nd tab image*/
+}
+
+#mainmenu a:hover span{ /*onMouseover style*/
+background-position:100% -34px; /*Shift background image up to start of 2nd tab image*/
+}
+
+
+
+#mainmenu #current a{ /*Selected Tab style*/
+background-position:0 -66px; /*Shift background image up to start of 2nd tab image*/
+}
+
+#mainmenu #current a span{ /*Selected Tab style*/
+background-position:100% -66px; /*Shift background image up to start of 2nd tab image*/
+color: #333333;
+}
+
+
+
+/* Commented Backslash Hack hides rule from IE5-Mac \*/
+#mainmenu a span {float:none;}
+/* End IE5-Mac hack */
+
+
+#submenu { /* Area del top que muestra las subcategorias de listas */
+clear: both;
+width: 100%;
+font-size: 11px;
+font-weight: bold;
+padding: 6px 0 4px 8px;
+/*border: solid 1px #000000;*/
+display: table;
+border-bottom: solid 1px #E4E4E4;
+}
+
+#submenu ul{
+list-style: none;
+}
+
+#submenu ul li{
+float: left;
+margin-right: 6px;
+}
+
+#submenu ul li a{
+color: #999999;
+text-decoration: none;
+display: block;
+padding: 6px;
+}
+
+#submenu ul li a:hover{
+text-decoration: underline;
+color: #666666;
+}
+
+
+/**/
+
+#rightcolumn { 
+ display: inline;
+ color: #333;
+ margin: 0px;
+ padding: 0px;
+ width: 290px;
+ float: right;
+ padding: 10px 0 0 0;
+
+/*border: solid 1px #000000;*/
+}
+
+
+#rightcolumn #join-button a{
+background-image: url(/img/join-button.gif);
+width: 155px;
+height: 31px;
+display: block;
+margin-top: -7px;
+margin-bottom:20px;
+text-indent: -8000px;
+}
+
+#rightcolumn #join-button a:hover{ /*Boton de "Join Lightsalad!"  */
+background-position: 0 -34px;
+}
+
+#rightcolumn .segment { /*Bloques que delimitan cada elemento elemento de la barra derecha*/
+font-size: 12px;
+margin-bottom: 30px;
+color: #666666;
+margin-top: 0px;
+}
+
+#rightcolumn .segment h2{
+font-family:  Arial, Helvetica, sans-serif;
+font-size: 15px;
+color: #477725;
+padding: 0 0 6px 0;
+margin: 0 0 10px 0;
+border-bottom: solid 1px #EEEEEE;
+}
+
+
+
+
+
+
+#leftcolumn { /* AREA DE CONTENIDO PRINCIPAL*/
+ float: left;
+ color: #333;
+ margin: 0px;
+ padding: 0px;
+ width: 600px;
+ display: inline;
+ position: relative;
+ min-height: 500px;
+ /* border: solid 1px #000000; */
+}
+
+
+#itemslist{
+width: 100%;
+}
+
+
+
+.list-item{ /*Div que contiene cada item individual (se repite)*/
+width: 580px;
+height: 110px;
+/*border: solid 1px #CCCCCC;*/
+margin-top: 16px;
+display: table;
+}
+
+
+
+.list-item .item-infocontainer{
+width: 500px;
+display: inline;
+float: right;
+}
+
+.list-item .userthumb { /*Div que contiene la imagen del usuario*/
+float: left;
+height: 70px;
+padding: 14px 0 0 0;
+display: inline;
+position: relative;
+width: 60px;
+color:#FFF;
+text-align:center;
+background-image:url("/img/bgitems2.png");
+background-repeat:no-repeat;
+}
+
+.list-item .userthumb img{ /*Imagen del usuario*/
+border: solid 1px #CCCCCC;
+padding: 4px;
+}
+
+
+
+.list-item .userthumb img:hover {
+border-color: #DDECCE;
+background-color: #EEEEEE;
+}
+
+.list-item .description { /*Descripcion del item/lista*/
+font-family: Arial;
+font-size: 13px;
+ color: #666666;
+line-height: 14px;
+margin-bottom: 8px;
+margin-top: 4px;
+letter-spacing: 0.8px;
+
+}
+
+.list-item .tags, .list-item .info {
+font-size: 12px;
+margin: 0;
+padding: 0;
+color: #999999;
+}
+
+
+.itemtitle a { /*  Titulo de cada item */
+font-family: Georgia, "Times New Roman", Times, serif;
+color: #91C231;
+font-weight: normal;
+text-decoration: none;
+font-size: 22px;
+display: block;
+}
+
+ .itemtitle a:hover {
+text-decoration: underline;
+}
+
+
+#itemslist h2{ /*Titulo del modo de display de items*/
+font-family: Arial, Helvetica, sans-serif;
+margin-bottom: 40px !important;
+margin-bottom: 12px;
+font-size: 20px;
+color: #333;
+position: relative;
+top: 0 !important;
+top: -50px;
+font-weight: normal;
+letter-spacing: -1px;
+/*
+margin-bottom: 20px;
+position: relative;
+top: 7px;*/
+}
+
+
+.pagination { /*PAginacion*/
+width: 100%;
+margin-top: 14px;
+clear: both;
+text-align: center;
+font-weight: bold;
+font-size: 14px;
+color: #999999;
+}
+
+#timebrowse{
+float:right;	
+width: 550px;
+margin-right:50px;
+border-top: solid 1px #ccc;
+padding: 6px 0 0 0;
+margin-bottom:0px;
+}
+
+#timebrowse ul{
+	list-style: none;
+	margin: 0 40px 0 0;
+	padding: 0;
+	float: left;
+
+}
+
+#timebrowse ul li{
+	float: left;
+	margin-right:12px;
+}
+
+#timebrowse ul li a{
+text-decoration: none;
+}
+
+#timebrowse ul li a:hover{
+	text-decoration: underline;
+}
+
+
+
+
+
+#listtabs{ /*Viñetas (Latest/Popular/Random) */
+font-size: 13px;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+width: 250px;
+margin-top: 6px;
+float: right;
+position: relative;
+top: 0px;
+
+}
+
+
+
+#listtabs ul{
+list-style: none;
+margin: 0;
+padding: 0;
+}
+
+#listtabs ul li{
+float: left;
+margin-right: 3px;
+}
+
+
+#listtabs a {
+width: 65px;
+text-decoration: none;
+color: #FFFFFF;
+height: 20px;
+display: block;
+text-align: center;
+padding-top: 6px;
+background-image: url(/img/tabs1.gif);
+background-position: 0 -27px;
+}
+
+#listtabs .selected a { /*Viñeta seleccionada*/
+background-position: 0 0;
+color: #333333;
+}
+
+
+#listtabs a:hover {
+color: #999999;
+background-position: 0 0;
+}
+
+
+#footer { 
+ width: 100%; /*902px*/
+ height: 70px;
+ clear: both;
+ color: #333;
+ background-color: #97B832;
+ color: #FFFFFF;
+ font-weight: bold;
+ font-size: 14px;
+ margin: 30px 0 0 0;
+ text-align: center;
+ padding: 20px 0 0 0;
+}
+
+#footer a{
+color: #FFFFCC;
+text-decoration: none;
+padding: 6px;
+}
+
+#footer a:hover{
+text-decoration: underline;
+}
+
+.clear { clear: both; background: none; }
+
+
+/* EXTRAS */
+
+#iphone{
+	background-color:#FFFFCC;
+padding:10px;	
+width:400px;
+	height:40px;
+}
+
+label{
+ 	display: block;
+	clear: none;
+	padding-top:20px;
+	padding-bottom:5px;
+	font-size:13px;
+	font-weight:bold;
+}
+
+#list-suggestions{
+	float:left;
+}
+
+.userthumb p{
+	font-size:25px;
+}

@@ -1,0 +1,104 @@
+
+
+#rightcolumn #tagcloud {
+clear: both;
+width: 100%;
+}
+
+#rightcolumn #tagcloud ul{
+list-style: none;
+margin: 0;
+padding: 0;
+}
+
+#rightcolumn #tagcloud ul li{
+float: left;
+margin-right: 3px;
+margin-bottom: 6px;
+}
+
+#rightcolumn #tagcloud ul li a{
+background-image: url(/img/tags-bg_left.gif);
+float:left;
+background-repeat: no-repeat;
+background-position: left top;
+margin:0;
+margin-right: 2px; /*spacing between each tab*/
+padding:0 0 0 6px;
+font-weight: bold;
+text-decoration:none;
+height: 17px;
+cursor: hand;
+color: #fff;
+
+}
+
+#rightcolumn #tagcloud ul li a span{
+float:left;
+display:block;
+background-image: url(/img/tags-bg_completing.gif);
+background-repeat: no-repeat;
+background-position: right top;
+padding: 1px 8px 0px 2px;
+height: 16px;
+}
+
+
+#rightcolumn #tagcloud ul li a:hover{
+color: #FFFF9F;
+}
+
+/*Comienzan las variantes del cloud*/
+
+
+#rightcolumn #tagcloud ul .tag1 a{
+background-position: left top;
+}
+
+#rightcolumn #tagcloud ul .tag1 a span{
+background-position: right top;
+}
+
+
+#rightcolumn #tagcloud ul .tag2 a{
+background-position: 0 -25px;
+}
+
+#rightcolumn #tagcloud ul .tag2 a span{
+background-position: right -25px;
+}
+
+
+#rightcolumn #tagcloud ul .tag3 a{
+background-position: 0 -49px;
+}
+
+#rightcolumn #tagcloud ul .tag3 a span{
+background-position: right -49px;
+}
+
+
+#rightcolumn #tagcloud ul .tag4 a{
+background-position: 0 -73px;
+}
+
+#rightcolumn #tagcloud ul .tag4 a span{
+background-position: right -73px;
+}
+
+
+#rightcolumn #tagcloud ul .tag5 a{
+background-position: 0 -97px;
+}
+
+#rightcolumn #tagcloud ul .tag5 a span{
+background-position: right -97px;
+}
+
+#rightcolumn #tagcloud ul .tag6 a{
+background-position: 0 -120px;
+}
+
+#rightcolumn #tagcloud ul .tag6 a span{
+background-position: right -120px;
+}

@@ -1,0 +1,119 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Light Salad <%= @page_title %></title>
+ <%= stylesheet_link_tag 'main.css' %>
+ <%= stylesheet_link_tag 'list.css' %>
+ <%= stylesheet_link_tag 'tagcloud.css' %>
+
+
+<script src="/javascripts/prototype.js" type="text/javascript"></script>
+</head>
+
+<body>
+    <!-- Begin Wrapper -->
+   <div id="wrapper">
+   
+         <!-- Begin Header -->
+         <div id="header">
+		 
+		       <div id="logo"><a href="/lists"><span>Light Salad</span></a></div>
+
+			<div id="headercontent">
+		       <div id="session">
+			   <ul>
+					<%if session["person"] %>  
+				  	<li><a href="/users/<%=session["person"].login%>"><%=session["person"].login%></a></li>
+					<li><a href="/lists/new" id="login">New List</a></li>
+					<li><a href="/user/activity" id="login">Activity</a></li>
+					<li><a href="/user/logout" id="login">Logout</a></li>
+					<%else%>
+					<li><a href="/user/signup">Join</a></li>
+					<li><a href="/user/signin" id="login">Login</a></li>
+					<%end%>
+			   </ul>
+			   </div>
+				<div id="searchform">
+					<%  form_tag '/lists/search',:id=>"searchform" do%>
+					<%=text_field_tag  'q' , '',:class=>"searchtext"%>
+					 <%=image_submit_tag('/img/searchbut.gif', :class=>"searchbutton")%> 
+					<% end  %>
+			   </div>
+		   </div>
+			   
+		 </div>
+		 <!-- End Header -->
+		 
+		 <!-- Begin Navigation -->
+         <div id="navigation">
+		 
+		       <div id="mainmenu">
+			     <ul>
+					<li id="<%= @current_category_id.to_i == 0 ? "current" : "" %>"> <%= link_to content_tag(:span, 'All'), lists_path %></li>
+			 		<%if @categories%>
+						<%= render :partial => "/lists/category", :collection=>@categories%>
+				 	<%end%>
+				</ul>
+			   </div>
+			   
+		       <div id="submenu">
+			     <ul>
+				<%if @current_category_id.to_i != 0%>
+					<%= render :partial => "/lists/tag", :collection=>@tags%>	
+				<%end%>
+				 	</ul>
+			   </div>
+			   
+		 </div>
+		 <!-- End Navigation -->
+		 
+         <!-- Begin Faux Columns -->
+		 <div id="faux">
+		 	
+				<%=yield :header%>
+		       <!-- Begin Left Column -->
+		       <div id="leftcolumn">
+			
+				<% if iphone_user_agent? # Show message for iPhone users -%>
+				<div id="iphone">
+				    <p>Using an iPhone? <a href="http://iphone.localhost:3000/lists">Use the optimised version</a>.</p>
+				</div>
+				<% end -%>
+		       		 <%=yield%> 
+		
+				<div class="clear"></div>
+			   
+		       </div>
+		       <!-- End Left Column -->
+		 
+		       <!-- Begin Right Column -->
+		       <div id="rightcolumn">
+					
+				
+					   
+				 <%=yield :right%>
+		             
+					
+				<div class="clear"></div>
+				
+		       </div>
+		       <!-- End Right Column -->
+			   
+         </div>	   
+         <!-- End Faux Columns --> 
+
+         <!-- Begin Footer -->
+         
+		 <!-- End Footer -->
+		 
+   </div>
+   <!-- End Wrapper -->
+
+<div id="footer">
+		       
+               This is the Footer		
+
+         / <a href="#">About Light Salad</a> / <a href="#">Feedback</a> </div>
+</body>
+</html>

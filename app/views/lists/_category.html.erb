@@ -1,0 +1,4 @@
+<li id="<%= category.id  == @current_category_id ? "current" : ""%>">
+<%= link_to  content_tag(:span,category.title) , category_lists_path(category)%>  </li>
+
+ 

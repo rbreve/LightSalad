@@ -1,0 +1,238 @@
+
+#list-title {
+font-size: 24px;
+color: #56849C;
+margin: 0 0 10px 0;
+}
+
+#list-title a{
+padding-left: 30px;
+background-image: url(/img/icon-list.gif);
+background-position:left;
+background-repeat: no-repeat;
+color: #56849C;
+text-decoration: none;
+display: block;
+}
+
+#list-title a:hover{
+color: #6DB3B6;
+}
+
+
+#list-userpic {
+width: 75px;
+float: left;
+text-align: center;
+/*border: solid 1px #000000;*/
+height: 70px;
+margin: 0 10px 0 0;
+}
+
+#list-userpic img{
+border: solid 1px #95C585;
+padding: 4px;
+}
+
+#list-info {
+background-color: #F1F7DF;
+border: solid 1px #E8F3CF;
+border-left: 0;
+border-right: 0;
+padding:  14px 0 0 16px;
+font-size: 12px;
+font-weight: bold;
+color: #999999;
+margin: 0 0 20px 0;
+width: 600px;
+padding-bottom:0px;
+ }
+
+
+#list-info #tabs{
+margin-top:10px;
+padding:0;
+ list-style: none;
+/*border: solid 1px #CCCCCC;*/
+width: 305px;
+height:25px;
+position: relative;
+left: 320px;
+  }
+
+#list-info #tabs li{
+float: left;
+margin-right: 5px;
+}
+
+#list-info #tabs li a{
+background-image: url(/img/listpage-tabs.gif);
+width: 66px;
+height: 21px;
+display: block;
+font-size: 12px;
+padding: 6px 0 0 0;
+color: #FFFFFF;
+text-decoration: none;
+text-align: center;
+}
+
+#list-info #tabs li a:hover{
+background-position: 0 -31px;
+color: #999999;
+}
+
+#list-info #tabs #selected a{
+background-position: 0 -31px;
+color: #4F4F4F;
+ }
+
+#list-info #tabs #addidea a{
+background-image: url(/img/listpage-tabs_addidea.gif);
+width: 77px;
+color: #FFFFFF;
+padding-left: 6px;
+}
+
+.item-infocontainer .itemtitle-list  { /*Titulo de cada item de la lista*/
+font-family:Arial;
+text-decoration: none;
+font-size: 18px;
+display: block;
+}
+
+.item-infocontainer .itemtitle-list a:hover {
+text-decoration: underline;
+}
+
+.list-item-activity{ /*Div que contiene cada item individual (se repite)*/
+width: 580px;
+height: 60px;
+ /* border: solid 1px #CCCCCC; */
+display: table;
+padding-top:6px;
+}
+
+.list-item-activity .icon {
+width: 25px;
+height: 25px;
+float: left;
+}
+
+.list-item-activity .description {
+padding:4px 0 4px 0;
+ 
+}
+
+
+.itemtitle-list-activity{
+	padding-top:5px;
+}
+
+.itemtitle-list-activity a{
+	font-size:15px;
+	 
+}
+
+
+.list-item .votes {
+width: 62px;
+margin-top:-3px;
+float: left;
+display: inline;
+/*border: solid 1px #666666;*/
+text-align: center;
+}
+
+.list-item .votes .count{
+color: #FDB53C;
+font-size: 24px;
+font-weight: bold;
+text-align: center;
+margin: 0;
+padding: 0;
+}
+
+.vote-good{
+display: block;
+width: 24px;
+height: 32px;
+background-image:url(/img/icon-goodidea.gif);
+float: left;
+margin-left: 4px;
+}
+
+
+.vote-bad{
+display: block;
+width: 24px;
+height: 32px;
+background-image:url(/img/icon-badidea.gif);
+float: left;
+margin-left: 6px;
+}
+
+
+.vote-good span, .vote-bad span{
+display: none;
+
+}
+
+
+.vote-image{
+	display:inline;
+	float:left;
+}
+
+.vote-message{
+	font-size:10px;
+	padding:0;
+	margin:0;
+}
+
+
+
+
+/*comments*/
+
+#comments h2 {
+color: #477725;
+font-size: 15px;
+margin: 0;
+padding: 0;
+}
+
+
+#comments {
+width: 450px;
+display: table;
+margin-top: 15px;
+}
+
+.comment {
+width: 530px;
+display: table;
+margin-bottom: 24px;
+background-color:#EFE;
+padding:13px;
+}
+
+.userpic {
+width: 55px;
+float: left;
+}
+
+.commentcontent {
+width: 370px;
+float: left;
+font-size: 12px;
+margin-left: 14px;
+color: #666;
+line-height: 12px;
+}
+
+.info {
+font-size: 11px;
+color: #999;
+margin: 4px 0 0 0;
+}

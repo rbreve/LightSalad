@@ -1,0 +1,128 @@
+ 
+ <%= stylesheet_link_tag 'profile.css' %>
+
+<% content_for(:header) do%>
+
+<% if session["person"] and session["person"].id == @user.id%>
+	<div id="profile-settings">
+		<ul>
+	<li><%= link_to "Change Password", :action=>"edit_password" %>  </li>
+	<li><%= link_to "Upload Picture", :action=>"upload_picture"%> </li>
+	<li><%= link_to "Edit Profile", :action=>"edit_profile"%> </li>
+  </ul>
+	</div>
+<%end%>
+ 
+<div id="profile-header">
+	<div id="column1">
+		<div id="profile-foto"><%=image_tag UPLOAD_PATH + @user.image%>
+		</div>
+		<div id="profile-name"><%=@user.name%>  </div>
+	
+		<div id="profile-smallinfo">
+
+			<%=h(@user.about)%>
+
+		</div>
+		<div id="profile-smalllikes">
+
+
+			<%if @likes%>
+			Likes <%=@likes.feature.title%> in <%=@likes.feature.list.name%> <br> 
+			<%end%>
+			<%if @hates%>
+			Hates <%=@hates.feature.title%> in <%=@hates.feature.list.name%>
+			<%end%>
+		</div>
+	</div>
+	
+	
+	<div id="column2">
+		<div id="profile-contact">
+			<ul><li><% if @isyourfriend%>
+				<span>You are friends. </span> 
+
+				<%elsif session["person"] and @user.id!=session["person"].id%>
+				<%= link_to_remote "Add Friend", 
+				:url=>{
+					:action=>"addtofriend", 
+					:id => @user.id },
+					:update=>"addtofriend"
+					%>
+					<%end%>
+				</li>
+				<li><a href="#"><span>send message</span></a></li>
+			</ul>
+		</div>
+		<div id="profile-menu">
+			<ul>
+				<li id="<%= @taste=="activity" ? "selected" : "" %>"><%= link_to "My Feed", :action=>@user.username %></a></li>
+			
+				<li id="<%= @taste=="friends"? "selected" : "" %>"><%= link_to "Activity", :action=>@user.username, :taste=>"friends"%></a></li>
+				<li id="<%= @taste=="likes" ? "selected" : "" %>"><%= link_to "I Like", :action=>@user.username, :taste=>"likes"%></li>
+				<li id="<%= @taste=="hates" ? "selected" : "" %>"><%= link_to "I Hate", :action=>@user.username, :taste=>"hates"%></li>
+ 				<li id="<%= @taste=="lists" ? "selected" : "" %>"><%= link_to "My Lists", :action=>@user.username, :taste=>"lists"%></li>
+
+			</ul>
+		</div>
+	</div>
+</div>
+<%end%>
+ 
+
+ 	<h2><%=@user.username.capitalize  %>  <%=@taste.capitalize%></h2>
+	
+ 
+
+	<div id="itemslist-profile" >
+		<%for log in @logs%>
+		 
+			<%= activity(log) %>
+ 
+		<%end%>
+		<%= will_paginate @logs %>
+		
+	</div>
+	
+<% content_for(:right) do%>
+
+<div class="segment-friends">
+	
+<% if @user.about.to_s != ""%>
+	<h2>About</h2>
+	<p>
+	<%=@user.about%>
+	</p>
+<%end%>
+
+<% if @user.about.to_s != ""%>
+	<br/>
+	<h2><%= @user.username %> 's Links</h2>
+	<%=auto_link(@user.links)%>
+<%end%>
+
+
+
+</div>
+
+<div class="segment-friends">
+	
+<h2><%=@user.username.capitalize  %>'s Friends</h2>
+<%if @user.friends.empty?%>
+	No Friends Yet
+<%end%>
+
+<%for f in @user.friends do%>
+	<div class="friend">
+	<div class="friendfoto"><%=friend_image(f.friend.image.to_s)%></div>
+	<div class="friendname"><a href="/users/<%=f.friend.username%>"> <%= f.friend.name %> </a></div>
+		<div class   = "friendlikes"></div>
+	</div>
+<%end%>
+</div>
+
+<%end%>
+
+
+
+ 

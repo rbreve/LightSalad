@@ -1,0 +1,79 @@
+<div id="categories">
+<ul>
+	<li>All</li>
+<%for category in @categories%>
+	<li><%=category.title%></li>
+<%end%>
+</ul>
+</div>
+
+<div id="front-text">
+<strong>What is LightSalad?</strong> Light Salad lets you create lists. People can add item to the lists and rate them. Some examples are top 10 movies,
+best video games, worst foods, best features, wish-lists and anything you can think of.
+
+</div>
+<div id="cloud">
+Popular Tags
+<%for tag in @cloud do%>
+	<span style="font-size:<%=9+tag.n%>"><%=link_to tag.name, :controller=>"tags", :action=>tag.name%></span>
+<%end%>
+</div>
+
+<div id="activity-text">
+ 
+<%for log in @logs%>
+	<%if log.action == "NEW_FEATURE_PUBLIC"%>
+		<%=link_to log.user.username, :action => "users", :id => log.user.username %> added <strong><%=log.feature.title%></strong> to 
+		<%= link_to log.list.name, :action => "view", :id => log.list_id%> <Br/>
+	<%end%>
+	
+	<%if log.action == "NEW_LIST"%>
+		<%=link_to log.user.username, :action => "users", :id => log.user.username %> created a new list <strong><%= link_to log.list.name, :action => "view", :id => log.list_id%></strong> <br>
+	<%end%>
+	
+	<%if log.action == "VOTE_UP"%>
+		<%=link_to log.user.username, :action => "users", :id => log.user.username %> likes <strong><%=log.feature.title%> </strong> in <strong><%= link_to log.list.name, :action => "view", :id => log.list_id%></strong> <Br>
+	<%end%>
+	
+	<%if log.action == "VOTE_DOWN"%>
+		<%=link_to log.user.username, :action => "users", :id => log.user.username %> dislikes <strong><%=log.feature.title%> </strong> in <strong><%= link_to log.list.name, :action => "view", :id => log.list_id%></strong> <Br>
+	<%end%>
+	
+<%end%>
+
+<span style="float:right;">
+<%=link_to "View more activity", :action => "spy" %>
+</span>
+</div>
+
+<div id="right-column">
+
+
+
+
+<h3> Top Lists </h3>
+<%= render :partial => "fproduct", :collection => @tops %>
+
+<%if @session%>
+<h3>Friends Lists</h3>
+ <%= render :partial => "fproduct", :collection => @friendlist %> 
+ 
+<%end%>
+ 
+
+ 
+</div>
+ 
+ 
+
+<div id="newest">
+<h3>Latests</h3>
+<%= render :partial => "product", :collection => @latests %> 
+ 
+ <%= will_paginate @latests %>
+</div>
+
+
+ 
+
+

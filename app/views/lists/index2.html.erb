@@ -1,0 +1,79 @@
+<div id="categories">
+<%=  categories_nav(@categories, @current_category_id)  %>
+</div>
+
+<div id="list-browse">
+
+	<div id="list-title">
+		<h2>
+		<%if @sort=="hot" %>
+			Popular
+		<%elsif @sort == "new"%>
+			Recently <%= @time %>
+		<%end%>
+		lists</h2>
+	</div>
+	
+	<div id="list-tabs">
+	<ul>
+	<li id = "<%= @sort=="hot" ? "hoton" : "hotoff" %>">
+			<%=link_to 'Popular', lista_path(@current_category, "hot")%>
+	</li>
+	
+	<li id = "<%= @sort=="new" ? "newon" : "newoff" %>">
+		<%if @current_category == nil%>
+			<%= link_to 'Recent', lists_url(:sortby=>"new") %> 
+		<%else%>
+			<%=link_to 'Recent', lista_path(@current_category, "new")%>
+		<%end%>
+	</li>
+	</ul>
+	</div>
+
+</div>
+	<div id="separation"></div>
+
+
+<div id="time-browse">
+	<ul>
+		<%if @sort=="hot"%>
+
+		<li> <%= link_to 'Week', lista_url(@current_category, "hot", "week") %> </li>
+		<li>  <%= link_to 'Month', lista_url(@current_category, "hot", "month") %> </li>
+		<li><%= link_to "Year", lista_url(@current_category, "hot", "year") %> </li>
+		<%end%>
+		
+		<%if @sort=="new"%>
+		<li> <%= link_to 'Updated', lista_url(@current_category, "new", "updated") %></li>
+		<li> <%= link_to 'Created', lista_url(@current_category, "new", "created") %></li>
+		<%end%>
+	</ul>
+	
+	
+</div>
+
+</div>
+
+
+
+
+<div id="right-column">
+	
+	
+	<div id="cloud">
+	<div>Popular Tags</div>
+	<Br>
+	
+	<%for tag in @cloud do%>
+		<span style="font-size:12;background-color:rgb(95, 155,50);opacity:<%=tag.n.to_f/10 %>;"><%=link_to tag.name, :action => "tags", :id=>tag.name%></span>
+	<%end%>
+	</div>
+</div>
+
+ 
+	
+<%= render :partial => @lists %> 
+ 
+<%= will_paginate @lists %>
+ 
+

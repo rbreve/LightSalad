@@ -1,0 +1,84 @@
+<script>
+
+ function enable(checkbox) {
+      $('submi').disabled = !checkbox.checked
+    }
+
+
+function showpass(){
+	$('password').show();
+}
+</script>
+
+<h2>Create a New List</h2>
+
+<div style="color:#FF0000">
+<%=flash[:notice]%>
+<%= error_messages_for 'list' %>
+</div>
+
+<% form_for(@list) do |f|%>
+
+<b>Category</b>
+  <%= f.select("category_id", Category.find(:all, :conditions => "category_id=0").collect {|p| [ p.title, p.id ] }, { :include_blank => true }) %><br />
+
+<label for="title" >Title</label>
+<%=  f.text_field   :name, :size => 50 %>
+
+
+<label for="description" >Description</label>
+<%=  f.text_area   :description, :cols => 50, :rows => 4 %>
+
+
+<label for="tags" >Tags (separate tags with spaces)</label>
+<%=  f.text_field   :tags, :size => 50 %>
+ 
+<div id="create-list-types">
+	
+<label for="List Type">List Type</label>
+<p>
+ 
+		<%= f.radio_button(  "listtype", "SOCIAL", :checked => "checked") %>
+ <strong>Social List:</strong> Everybody can view, add and rate items on the list  
+ 
+</p>
+
+<p>
+	<%= f.radio_button(  "listtype", "FRIENDS", :onclick=>"showpass()") %>
+<strong>Friends Social List:</strong> Only you and your friends can add items and rate items in the list
+</p>
+
+<div id="password" style="display:none;">
+	<label for="password">Choose Password:</label>
+	<%=  f.text_field  :password, :size => 10 %>
+</div>
+
+
+<p>
+	<%= f.radio_button(  "listtype", "PERSONAL" ) %>
+ <strong>Personal List:</strong> only you can rate and add items in the list but everybody can see it
+ 
+</p>
+
+<p>
+ 
+		<%= f.radio_button( "listtype", "PRIVATE" ) %>
+ <strong>Private:</strong> only you can vote and add items and see it ie: private todo list (only you can see it)
+ 
+</p>
+
+</div>
+<label for="captcha">
+	Robot or Human? Please type the text you see 
+ </label>
+    <img src = "/salad/captcha"><Br>
+  <br/>
+
+
+
+
+<%= text_field_tag 'captcha' %> <br/>
+
+<%= submit_tag "Create List" , :class => "submit", :id=>"submi",:disable_with=>"Sending..." %>
+
+<% end %>

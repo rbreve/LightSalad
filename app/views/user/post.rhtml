@@ -1,0 +1,66 @@
+<script>
+
+ function enable(checkbox) {
+      $('submi').disabled = !checkbox.checked
+    }
+
+
+function showpass(){
+	$('password').show();
+}
+</script>
+
+<h2>Create a New List</h2>
+
+<div style="color:#FF0000">
+<%=flash[:notice]%>
+</div>
+
+<%= start_form_tag( {:action => 'create_post'}) %>
+
+<label for="title" >Title</label>
+<%=  text_field 'product', :name, :size => 40 %>
+
+
+<label for="description" >Description</label>
+<%=  text_area 'product', :description, :cols => 30, :rows => 4 %>
+
+
+<label for="tags" >Tags</label>
+<%=  text_field 'product', :tags, :size => 40 %>
+ 
+<p>
+	<input type="radio" name="product[listtype]" value="public" checked>
+ Public: Everybody can view, add and rate items to the list  
+ 
+</p>
+
+<p>
+	<%= radio_button("product", "listtype", "friends", :onclick=>"showpass()") %>
+Friends List: Only you and your friends can add items and vote the list
+</p>
+
+<div id="password" style="display:none;">
+	<label for"password">Choose Password:</label>
+	<%=  text_field 'product', :password, :size => 10 %>
+</div>
+
+<p>
+	<input type="radio" name="product[listtype]" value="personal" >
+ Personal: only you can vote and add items other people can see it
+ 
+</p>
+
+<p>
+	<input type="radio" name="product[listtype]" value="personal" >
+ Private: only you can vote and add items and see it
+ 
+</p>
+
+    <img src = "/salad/captcha">
+ <br/>
+
+<%=text_field_tag 'captcha' %> <br/>
+<%= submit_tag "Create" , :class => "submit", :id=>"submi",:disable_with=>"Sending..." %>
+
+<%= end_form_tag%>
