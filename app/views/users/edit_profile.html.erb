@@ -2,8 +2,10 @@
 
 <% form_tag :action=> "update_profile" do %>
    
-    
- 
+	<label for="name"> Username</label>
+	<p>
+    <%= text_field "user","login" %>
+  </p>
 
 	<label for="name"> Name</label>
 	<p>
@@ -11,7 +13,7 @@
   </p>
 	
 	<label for="gender">Gender</label>
-	<%=select("user", "gender", @gender)%>
+	<%=select("user", "gender", @genders)%>
 	
  	<label for="about">About</label>
 	<p>

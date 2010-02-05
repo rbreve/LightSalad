@@ -1,13 +1,16 @@
 class UsersController < ApplicationController
 before_filter :load_categories
 layout "lightsalad"
+before_filter :current_user, :only => [:addtofriend]
+
+
 
   def show
-    
+
     @taste=params[:taste]
     page = params[:page]
     
-    @user=User.find(:first, :conditions => ["username = ?", params[:id]])
+    @user=User.find(:first, :conditions => ["login = ?", params[:id]])
     
     # @likes = FeatureVote.find(:all, :conditions => "user_id = #{@user.id} and value = 1", :limit=>20)
     #    @dislikes = FeatureVote.find(:all, :conditions => "user_id = #{@user.id} and value = 0", :limit=>20)
@@ -27,7 +30,7 @@ layout "lightsalad"
     elsif @taste == "hates"
       @logs = Log.paginate(:all, :conditions=>["user_id=? and action='VOTE_DOWN'",@user.id], :order=>"datetime desc", :page=>page)
     elsif @taste == "lists"
-      if session["person"] and session["person"].id == @user.id
+      if current_user and current_user.id == @user.id
         sql_private = "or action='NEW_LIST_PERSONAL'"
       end
       @logs = Log.paginate(:all, :conditions=>["user_id=? and action='NEW_LIST_SOCIAL' #{sql_private}",@user.id], :order=>"datetime desc", :page=>page)
@@ -38,8 +41,11 @@ layout "lightsalad"
       @logs = Log.paginate(:all, :conditions=>["user_id=?",@user.id], :order=>"datetime desc",:page=>page)
     end
     
-    if session["person"]
-      @isyourfriend=Friend.find(:first,:conditions=>["user_id=? and friend_id=?",session["person"].id, @user.id])
+		begin
+     	current_user.id
+		  @isyourfriend=Friend.find(:first,:conditions=>["user_id=? and friend_id=?",current_user.id, @user.id])
+		rescue RuntimeError
+			#nada
     end
     
       respond_to do |format|
@@ -58,7 +64,7 @@ layout "lightsalad"
     
     def update_picture
         #CROPS
-        #@image=User.find(session["person"].id).image
+        #@image=User.find(current_user.id).image
         @image = params[:filename]
         @x1=params[:x1]
         @y1=params[:y1]
@@ -69,11 +75,11 @@ layout "lightsalad"
         img = img.crop!(@x1.to_i, @y1.to_i, @x2.to_i-@x1.to_i, @y2.to_i - @y1.to_i)
         img.resize!(60,60)
         img.write(path)
-        @user = User.find(session["person"].id)
+        @user = User.find(current_user.id)
         @user.image = @image
         @user.save
        flash[:notice] = "Your avatar has been updated"
-       redirect_to  user_path(@user.username)
+       redirect_to  user_path(@user.login)
     end
     
     def add_friend
@@ -83,9 +89,50 @@ layout "lightsalad"
      @user = User.new
    end
     
+		def create
+			@user=User.new(params[:user])
+			@user.date_reg = Time.now
+	    @user.status = 1
+	    @user.image = "noimage.png"
+	
+			@user.save do |result|
+				if result
+ 					flash[:notice] = "Registration successful"
+					redirect_to :controller => "lists"
+ 				else
+					unless @user.oauth_token.nil?
+						@user = User.find_by_oauth_token(@user.oauth_token)
+						unless @user.nil?
+							UserSession.create(@user)
+							flash.now[:message] = "Welcome back!"
+							redirect_to root_url
+						else
+							render :action => 'new'
+						end
+					else
+						render :action => 'new'
+					end
+				end
+			end
+		end
+
+		def update
+			@user = current_user
+			@user.attributes = params[:user]
+			@user.save  do |result|
+				if result
+					flash[:notice] = "Succesfully updated"
+					redirect_to root_url
+				else
+					@genders = [ 'Male','Female']
+					render :action => "edit"
+				end
+			end
+		end
+
     def addtofriend
        f=Friend.new
-       f.user_id = session["person"].id
+       f.user_id = current_user.id
        f.friend_id = params[:id]
        f.save
         render(:layout => false)  
@@ -93,11 +140,12 @@ layout "lightsalad"
     
      # GET /categories/1/edit
      def edit
-       @user = User.find(session["person"].id)
+	     @genders = [ 'Male','Female']
+       @user = current_user
      end
     
     def edit_password
-       @user=User.find(session["person"].id)
+       @user=User.find(current_user.id)
     end
     
     def edit_profile
@@ -107,27 +155,27 @@ layout "lightsalad"
     
     def update_profile
       user = params[:user]
-      @user = User.find(session["person"].id)
+      @user = User.find(current_user.id)
       @user.about = user[:about]
       @user.links = user[:links]
       @user.name = user[:name]
       @user.gender = user[:gender]
       if @user.save
         flash[:notice] = "Information Updated"
-        redirect_to user_url(@user.username)
+        redirect_to user_url(@user.login)
       end
     end
 
     def update_password
         u = params[:user]
-        @user = User.find(session["person"].id)
+        @user = User.find(current_user.id)
 
         if @user.password==params[:password]
           if u[:password]== u[:password_confirmation] 
             @user.password=u["password"]
             if @user.save
               flash[:notice] = 'Your password has been updated.'
-              redirect_to user_url(@user.username)
+              redirect_to user_url(@user.login)
             else
               render :action => "edit_password"
             end

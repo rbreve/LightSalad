@@ -1,0 +1,9 @@
+<%if @msg == "VOTED"%>
+ 
+      <%=@votes %> 
+    
+<%elsif @msg == "DUPE"%>
+<span class="vote-message">You cant vote again</span>
+<%elsif @msg == "ERROR"%>
+wrong feature
+<%end%>

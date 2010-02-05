@@ -227,7 +227,7 @@ def add_feature(list_id, title, description)
 end
 
 def vote
-  unless session["person"]
+  unless current_user
           redirect_to :controller=>'user',:action => 'signin'
 		  return false
   end
@@ -249,7 +249,7 @@ def vote
     list_id = @feature.list_id
     list=List.find(list_id)
     
-    featurevote = FeatureVote.find(:first, :conditions=>["feature_id = ? and user_id = ?", feature_id, session["person"].id])
+    featurevote = FeatureVote.find(:first, :conditions=>["feature_id = ? and user_id = ?", feature_id, current_user.id])
    # featurevote=nil
    
     if featurevote == nil or list.listtype == "PERSONAL"
@@ -260,7 +260,7 @@ def vote
         
     
         featurevote = FeatureVote.new
-        featurevote.user_id  = session["person"].id
+        featurevote.user_id  = current_user.id
         featurevote.feature_id = params[:id]
         featurevote.datetime = Time.now
         featurevote.ip = ENV['REMOTE_HOST']
@@ -274,7 +274,7 @@ def vote
         list.save
         
         
-        log(session["person"].id, action, list_id, feature_id)
+       # log(session["person"].id, action, list_id, feature_id)
         
         @msg = "VOTED"
         

@@ -17,29 +17,29 @@
    
          <!-- Begin Header -->
          <div id="header">
-		 
 		       <div id="logo"><a href="/lists"><span>Light Salad</span></a></div>
 
 			<div id="headercontent">
 		       <div id="session">
 			   <ul>
-					<%if session["person"] %>  
-				  	<li><a href="/users/<%=session["person"].login%>"><%=session["person"].login%></a></li>
-					<li><a href="/lists/new" id="login">New List</a></li>
-					<li><a href="/user/activity" id="login">Activity</a></li>
-					<li><a href="/user/logout" id="login">Logout</a></li>
+					<%if current_user %>  
+						<li><%= link_to "Logout", logout_path, :id=>"login"%></li>
+ 						<li><a href="/user/activity" id="login">Activity</a></li>
+							<li><%= link_to current_user.login , edit_user_path(:current)%> </li>
+							<li><img src="<%= current_user.avatar_url%>" width="30" class="avatar-header"></li>
 					<%else%>
-					<li><a href="/user/signup">Join</a></li>
-					<li><a href="/user/signin" id="login">Login</a></li>
+						<li><%= link_to "Register", new_user_path, :id=>"login" %></li>
+						<li><%= link_to "Login", login_path, :id=>"login"%></li>
 					<%end%>
 			   </ul>
 			   </div>
 				<div id="searchform">
 					<%  form_tag '/lists/search',:id=>"searchform" do%>
 					<%=text_field_tag  'q' , '',:class=>"searchtext"%>
-					 <%=image_submit_tag('/img/searchbut.gif', :class=>"searchbutton")%> 
-					<% end  %>
+ 					<button title="Search" id="search-button">Search</button>
+  					<% end  %>
 			   </div>
+				
 		   </div>
 			   
 		 </div>
@@ -80,10 +80,10 @@
 				    <p>Using an iPhone? <a href="http://iphone.localhost:3000/lists">Use the optimised version</a>.</p>
 				</div>
 				<% end -%>
+				
 		       		 <%=yield%> 
 		
-				<div class="clear"></div>
-			   
+ 
 		       </div>
 		       <!-- End Left Column -->
 		 

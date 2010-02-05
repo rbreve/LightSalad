@@ -1,7 +1,7 @@
 
 class FeaturesController < ApplicationController
   layout "lightsalad"
-  before_filter :authenticate, :only => [:create, :new]
+  before_filter :current_user, :only => [:create, :new]
   
   
   def new
@@ -13,7 +13,7 @@ class FeaturesController < ApplicationController
   def create
     @list = List.find(params[:list_id])
     @feature = Feature.new(params[:feature])
-    @feature.user_id = session["person"].id
+    @feature.user_id = current_user.id
     @feature.datetime=Time.now
     @feature.list_id = @list.id
     @feature.feature_votes_count=0
@@ -22,7 +22,7 @@ class FeaturesController < ApplicationController
     
     if @feature.save
       #flash[:notice] = "Item Added!" 
-      log( session["person"].id, "NEW_FEATURE_SOCIAL", @feature.list_id, @feature.id)
+      #log( session["person"].id, "NEW_FEATURE_SOCIAL", @feature.list_id, @feature.id)
       redirect_to list_url(@list) + "##{@feature.id}"
     end
     

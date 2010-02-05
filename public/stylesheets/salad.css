@@ -266,7 +266,7 @@ float:right;
      
 }
 
-#post-title-list h2{font: 1.66em Georgia, Times, serif;  
+#post-title-list h2{font: 1.66em Arial;  
   margin: 0.5em 0; padding-bottom: 0.1em; }
 
 #post-description-list{
@@ -303,7 +303,7 @@ float:right;
 
 #post-title{
     margin-bottom: 1px;
-  font: 2em Georgia, Times, serif;
+  font: 2em Arial;
 }
 
 
@@ -701,3 +701,6 @@ float:left;
 	border: 1px solid #FF0000;
 	border-color:#333333;
 }
+
+
+ 

@@ -3,31 +3,33 @@
 <div class="list-item">
 		<div class="votes">
 			<p class="count" id="<%=feature.id%>"><%=feature.points%></p>
-			 <%if session["person"] %>  
+			 <%if current_user %>  
 
 					<%=link_to_remote image_tag( IMAGE_DIR + "voteup.png", :border => 0, :class=>"vote-image"), 
 									:url=>{ 
-											:controller=>"salad", 
-											:action=>"vote", 
-											:id=>feature.id,
-											:vote=>"up"
+											:controller=>"feature_votes", 
+											:action=>"create", 
+											:feature_id =>feature.id,
+											:points=>1,
+											:list_id=>list_id
 											},
 									:update=> feature.id.to_s
 					 %>
 
 					<%=link_to_remote image_tag( IMAGE_DIR + "votedown.png", :border => 0), 
 									:url=>{ 
-											:controller=>"salad", 
-											:action=>"vote", 
-											:id=>feature.id,
-											:vote=>"down"
+											:controller=>"feature_votes", 
+											:action=>"create", 
+											:feature_id=>feature.id,
+											:points=>-1,
+											:flist_id=>list_id
 											},
 									:update=> feature.id.to_s  
 					 %>
 
 			<%else%>
-			    <%= link_to image_tag(IMAGE_DIR + "voteup.png", :border=>0), "/user/signin",:border=>0 %> 
-			    <%= link_to image_tag(IMAGE_DIR + "votedown.png", :border=>0), "/user/signin",:border=>0 %>
+			    <%= link_to image_tag(IMAGE_DIR + "voteup.png", :border=>0), login_path,:border=>0 %> 
+			    <%= link_to image_tag(IMAGE_DIR + "votedown.png", :border=>0), logout_path,:border=>0 %>
 			<%end%>
 		</div>
 		

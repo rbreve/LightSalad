@@ -5,7 +5,7 @@
 ENV['RAILS_ENV'] ||= 'development'
 
 # Specifies gem version of Rails to use when vendor/rails is not present
-RAILS_GEM_VERSION = '2.0.2'
+RAILS_GEM_VERSION = '2.3.3'
 IMAGE_DIR = "/images/"
 VOTE_UP_ICON = "voteup.png"
 VOTE_DOWN_ICON = "votedown.png"
@@ -29,7 +29,9 @@ Rails::Initializer.run do |config|
 
   # Add additional load paths for your own custom dirs
   # config.load_paths += %W( #{RAILS_ROOT}/extras )
-
+  config.gem "authlogic"
+	config.gem "oauth"
+	config.gem "authlogic-oauth", :lib => "authlogic_oauth"
   # Force all environments to use the same logger level 
   # (by default production uses :info, the others :debug)
   # config.log_level = :debug

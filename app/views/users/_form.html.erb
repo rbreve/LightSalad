@@ -1,0 +1,36 @@
+<% form_for @user do |f| %>
+  <%= f.error_messages %>
+  <p>
+    <%= f.label :login %> 
+    <%= f.text_field :login %>
+  </p>
+  <p>
+    <%= f.label :email %> 
+    <%= f.text_field :email %>
+  </p>
+  <p>
+    <%= f.label :password %> 
+    <%= f.text_field :password %>
+  </p>
+  <p>
+    <%= f.label :password_confirmation %> 
+    <%= f.text_field :password_confirmation %>
+  </p>
+
+	<p>
+	   <%= f.label :gender %> 
+	<%= f.select :gender, @genders%>
+	</p>
+	
+ 	<label for="about">About</label>
+	<p>
+    <%=f.text_area :about %>
+  </p>
+
+	<b>Links</b><br />
+	<p>
+    <%= f.text_area :links, :cols=>30, :rows=>10%>
+  </p>
+
+  <p><%= f.submit "Submit" %></p>
+<% end %>

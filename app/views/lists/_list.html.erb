@@ -1,4 +1,5 @@
- <div class="list-item" >
+ 
+<div class="list-item" >
  	<div class="userthumb"><P><%=list.features_count%></P> Items</div>
 
 		<div class="item-infocontainer">
@@ -7,7 +8,7 @@
 				 <%= h(list.description)%>
 				</p>
 			<p class="tags">Tags:  <%= h(list.tags) %></p>
-			<p class="info"> <%=list.points%> Points -  Posted  <%=time_ago_in_words(list.datetime)%>  days ago by <%=list.user.login%></p>
+			<p class="info"> <%=list.points%> Points -  Posted  <%=time_ago_in_words(list.datetime)%>  days ago by <%=link_to list.user.login, user_path(list.user.login), :class => "username"%></span></p>
 		</div>
 	</div>
  	

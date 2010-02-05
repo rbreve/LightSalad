@@ -1,16 +1,16 @@
  
- 
-<table border=0 width=600px cellspacing="10" bgcolor="#eeffee" >
+<div class="activity-item">
+<table border=0 width=600px cellspacing="10"  >
 	<tr >
 		<td width=90px align=center>
-			<a href="/users/<%=user.username%>"> 
+			<a href="/users/<%=user.login%>"> 
 			<%=friend_image(user.image.to_s)%><br/>
-			<%=user.username%>	
+
 			</a>
 		</td>
 	
 		<td valign=top width=300px	>
-				<p class  = "info"><%=info%></p>
+				<p class  = "activity-user-date"><%=link_to user.login, user_path(user.login)%> <%=info%></p>
 				<div class  = "itemtitle-list-activity"><%= title %></div>
 				<p class = "description"><%= description %></p>
 			
@@ -21,4 +21,5 @@
 			</td>
 	</tr>
 </table>
-<br/>
+
+</div>

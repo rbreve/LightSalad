@@ -1,0 +1,17 @@
+<% title "Feature Votes" %>
+
+<table>
+  <tr>
+    <th>Name</th>
+  </tr>
+  <% for feature_votes in @feature_votes %>
+    <tr>
+      <td><%=h feature_votes.name %></td>
+      <td><%= link_to "Show", feature_votes %></td>
+      <td><%= link_to "Edit", edit_feature_votes_path(feature_votes) %></td>
+      <td><%= link_to "Destroy", feature_votes, :confirm => 'Are you sure?', :method => :delete %></td>
+    </tr>
+  <% end %>
+</table>
+
+<p><%= link_to "New Feature Votes", new_feature_votes_path %></p>

@@ -13,7 +13,7 @@
 	<h3>Dislike it</h3>  
 
 	<%for user in @disliked%>
-	<img src="<%=IMAGE_DIR%>votedown.png"><%=link_to user.login, :controller => 'users', :action => user.username.to_s%> <br/> 
+	<img src="<%=IMAGE_DIR%>votedown.png"><%=link_to user.login, :controller => 'users', :action => user.login.to_s%> <br/> 
 	<%end%>
 </div>
 

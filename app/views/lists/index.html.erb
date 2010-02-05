@@ -2,8 +2,8 @@
 	
 	<div id="listtabs">
 		<ul>
-			<li class="<%= @sort=="hot" ? "selected" : "" %>"><%=link_to 'Popular', lista_path(@current_category, "hot")%></li>
-			<li class="<%= @sort=="new" ? "selected" : "" %>"><%=link_to 'Recent', lista_path(@current_category, "new")%></li>
+			<li class="<%= @sort=="hot" ? "selected" : "" %>"><%=link_to 'Popular', sort_path(@current_category, "hot")%></li>
+			<li class="<%= @sort=="new" ? "selected" : "" %>"><%= link_to 'Recent', lista_url(@current_category, "new", "created") %></li>
 			<li><a href="#"><span>Hot</span></a></li>
 		</ul>
 	</div>
@@ -50,8 +50,8 @@
 	<div id="join-button"><a href="/lists/new"> </a></div> 
 	<h2>What is Light Salad?</h2>
 	<p>
-		Light Salad lets you create all kind of lists. Social lists are like dynamic polls where people can vote, downvote and add items to them. You can also create private lists like top 10s of stuff you like. Learn More.
-	</p>
+We create polls, users suggest the answers. The best answers are ranked thought votes.
+</p>
 
 </div>
 

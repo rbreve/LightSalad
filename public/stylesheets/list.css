@@ -37,20 +37,22 @@ padding: 4px;
 #list-info {
 background-color: #F1F7DF;
 border: solid 1px #E8F3CF;
-border-left: 0;
-border-right: 0;
-padding:  14px 0 0 16px;
-font-size: 12px;
+ padding: 5px;
+ font-size: 12px;
 font-weight: bold;
 color: #999999;
 margin: 0 0 20px 0;
 width: 600px;
-padding-bottom:0px;
- }
+-moz-border-radius: 6px;
+	-moz-border-radius: 6px;
+  	-webkit-border-radius: 6px;
+    -webkit-border-radius: 6px;
+	
+  }
 
 
 #list-info #tabs{
-margin-top:10px;
+top:4px;
 padding:0;
  list-style: none;
 /*border: solid 1px #CCCCCC;*/

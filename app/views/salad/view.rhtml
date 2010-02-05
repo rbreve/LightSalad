@@ -42,19 +42,7 @@ function post_show(){
 		<dt>Share it</dt>
 		<dd><A href="#" onclick="wshow();">Email</a> | <a href="http://reddit.com/submit?url=http://www.lightsalad.com/salad/view/<%= @product.id%>&title=<%=@product.name%>">Reddit</a> </dd>
 
-<%if 1==2%>
-	<dt>Digg This</dt>
-	<dd> 
-		<script type="text/javascript">
-		digg_url = 'lightsalad.com';
-		digg_title = '<%=@product.name%>';
-		digg_bodytext = '<%=@product.description%>';
-		digg_topic = 'TOPIC';
-		</script>
-		<script src="http://digg.com/tools/diggthis.js" type="text/javascript"></script>
-		</dd>
-		</dl>
-		<%end%>
+ 
 </div>
 
 <div style="font-size:12px;margin-bottom:24px;">

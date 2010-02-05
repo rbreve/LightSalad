@@ -1,5 +1,10 @@
 ActionController::Routing::Routes.draw do |map|
-  
+  map.resources :feature_votes
+
+  map.resources :user_sessions
+
+  map.login "login", :controller=>"user_sessions", :action=>"new"
+  map.logout "logout", :controller=>"user_sessions", :action=>"destroy"
   map.resources :categories do |category|
     category.resources :lists 
   end
@@ -12,20 +17,26 @@ ActionController::Routing::Routes.draw do |map|
   #   
   # end
 
+	map.root :lists
+	
+ 
+	
+	map.resources :users
+	
   map.resources :features do |feature|
     feature.resources :comments
   end
   
-  
-  map.resources :users, :collection =>{
-                        :update_password => :post, 
-                        :upload_picture => :get, 
-                        :addtofriend => :get, 
-                        :edit_profile=> :get, 
-                        :update_profile => :post,
-                        :crop_picture => :post,
-                        :update_picture => :post},
-                        :has_many => :lists
+  # 
+  # map.resources :users, :collection =>{
+  #                       :update_password => :post, 
+  #                       :upload_picture => :get, 
+  #                       :addtofriend => :get, 
+  #                       :edit_profile=> :get, 
+  #                       :update_profile => :post,
+  #                       :crop_picture => :post,
+  #                       :update_picture => :post},
+  #                       :has_many => :lists
                         
   map.connect "edit_password", :controller => "users", :action => "edit_password"
   map.connect "update_password", :controller => "users", :action => "edit_password"
@@ -37,6 +48,13 @@ ActionController::Routing::Routes.draw do |map|
     :action => "index",
     :category_id => nil
   
+	map.sort "sort/:category_id/:sortby",
+		 :conditions => {:method => :get},
+     :time => nil,
+     :controller => "lists",
+     :action => "index"
+   
+	
   map.lista "lista/:category_id/:sortby/:time/:user_id",
      :conditions => {:method => :get},
      :time => nil,
@@ -67,7 +85,7 @@ ActionController::Routing::Routes.draw do |map|
   map.connect '', :controller => "lists"
   
  
-  map.connect 'users/:id', :controller => 'user', :action => 'show'
+ # map.connect 'users/:id', :controller => 'user', :action => 'show'
 
   # Allow downloading Web Service WSDL as a file with an extension
   # instead of a file named 'wsdl'

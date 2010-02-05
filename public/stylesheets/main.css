@@ -16,9 +16,8 @@ body {
 }
 
 body a, body a:visited {
-	color: #8AB92F;
-	text-decoration: underline;
-}
+	color: #54701c;
+ }
 
 body a:hover {
 text-decoration: none;
@@ -31,36 +30,39 @@ input{
 #faux {
 /* background: url(faux-2-2-col.gif);*/
  margin-bottom: 5px;
- overflow: auto; /* Paul O Brien Fix for IE www.pmob.co.uk */
+ overflow: hidden; /* Paul O Brien Fix for IE www.pmob.co.uk */
  width: 100%
+ 
 }
 #header {
- color: #333;
- width: 885px;
- padding: 0px;
- height: 100px;
- margin: 0;
-/* background: #D1DBDB;*/
+	 color: #333;
+	 width: 1005px;
+	 padding: 0px;
+	 height: 100px;
+	 margin: 0;
+	/* background: #D1DBDB;*/
 }
 
 #header #logo{
-width: 210px;
-height: 82px;
-background-image: url("/img/logo.gif");
-float: left;
-display: inline;
+	width: 260px;
+	height: 80px;
+	background-image: url("/images/lightsalad.png");
+	float: left;
+	display: inline;
+	margin-left:-20px;
+ 
 }
 
 #header #logo span{
-text-indent: -3000px;
-display: block;
-width: 210px;
-height: 80px;
+	text-indent: -3000px;
+	display: block;
+	width: 210px;
+	height: 80px;
 }
 
-#header #headercontent{
-width: 300px;
-float: right;
+#headercontent{
+	width: 300px;
+	float: right;
 
 }
 
@@ -69,48 +71,70 @@ float: right;
 }
 
 
-#header #searchform{
-width: 245px;
-height: 40px;
-float: right;
+#searchform{
+	height: 20px;
+	position: relative;
+ 	border-width: 1px;
+	border-color: white;
+	left: 55px;
+	top: 8px;
+ }
+ 
+
+.searchtext{
+ 	border: 0;
+	width: 120px;
+	height: 21px;
 }
 
-#header #searchform form {
-margin: 0;
-padding: 0;
+.searchbutton{
+ 	 width: 26px;
+	height: 20px;
+	margin-top: -21px;
+	margin-left: 125px;
+	
 }
 
- .searchtext{
-background-image: url(/img/searchform.gif);
-border: 0;
-width: 210px;
-height: 23px;
+.searchbutton_ button{
+	width: 25px;
+	height: 22px;
+	background: url(/img/searchbut.gif) fixed 0px 8px;
+	outline: none;
+	border: none;
+	 
 }
 
-#header #searchform form .searchbutton{
-position: relative;
-top:6px; 
-right:0;
+#search-button{
+	width: 60px;
+	height: 22px;
+	background-color: #e8ffa8;
+	-moz-border-radius: 4px;
+	-moz-border-radius: 4px;
+  	-webkit-border-radius: 4px;
+    -webkit-border-radius: 4px;
+	border: 0px solid #f4fff4;
+	color: #515151;
 }
 
 
-#header #session{ /* Contiene los links de Login/Account/Logout/Join en el header*/
-width: 265px;
-/*border: solid 1px #000000;*/
-font-family: Arial, Helvetica, sans-serif;
-font-size: 15px;
-margin-top: 10px;
-float: right;
-font-weight: bolder;
+#session{ /* Contiene los links de Login/Account/Logout/Join en el header*/
+	width: 305px;
+	height: 50px;
+	 font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	margin-top: 30px;
+	float: right;
+	font-weight: bolder;
+ 
 }
 
-#header #session ul{
+ #session ul{
 list-style: none;
 margin: 0;
 padding: 0;
 }
-#header #session ul li{
-float: left;
+#session ul li{
+float: right;
 }
 
 
@@ -263,8 +287,7 @@ color: #666666;
  width: 290px;
  float: right;
  padding: 10px 0 0 0;
-
-/*border: solid 1px #000000;*/
+ /*border: solid 1px #000000;*/
 }
 
 
@@ -312,12 +335,13 @@ border-bottom: solid 1px #EEEEEE;
  display: inline;
  position: relative;
  min-height: 500px;
- /* border: solid 1px #000000; */
+   /*border: solid 1px #000000;*/ 
 }
 
 
 #itemslist{
-width: 100%;
+ 
+ 
 }
 
 
@@ -328,27 +352,29 @@ height: 110px;
 /*border: solid 1px #CCCCCC;*/
 margin-top: 16px;
 display: table;
+	border-bottom: 1px dotted silver;
 }
 
 
 
-.list-item .item-infocontainer{
-width: 500px;
-display: inline;
-float: right;
+.item-infocontainer{
+	width: 500px;
+	display: inline;
+	float: right;
+	
 }
 
 .list-item .userthumb { /*Div que contiene la imagen del usuario*/
-float: left;
-height: 70px;
-padding: 14px 0 0 0;
-display: inline;
-position: relative;
-width: 60px;
-color:#FFF;
-text-align:center;
-background-image:url("/img/bgitems2.png");
-background-repeat:no-repeat;
+	float: left;
+	height: 70px;
+	padding: 14px 0 0 0;
+	display: inline;
+	position: relative;
+	width: 60px;
+	color:#FFF;
+	text-align:center;
+	background-image:url("/img/bgitems2.png");
+	background-repeat:no-repeat;
 }
 
 .list-item .userthumb img{ /*Imagen del usuario*/
@@ -383,12 +409,10 @@ color: #999999;
 
 
 .itemtitle a { /*  Titulo de cada item */
-font-family: Georgia, "Times New Roman", Times, serif;
-color: #91C231;
-font-weight: normal;
+color: #37ab34;
 text-decoration: none;
-font-size: 22px;
 display: block;
+font: normal 24px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
 }
 
  .itemtitle a:hover {
@@ -458,7 +482,7 @@ text-decoration: none;
 
 
 
-#listtabs{ /*Viñetas (Latest/Popular/Random) */
+#listtabs{ /*ViÃ±etas (Latest/Popular/Random) */
 font-size: 13px;
 font-family: Arial, Helvetica, sans-serif;
 font-weight: bold;
@@ -496,7 +520,7 @@ background-image: url(/img/tabs1.gif);
 background-position: 0 -27px;
 }
 
-#listtabs .selected a { /*Viñeta seleccionada*/
+#listtabs .selected a { /*ViÃ±eta seleccionada*/
 background-position: 0 0;
 color: #333333;
 }
@@ -559,4 +583,36 @@ label{
 
 .userthumb p{
 	font-size:25px;
+}
+
+.twitter {
+  margin-top: 10px;
+  background: url(/images/twitterlogin.png) no-repeat top left;
+  border: none;
+  width: 150px;
+  height: 22px;
+  text-indent: -3000px;
+}
+
+fieldset{
+	border: none;
+}
+
+submit{
+	margin-top: 5px;
+}
+
+
+.username{
+	color: #4196ba;
+	text-decoration: none;
+ 	
+}
+
+.username:visited{
+	color: #4196ba;
+}
+
+.activity-item{
+	border-bottom: 1px dotted #9d9d9d;
 }

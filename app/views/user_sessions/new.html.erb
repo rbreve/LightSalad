@@ -1,0 +1,23 @@
+
+<h1>Light Salad Login</h1>
+
+<% form_for @user_session do |f| %>
+  <%= f.error_messages %>
+ 
+  <p>
+    <%= f.label :login %><br />
+    <%= f.text_field :login %>
+  </p>
+  <p>
+    <%= f.label :password %><br />
+    <%= f.password_field :password %>
+  </p>
+  <p><br/><%= f.submit "Submit" %></p>
+or
+<p>
+<%= oauth_register_button :value => "Register with Twitter" , :class=>"twitter"%>
+</p>
+<% end %>
+
+
+

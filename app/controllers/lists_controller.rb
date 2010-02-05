@@ -2,7 +2,7 @@ require 'ferret'
 include Ferret
 class ListsController < ApplicationController
 
-before_filter :authenticate, :only => [:create, :new, :vote]
+before_filter :current_user, :only => [:create, :new, :vote]
 before_filter :adjust_format_for_iphone
 
   layout "lightsalad"
@@ -44,8 +44,8 @@ before_filter :adjust_format_for_iphone
         @lists = List.find_new(@time, category_id, page)
       elsif @sort == "tags"
         @lists  = List.paginate(:all, :order=>"points desc",  :conditions => ["tags like ? and listtype='SOCIAL'", "%" + @time + "%" ], :page=>page)
-      elsif @sort == "mine" and session["person"] != nil
-        @lists = List.find_by_owner(session["person"].id, category_id, page)
+      elsif @sort == "mine" and current_user != nil
+        @lists = List.find_by_owner(current_user.id, category_id, page)
       else
         @lists = List.find_all_popular("month", category_id, user_id)
       end
@@ -77,7 +77,7 @@ before_filter :adjust_format_for_iphone
     @list.save
     
     #fix este if simplificado
-    if @list.listtype == "FRIENDS" and password != @list.password and @list.user_id != session["person"].id
+    if @list.listtype == "FRIENDS" and password != @list.password and @list.user_id != current_user.id
       redirect_to :action => "askpass", :id => @list
       return
     end
@@ -124,14 +124,14 @@ before_filter :adjust_format_for_iphone
     @list = List.new(params[:list])
     @list.datetime = Time.now
     @list.status_id = 1
-    @list.user_id = session["person"].id
+    @list.user_id = current_user.id
     @list.lastupdate = Time.now
     
     if @list.save
       
       addtags(params[:list][:tags], params[:list][:category_id]) if params[:list][:listtype] == "SOCIAL"
       
-      log(session["person"].id, "NEW_LIST_" + params[:list][:listtype], @list.id, 0)
+      log(current_user.id, "NEW_LIST_" + params[:list][:listtype], @list.id, 0)
       
       flash[:notice] = 'List was successfully created.'
       redirect_to :action => "show", :id => @list
@@ -168,8 +168,6 @@ before_filter :adjust_format_for_iphone
   end
   
   def vote
-     
-
     feature_id = params[:id]
     vote = params[:vote]
 
@@ -185,7 +183,7 @@ before_filter :adjust_format_for_iphone
 
     if @feature!=nil
 
-      featurevote = FeatureVote.find(:first, :conditions=>["feature_id = ? and user_id = ?", feature_id, session["person"].id])
+      featurevote = FeatureVote.find(:first, :conditions=>["feature_id = ? and user_id = ?", feature_id, current_user.id])
      # featurevote=nil
       if featurevote == nil
 
@@ -196,7 +194,7 @@ before_filter :adjust_format_for_iphone
           list_id = @feature.list_id
 
           featurevote = FeatureVote.new
-          featurevote.user_id  = session["person"].id
+          featurevote.user_id  = current_user.id
           featurevote.feature_id = params[:id]
           featurevote.datetime = Time.now
           featurevote.ip = ENV['REMOTE_HOST']
@@ -211,7 +209,7 @@ before_filter :adjust_format_for_iphone
           list.save
 
 
-          log(session["person"].id, action, list_id, feature_id)
+          log(current_user.id, action, list_id, feature_id)
 
           @msg = "VOTED"
 
