@@ -14,10 +14,15 @@
   </p>
   <p><br/><%= f.submit "Submit" %></p>
 or
+
+
+<% end %>
+
+<% form_for @user  do |f| %>
+
 <p>
 <%= oauth_register_button :value => "Register with Twitter" , :class=>"twitter"%>
 </p>
+
+
 <% end %>
-
-
-

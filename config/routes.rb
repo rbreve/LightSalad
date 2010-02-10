@@ -1,6 +1,7 @@
 ActionController::Routing::Routes.draw do |map|
-  map.resources :feature_votes
+  map.resources :logs, :as => "activity"
 
+  map.resources :feature_votes
   map.resources :user_sessions
 
   map.login "login", :controller=>"user_sessions", :action=>"new"

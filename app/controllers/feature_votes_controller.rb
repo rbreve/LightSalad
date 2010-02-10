@@ -1,5 +1,7 @@
 class FeatureVotesController < ApplicationController
-	
+before_filter :current_user, :only => [:create, :new]
+
+
   def index
     @feature_votes = FeatureVote.all
   end
@@ -15,7 +17,9 @@ class FeatureVotesController < ApplicationController
 	# vote
   def create
 		list_id=params[:list_id]
-    @feature_votes = FeatureVote.new(:list_id=>list_id, :points=>params[:points], :feature_id=>params[:feature_id], :user_id=>current_user.id)
+		points=params[:points]
+		feature_id = params[:feature_id]
+    @feature_votes = FeatureVote.new(:list_id=>list_id, :points=>points, :feature_id=>feature_id, :user_id=>current_user.id)
 		
 		list=List.find(@feature_votes.list_id) 
 		if list.listtype == "PERSONAL"
@@ -28,6 +32,15 @@ class FeatureVotesController < ApplicationController
     else
     	@msg = "DUPE"
     end
+		
+		if points 
+			action = "VOTE_UP"
+		else
+			action= "VOTE_DOWN"
+		end
+		
+		log = Log.new(:action=>action, :user_id=>current_user.id, :list_id=>list_id, :feature_id=>feature_id, :list_title=>list.name, :feature_title=>@feature_votes.feature_title, :datetime=>Time.now)
+		log.save()
 		
   	render :layout => false
   end

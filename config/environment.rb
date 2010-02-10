@@ -32,6 +32,8 @@ Rails::Initializer.run do |config|
   config.gem "authlogic"
 	config.gem "oauth"
 	config.gem "authlogic-oauth", :lib => "authlogic_oauth"
+	#config.gem "thinking-sphinx", :lib => "	thinking_sphinx", :version => "1.3.15"
+ 
   # Force all environments to use the same logger level 
   # (by default production uses :info, the others :debug)
   # config.log_level = :debug
@@ -62,5 +64,5 @@ end
 #   inflect.irregular 'person', 'people'
 #   inflect.uncountable %w( fish sheep )
 # end
-require 'acts_as_ferret'
+#require 'acts_as_ferret'
 # Include your application configuration below

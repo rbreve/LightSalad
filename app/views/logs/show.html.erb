@@ -1,0 +1,44 @@
+<% title "Log" %>
+
+<p>
+  <strong>Datetime:</strong>
+  <%=h @log.datetime %>
+</p>
+<p>
+  <strong>User:</strong>
+  <%=h @log.user_id %>
+</p>
+<p>
+  <strong>Name:</strong>
+  <%=h @log.name %>
+</p>
+<p>
+  <strong>List:</strong>
+  <%=h @log.list_id %>
+</p>
+<p>
+  <strong>Text:</strong>
+  <%=h @log.text %>
+</p>
+<p>
+  <strong>Comment:</strong>
+  <%=h @log.comment_id %>
+</p>
+<p>
+  <strong>Feature:</strong>
+  <%=h @log.feature_id %>
+</p>
+<p>
+  <strong>Action:</strong>
+  <%=h @log.action %>
+</p>
+<p>
+  <strong>Content:</strong>
+  <%=h @log.content %>
+</p>
+
+<p>
+  <%= link_to "Edit", edit_log_path(@log) %> |
+  <%= link_to "Destroy", @log, :confirm => 'Are you sure?', :method => :delete %> |
+  <%= link_to "View All", logs_path %>
+</p>

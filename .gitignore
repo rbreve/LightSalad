@@ -5,3 +5,4 @@ doc/app
 public/userimages
 index/development/**/*
 index/development/
+log/

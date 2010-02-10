@@ -25,7 +25,7 @@ class ApplicationController < ActionController::Base
  
  #id1 = list_id
  #id2 = feature_id
- def log(user_id, action, id1, id2, id3=nil)
+ def log(user_id, action, id1, id2, comment_id, list_title, item_title, username, username2)
       
 		logger.debug "log; #{user_id} #{action} #{id1}"
       ul = Log.new
@@ -42,13 +42,17 @@ class ApplicationController < ActionController::Base
       if(action =~ /NEW_COMMENT/)
         ul.list_id = id1
          ul.feature_id = id2
-        ul.comment_id = id3
+        ul.comment_id = comment_id
        
       end
     
     ul.datetime = Time.now
     ul.user_id = user_id
     ul.action = action
+		ul.list_title=list_title
+		ul.item_title=item_title
+		ul.username=username
+		ul.username2=username2
     ul.save
  end
  

@@ -1,19 +1,17 @@
  
 <div class="activity-item">
-<table border=0 width=600px cellspacing="10"  >
+<table border=0 width=690px cellspacing="10"  >
 	<tr >
 		<td width=90px align=center>
 			<a href="/users/<%=user.login%>"> 
 			<%=friend_image(user.image.to_s)%><br/>
-
 			</a>
 		</td>
 	
 		<td valign=top width=300px	>
-				<p class  = "activity-user-date"><%=link_to user.login, user_path(user.login)%> <%=info%></p>
+				<p><%=link_to user.login, user_path(user.login)%> <%=info%> </p>
 				<div class  = "itemtitle-list-activity"><%= title %></div>
-				<p class = "description"><%= description %></p>
-			
+ 				<p class  = "activity-user-date"><%=date%></p>
 		</td>
 			<td width=30px valign=top>
 				 <img src="<%= IMAGE_DIR + icon.to_s%>">

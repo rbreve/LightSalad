@@ -16,7 +16,7 @@ body {
 }
 
 body a, body a:visited {
-	color: #54701c;
+	color: #608a58;
  }
 
 body a:hover {
@@ -615,4 +615,13 @@ submit{
 
 .activity-item{
 	border-bottom: 1px dotted #9d9d9d;
+	width: 680px;
+}
+
+.activity-item a{
+	text-decoration: none;
+}
+
+.activity-item a:hover{
+	text-decoration: underline;
 }

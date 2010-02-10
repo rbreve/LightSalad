@@ -11,8 +11,9 @@ module UsersHelper
      # return if ((log.action == "NEW_LIST_FRIENDS") or (log.action ==  "NEW_LIST_PERSONAL") or (log.action == "NEW_LIST_PRIVATE"))
       
       description=""
-      info =  " " + time_ago_in_words(log.datetime) + " ago"
-   
+ 
+   		info=""
+			date= time_ago_in_words(log.datetime) + " ago"
       if log.action == "NEW_FEATURE_SOCIAL" 
         icon = "icon-item.gif"
         title = "<a href=/features/#{log.feature.id}/comments>#{h(log.feature.title)}</a> in <a href=#{list_path(log.list_id)}>#{h(log.list.name)}</a>"
@@ -20,7 +21,7 @@ module UsersHelper
       elsif log.action == "VOTE_UP"
         icon = "voteup.png"
         title = "<a href=/features/#{log.feature.id}/comments>#{h(log.feature.title)}</a> in <a href=#{list_path(log.list_id)}>#{h(log.list.name)}</a>"
-        info = "liked this" + info
+        info = "liked" + info
       elsif log.action == "VOTE_DOWN"  
         icon = "votedown.png"
         title = "<a href=/features/#{log.feature.id}/comments>#{h(log.feature.title)}</a> in <a href=#{list_path(log.list_id)}>#{h(log.list.name)}</a>"
@@ -36,7 +37,7 @@ module UsersHelper
         description = "#{h(log.list.description)}"
       end
       
-      render :partial => 'activity', :locals => {:title => title, :icon => icon, :description => description, :info => info, :user => log.user}
+      render :partial => 'activity', :locals => {:title => title, :icon => icon, :description => description, :info => info, :user => log.user, :date=>date}
          
    end
 end

@@ -133,6 +133,10 @@ text-align: center;
 padding: 10px 0 0 0;
 }
 
+#profile-menu ul li a:hover
+{
+	text-decoration: underline;
+}
 #profile-menu ul #selected a{
 background-position: 0 -76px;
 color: #333;

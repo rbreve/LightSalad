@@ -6,9 +6,7 @@ class Feature < ActiveRecord::Base
   has_many :feature_votes
   has_many :users, :through => :feature_votes, :select => 'DISTINCT users.*'
   has_many :comments
-   
-  acts_as_ferret :fields => [:title, :description]
-  
+     
   private
   
   def after_save

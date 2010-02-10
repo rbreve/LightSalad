@@ -1,0 +1,23 @@
+ 
+<div class="activity-item">
+<table border=0 width=690px cellspacing="10"  >
+	<tr >
+		<td width=90px align=center>
+			<a href="/users/<%=user.login%>">
+				  <img src="{%=UPLOAD_PATH%}{%=user.image.to_s%}">
+			</a>
+		</td>
+	
+		<td valign=top width=300px	>
+				<p><%=link_to user.login, user_path(user.login)%> <%=info%> </p>
+				<div class  = "itemtitle-list-activity"><%= title %></div>
+ 				<p class  = "activity-user-date"><%=date%></p>
+		</td>
+			<td width=30px valign=top>
+				 <img src="<%= IMAGE_DIR + icon.to_s%>">
+
+			</td>
+	</tr>
+</table>
+
+</div>

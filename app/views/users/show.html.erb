@@ -56,7 +56,7 @@
 		</div>
 		<div id="profile-menu">
 			<ul>
-				<li id="<%= @taste=="activity" ? "selected" : "" %>"><%= link_to "My Feed", :action=>@user.login %></a></li>
+				<li id="<%= @taste=="activity" ? "selected" : "" %>"><%= link_to "Feed", :action=>@user.login %></a></li>
 			
 				<li id="<%= @taste=="friends"? "selected" : "" %>"><%= link_to "Activity", :action=>@user.login, :taste=>"friends"%></a></li>
 				<li id="<%= @taste=="likes" ? "selected" : "" %>"><%= link_to "I Like", :action=>@user.login, :taste=>"likes"%></li>
@@ -71,9 +71,6 @@
  
 
  	<h2><%=@user.login.capitalize  %>  <%=@taste.capitalize%></h2>
-	
- 
-
 	<div id="itemslist-profile" >
 		<%for log in @logs%>
 		 

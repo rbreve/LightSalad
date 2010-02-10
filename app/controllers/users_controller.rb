@@ -15,8 +15,8 @@ before_filter :current_user, :only => [:addtofriend]
     # @likes = FeatureVote.find(:all, :conditions => "user_id = #{@user.id} and value = 1", :limit=>20)
     #    @dislikes = FeatureVote.find(:all, :conditions => "user_id = #{@user.id} and value = 0", :limit=>20)
     
-    @likes = FeatureVote.find(:first, :conditions => "user_id = #{@user.id} and value = 1")
-    @hates = FeatureVote.find(:first, :conditions => "user_id = #{@user.id} and value = 0")
+    #@likes = FeatureVote.find(:first, :conditions => "user_id = #{@user.id} and value = 1")
+    #@hates = FeatureVote.find(:first, :conditions => "user_id = #{@user.id} and value = 0")
     
     @comments = Comment.find(:all, :conditions => "user_id = #{@user.id}", :limit=>10)
    

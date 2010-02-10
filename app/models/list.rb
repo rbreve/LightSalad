@@ -10,9 +10,15 @@ class List < ActiveRecord::Base
   
   validates_presence_of :name, :description
   
-  acts_as_ferret :fields => [:name, :description, :listfeatures]
+ # acts_as_ferret :fields => [:name, :description, :listfeatures]
   
-  
+  define_index do
+		indexes :name
+		indexes description
+		indexes features.title, :as => :feature_title
+		indexes [user.name, user.lastname], :as => :user_name
+	end
+
   def listfeatures
     myfeatures=Array.new
     for f in self.features

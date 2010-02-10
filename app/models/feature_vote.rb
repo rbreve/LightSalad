@@ -7,7 +7,7 @@ class FeatureVote < ActiveRecord::Base
 	
 	validates_presence_of :feature_id, :user_id
 	validates_uniqueness_of :feature_id, :scope => [:user_id], :unless => :personal_list
-	attr_accessor :personal_list, :votes
+	attr_accessor :personal_list, :votes, :feature_title
 	
 	private
 	
@@ -23,6 +23,7 @@ class FeatureVote < ActiveRecord::Base
         feature.points += self.points
         feature.feature_votes_count+=1
         self.votes=feature.feature_votes_count
+				self.feature_title = feature.title
 				feature.save
 				
 		end

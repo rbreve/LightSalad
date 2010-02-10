@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20100201091136) do
+ActiveRecord::Schema.define(:version => 20100206014030) do
 
   create_table "categories", :force => true do |t|
     t.text    "title"
@@ -78,14 +78,18 @@ ActiveRecord::Schema.define(:version => 20100201091136) do
 
   create_table "logs", :force => true do |t|
     t.datetime "datetime"
-    t.integer  "user_id",                    :null => false
+    t.integer  "user_id",                       :null => false
     t.string   "name"
     t.integer  "list_id"
-    t.text     "text",                       :null => false
-    t.integer  "comment_id", :default => 0
+    t.text     "text",                          :null => false
+    t.integer  "comment_id",    :default => 0
     t.integer  "feature_id"
-    t.string   "action",     :default => "", :null => false
+    t.string   "action",        :default => "", :null => false
     t.text     "content"
+    t.text     "list_title"
+    t.text     "feature_title"
+    t.text     "username"
+    t.text     "username2"
   end
 
   create_table "open_id_authentication_associations", :force => true do |t|
@@ -140,6 +144,8 @@ ActiveRecord::Schema.define(:version => 20100201091136) do
     t.string   "persistence_token"
     t.string   "oauth_token"
     t.string   "oauth_secret"
+    t.string   "twitter_uid"
+    t.string   "avatar_url"
   end
 
   add_index "users", ["oauth_token"], :name => "index_users_on_oauth_token"

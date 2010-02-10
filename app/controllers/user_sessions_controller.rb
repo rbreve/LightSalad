@@ -4,6 +4,7 @@ before_filter :load_categories
 layout "lightsalad"
 
   def new
+		@user = User.new
     @user_session = UserSession.new
   end
   
@@ -11,7 +12,7 @@ layout "lightsalad"
     @user_session = UserSession.new(params[:user_session])
     @user_session.save do |result|
 			if result
-      	flash[:notice] = "Successfully Registered."
+      	flash[:notice] = "Successfully Logged in."
       	redirect_to root_url
     	else
       	render :action => 'new'

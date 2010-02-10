@@ -1,5 +1,3 @@
-require 'ferret'
-include Ferret
 class ListsController < ApplicationController
 
 before_filter :current_user, :only => [:create, :new, :vote]
@@ -15,8 +13,7 @@ before_filter :adjust_format_for_iphone
   
   def search
     q=params[:q]
-    @lists=List.find_by_contents(q)
-    @features=Feature.find_by_contents(q)
+    @lists=List.search q
   end
 
   def index
@@ -130,9 +127,11 @@ before_filter :adjust_format_for_iphone
     if @list.save
       
       addtags(params[:list][:tags], params[:list][:category_id]) if params[:list][:listtype] == "SOCIAL"
-      
-      log(current_user.id, "NEW_LIST_" + params[:list][:listtype], @list.id, 0)
-      
+      action= "NEW_LIST_" + params[:list][:listtype]
+      #log(current_user.id, "NEW_LIST_" + params[:list][:listtype], @list.id, 0)
+      log = Log.new(:action=>action, :user_id=>current_user.id, :list_id=>@list.id, :list_title=>@list.name, :datetime=>Time.now)
+			log.save()
+
       flash[:notice] = 'List was successfully created.'
       redirect_to :action => "show", :id => @list
     else
