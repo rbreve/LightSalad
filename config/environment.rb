@@ -5,7 +5,7 @@
 ENV['RAILS_ENV'] ||= 'development'
 
 # Specifies gem version of Rails to use when vendor/rails is not present
-RAILS_GEM_VERSION = '2.3.3'
+RAILS_GEM_VERSION = '2.3.5'
 IMAGE_DIR = "/images/"
 VOTE_UP_ICON = "voteup.png"
 VOTE_DOWN_ICON = "votedown.png"
