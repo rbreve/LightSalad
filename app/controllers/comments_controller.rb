@@ -18,22 +18,28 @@ layout "lightsalad"
       
     end
     
+ 
+
     def create
       
       #verificar si esta logged
       
       @comment=Comment.new(params[:comment])
+			@comment.feature_id
       f=Feature.find(params[:feature_id])
+			list=f.list
       @comment.feature_id=f.id
       @comment["datetime"] = Time.now
-      @comment["user_id"] = session["person"].id	
+      @comment["user_id"] =current_user.id	
       @comment["votes_count"]=0
-      @comment["list_id"] = f.list_id
-       
+      @comment["list_id"] = list.id
       @comment.save
-      log(session["person"].id, "NEW_COMMENT", @comment.id, f.id)
+      #log(current_user.id, "NEW_COMMENT", @comment.id, f.id)
       
-      render(:layout => false)  
+			#log = Log.new(:action=>"NEW_COMMENT", :user_id=>current_user.id, :list_id=>list.id, :list_title=>list.name, :datetime=>Time.now)
+			#log.save()
+      
+			render(:layout => false)  
       
       
     end

@@ -10,7 +10,7 @@ function showpass(){
 }
 </script>
 
-<h2>Create a New Top List / Poll / Survey / Question</h2>
+<h2>Create a New Top List / Poll / Survey / Question </h2>
 
 <div style="color:#FF0000">
 <%=flash[:notice]%>
@@ -71,13 +71,21 @@ function showpass(){
 <label for="captcha">
 	Robot or Human? Please type the text you see 
  </label>
-    <img src = "/salad/captcha"><Br>
+    <script type="text/javascript"
+   src="http://api.recaptcha.net/challenge?k=6Ld4OwsAAAAAAKodHOCrhhkROuO8itcTSCJxijJ_">
+</script>
+
+<noscript>
+   <iframe src="http://api.recaptcha.net/noscript?k=6Ld4OwsAAAAAAKodHOCrhhkROuO8itcTSCJxijJ_"
+       height="300" width="500" frameborder="0"></iframe><br>
+   <textarea name="recaptcha_challenge_field" rows="3" cols="40">
+   </textarea>
+   <input type="hidden" name="recaptcha_response_field" 
+       value="manual_challenge">
+</noscript>
   <br/>
 
-
-
-
-<%= text_field_tag 'captcha' %> <br/>
+ 
 
 <%= submit_tag "Create List" , :class => "submit", :id=>"submi",:disable_with=>"Sending..." %>
 

@@ -16,7 +16,7 @@
 		<ul id="tabs">
 			 <li id=<%= @sortby=="popular" ? "selected" : ""%> ><%=link_to "Popular", list_path(@list, :sortby=>"popular")%></li>
 		    
-		     <li id=<%= @sortby=="new" ? "selected" : ""%>>	<%=link_to "Newest", list_path(@list, :sortby=>"new")%></li>
+		     <li id=<%= @sortby=="new" ? "selected" : ""%>>	<%=link_to "New", list_path(@list, :sortby=>"new")%></li>
 		     <li id="addidea">
 		     	
 				<% if (@list.listtype=="SOCIAL" and current_user) or (@list.listtype=="PERSONAL" and @list.user_id==current_user.id)%>
@@ -40,7 +40,7 @@
 <%if (@list.listtype=="PERSONAL" and @list.user_id==current_user.id) or (@list.listtype=="SOCIAL")%> 
 	<a name="new-item">
 	<% form_for ([@list,@newfeature]) do |f| %> 
-	<label>Item Title </label>
+	<label>Reply</label>
 	<%= f.text_field :title %>
 	<label>Description: </label><%= f.text_area  :description, :rows=>6 %>
 	 <br>

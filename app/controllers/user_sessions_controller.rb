@@ -13,8 +13,9 @@ layout "lightsalad"
     @user_session.save do |result|
 			if result
       	flash[:notice] = "Successfully Logged in."
-      	redirect_to root_url
+      	redirect_back_or_default root_url
     	else
+				@user=User.new
       	render :action => 'new'
     	end
 		end

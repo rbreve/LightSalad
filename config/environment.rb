@@ -2,7 +2,7 @@
 
 # Uncomment below to force Rails into production mode when 
 # you don't control web/app server and can't set it the proper way
-ENV['RAILS_ENV'] ||= 'development'
+ENV['RAILS_ENV'] ||= 'production'
 
 # Specifies gem version of Rails to use when vendor/rails is not present
 RAILS_GEM_VERSION = '2.3.5'
@@ -20,7 +20,6 @@ Rails::Initializer.run do |config|
      :secret      => '6a9f6e0b90fe45ecce83c11dc8d1e991974dbec73c24735d45fa98bcfdd2744a70f4f029881548e59ba8020b3146bcce9fbeef55c0bd4fe8bf0e61556501852c'
    }
    
- 
    
   # Settings in config/environments/* take precedence those specified here
   
@@ -29,8 +28,15 @@ Rails::Initializer.run do |config|
 
   # Add additional load paths for your own custom dirs
   # config.load_paths += %W( #{RAILS_ROOT}/extras )
+ 	ENV['RECAPTCHA_PUBLIC_KEY']  = '6Ld4OwsAAAAAAKodHOCrhhkROuO8itcTSCJxijJ_'
+  ENV['RECAPTCHA_PRIVATE_KEY'] = '6Ld4OwsAAAAAACnEkko49-2XcbXpU8oa2LDvy6my'
+	
+	config.gem "recaptcha", :lib => "recaptcha/rails"
   config.gem "authlogic"
 	config.gem "oauth"
+	config.gem "mechanize"
+	config.gem "mysql"
+	config.gem "json"
 	config.gem "authlogic-oauth", :lib => "authlogic_oauth"
 	#config.gem "thinking-sphinx", :lib => "	thinking_sphinx", :version => "1.3.15"
  

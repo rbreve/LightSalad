@@ -55,7 +55,7 @@ function post_show(){
 <%end%>
 
 </div>
-<%if session["person"] or session[:openid]%> 
+<%if current_user%> 
  
 
 <div id="newpost" style="display:none;">

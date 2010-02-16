@@ -4,28 +4,35 @@
 </div>
 
 <div id="itemslist">		 		 
- 	<%= render :partial => "lists/feature"  %>
+ 	<%= render :partial => "lists/feature", :locals=>{:list_id=>@product.id, :feature=>@feature} %>
 </div>
 
 <h2>Comments</h2>
 
 <%if !@comments.empty?%>
 <div id="comments">
-<%= render :partial => "comment", :collection => @comments  %>
+<%= render :partial => "comment", :collection => @comments, :locals => {:list_id=>@product.id}   %>
 </div>
 <%end%>
 
 
+ 
 
 	<div id="newcomment">
-		<%if session["person"]%>  
+		<%if current_user%>  
 		
-			<% form_remote_tag :url=>{:action => 'create', :feature_id => @feature}, :update => "newcomment" do%>
+			<% form_remote_tag :url=>{
+						:action => 'create', 
+						:feature_id=>@feature.id,
+						:controller=>"comments"
+					
+					}, 
+					:update => "newcomment",:method => :post do%>
 			<%= text_area_tag 'comment', '', :name => 'comment[text]', :cols => "55", :rows => "5" %><Br>
-			<%= submit_tag "Send Comment" , :onClick=>"this.disabled='true'"%>
+ 			<%= submit_tag "Send Comment"%>
 			<% end %> 
 
 		<%else%>
-			<%= link_to "To comment you need to sign in or register", {:controller=>'user',:action => 'signin'}%>
+			<%= link_to "To comment you need to sign in or register", login_path%>
 		<%end%>
 	</div>

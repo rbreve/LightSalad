@@ -203,7 +203,7 @@ def newitem
     feature_id = add_feature(@list_id, @title, @description)
     
    #add_points(@list_id, 1)
-    log(session["person"].id, "NEW_FEATURE_"+list.type, @list_id, feature_id )   
+    #log(session["person"].id, "NEW_FEATURE_"+list.type, @list_id, feature_id )   
     redirect_to  :action => 'view', :id => @list_id
   
   end

@@ -1,6 +1,6 @@
 class ListsController < ApplicationController
-
-before_filter :current_user, :only => [:create, :new, :vote]
+ 
+before_filter :require_user, :only => [:create, :new, :vote]
 before_filter :adjust_format_for_iphone
 
   layout "lightsalad"
@@ -106,10 +106,13 @@ before_filter :adjust_format_for_iphone
 
  
   def new
+		# if not current_user
+		# 	redirect_to login_path
+		# end
     @list = List.new
-    chars = ("a".."e").to_a + ("1".."2").to_a 
-    random = Array.new(5, '').collect{chars[rand(chars.size)]}.join
-    session["captcha"] = random.to_s
+    # chars = ("a".."e").to_a + ("1".."2").to_a 
+    #  random = Array.new(5, '').collect{chars[rand(chars.size)]}.join
+    #  session["captcha"] = random.to_s
   end
 
  
@@ -124,7 +127,7 @@ before_filter :adjust_format_for_iphone
     @list.user_id = current_user.id
     @list.lastupdate = Time.now
     
-    if @list.save
+    if verify_recaptcha() and @list.save
       
       addtags(params[:list][:tags], params[:list][:category_id]) if params[:list][:listtype] == "SOCIAL"
       action= "NEW_LIST_" + params[:list][:listtype]
