@@ -1,6 +1,5 @@
 
 #require_gem 'ruby-openid'
-require 'RMagick'
 class UserController < ApplicationController
 
 layout "salad"
@@ -136,19 +135,19 @@ layout "salad"
   
   def cropimage
     #@image=User.find(session["person"].id).image
-    @image = params[:filename]
-    @x1=params[:x1]
-    @y1=params[:y1]
-    @x2=params[:x2]
-    @y2=params[:y2]
-    path = "public" + UPLOAD_PATH + @image
-    img = Magick::ImageList.new(path)		
-    img = img.crop!(@x1.to_i, @y1.to_i, @x2.to_i-@x1.to_i, @y2.to_i - @y1.to_i)
-    img.resize!(60,60)
-    img.write(path)
-    @user = User.find(session["person"].id)
-    @user.image = @image
-    @user.update
+    # @image = params[:filename]
+    #    @x1=params[:x1]
+    #    @y1=params[:y1]
+    #    @x2=params[:x2]
+    #    @y2=params[:y2]
+    #    path = "public" + UPLOAD_PATH + @image
+    #    img = Magick::ImageList.new(path)		
+    #    img = img.crop!(@x1.to_i, @y1.to_i, @x2.to_i-@x1.to_i, @y2.to_i - @y1.to_i)
+    #    img.resize!(60,60)
+    #    img.write(path)
+    #    @user = User.find(session["person"].id)
+    #    @user.image = @image
+    #    @user.update
   end
   
   def upload_image(archivo)
