@@ -1,4 +1,4 @@
-require 'RMagick'
+#require 'RMagick'
 require 'htmlentities'
 require 'mechanize'
 
