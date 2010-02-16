@@ -30,7 +30,7 @@ test:
 
 production:
   adapter: mysql
-  database: salad_production
-  username: root
-  password: 
+  database: salad
+  username: lightsalad
+  password: salad
   host: localhost
