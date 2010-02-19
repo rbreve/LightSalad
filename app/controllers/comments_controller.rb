@@ -36,8 +36,8 @@ layout "lightsalad"
       @comment.save
       #log(current_user.id, "NEW_COMMENT", @comment.id, f.id)
       
-			#log = Log.new(:action=>"NEW_COMMENT", :user_id=>current_user.id, :list_id=>list.id, :list_title=>list.name, :datetime=>Time.now)
-			#log.save()
+			log = Log.new(:action=>"NEW_COMMENT", :user_id=>current_user.id, :list_id=>list.id, :list_title=>list.name, :datetime=>Time.now)
+			log.save()
       
 			render(:layout => false)  
       

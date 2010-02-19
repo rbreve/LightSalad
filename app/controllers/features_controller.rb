@@ -23,7 +23,7 @@ class FeaturesController < ApplicationController
     if @feature.save
       #flash[:notice] = "Item Added!" 
       #log( session["person"].id, "NEW_FEATURE_SOCIAL", @feature.list_id, @feature.id)
-      redirect_to list_url(@list) + "##{@feature.id}"
+      redirect_to list_url(@list) + "?sortby=new"  
     end
     
   end
