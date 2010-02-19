@@ -6,20 +6,26 @@ before_filter :load_categories
 
 	def index
 		page = params[:page]
-		feed = params[:feed]
+		@feed = params[:feed]
 		@user=current_user
    	#@logs=Log.find(:all)
-		if feed=="friends" 
+		if not @feed
+			@feed="recent"
+		end
+		
+		if @feed=="friends" 
 			fids=Array.new
     	friends = Friend.find(:all, :conditions => "user_id = #{@user.id}")
     	friends.each {|f| fids <<  f.friend_id}
 			fids << current_user.id
  			@logs = Log.paginate(:all, :conditions => {:user_id => fids}, :order=>"datetime desc",:page=>page)
-		elsif feed == "mylists"
+		elsif @feed == "mylists"
 				@logs = Log.paginate(:all, :conditions=>["user_id=? and action='NEW_LIST_SOCIAL'",@user.id], :order=>"datetime desc",:page=>page)
-		else
+		elsif @feed == "mine"
 			@logs = Log.paginate(:all, :conditions=>["user_id=?",@user.id], :order=>"datetime desc",:page=>page)
-  	end
+  	else
+			@logs = Log.paginate(:all, :order=>"id desc", :page=>page)
+		end
 	end
   
 	

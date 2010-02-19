@@ -6,14 +6,16 @@
 </div>
 
 <div id="itemslist">		 		 
- 	<%= render :partial => "lists/feature"  %>
+ 	<%= render :partial => "lists/feature", :locals=>{:list_id=>@list.id}  %>
 </div>
  
 <div style="float:right;">
 	<h3>Dislike it</h3>  
 
 	<%for user in @disliked%>
-	<img src="<%=IMAGE_DIR%>votedown.png"><%=link_to user.login, :controller => 'users', :action => user.login.to_s%> <br/> 
+	<div style="background-color:#EFE;padding:4px;width:200px;margin-bottom:3px;">
+	<img src="<%=IMAGE_DIR%>votedown.png"><%=link_to user.login, :controller => 'users', :action => user.login.to_s%>  
+	</div>
 	<%end%>
 </div>
 
@@ -22,7 +24,9 @@
 	<h3>Like it </h3>
 
 	<%for user in @liked%>
-	<img src=" <%=IMAGE_DIR%>voteup.png"><%=link_to user.login, :controller => 'users', :action => user.login.to_s%> <br/> 
+		<div style="background-color:#EFE;padding:4px;width:200px;margin-bottom:3px;">
+ 	<img src=" <%=IMAGE_DIR%>voteup.png"><%=link_to user.login, :controller => 'users', :action => user.login.to_s%>  
+	</div>
 	<%end%>
 
 </div>
