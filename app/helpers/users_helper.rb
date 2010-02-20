@@ -7,7 +7,6 @@ module UsersHelper
   end
   
   def activity(log)
-      
      # return if ((log.action == "NEW_LIST_FRIENDS") or (log.action ==  "NEW_LIST_PERSONAL") or (log.action == "NEW_LIST_PRIVATE"))
       
       description=""

@@ -23,12 +23,12 @@ module LogsHelper
 			when "VOTE_DOWN" then "votedown.png"
 			when "NEW_COMMENT" then "comment_icon.png"
 			when "NEW_LIST_SOCIAL" then "list_icon.png"
-
+			when "NEW_FEATURE_SOCIAL" then "icon-item.gif"
 		end
 	end
 
 	 def activity(log)
-      
+   #borrar esto
      # return if ((log.action == "NEW_LIST_FRIENDS") or (log.action ==  "NEW_LIST_PERSONAL") or (log.action == "NEW_LIST_PRIVATE"))
       
       description=""

@@ -24,6 +24,9 @@ class FeaturesController < ApplicationController
     if @feature.save
       #flash[:notice] = "Item Added!" 
       #log( session["person"].id, "NEW_FEATURE_SOCIAL", @feature.list_id, @feature.id)
+		#logs activity
+			log = Log.new(:action=>"NEW_FEATURE_SOCIAL", :user_id=>current_user.id, :list_id=>@list.id, :feature_id=>@feature.id, :list_title=>@list.name, :feature_title=>@feature.title, :datetime=>Time.now)
+			log.save()
       redirect_to list_url(@list) + "?sortby=new"
     end
     

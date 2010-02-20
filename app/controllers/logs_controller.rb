@@ -2,7 +2,7 @@ class LogsController < ApplicationController
 layout "lightsalad"
 before_filter :load_categories
 
-
+#url called is /activity
 
 	def index
 		page = params[:page]
