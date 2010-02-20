@@ -90,10 +90,10 @@ color: #4F4F4F;
  }
 
 #list-info #tabs #addidea a{
-background-image: url(/img/listpage-tabs_addidea.gif);
 width: 77px;
 color: #FFFFFF;
 padding-left: 6px;
+	background: url(/img/listpage-tabs_addidea.gif) no-repeat;
 }
 
 .item-infocontainer .itemtitle-list  { /*Titulo de cada item de la lista*/
