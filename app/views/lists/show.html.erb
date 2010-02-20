@@ -16,11 +16,11 @@
 		<ul id="tabs">
 			 <li id=<%= @sortby=="popular" ? "selected" : ""%> ><%=link_to "Popular", list_path(@list, :sortby=>"popular")%></li>
 		    
-		     <li id=<%= @sortby=="new" ? "selected" : ""%>>	<%=link_to "New", list_path(@list, :sortby=>"new")%></li>
+		     <li id=<%= @sortby=="new" ? "selected" : ""%>>	<%=link_to "Recent", list_path(@list, :sortby=>"new")%></li>
 		     <li id="addidea">
 		     	
 				<% if (@list.listtype=="SOCIAL" and current_user) or (@list.listtype=="PERSONAL" and @list.user_id==current_user.id)%>
-					<a href="#new-item">Add Reply</a>
+					<a href="#new-item" style="padding-left:10px;">Add Reply</a>
 				<%else%>
  					<%=link_to "Add Reply", login_path%>
 				<%end%>
