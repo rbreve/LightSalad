@@ -14,17 +14,22 @@ module UsersHelper
  
    		info=""
 			date= time_ago_in_words(log.datetime) + " ago"
+			begin
+				listname=log.list.name
+			rescue
+				listname = ""
+			end
       if log.action == "NEW_FEATURE_SOCIAL" 
         icon = "icon-item.gif"
-        title = "<a href=/features/#{log.feature.id}/comments>#{h(log.feature.title)}</a> in <a href=#{list_path(log.list_id)}>#{h(log.list.name)}</a>"
+        title = "<a href=/features/#{log.feature.id}/comments>#{h(log.feature.title)}</a> in <a href=#{list_path(log.list_id)}>#{h(listname)}</a>"
         info = "created this" + info
       elsif log.action == "VOTE_UP"
         icon = "voteup.png"
-        title = "<a href=/features/#{log.feature.id}/comments>#{h(log.feature.title)}</a> in <a href=#{list_path(log.list_id)}>#{h(log.list.name)}</a>"
+        title = "<a href=/features/#{log.feature.id}/comments>#{h(log.feature.title)}</a> in <a href=#{list_path(log.list_id)}>#{h(listname)}</a>"
         info = "liked" + info
       elsif log.action == "VOTE_DOWN"  
         icon = "votedown.png"
-        title = "<a href=/features/#{log.feature.id}/comments>#{h(log.feature.title)}</a> in <a href=#{list_path(log.list_id)}>#{h(log.list.name)}</a>"
+        title = "<a href=/features/#{log.feature.id}/comments>#{h(log.feature.title)}</a> in <a href=#{list_path(log.list_id)}>#{h(listname)}</a>"
         info = "hated this " + info
       elsif log.action == "NEW_COMMENT"
         icon = "comment_icon.png"

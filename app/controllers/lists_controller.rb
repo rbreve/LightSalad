@@ -1,7 +1,9 @@
 class ListsController < ApplicationController
+
  
-before_filter :require_user, :only => [:create, :new, :vote]
-before_filter :adjust_format_for_iphone
+
+	before_filter :require_user, :only => [:create, :new, :vote]
+	before_filter :adjust_format_for_iphone
 
   layout "lightsalad"
   before_filter :load_categories
@@ -24,7 +26,7 @@ before_filter :adjust_format_for_iphone
     @time = params[:time]
     page = params[:page]
     user_id = params[:user_id]
-  
+   
     if category_id.to_i != 0 #A category is selected
       @sub_categories = Category.find(:all, :conditions=>["category_id=?",category_id])
       @current_category = Category.find(category_id)  
@@ -109,8 +111,15 @@ before_filter :adjust_format_for_iphone
 		# if not current_user
 		# 	redirect_to login_path
 		# end
+		
+		#verificar el category_id
+		
+		category_id=params[:category_id]
+		
     @list = List.new
-    # chars = ("a".."e").to_a + ("1".."2").to_a 
+		@list.category_id=category_id
+    
+# chars = ("a".."e").to_a + ("1".."2").to_a 
     #  random = Array.new(5, '').collect{chars[rand(chars.size)]}.join
     #  session["captcha"] = random.to_s
   end
@@ -128,8 +137,11 @@ before_filter :adjust_format_for_iphone
     @list.lastupdate = Time.now
     
     if verify_recaptcha() and @list.save
-      
-      addtags(params[:list][:tags], params[:list][:category_id]) if params[:list][:listtype] == "SOCIAL"
+      tags=params[:list][:tags]
+			tags=tags.gsub(/[,]/,' ')
+			tags=tags.gsub(/[\s]+/, ' ')
+			tags=tags.gsub(/^[a-zA-Z1-9\s]/, '')
+      addtags(tags, params[:list][:category_id]) if params[:list][:listtype] == "SOCIAL"
       action= "NEW_LIST_" + params[:list][:listtype]
       #log(current_user.id, "NEW_LIST_" + params[:list][:listtype], @list.id, 0)
       log = Log.new(:action=>action, :user_id=>current_user.id, :list_id=>@list.id, :list_title=>@list.name, :datetime=>Time.now)

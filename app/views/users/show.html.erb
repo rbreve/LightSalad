@@ -15,14 +15,19 @@
  
 <div id="profile-header">
 	<div id="column1">
-		<div id="profile-foto"><%=image_tag UPLOAD_PATH + @user.image%>
+		<div id="profile-foto"><%=image_tag UPLOAD_PATH + @user.image%>	<div>
+	
+	
 		</div>
-		<div id="profile-name"><%=@user.name%></div>
+		</div>
+		<div id="profile-name"><%=@user.name%>  </div>
 	
 		<div id="profile-smallinfo">
 
 			<%=h(@user.about)%>
-
+		 
+	
+		
 		</div>
 		<div id="profile-smalllikes">
 
@@ -85,12 +90,12 @@
 
 <div class="segment-friends">
 	
-<% if @user.about.to_s != ""%>
-	<h2>About</h2>
-	<p>
-	<%=@user.about%>
-	</p>
-<%end%>
+ 
+	<h2>Karma</h2>
+	<div style="font-size:50px;font-weight:bold;">
+	<%=@user.karma%>
+	</div>
+ 
 
 <% if @user.about.to_s != ""%>
 	<br/>

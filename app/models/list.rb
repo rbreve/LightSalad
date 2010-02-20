@@ -14,7 +14,8 @@ class List < ActiveRecord::Base
   
   define_index do
 		indexes :name
-		indexes description
+		indexes :tags
+		indexes :description
 		indexes features.title, :as => :feature_title
 		indexes [user.name, user.lastname], :as => :user_name
 	end

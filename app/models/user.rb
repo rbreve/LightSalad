@@ -1,6 +1,6 @@
 class User < ActiveRecord::Base
 
-	acts_as_authentic
+acts_as_authentic
 
 has_many :lists
 has_many :feature_votes
@@ -23,7 +23,11 @@ before_save   { |u| u.email.downcase! if u.email }
 #          find(:first,:conditions => [ "email = ? AND password =?", email, pass ])
 #     end
 before_create :populate_oauth_user
-  
+
+def increase_karma(points)
+	self.karma+=points
+end
+
 private
 
   def populate_oauth_user
@@ -39,6 +43,17 @@ private
         self.twitter_uid = user_info['id']
 				self.about = user_info['description']
         self.avatar_url  = user_info['profile_image_url']
+				
+				twitter_followers=Integer(user_info['followers_count'])
+				
+				self.karma = case twitter_followers
+					when 100..299 then 50
+					when 300..499 then 100
+					when 500..999 then 200
+					when 2000..100000 then 500
+				end 
+				
+				
       end
     end
   end

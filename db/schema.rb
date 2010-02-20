@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20100206014030) do
+ActiveRecord::Schema.define(:version => 20100220004014) do
 
   create_table "categories", :force => true do |t|
     t.text    "title"
@@ -35,6 +35,7 @@ ActiveRecord::Schema.define(:version => 20100206014030) do
     t.integer  "points"
     t.boolean  "value",                     :null => false
     t.integer  "list_id",    :default => 0
+    t.integer  "ipoints",    :default => 0
   end
 
   create_table "features", :force => true do |t|
@@ -48,6 +49,7 @@ ActiveRecord::Schema.define(:version => 20100206014030) do
     t.text     "description"
     t.string   "listtype",            :default => "SOCIAL"
     t.string   "login"
+    t.integer  "ipoints",             :default => 0
   end
 
   create_table "friends", :force => true do |t|
@@ -146,6 +148,8 @@ ActiveRecord::Schema.define(:version => 20100206014030) do
     t.string   "oauth_secret"
     t.string   "twitter_uid"
     t.string   "avatar_url"
+    t.integer  "influence",                               :default => 1
+    t.integer  "karma",                                   :default => 1
   end
 
   add_index "users", ["oauth_token"], :name => "index_users_on_oauth_token"

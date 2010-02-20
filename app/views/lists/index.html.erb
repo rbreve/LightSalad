@@ -1,3 +1,4 @@
+<%=flash[:notice]%>
 <div id="itemslist">
 	
 	<div id="listtabs">
@@ -16,7 +17,11 @@
 				<%end%>
 			<%elsif @sort == "new"%>
 				Recent <%= @time %>
-			<%end%> lists
+			<%end%>  
+			
+			<%if @sort=="tags"%>
+				Lists with tag <strong><%=@time%></strong>
+			<%end%>
 		</div>
 	<div id="timebrowse">
 		<ul>
@@ -40,14 +45,14 @@
 
 
 </div>
- 
+
 <%= will_paginate @lists %>
 
 
 <% content_for(:right) do%>
 
 <div class="segment"> 
-	<div id="join-button"><a href="/lists/new"> </a></div> 
+	<div id="join-button"><a href="/lists/new?category_id=<%=@current_category_id%>"> </a></div> 
 	<h2>What is Light Salad?</h2>
 	<p>
 Light Salad lets you create lists and rank them throught votes.

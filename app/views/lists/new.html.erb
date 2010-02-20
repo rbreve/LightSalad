@@ -9,8 +9,9 @@ function showpass(){
 	$('password').show();
 }
 </script>
-
-<h2>Create a New Top List / Poll / Survey / Question </h2>
+ 
+<%= javascript_include_tag :defaults %>
+<h2>Create List </h2>
 
 <div style="color:#FF0000">
 <%=flash[:notice]%>
@@ -19,8 +20,9 @@ function showpass(){
 
 <% form_for(@list) do |f|%>
 
-<b>Category</b>
-  <%= f.select("category_id", Category.find(:all, :conditions => "category_id=0").collect {|p| [ p.title, p.id ] }, { :include_blank => true }) %><br />
+
+<label for="category"> Category </label	>
+  <%= f.select(:category_id, Category.find(:all, :conditions => "category_id=0").collect {|p| [ p.title, p.id ] }, { :include_blank => true }) %><br />
 
 <label for="title" >Title</label>
 <%=  f.text_field   :name, :size => 50 %>
@@ -31,7 +33,7 @@ function showpass(){
 
 
 <label for="tags" >Tags (separate tags with spaces)</label>
-<%=  f.text_field   :tags, :size => 50 %>
+<%=  text_field_with_auto_complete :list, :tags,{:size=>60},{:url=>"/tags.js", :skip_style => false, :tokens => " ", :method => :get, :with => "'search=' + element.value"}%>
  
 <div id="create-list-types">
 	
@@ -43,7 +45,7 @@ function showpass(){
  
 </p>
 
-<p>
+<!-- <p>
 	<%= f.radio_button(  "listtype", "FRIENDS", :onclick=>"showpass()") %>
 <strong>Friends Social List:</strong> Only you and your friends can add items and rate items in the list
 </p>
@@ -65,7 +67,7 @@ function showpass(){
 		<%= f.radio_button( "listtype", "PRIVATE" ) %>
  <strong>Private:</strong> only you can vote and add items and see it ie: private todo list (only you can see it)
  
-</p>
+</p> -->
 
 </div>
 <label for="captcha">

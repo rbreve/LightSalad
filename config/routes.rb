@@ -21,6 +21,7 @@ ActionController::Routing::Routes.draw do |map|
 	map.root :lists
 	
  
+ 	map.resources :tags
 	
 	map.resources :users
 	
@@ -42,7 +43,7 @@ ActionController::Routing::Routes.draw do |map|
   map.connect "edit_password", :controller => "users", :action => "edit_password"
   map.connect "update_password", :controller => "users", :action => "edit_password"
    
-  map.tags "tags/:time/:category_id",
+  map.tags "tag/:time/:category_id",
     :conditions => {:method => :get},
     :sortby => "tags",
     :controller => "lists",
