@@ -34,7 +34,7 @@
 		
 		<div class="item-infocontainer">
 			<div class="itemtitle-list"><%=p(feature.title)%></div>
-			<p class="description"><%=auto_link(feature.description)%></p>
+			<p class="description"><%=auto_link(h feature.description)%></p>
 			<p class="info"><%=link_to   pluralize(feature.comments_count, "Comment"), feature_comments_path(feature.id)%> - Votes: <%=feature.feature_votes_count%> -  <%=link_to "Who voted",:controller=>"features" , :action=>"whovoted", :id => feature%> - Posted by: <%= link_to feature.user.login, :controller=>'users', :action=> feature.user.login %> <%=time_ago_in_words(feature.datetime)%> ago </p>
 		</div>
   </div>
