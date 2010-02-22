@@ -20,13 +20,13 @@ class ListsController < ApplicationController
 
   def index
    
-    @sort = params[:sortby] == nil ?  "hot" : params[:sortby]
     category_id = params[:category_id]
     keyword = params[:keyword]
-    @time = params[:time]
     page = params[:page]
     user_id = params[:user_id]
-   
+    @sort = params[:sortby] == nil ?  "popular" : params[:sortby]
+    @time = params[:time] == nil ? "week" : params[:time]
+
     if category_id.to_i != 0 #A category is selected
       @sub_categories = Category.find(:all, :conditions=>["category_id=?",category_id])
       @current_category = Category.find(category_id)  
@@ -37,7 +37,7 @@ class ListsController < ApplicationController
       @current_category_id=0
     end
     
-     if @sort == "hot"
+     if @sort == "popular"
         @lists = List.find_all_popular(@time, category_id, page, user_id)
       elsif @sort == "new"
         @lists = List.find_new(@time, category_id, page)
@@ -46,7 +46,7 @@ class ListsController < ApplicationController
       elsif @sort == "mine" and current_user != nil
         @lists = List.find_by_owner(current_user.id, category_id, page)
       else
-        @lists = List.find_all_popular("month", category_id, user_id)
+        @lists = List.find_all_popular("week", category_id, user_id)
       end
     
     @cloud = Tag.find(:all, :order => "n DESC", :conditions=>"n > 1",:limit => 10)

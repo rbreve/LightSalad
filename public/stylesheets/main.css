@@ -454,7 +454,7 @@ width: 550px;
 margin-right:50px;
 border-top: solid 1px #ccc;
 padding: 6px 0 0 0;
-margin-bottom:0px;
+margin-bottom:30px;
 }
 
 #timebrowse ul{
@@ -486,11 +486,11 @@ text-decoration: none;
 font-size: 13px;
 font-family: Arial, Helvetica, sans-serif;
 font-weight: bold;
-width: 250px;
-margin-top: 6px;
+width: 183px;
+margin-top: 7px;
 float: right;
 position: relative;
-top: 0px;
+top: 1px;
 
 }
 

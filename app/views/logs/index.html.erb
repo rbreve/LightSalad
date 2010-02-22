@@ -53,9 +53,10 @@
 			<ul>
 			 	<li id="<%= @feed=="recent" ? "selected" : "" %>"><%= link_to "Recent Activity", logs_path() %></a></li>
 
-				<li id="<%= @feed=="mine" ? "selected" : "" %>"><%= link_to "My Activity", logs_path(:feed=>"mine") %></a></li>
 			
 				<li id="<%= @feed=="friends"? "selected" : "" %>"><%= link_to "Friend's Activity", logs_path(:feed=>"friends")%></a></li>
+				<li id="<%= @feed=="mine" ? "selected" : "" %>"><%= link_to "My Activity", logs_path(:feed=>"mine") %></a></li>
+
 				<li id="<%= @feed=="mylists" ? "selected" : "" %>"><%= link_to "My Lists", logs_path(:feed=>"mylists")%></li> 
 			</ul>
 		</div>
@@ -77,11 +78,11 @@
 						<div class="itemtitle-list-activity">
 							
 							<%if log.feature_title%>
-								<%= link_to log.feature_title, feature_comments_path(log.feature_id)%> from
+								<%= link_to h(log.feature_title), feature_comments_path(log.feature_id)%> from
 							<%end%>
 							
 							
-							<%= link_to log.list_title, list_path(log.list_id) %>
+							<%= link_to h(log.list_title), list_path(log.list_id) %>
 							
 						
 						</div>

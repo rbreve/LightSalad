@@ -53,7 +53,7 @@ module ListsHelper
     tags = text.split
     links = ""
     for tag in tags do
-      links += "<a href=\"/tags/#{tag}\">#{tag}</a> "
+      links += "<a href=\"/tag/#{tag}\">#{tag}</a> "
     end
     links
   end

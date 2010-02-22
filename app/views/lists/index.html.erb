@@ -3,13 +3,12 @@
 	
 	<div id="listtabs">
 		<ul>
-			<li class="<%= @sort=="hot" ? "selected" : "" %>"><%=link_to 'Popular', sort_path(@current_category, "hot")%></li>
+			<li class="<%= @sort=="popular" ? "selected" : "" %>"><%=link_to 'Popular', sort_path(@current_category, "popular")%></li>
 			<li class="<%= @sort=="new" ? "selected" : "" %>"><%= link_to 'Recent', lista_url(@current_category, "new", "created") %></li>
-			<li><a href="#"><span>Hot</span></a></li>
-		</ul>
+ 		</ul>
 	</div>
 		<div style="margin-botom:-20px;font-size:20px">
-	   		<%if @sort=="hot" %>
+	   		<%if @sort=="popular" %>
 				<% if  @time != nil %> 
 				 This <%= @time %> most popular
 			 	<%else%>
@@ -25,11 +24,11 @@
 		</div>
 	<div id="timebrowse">
 		<ul>
-			<%if @sort=="hot"%>
+			<%if @sort=="popular"%>
 
-			<li> <%= link_to 'Week', lista_url(@current_category, "hot", "week") %> </li>
-			<li>  <%= link_to 'Month', lista_url(@current_category, "hot", "month") %> </li>
-			<li><%= link_to "Year", lista_url(@current_category, "hot", "year") %> </li>
+			<li><%= link_to 'Week', lista_url(@current_category, "popular", "week") %> </li>
+			<li><%= link_to 'Month', lista_url(@current_category, "popular", "month") %> </li>
+			<li><%= link_to "Year", lista_url(@current_category, "popular", "year") %> </li>
 			<%end%>
 
 			<%if @sort=="new"%>
@@ -40,7 +39,7 @@
 	</div>
 	
 <div style="margin-top:40px;">
-<%= render :partial => @lists, :locals => {:user=>@user} %> 
+	<%= render :partial => @lists, :locals => {:user=>@user} %> 
  </div>
 
 
@@ -70,7 +69,7 @@ We are in a very early alpha stage, not everything will work as it should, <a hr
 	<div id="tagcloud">
 		<ul>
 			<%for tag in @cloud do%>
-			<li class="tag<%= 6-tag.n%6 %>"><a href="/tags/<%= tag.name %>"><span><%= tag.name %></span></a></li>
+			<li class="tag<%= 6-tag.n%6 %>"><a href="/tag/<%= tag.name %>"><span><%= tag.name %></span></a></li>
 			<%end%>
 
 		</ul>

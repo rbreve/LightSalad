@@ -17,7 +17,7 @@ before_filter :load_categories
 			fids=Array.new
     	friends = Friend.find(:all, :conditions => "user_id = #{@user.id}")
     	friends.each {|f| fids <<  f.friend_id}
-			fids << current_user.id
+			#fids << current_user.id
  			@logs = Log.paginate(:all, :conditions => {:user_id => fids}, :order=>"datetime desc",:page=>page)
 		elsif @feed == "mylists"
 				@logs = Log.paginate(:all, :conditions=>["user_id=? and action='NEW_LIST_SOCIAL'",@user.id], :order=>"datetime desc",:page=>page)

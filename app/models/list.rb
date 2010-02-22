@@ -8,7 +8,7 @@ class List < ActiveRecord::Base
   belongs_to :category
   has_many :logs
   
-  validates_presence_of :name, :description
+  validates_presence_of :name
   
  # acts_as_ferret :fields => [:name, :description, :listfeatures]
   
