@@ -1,9 +1,10 @@
+ <% @page_title = @product.name + ": " + @feature.title %> 
 
 <div class="itemtitle">
   <%= link_to @product.name, list_path(@product)%>
 </div>
 
-<div id="itemslist">		 		 
+<div id="itemslist">
  	<%= render :partial => "lists/feature", :locals=>{:list_id=>@product.id, :feature=>@feature} %>
 </div>
 

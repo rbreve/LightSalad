@@ -11,8 +11,6 @@ class FeaturesController < ApplicationController
   end
   
   def create
-    
-		
 		@list = List.find(params[:list_id])
     @feature = Feature.new(params[:feature])
     @feature.user_id = current_user.id
@@ -28,7 +26,9 @@ class FeaturesController < ApplicationController
 			log = Log.new(:action=>"NEW_FEATURE_SOCIAL", :user_id=>current_user.id, :list_id=>@list.id, :feature_id=>@feature.id, :list_title=>@list.name, :feature_title=>@feature.title, :datetime=>Time.now)
 			log.save()
       redirect_to list_url(@list) + "?sortby=new"
-    end
+    else
+			
+		end
     
   end
   
