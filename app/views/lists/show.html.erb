@@ -20,9 +20,9 @@
 		     <li id="addidea">
 		     	
 				<% if (@list.listtype=="SOCIAL" and current_user) or (@list.listtype=="PERSONAL" and @list.user_id==current_user.id)%>
-					<a href="#new-item" style="padding-left:10px;">Add Reply</a>
+					<a href="#new-item" style="padding-left:10px;">Add Item</a>
 				<%else%>
- 					<%=link_to "Add Reply", login_path%>
+ 					<%=link_to "Add Item", login_path%>
 				<%end%>
 				
 				

@@ -140,7 +140,8 @@ class ListsController < ApplicationController
       tags=params[:list][:tags]
 			tags=tags.gsub(/[,]/,' ')
 			tags=tags.gsub(/[\s]+/, ' ')
-			tags=tags.gsub(/^[a-zA-Z1-9\s]/, '')
+			tags=tags.gsub(/[^a-zA-Z1-9\s]/, '')
+			
       addtags(tags, params[:list][:category_id]) if params[:list][:listtype] == "SOCIAL"
       action= "NEW_LIST_" + params[:list][:listtype]
       #log(current_user.id, "NEW_LIST_" + params[:list][:listtype], @list.id, 0)
