@@ -12,7 +12,7 @@
 
 <%if !@comments.empty?%>
 <div id="comments">
-<%= render :partial => "comment", :collection => @comments, :locals => {:list_id=>@product.id}   %>
+<%= render :partial => "comment", :collection => @comments, :locals => {:list_id=>@product.id, :comment=>@comment}   %>
 </div>
 <%end%>
 

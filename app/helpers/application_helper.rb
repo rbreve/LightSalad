@@ -42,7 +42,7 @@ module ApplicationHelper
 							if (ext =="jpg") or (ext=="png") or (ext=="gif") or (ext=="jpeg") 
 								h="<a href=\""+link_text+"\"><img src=\"http://thumblerific.appspot.com/t?image_url=" + link_text + "&width=220\"></a>"
 							else
-              	content_tag(:a, h(link_text), link_attributes.merge('href' => href)) + punctuation
+              	content_tag(:a, h(link_text[0,20]+"..."), link_attributes.merge('href' => href)) + punctuation
             	end
 						end
           end
