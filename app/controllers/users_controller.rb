@@ -1,7 +1,7 @@
 class UsersController < ApplicationController
 before_filter :load_categories
 layout "lightsalad"
-before_filter :current_user, :only => [:addtofriend]
+before_filter :require_user, :only => [:addtofriend, :edit, :update]
 
 
 

@@ -63,8 +63,11 @@ class ListsController < ApplicationController
   # GET /lists/1
   # GET /lists/1.xml
   def show
-    password = params[:password]
+    
+		password = params[:password]
     @sortby = params[:sortby]
+		view = params[:view]
+		
     @sortby = "popular" if @sortby == nil
     sortby = (@sortby == "new" ? "datetime desc" : "points desc, datetime desc" )
     
@@ -87,8 +90,13 @@ class ListsController < ApplicationController
     
     @tags = Tag.find(:all, :conditions=>["category_id=?",@current_category_id], :order => "n DESC", :limit=>8)
     
-    
-    @features = Feature.find(:all,:include => :user, :order => sortby  , :conditions => ["list_id=?",@list.id])
+		if view=="all"
+			sql_items=""
+    else
+			sql_items = " AND points >= 0"
+		end
+		
+    @features = Feature.find(:all,:include => :user, :order => sortby  , :conditions => ["list_id=? #{sql_items}",@list.id])
     @newfeature=Feature.new
     respond_to do |format|
       format.html # show.html.erb

@@ -105,7 +105,7 @@ class List < ActiveRecord::Base
     
     List.paginate( :conditions=> "listtype='SOCIAL' #{sql_category}  #{sql_time} #{sql_user}", 
                               :include =>[:user], 
-                              :order => "points desc,  features_count desc, datetime desc",
+                              :order => "id desc, points desc,  features_count desc",
                               :page => page)
   end
    

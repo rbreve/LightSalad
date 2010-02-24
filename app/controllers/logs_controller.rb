@@ -13,6 +13,11 @@ before_filter :load_categories
 			@feed="recent"
 		end
 		
+		if (@feed == "friends" or @feed == "mylists" or @feed == "mine") and (not current_user)
+				redirect_to login_path
+				return
+		end
+		
 		if @feed=="friends" 
 			fids=Array.new
     	friends = Friend.find(:all, :conditions => "user_id = #{@user.id}")
@@ -22,8 +27,8 @@ before_filter :load_categories
 		elsif @feed == "mylists"
 				@logs = Log.paginate(:all, :conditions=>["user_id=? and action='NEW_LIST_SOCIAL'",@user.id], :order=>"datetime desc",:page=>page)
 		elsif @feed == "mine"
-			@logs = Log.paginate(:all, :conditions=>["user_id=?",@user.id], :order=>"datetime desc",:page=>page)
-  	else
+ 				@logs = Log.paginate(:all, :conditions=>["user_id=?",@user.id], :order=>"datetime desc",:page=>page)
+			else
 			@logs = Log.paginate(:all, :order=>"id desc", :page=>page)
 		end
 	end

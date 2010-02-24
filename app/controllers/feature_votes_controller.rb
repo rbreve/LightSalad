@@ -1,5 +1,5 @@
 class FeatureVotesController < ApplicationController
-before_filter :current_user, :only => [:create, :new]
+before_filter :require_user, :only => [:create, :new]
 
 
   def index
@@ -26,26 +26,29 @@ before_filter :current_user, :only => [:create, :new]
 			@feature_votes.personal_list=1
     end
 		
-		
-		if @feature_votes.save
-			@votes = @feature_votes.votes
-      @msg = "VOTED"
-			list.lastupdate = Time.now
-      list.points += @feature_votes.points
-      list.save  
-    else
-    	@msg = "DUPE"
-    end
-		
 		if points 
 			action = "VOTE_UP"
 		else
 			action= "VOTE_DOWN"
 		end
 		
-		#logs activity
-		log = Log.new(:action=>action, :user_id=>current_user.id, :list_id=>list_id, :feature_id=>feature_id, :list_title=>list.name, :feature_title=>@feature_votes.feature_title, :datetime=>Time.now)
-		log.save()
+		if @feature_votes.save
+			@votes = @feature_votes.points
+      @msg = "VOTED"
+			list.lastupdate = Time.now
+      list.points += @feature_votes.points
+      list.save  
+			
+			#logs activity
+			log = Log.new(:action=>action, :user_id=>current_user.id, :list_id=>list_id, :feature_id=>feature_id, :list_title=>list.name, :feature_title=>@feature_votes.feature_title, :datetime=>Time.now)
+			log.save()
+    else
+    	@msg = "DUPE"
+    end
+		
+
+		
+
 		
 		#increase user karma
 

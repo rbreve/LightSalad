@@ -2,12 +2,13 @@
 class FeaturesController < ApplicationController
   layout "lightsalad"
   before_filter :current_user, :only => [:create, :new]
-  
+  before_filter :load_categories
+
   
   def new
       @feature = Feature.new
       @list = List.find(params[:list_id])
-       
+   
   end
   
   def create
@@ -27,7 +28,7 @@ class FeaturesController < ApplicationController
 			log.save()
       redirect_to list_url(@list) + "?sortby=new"
     else
-			
+			 render :action => 'new'
 		end
     
   end
