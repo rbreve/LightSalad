@@ -1,8 +1,10 @@
 <div class="comment">
 	<div class="userpic">
-		<%if comment.user.image%>
-		<img src="<%=UPLOAD_PATH + comment.user.image%>" alt="display"> <bR>
-			<%end%>
+			<%if comment.user.avatar_url%>
+								<img src="<%= comment.user.avatar_url%>" width="50" class="avatar-header">
+							<%else%>
+								 <img src="<%=UPLOAD_PATH + comment.user.image%>" width="50" class="avatar-header">
+							<%end%>
 		</div>
 
 		<div class="commentcontent">

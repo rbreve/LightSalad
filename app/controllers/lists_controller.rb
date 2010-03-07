@@ -24,8 +24,8 @@ class ListsController < ApplicationController
     keyword = params[:keyword]
     page = params[:page]
     user_id = params[:user_id]
-    @sort = params[:sortby] == nil ?  "popular" : params[:sortby]
-    @time = params[:time] == nil ? "week" : params[:time]
+    @sort = params[:sortby] == nil ?  "new" : params[:sortby]
+    @time = params[:time] == nil ? "updated" : params[:time]
 
     if category_id.to_i != 0 #A category is selected
       @sub_categories = Category.find(:all, :conditions=>["category_id=?",category_id])
