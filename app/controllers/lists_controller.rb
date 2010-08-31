@@ -13,7 +13,8 @@ class ListsController < ApplicationController
   
   def search
     q=params[:q]
-    @lists=List.search q
+    #@lists=List.search q
+    @lists=List.find(:all, :conditions => ["name like '%?%'", q])
   end
 
   def index

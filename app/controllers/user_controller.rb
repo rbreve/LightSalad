@@ -110,7 +110,7 @@ layout "salad"
 	def logout
 	   session["person"] = nil
      flash[:notice] = "Logged out"
-    redirect_to(:action => "signin" )
+     redirect_to(:action => "signin" )
 	end
 	 
 	def account

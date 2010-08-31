@@ -3,7 +3,7 @@
 With LightSalad can create lists, add items to them rank them throught votes. 
 You can use LightSalad as a Q&A system just like stackoverflow.
 
-A running version is running at (LightSalad.com)[http://lightsalad.com]
+A running version is running at [LightSalad.com](http://lightsalad.com)
 
 #Requirements#
 
@@ -18,8 +18,12 @@ Gems needed are
 *json"
 *authlogic-oauth
 
+Captcha API keys
+
 #Install#
 
+    Edit you environment.rb and add your captcha api public and private keys
+    
     rake db:schema:load  
     
     rake db:seed
