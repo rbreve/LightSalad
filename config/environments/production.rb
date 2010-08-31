@@ -22,7 +22,12 @@ config.action_mailer.default_charset = "utf-8"
 config.action_mailer.perform_deliveries = true                                                                                                                                                     
 config.action_mailer.delivery_method = :sendmail
 
-config.action_mailer.sendmail_settings = {
-:location       => '/var/qmail/bin/sendmail',
-:arguments      => '-i -t'
+config.action_mailer.smtp_settings = {
+	:address => "yourdomain",
+	:port => 25,
+	:domain => "yourdomain",
+	:authentication => :login,
+	:user_name => "username",
+	:password => "password"
+	
 }

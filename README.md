@@ -11,22 +11,24 @@ LightSalad was developed on Rails 2.x, it uses Sphynx for search
 
 Gems needed are
 
-*recaptcha
-*authlogic
-*oauth
-*mechanize
-*json"
-*authlogic-oauth
+*   recaptcha
+*   authlogic
+*   oauth
+*   mechanize
+*   json"
+*   authlogic-oauth
 
 Captcha API keys
 
 #Install#
 
-    Edit you environment.rb and add your captcha api public and private keys
+*   Edit you environment.rb and add your captcha API public and private keys
+
+*   Edit your environment/development.rb and add your smpt server configuration in order to send mails
+
+*   rake db:schema:load  
     
-    rake db:schema:load  
-    
-    rake db:seed
+*   rake db:seed
     
     
 

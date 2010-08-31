@@ -9,3 +9,4 @@ index/development/
 log/
 index/
 db/sphinx/*
+db/*

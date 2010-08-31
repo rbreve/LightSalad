@@ -13,8 +13,12 @@ class ListsController < ApplicationController
   
   def search
     q=params[:q]
+    
+    #uncomment this if you want yo use sphynx
     #@lists=List.search q
-    @lists=List.find(:all, :conditions => ["name like '%?%'", q])
+    
+    #comment this if you want yo use sphynx
+    @lists=List.find(:all, :conditions => ["LOWER(name) like ? or LOWER(description) like ?", "%"+q.downcase+"%",  "%"+q.downcase+"%"])
   end
 
   def index

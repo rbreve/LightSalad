@@ -19,11 +19,11 @@ config.action_mailer.raise_delivery_errors = true
 config.action_mailer.delivery_method = :sendmail
 
 config.action_mailer.smtp_settings = {
-	:address => "demos.icomstec.com",
-	:port => 2525,
-	:domain => "hosting.icomstec.com",
+	:address => "yourdomain",
+	:port => 25,
+	:domain => "yourdomain",
 	:authentication => :login,
-	:user_name => "hosting",
-	:password => "asylum"
+	:user_name => "username",
+	:password => "password"
 	
 }
