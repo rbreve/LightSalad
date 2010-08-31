@@ -4,7 +4,11 @@
 	<tr >
 		<td width=90px align=center>
 			<a href="/users/<%=user.login%>">
-				  <img src="{%=UPLOAD_PATH%}{%=user.image.to_s%}">
+					<%if user.avatar_url%>
+								<li><img src="<%= user.avatar_url%>" width="50" class="avatar-header"></li>
+							<%else%>
+								<li><img src="<%=UPLOAD_PATH + user.image%>" width="50" class="avatar-header"></li>
+							<%end%>
 			</a>
 		</td>
 	

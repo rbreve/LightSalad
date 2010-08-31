@@ -16,3 +16,13 @@ config.action_controller.perform_caching             = true
 
 # Disable delivery errors if you bad email addresses should just be ignored
 # config.action_mailer.raise_delivery_errors = false
+                                                                                                                                                                                                  
+config.action_mailer.default_charset = "utf-8"                                                                                                                                                     
+                                                                                                                                                                                                   
+config.action_mailer.perform_deliveries = true                                                                                                                                                     
+config.action_mailer.delivery_method = :sendmail
+
+config.action_mailer.sendmail_settings = {
+:location       => '/var/qmail/bin/sendmail',
+:arguments      => '-i -t'
+}

@@ -94,7 +94,7 @@ class List < ActiveRecord::Base
       mindate = Date.today.ago(60*60*24*30).strftime('%Y-%m-%d 23:59:59') #1 month ago
       sql_time = "and datetime > '#{mindate}'"
     elsif time == "year"
-       mindate = Date.today.ago(60*60*24*30*12).strftime('%Y-%m-%d 23:59:59') #1 year ago
+       mindate = Date.today.ago(60*60*24*30*24).strftime('%Y-%m-%d 23:59:59') #1 year ago
         sql_time = "and datetime > '#{mindate}'"
     end
     

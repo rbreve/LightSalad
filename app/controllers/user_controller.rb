@@ -3,8 +3,6 @@
 class UserController < ApplicationController
 
 layout "salad"
-
-
    def signup
      session['captcha']=gen_captcha
      @user = params[:id]
@@ -245,8 +243,6 @@ layout "salad"
   	   
        p.save
        if p.save
-         
-         log(session["person"].id, log_action, p.id, 0)
          redirect_to :controller => "salad", :action => "view", :id => p 
        end
 	end

@@ -3,7 +3,9 @@ tmp/**/*
 doc/api
 doc/app
 public/userimages
-index/development/**/*
+index/development/*
+db/sphinx/development/*
 index/development/
 log/
 index/
+db/sphinx/*

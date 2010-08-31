@@ -9,6 +9,8 @@ ActionController::Routing::Routes.draw do |map|
   map.resources :categories do |category|
     category.resources :lists 
   end
+
+ 
   
   map.resources :lists, 
     :collection => { :search => :get }, 

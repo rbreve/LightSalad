@@ -2,7 +2,7 @@
 
 # Uncomment below to force Rails into production mode when 
 # you don't control web/app server and can't set it the proper way
-ENV['RAILS_ENV'] ||= 'production'
+ENV['RAILS_ENV'] ||= 'development'
 
 # Specifies gem version of Rails to use when vendor/rails is not present
 RAILS_GEM_VERSION = '2.3.5'
@@ -28,8 +28,14 @@ Rails::Initializer.run do |config|
 
   # Add additional load paths for your own custom dirs
   # config.load_paths += %W( #{RAILS_ROOT}/extras )
+
  	ENV['RECAPTCHA_PUBLIC_KEY']  = '6Ld4OwsAAAAAAKodHOCrhhkROuO8itcTSCJxijJ_'
   ENV['RECAPTCHA_PRIVATE_KEY'] = '6Ld4OwsAAAAAACnEkko49-2XcbXpU8oa2LDvy6my'
+	
+	
+	ENV['RECAPTCHA_PUBLIC_KEY']  = 'YOUR_RECAPTCHA_PUBLIC_KEY'
+  ENV['RECAPTCHA_PRIVATE_KEY'] = 'YOUR_RECAPTCHA_PRIVATE_KEY'
+
 	
 	config.gem "recaptcha", :lib => "recaptcha/rails"
   config.gem "authlogic"

@@ -30,10 +30,9 @@
 			<li><%= link_to 'Month', lista_url(@current_category, "popular", "month") %> </li>
 			<li><%= link_to "Year", lista_url(@current_category, "popular", "year") %> </li>
 			<%end%>
-
-			<%if @sort=="new"%>
-			<li> <%= link_to 'Updated', lista_url(@current_category, "new", "updated") %></li>
-			<li> <%= link_to 'Created', lista_url(@current_category, "new", "created") %></li>
+ 			<%if @sort=="new"%>
+			<li class="<%=@time=="updated" ? "selected2" : ""%>"> <%= link_to 'Updated', lista_url(@current_category, "new", "updated") %></li>
+			<li class="<%=@time=="created" ? "selected2" : ""%>"> <%= link_to 'Created', lista_url(@current_category, "new", "created") %></li>
 			<%end%>
 		</ul>
 	</div>
@@ -54,15 +53,25 @@
 	<div id="join-button"><a href="/lists/new?category_id=<%=@current_category_id%>"> </a></div> 
 	<h2>What is Light Salad?</h2>
 	<p>
-Light Salad lets you create lists and rank them throught votes.</p> 
+Light Salad lets you create lists, add items to them and rank them throught votes.</p> 
 <br/>
 <p>
-We are in a very early alpha stage, not everything will work as it should, <a href="/categories/6-Feedback/lists">you are welcome to submit bugs, feedback and ideas. </a>
+Light Salad is an open source project you can download  it from <a href="https://github.com/rbreve/LightSalad">github here</a>
 </p>
 
 
 </div>
 
+<%if not current_user%>
+ <form action="/users" class="new_user" id="new_user" method="post">
+
+	<p>
+	<input type='submit' value='Register with Twitter' name='register_with_oauth' id='user_submit' class='twitter'/>
+	</p>
+ 
+
+</form>
+<%end%>
 
 <div class="segment">
 	<h2>Popular Tags</h2>

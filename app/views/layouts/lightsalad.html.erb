@@ -21,7 +21,7 @@
 			<div id="headercontent">
 		       <div id="session">
 			   <ul>
-					<%if current_user %>  
+ 					<%if current_user %>  
 						<li><%= link_to "Logout", logout_path, :id=>"login"%></li>
  						<li><%=link_to "Activity", logs_path()%></li>
 							<li><%= link_to current_user.login , edit_user_path(:current)%> </li>

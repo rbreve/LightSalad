@@ -10,43 +10,47 @@
  
 	<div id="list-info">
 		
-		<%=render :partial => @list%>
+		<%=render :partial => @list, :locals=>{:noborder=>1}%>
 	 
+	
+	
+		
+		<div style="float:right; margin-top:-20px; width:80px;z-index:10;">	 
+<!-- AddThis Button BEGIN -->
+<div class="addthis_toolbox addthis_default_style">
+<a href="http://www.addthis.com/bookmark.php?v=250&amp;username=rbreve" class="addthis_button_compact">Share</a>
+</div>
+<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#username=rbreve"></script>
+<!-- AddThis Button END -->
+
+		</div>
+	</div>
 	
 		<ul id="tabs">
 			 <li id=<%= @sortby=="popular" ? "selected" : ""%> ><%=link_to "Popular", list_path(@list, :sortby=>"popular")%></li>
 		    
 		     <li id=<%= @sortby=="new" ? "selected" : ""%>>	<%=link_to "Recent", list_path(@list, :sortby=>"new")%></li>
-		     <li id="addidea">
-		     	
-				<% if (@list.listtype=="SOCIAL" and current_user) or (@list.listtype=="PERSONAL" and @list.user_id==current_user.id)%>
-					<a href="#new-item" style="padding-left:10px;">Add Item</a>
-				<%else%>
- 					<%=link_to "Add Item", login_path%>
-				<%end%>
-				
-				
-		
-		
-		     </li>
+ 		 
 		   </ul>
-	</div>
 
 <div id="itemslist" >
 	<%= render :partial => "feature", :collection => @features, :locals => {:list_id=>@list.id} %>
 </div>
 
-<%if current_user %>
+<%if current_user %><br/>
+<h2>Add Item</h2>
 <%if (@list.listtype=="PERSONAL" and @list.user_id==current_user.id) or (@list.listtype=="SOCIAL")%> 
 	<a name="new-item">
 	<% form_for ([@list,@newfeature]) do |f| %> 
-	<label>Reply</label>
+	<label>Title</label>
 	<%= f.text_field :title %>
 	<label>Description: </label><%= f.text_area  :description, :rows=>6 %>
 	 <br>
 	<%= submit_tag "Add It" %> 
 	<% end %> 
 <%end%>
+<%else%>
+	<h2>To add content please <a href="/login">Login</a></h2>
 <%end%>
  
 </div>

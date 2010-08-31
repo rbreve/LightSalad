@@ -28,6 +28,16 @@ def increase_karma(points)
 	self.karma+=points
 end
 
+def update_info
+	require 'open-uri'
+	
+	if self.twitter_uid
+		buffer=open("http://api.twitter.com/1/users/show.json?user_id="+self.twitter_uid).read
+		user_info = JSON.parse(buffer)
+		self.avatar_url  = user_info['profile_image_url']
+	end
+end
+
 private
 
   def populate_oauth_user
@@ -45,13 +55,16 @@ private
         self.avatar_url  = user_info['profile_image_url']
 				
 				twitter_followers=Integer(user_info['followers_count'])
-				
-				self.karma = case twitter_followers
-					when 100..299 then 50
-					when 300..499 then 100
-					when 500..999 then 200
-					when 2000..100000 then 500
-				end 
+					
+				self.karma=1
+
+				#set karma according to twitter's fame
+        # self.karma = case twitter_followers
+        #   when 100..299 then 10
+        #   when 300..499 then 20
+        #   when 500..999 then 50
+        #   when 2000..100000 then 100
+        # end 
 				
 				
       end

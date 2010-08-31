@@ -27,14 +27,14 @@
 					 %>
 
 			<%else%>
-			    <%= link_to image_tag(IMAGE_DIR + "voteup.png", :border=>0), login_path,:border=>0 %> 
-			    <%= link_to image_tag(IMAGE_DIR + "votedown.png", :border=>0), login_path,:border=>0 %>
+			    <%= link_to image_tag(IMAGE_DIR + "voteup.png", :border=>0), feature_votes_path(:feature_id=>feature.id, :list_id=>list_id),:border=>0 %> 
+			    <%= link_to image_tag(IMAGE_DIR + "votedown.png", :border=>0), feature_votes_path(:feature_id=>feature.id, :list_id=>list_id),:border=>0 %>
 			<%end%>
 		</div>
 		
 		<div class="item-infocontainer">
 			<div class="itemtitle-list"><%=p(feature.title)%></div>
-			<p class="description"><%=p(feature.description)%></p>
+			<p class="description"><%=p(feature.description.to_s)%></p>
 			<p class="info"><%=link_to   pluralize(feature.comments_count, "Comment"), feature_comments_path(feature.id)%> - Votes: <%=feature.feature_votes_count%> -  <%=link_to "Who voted",:controller=>"features" , :action=>"whovoted", :id => feature%> - Posted by: <%= link_to feature.user.login, :controller=>'users', :action=> feature.user.login %> <%=time_ago_in_words(feature.datetime)%> ago </p>
 		</div>
   </div>

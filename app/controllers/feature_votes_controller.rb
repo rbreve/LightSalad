@@ -1,52 +1,64 @@
 class FeatureVotesController < ApplicationController
-before_filter :require_user, :only => [:create, :new]
+before_filter :require_user, :only => [:create,:new, :index]
 
 
   def index
-    @feature_votes = FeatureVote.all
+    list_id=params[:list_id]
+		points=params[:points]
+		feature_id = params[:feature_id]
+		redirect_to list_path(list_id, :anchor=>feature_id)
   end
   
   def show
-    @feature_votes = FeatureVote.find(params[:id])
+			list_id=params[:list_id]
+		points=params[:points]
+		feature_id = params[:feature_id]
+		redirect_to list_path(list_id)
   end
   
   def new
     @feature_votes = FeatureVote.new
   end
-  
+ 
+
 	# vote
   def create
 		list_id=params[:list_id]
 		points=params[:points]
 		feature_id = params[:feature_id]
-    @feature_votes = FeatureVote.new(:list_id=>list_id, :points=>points, :feature_id=>feature_id, :user_id=>current_user.id)
 		
-		list=List.find(@feature_votes.list_id) 
-		if list.listtype == "PERSONAL"
-			@feature_votes.personal_list=1
-    end
+	 
 		
-		if points 
-			action = "VOTE_UP"
-		else
-			action= "VOTE_DOWN"
-		end
+			list_id=params[:list_id]
+			points=params[:points]
+			feature_id = params[:feature_id]
+	    @feature_votes = FeatureVote.new(:list_id=>list_id, :points=>points, :feature_id=>feature_id, :user_id=>current_user.id)
 		
-		if @feature_votes.save
-			@votes = @feature_votes.points
-      @msg = "VOTED"
-			list.lastupdate = Time.now
-      list.points += @feature_votes.points
-      list.save  
+			list=List.find(@feature_votes.list_id) 
+			if list.listtype == "PERSONAL"
+				@feature_votes.personal_list=1
+	    end
+		
+			if points 
+				action = "VOTE_UP"
+			else
+				action= "VOTE_DOWN"
+			end
+		
+			if @feature_votes.save
+				@votes = @feature_votes.points
+	      @msg = "VOTED"
+				list.lastupdate = Time.now
+	      list.points += @feature_votes.points
+	      list.save  
 			
-			#logs activity
-			log = Log.new(:action=>action, :user_id=>current_user.id, :list_id=>list_id, :feature_id=>feature_id, :list_title=>list.name, :feature_title=>@feature_votes.feature_title, :datetime=>Time.now)
-			log.save()
-    else
-    	@msg = "DUPE"
-    end
-		
-
+				#logs activity
+				log = Log.new(:action=>action, :user_id=>current_user.id, :list_id=>list_id, :feature_id=>feature_id, :list_title=>list.name, :feature_title=>@feature_votes.feature_title, :datetime=>Time.now, :text=>"")
+				log.save()
+	    else
+	    	@msg = "DUPE"
+	    end
+ 
 		
 
 		

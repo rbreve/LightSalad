@@ -1,7 +1,5 @@
 class ListsController < ApplicationController
 
- 
-
 	before_filter :require_user, :only => [:create, :new, :vote]
 	before_filter :adjust_format_for_iphone
 
@@ -19,7 +17,14 @@ class ListsController < ApplicationController
   end
 
   def index
-   
+		if not current_user
+    	@user_session = UserSession.new 
+			@user = User.new
+		end
+		
+		@session=UserSession.find
+		
+		
     category_id = params[:category_id]
     keyword = params[:keyword]
     page = params[:page]
@@ -153,7 +158,7 @@ class ListsController < ApplicationController
       addtags(tags, params[:list][:category_id]) if params[:list][:listtype] == "SOCIAL"
       action= "NEW_LIST_" + params[:list][:listtype]
       #log(current_user.id, "NEW_LIST_" + params[:list][:listtype], @list.id, 0)
-      log = Log.new(:action=>action, :user_id=>current_user.id, :list_id=>@list.id, :list_title=>@list.name, :datetime=>Time.now)
+      log = Log.new(:action=>action, :user_id=>current_user.id, :list_id=>@list.id, :list_title=>@list.name, :datetime=>Time.now, :text=>@list.description)
 			log.save()
 
       flash[:notice] = 'List was successfully created.'

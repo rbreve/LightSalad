@@ -42,7 +42,7 @@ border: solid 1px #E8F3CF;
 font-weight: bold;
 color: #999999;
 margin: 0 0 20px 0;
-width: 600px;
+width: 645px;
 -moz-border-radius: 6px;
 	-moz-border-radius: 6px;
   	-webkit-border-radius: 6px;
@@ -51,25 +51,32 @@ width: 600px;
   }
 
 
-#list-info #tabs{
+#tabs{
+	
 top:4px;
 padding:0;
  list-style: none;
-/*border: solid 1px #CCCCCC;*/
-width: 305px;
-height:25px;
-position: relative;
-left: 320px;
-  }
-
-#list-info #tabs li{
-float: left;
-margin-right: 5px;
+width: 650px;
+height:27px;
+margin-bottom:20px;
+	border-bottom: 1px solid silver;
 }
 
-#list-info #tabs li a{
-background-image: url(/img/listpage-tabs.gif);
-width: 66px;
+
+ #tabs li{
+	border: solid 1px #CCCCCC;
+
+float: left;
+margin-right: 5px;
+	border-bottom-style: none;
+-moz-border-radius: 3px;
+	-moz-border-radius: 3px;
+  	-webkit-border-radius: 3px;
+    -webkit-border-radius: 3px;
+ }
+
+  #tabs li a{
+ width: 66px;
 height: 21px;
 display: block;
 font-size: 12px;
@@ -77,19 +84,22 @@ padding: 6px 0 0 0;
 color: #FFFFFF;
 text-decoration: none;
 text-align: center;
+background-color:#888;
+
 }
 
-#list-info #tabs li a:hover{
+ #tabs li a:hover{
 background-position: 0 -31px;
 color: #999999;
 }
 
-#list-info #tabs #selected a{
-background-position: 0 -31px;
+  #tabs #selected a{
 color: #4F4F4F;
+background-color:#FFF;
+
  }
 
-#list-info #tabs #addidea a{
+ #tabs #addidea a{
 width: 77px;
 color: #FFFFFF;
 padding-left: 6px;

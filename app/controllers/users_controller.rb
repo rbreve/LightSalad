@@ -98,12 +98,15 @@ before_filter :require_user, :only => [:addtofriend, :edit, :update]
 			@user.save do |result|
 				if result
  					flash[:notice] = "Registration successful"
+					SaladMailer.deliver_registration_confirmation(@user)
 					redirect_to :controller => "lists"
  				else
 					unless @user.oauth_token.nil?
 						@user = User.find_by_oauth_token(@user.oauth_token)
 						unless @user.nil?
 							UserSession.create(@user)
+							
+							# us.load_twitter_info(@user.twitter_uid)
 							flash.now[:message] = "Welcome back!"
 							redirect_to root_url
 						else
@@ -118,7 +121,7 @@ before_filter :require_user, :only => [:addtofriend, :edit, :update]
 
 		def update
 			@user = current_user
-			@user.attributes = params[:user]
+ 			@user.attributes = params[:user]
 			@user.save  do |result|
 				if result
 					flash[:notice] = "Succesfully updated"
