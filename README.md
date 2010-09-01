@@ -12,27 +12,36 @@ Feel free to clone, test, change the code or send me bugs and feedback.
 
 #Requirements#
 
-LightSalad was developed on Rails 2
+LightSalad runs on Rails 2.3.8
 
 Gems needed are
 
 *   authlogic
 *   oauth
-*   mechanize
-*   json"
+*   json
 *   authlogic-oauth
 *   recaptcha (optional)
 
 
 #Install#
 
-*   Edit your environment/development.rb and add your smtp server configuration in order to send mails
+*   rake  gems:install
 
 *   rake db:schema:load  
     
 *   rake db:seed
+
+
     
 #Optional#
+
+To Send Emails
+
+*   Edit your environment/development.rb and add your smtp server configuration in order to send mails
+
+To use twitter connect via oauth
+
+*   Edit your environment.rb set TWITTER_PRIVATE_KEY and TWITTER_PUBLIC_KEY
 
 To use recaptcha:
 
@@ -40,6 +49,7 @@ To use recaptcha:
 *   Edit your environment.rb and add your captcha API public and private keys
  
 #Important Views#
+
 Main Layout view
     app/views/layouts/lightsalad.html.erb
 Main page view
@@ -50,5 +60,6 @@ View a list view
     app/views/lists/show.html.erb
     
 #Main Styles#
+
     public/stylesheets/main.css
     public/stylesheets/list.css
