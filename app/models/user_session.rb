@@ -1,7 +1,7 @@
 class UserSession < Authlogic::Session::Base
 	
 	  def self.oauth_consumer
-      OAuth::Consumer.new(TWITTER_PRIVATE_KEY, TWITTER_PUBLIC_KEY,
+      OAuth::Consumer.new(TWITTER_CONSUMER_KEY, TWITTER_CONSUMER_SECRET,
       { :site=>"http://twitter.com",
         :authorize_url => "http://twitter.com/oauth/authenticate" })
     end

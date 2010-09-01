@@ -9,8 +9,8 @@ UPLOAD_PATH = "/userimages/"
 PRIVATE_LIST = 1
 USE_RECAPTCHA = false
 
-TWITTER_PRIVATE_KEY = ""
-TWITTER_PUBLIC_KEY =  ""
+TWITTER_CONSUMER_KEY = ""
+TWITTER_CONSUMER_SECRET =  ""
 
 require File.join(File.dirname(__FILE__), 'boot')
 
@@ -33,7 +33,7 @@ ENV['RECAPTCHA_PRIVATE_KEY'] = 'YOUR_RECAPTCHA_PRIVATE_KEY'
 #	config.gem "mechanize"
 #	config.gem "mysql"
   config.gem "sqlite3"
-  congig.gem  "will_paginate"
+  config.gem  "will_paginate"
 	config.gem "json"
 	config.gem "authlogic-oauth", :lib => "authlogic_oauth"
 	#config.gem "thinking-sphinx", :lib => "	thinking_sphinx", :version => "1.3.15"
