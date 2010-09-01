@@ -154,7 +154,13 @@ class ListsController < ApplicationController
     @list.user_id = current_user.id
     @list.lastupdate = Time.now
     
-    if verify_recaptcha() and @list.save
+    recaptcha=true
+    
+    if USE_RECAPTCHA
+      recaptcha = verify_recaptcha()
+    end
+      
+    if recaptcha and @list.save
       tags=params[:list][:tags]
 			tags=tags.gsub(/[,]/,' ')
 			tags=tags.gsub(/[\s]+/, ' ')

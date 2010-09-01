@@ -70,24 +70,27 @@ function showpass(){
 </p> -->
 
 </div>
+<% if USE_RECAPTCHA%>
 <label for="captcha">
-	Robot or Human? Please type the text you see 
- </label>
-    <script type="text/javascript"
-   src="http://api.recaptcha.net/challenge?k=6Ld4OwsAAAAAAKodHOCrhhkROuO8itcTSCJxijJ_">
+    Robot or Human? Please type the text you see 
+</label>
+
+<script type="text/javascript"
+src="http://api.recaptcha.net/challenge?k=<%=ENV['RECAPTCHA_PUBLIC_KEY']%>">
 </script>
 
 <noscript>
-   <iframe src="http://api.recaptcha.net/noscript?k=6Ld4OwsAAAAAAKodHOCrhhkROuO8itcTSCJxijJ_"
-       height="300" width="500" frameborder="0"></iframe><br>
-   <textarea name="recaptcha_challenge_field" rows="3" cols="40">
-   </textarea>
-   <input type="hidden" name="recaptcha_response_field" 
-       value="manual_challenge">
+    <iframe src="http://api.recaptcha.net/noscript?k=<%=ENV['RECAPTCHA_PUBLIC_KEY']%>"
+    height="300" width="500" frameborder="0"></iframe><br>
+    <textarea name="recaptcha_challenge_field" rows="3" cols="40">
+    </textarea>
+    <input type="hidden" name="recaptcha_response_field" 
+    value="manual_challenge">
 </noscript>
-  <br/>
+<%end%>
 
  
+<br/>
 
 <%= submit_tag "Create List" , :class => "submit", :id=>"submi",:disable_with=>"Sending..." %>
 

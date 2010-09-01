@@ -1,12 +1,13 @@
  
 ENV['RAILS_ENV'] ||= 'development'
 
-RAILS_GEM_VERSION = '2.3.5'
+RAILS_GEM_VERSION = '2.3.8'
 IMAGE_DIR = "/images/"
 VOTE_UP_ICON = "voteup.png"
 VOTE_DOWN_ICON = "votedown.png"
 UPLOAD_PATH = "/userimages/"
 PRIVATE_LIST = 1
+USE_RECAPTCHA = false
 
 require File.join(File.dirname(__FILE__), 'boot')
 
