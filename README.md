@@ -21,7 +21,7 @@ Gems needed are
 *   json
 *   authlogic-oauth
 *   recaptcha (optional)
-
+*   sqlite to run the demo
 
 #Install#
 
@@ -41,7 +41,7 @@ To Send Emails
 
 To use twitter connect via oauth
 
-*   Edit your environment.rb set TWITTER_PRIVATE_KEY and TWITTER_PUBLIC_KEY
+*   Edit your environment.rb set TWITTER_COMSUMER_KEY and TWITTER_CONSUMER_SECRET
 
 To use recaptcha:
 
@@ -60,6 +60,13 @@ View a list view
     app/views/lists/show.html.erb
     
 #Main Styles#
+
+Images and logo
+    /static/images/
+    
+    /static/images/lightsalad.png
+
+Stylesheets used
 
     public/stylesheets/main.css
     public/stylesheets/list.css
